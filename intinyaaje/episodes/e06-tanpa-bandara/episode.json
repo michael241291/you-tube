@@ -1,0 +1,459 @@
+{
+ "pillar": "A",
+ "angle": "negara mini: tanpa bandara",
+ "title": "5 Negara Ini Nggak Punya Bandara Sama Sekali ✈️❌",
+ "description": "Vatikan, Monako, San Marino, Liechtenstein, dan Andorra tidak punya bandara. Pengunjung terbang ke bandara negara tetangga (misalnya Nice untuk Monako, Roma untuk Vatikan); kebanyakan hanya punya landasan helikopter.\n\nSumber: Wikipedia - List of countries without an airport. Peta: Natural Earth (domain publik).\n\n#faktaunik #peta #eropa #negara #shorts",
+ "scenes": [
+  {
+   "w0": 0,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     52300,
+     36300,
+     7200
+    ],
+    [
+     "w7",
+     52300,
+     36250,
+     6600
+    ]
+   ],
+   "head": {
+    "text": "NEGARA<br>*TANPA BANDARA*?!",
+    "t": -1,
+    "y": 230,
+    "size": 100,
+    "t1": 2.6
+   },
+   "rings": [
+    {
+     "x": 50431,
+     "y": 36915,
+     "r": 46,
+     "t": -1
+    },
+    {
+     "x": 52061,
+     "y": 36463,
+     "r": 46,
+     "t": -1
+    },
+    {
+     "x": 53458,
+     "y": 36385,
+     "r": 46,
+     "t": -1
+    },
+    {
+     "x": 52653,
+     "y": 35111,
+     "r": 46,
+     "t": -1
+    },
+    {
+     "x": 53459,
+     "y": 37158,
+     "r": 46,
+     "t": -1
+    }
+   ]
+  },
+  {
+   "w0": 8,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     52300,
+     36250,
+     6600
+    ],
+    [
+     "w21",
+     52200,
+     36300,
+     5200
+    ]
+   ],
+   "head": {
+    "text": "DI EROPA ADA *5*",
+    "w": 11,
+    "y": 260,
+    "size": 100
+   },
+   "rings": [
+    {
+     "x": 53459,
+     "y": 37158,
+     "r": 50,
+     "w": 15
+    },
+    {
+     "x": 52061,
+     "y": 36463,
+     "r": 50,
+     "w": 16
+    },
+    {
+     "x": 53458,
+     "y": 36385,
+     "r": 50,
+     "w": 17
+    },
+    {
+     "x": 52653,
+     "y": 35111,
+     "r": 50,
+     "w": 19
+    },
+    {
+     "x": 50431,
+     "y": 36915,
+     "r": 50,
+     "w": 21
+    }
+   ],
+   "labels": [
+    {
+     "text": "VATIKAN",
+     "x": 53459,
+     "y": 37350,
+     "w": 15,
+     "size": 50
+    },
+    {
+     "text": "MONAKO",
+     "x": 51950,
+     "y": 36700,
+     "w": 16,
+     "size": 50
+    },
+    {
+     "text": "SAN MARINO",
+     "x": 53600,
+     "y": 36180,
+     "w": 17,
+     "size": 50
+    },
+    {
+     "text": "LIECHTENSTEIN",
+     "x": 52653,
+     "y": 34900,
+     "w": 19,
+     "size": 50
+    },
+    {
+     "text": "ANDORRA",
+     "x": 50431,
+     "y": 37130,
+     "w": 21,
+     "size": 50
+    }
+   ]
+  },
+  {
+   "w0": 22,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     52200,
+     36300,
+     5200
+    ],
+    [
+     "w30",
+     52600,
+     36700,
+     3600
+    ]
+   ],
+   "head": {
+    "text": "NEGARANYA<br>*KECIL BANGET*",
+    "w": 22,
+    "y": 260,
+    "size": 92
+   },
+   "rings": [
+    {
+     "x": 52061,
+     "y": 36463,
+     "r": 40,
+     "w": 22
+    },
+    {
+     "x": 53459,
+     "y": 37158,
+     "r": 40,
+     "w": 22
+    },
+    {
+     "x": 53458,
+     "y": 36385,
+     "r": 40,
+     "w": 22
+    }
+   ],
+   "hl": [
+    {
+     "sel": ".c_ITA",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_FRA",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_ESP",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_CHE",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_AUT",
+     "t": -1,
+     "color": "#5d7099"
+    }
+   ]
+  },
+  {
+   "w0": 31,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     52300,
+     36500,
+     1400
+    ],
+    [
+     "w33",
+     52050,
+     36470,
+     420
+    ]
+   ],
+   "rings": [
+    {
+     "x": 52066,
+     "y": 36458,
+     "r": 60,
+     "w": 33
+    }
+   ],
+   "labels": [
+    {
+     "text": "*MONAKO*",
+     "x": 52080,
+     "y": 36420,
+     "w": 33,
+     "size": 64
+    },
+    {
+     "text": "✈ BANDARA NICE",
+     "x": 52010,
+     "y": 36515,
+     "w": 36,
+     "size": 54
+    }
+   ],
+   "arrows": [
+    {
+     "x": 52019,
+     "y": 36493,
+     "w": 37,
+     "ang": 150,
+     "len": 200
+    }
+   ],
+   "hl": [
+    {
+     "sel": ".c_ITA",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_FRA",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_ESP",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_CHE",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_AUT",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_MCO",
+     "w": 33,
+     "color": "#ffd23f",
+     "blink": true
+    }
+   ]
+  },
+  {
+   "w0": 39,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     53450,
+     37150,
+     700
+    ],
+    [
+     "w42",
+     53435,
+     37175,
+     300
+    ]
+   ],
+   "rings": [
+    {
+     "x": 53459,
+     "y": 37158,
+     "r": 50,
+     "w": 41
+    }
+   ],
+   "labels": [
+    {
+     "text": "*VATIKAN*",
+     "x": 53462,
+     "y": 37120,
+     "w": 41,
+     "size": 64
+    },
+    {
+     "text": "✈ ROMA",
+     "x": 53408,
+     "y": 37225,
+     "w": 43,
+     "size": 54
+    }
+   ],
+   "hl": [
+    {
+     "sel": ".c_ITA",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_FRA",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_ESP",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_CHE",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_AUT",
+     "t": -1,
+     "color": "#5d7099"
+    },
+    {
+     "sel": ".c_VAT",
+     "w": 41,
+     "color": "#ffd23f",
+     "blink": true
+    }
+   ]
+  },
+  {
+   "w0": 45,
+   "type": "card",
+   "tag": "FAKTA",
+   "y": 440,
+   "lines": [
+    {
+     "text": "KEBANYAKAN CUMA",
+     "w": 46
+    },
+    {
+     "text": "*LANDASAN*",
+     "w": 48
+    },
+    {
+     "text": "*HELIKOPTER*",
+     "w": 49
+    }
+   ]
+  },
+  {
+   "w0": 50,
+   "type": "card",
+   "tag": "INTINYA",
+   "y": 360,
+   "size": 88,
+   "lines": [
+    "NEGARA BISA JALAN",
+    "*TANPA BANDARA*",
+    {
+     "text": "MANA YANG PALING KECIL?",
+     "w": 61,
+     "size": 60
+    }
+   ]
+  }
+ ],
+ "faces": [
+  [
+   "w7",
+   "kaget",
+   2.0
+  ],
+  [
+   "w21",
+   "senang",
+   2.0
+  ],
+  [
+   "w37",
+   "berpikir",
+   2.0
+  ],
+  [
+   "w51",
+   "setuju",
+   2.0
+  ],
+  [
+   "w62",
+   "dapat-ide",
+   2.4
+  ]
+ ],
+ "id": "e06-tanpa-bandara",
+ "script": "Ada negara yang sama sekali nggak punya bandara. Bukan cuma satu, di Eropa ada lima. Vatikan, Monako, San Marino, Liechtenstein, dan Andorra. Ukurannya kecil, jadi bandara negara tetangga sudah cukup dekat. Mau ke Monako? Turun dulu di Nice, Prancis. Mau ke Vatikan? Turun di Roma. Kebanyakan cuma punya landasan helikopter. Jadi intinya, sebuah negara bisa jalan terus tanpa satu pun bandara. Tebak, dari lima ini mana yang paling kecil?",
+ "audio": "voice.mp3"
+}

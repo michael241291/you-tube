@@ -1,0 +1,315 @@
+{
+ "id": "e01-oecusse",
+ "pillar": "A",
+ "angle": "eksklave: wilayah negara lain di dalam Indonesia",
+ "title": "Ada Wilayah Timor Leste di Dalam Indonesia?! 😱",
+ "description": "Oecusse adalah wilayah Timor Leste seluas sekitar 815 km² yang di darat dikelilingi Nusa Tenggara Timur. Pembagian Pulau Timor oleh Portugis dan Belanda (Perjanjian Lisabon 1859, batas final 1916) membuat Oecusse tetap milik Portugis.\n\nSumber: Wikipedia - Oecusse Municipality. Peta: Natural Earth (domain publik).\n\n#faktaunik #peta #timorleste #ntt #shorts",
+ "script": "Ini Pulau Timor. Separuh Indonesia, separuh Timor Leste. Tapi lihat yang ini. Ada potongan Timor Leste yang nyempil di dalam wilayah Indonesia. Namanya Oecusse. Luasnya cuma sekitar delapan ratus kilometer persegi, dan di daratan dikelilingi NTT. Kok bisa? Tahun 1859, Portugis dan Belanda membagi pulau ini, dan Oecusse tetap milik Portugis. Jadi intinya, batas negara itu warisan penjajah, bukan garis alam. Kamu baru tahu ada daerah ini?",
+ "audio": "voice.mp3",
+ "scenes": [
+  {
+   "w0": 0,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     84680,
+     52600,
+     1250
+    ],
+    [
+     "w8",
+     84700,
+     52590,
+     1350
+    ]
+   ],
+   "head": {
+    "text": "*TIMOR LESTE*<br>DI DALAM INDONESIA?!",
+    "t": -1,
+    "y": 230,
+    "size": 88,
+    "t1": 3.6
+   },
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "t": -1,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": ".c_TLS",
+     "t": -1,
+     "color": "#e74c3c"
+    },
+    {
+     "sel": "#TLS_1",
+     "t": -1,
+     "color": "#ffd23f",
+     "blink": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "INDONESIA",
+     "x": 84330,
+     "y": 52720,
+     "w": 4,
+     "size": 56
+    },
+    {
+     "text": "TIMOR LESTE",
+     "x": 85000,
+     "y": 52470,
+     "w": 6,
+     "size": 56
+    }
+   ],
+   "rings": [
+    {
+     "x": 84528,
+     "y": 52602,
+     "r": 110,
+     "t": -1,
+     "w1": 3
+    }
+   ]
+  },
+  {
+   "w0": 8,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     84700,
+     52590,
+     1350
+    ],
+    [
+     "w10",
+     84528,
+     52610,
+     560
+    ],
+    [
+     "w21",
+     84528,
+     52610,
+     520
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "w": 8,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": ".c_TLS",
+     "w": 8,
+     "color": "#e74c3c"
+    },
+    {
+     "sel": "#TLS_1",
+     "w": 12,
+     "color": "#ffd23f",
+     "blink": true
+    }
+   ],
+   "rings": [
+    {
+     "x": 84528,
+     "y": 52602,
+     "r": 150,
+     "w": 13
+    }
+   ],
+   "arrows": [
+    {
+     "x": 84528,
+     "y": 52602,
+     "w": 16,
+     "ang": -60,
+     "len": 260
+    }
+   ]
+  },
+  {
+   "w0": 22,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     84528,
+     52610,
+     520
+    ],
+    [
+     "w35",
+     84528,
+     52630,
+     700
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "w": 22,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": "#TLS_1",
+     "w": 22,
+     "color": "#ffd23f"
+    }
+   ],
+   "labels": [
+    {
+     "text": "*OECUSSE*",
+     "x": 84528,
+     "y": 52560,
+     "w": 23,
+     "size": 80
+    },
+    {
+     "text": "± 800 KM²",
+     "x": 84528,
+     "y": 52655,
+     "w": 27,
+     "size": 60
+    },
+    {
+     "text": "NTT",
+     "x": 84390,
+     "y": 52760,
+     "w": 34,
+     "size": 64,
+     "color": "#b9f6ca"
+    },
+    {
+     "text": "NTT",
+     "x": 84700,
+     "y": 52740,
+     "w": 34,
+     "size": 64,
+     "color": "#b9f6ca"
+    }
+   ]
+  },
+  {
+   "w0": 36,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     84600,
+     52600,
+     900
+    ],
+    [
+     "w40",
+     84700,
+     52580,
+     1700
+    ]
+   ],
+   "head": {
+    "text": "TAHUN *1859*",
+    "w": 38,
+    "y": 260,
+    "size": 110
+   },
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "w": 42,
+     "color": "#e67e22"
+    },
+    {
+     "sel": ".c_TLS",
+     "w": 40,
+     "color": "#3498db"
+    },
+    {
+     "sel": "#TLS_1",
+     "w": 47,
+     "color": "#3498db",
+     "blink": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "PORTUGIS",
+     "x": 85000,
+     "y": 52470,
+     "w": 40,
+     "size": 58,
+     "color": "#bfe3ff"
+    },
+    {
+     "text": "BELANDA",
+     "x": 84300,
+     "y": 52780,
+     "w": 42,
+     "size": 58,
+     "color": "#ffd8b0"
+    },
+    {
+     "text": "PORTUGIS",
+     "x": 84528,
+     "y": 52560,
+     "w": 47,
+     "size": 44,
+     "color": "#bfe3ff"
+    }
+   ],
+   "arrows": [
+    {
+     "x": 84528,
+     "y": 52602,
+     "w": 47,
+     "ang": -120,
+     "len": 220
+    }
+   ]
+  },
+  {
+   "w0": 51,
+   "type": "card",
+   "tag": "INTINYA",
+   "lines": [
+    "BATAS NEGARA ITU",
+    "*WARISAN PENJAJAH*,",
+    "BUKAN GARIS ALAM"
+   ],
+   "y": 380,
+   "size": 92
+  }
+ ],
+ "faces": [
+  [
+   "w17",
+   "kaget",
+   2.4
+  ],
+  [
+   "w36",
+   "bingung",
+   2.0
+  ],
+  [
+   "w52",
+   "setuju",
+   2.2
+  ],
+  [
+   "w61",
+   "menunjuk",
+   2.4
+  ]
+ ]
+}

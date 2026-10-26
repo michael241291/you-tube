@@ -1,0 +1,211 @@
+{
+ "pillar": "B",
+ "angle": "tubuh: refleks warisan nenek moyang",
+ "title": "Kenapa Kita Bisa Merinding? Ternyata Ini Warisan Nenek Moyang 😳",
+ "description": "Merinding terjadi karena otot kecil arrector pili di pangkal rambut berkontraksi atas perintah sistem saraf simpatik, saat kedinginan atau emosi kuat. Pada hewan berbulu, bulu yang berdiri menahan udara (lebih hangat) dan membuat tubuh tampak lebih besar; landak menegakkan durinya. Pada manusia ini dianggap refleks sisa.\n\nSumber: Wikipedia - Goose bumps. Foto: \"2003-09-17 Goose bumps\" oleh Ildar Sagdejev (CC BY-SA 3.0); \"PilioerectionAnimation\" oleh AnthonyCaccese (CC BY-SA 4.0); \"Reserve Sigean - Porc-épic du Cap 03\" oleh Tylwyth Eldar (CC BY-SA 4.0), via Wikimedia Commons.\n\n#faktaunik #tubuhmanusia #merinding #shorts",
+ "scenes": [
+  {
+   "w0": 0,
+   "type": "photo",
+   "src": "img/goose.jpg",
+   "kb": [
+    [
+     0,
+     0.4,
+     0.5,
+     1.0
+    ],
+    [
+     "w7",
+     0.4,
+     0.5,
+     1.45
+    ]
+   ],
+   "head": {
+    "text": "KENAPA KITA<br>*MERINDING*?",
+    "t": -1,
+    "y": 230,
+    "size": 100,
+    "t1": 2.6
+   },
+   "rings": [
+    {
+     "x": 0.36,
+     "y": 0.55,
+     "r": 130,
+     "w": 4
+    }
+   ]
+  },
+  {
+   "w0": 8,
+   "type": "photo",
+   "src": "img/PilioerectionAnimation.jpg",
+   "fit": "contain",
+   "bg": "#3a0f05",
+   "bg2": "#7a2a10",
+   "kb": [
+    [
+     0,
+     0.45,
+     0.55,
+     1.0
+    ],
+    [
+     "w30",
+     0.42,
+     0.55,
+     1.25
+    ]
+   ],
+   "labels": [
+    {
+     "text": "OTOT<br>*ARRECTOR PILI*",
+     "x": 0.58,
+     "y": 0.2,
+     "w": 16,
+     "size": 58
+    }
+   ],
+   "arrows": [
+    {
+     "x": 0.3,
+     "y": 0.64,
+     "w": 13,
+     "ang": -40,
+     "len": 260
+    }
+   ],
+   "head": {
+    "text": "NARIK RAMBUT<br>*SAMPAI BERDIRI*",
+    "w": 27,
+    "y": 260,
+    "size": 84
+   }
+  },
+  {
+   "w0": 31,
+   "type": "card",
+   "tag": "HEWAN BERBULU",
+   "bg": "#1b1330",
+   "bg2": "#4a2d6b",
+   "y": 420,
+   "lines": [
+    {
+     "text": "BULU MENGEMBANG",
+     "w": 37
+    },
+    {
+     "text": "*LEBIH HANGAT*",
+     "w": 40
+    },
+    {
+     "text": "*KELIHATAN LEBIH BESAR*",
+     "w": 43,
+     "size": 76
+    }
+   ]
+  },
+  {
+   "w0": 49,
+   "type": "photo",
+   "src": "img/Reserve_Sigean_Porc_pic_du_Cap_03.jpg",
+   "kb": [
+    [
+     0,
+     0.5,
+     0.4,
+     1.0
+    ],
+    [
+     "w54",
+     0.55,
+     0.35,
+     1.2
+    ]
+   ],
+   "head": {
+    "text": "*LANDAK* JUGA!",
+    "w": 49,
+    "y": 260,
+    "size": 100
+   },
+   "arrows": [
+    {
+     "x": 0.6,
+     "y": 0.3,
+     "w": 51,
+     "ang": -60,
+     "len": 220
+    }
+   ]
+  },
+  {
+   "w0": 55,
+   "type": "photo",
+   "src": "img/goose.jpg",
+   "kb": [
+    [
+     0,
+     0.5,
+     0.45,
+     1.5
+    ],
+    [
+     "w63",
+     0.5,
+     0.45,
+     1.9
+    ]
+   ],
+   "head": {
+    "text": "KITA? CUMA SISA<br>*BINTIKNYA*",
+    "w": 56,
+    "y": 260,
+    "size": 88
+   }
+  },
+  {
+   "w0": 64,
+   "type": "card",
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "MERINDING ITU",
+    "*SISA REFLEKS*",
+    "NENEK MOYANG"
+   ]
+  }
+ ],
+ "faces": [
+  [
+   "w4",
+   "kaget",
+   2.0
+  ],
+  [
+   "w45",
+   "senang",
+   2.0
+  ],
+  [
+   "w55",
+   "bingung",
+   2.0
+  ],
+  [
+   "w65",
+   "setuju",
+   2.0
+  ],
+  [
+   "w72",
+   "menunjuk",
+   2.4
+  ]
+ ],
+ "id": "e05-merinding",
+ "script": "Kenapa kita bisa merinding? Lihat bintik-bintik kecil ini. Di bawah tiap rambut ada otot super kecil, namanya arrector pili. Waktu kedinginan atau takut, saraf menyuruh otot ini menarik rambut sampai berdiri. Buat hewan berbulu, ini berguna banget: bulunya mengembang, badannya lebih hangat, dan kelihatan lebih besar di depan musuh. Landak juga pakai cara yang mirip. Kita? Bulunya udah tipis, jadi yang tersisa cuma bintik-bintiknya. Jadi intinya, merinding itu sisa refleks nenek moyang. Lagu apa yang bikin kamu merinding?",
+ "audio": "voice.mp3"
+}

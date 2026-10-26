@@ -1,0 +1,305 @@
+{
+ "pillar": "A",
+ "angle": "satu pulau dibagi tiga negara",
+ "title": "1 Pulau Tapi 3 Negara?! Ini Kalimantan 🗺️",
+ "description": "Kalimantan (Borneo) adalah pulau terbesar di Asia dan terbesar ketiga di dunia. Sekitar 73% wilayahnya milik Indonesia, sekitar 26% Malaysia (Sabah dan Sarawak), dan sisanya Brunei.\n\nSumber: Wikipedia - Borneo. Peta: Natural Earth (domain publik).\n\n#faktaunik #peta #kalimantan #borneo #shorts",
+ "scenes": [
+  {
+   "w0": 0,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     81667,
+     49600,
+     4200
+    ],
+    [
+     "w7",
+     81667,
+     49500,
+     3900
+    ]
+   ],
+   "head": {
+    "text": "1 PULAU<br>*3 NEGARA*?!",
+    "t": -1,
+    "y": 230,
+    "size": 110,
+    "t1": 3.0
+   },
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "t": -1,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": ".c_MYS",
+     "t": -1,
+     "color": "#3498db"
+    },
+    {
+     "sel": ".c_BRN",
+     "t": -1,
+     "color": "#ffd23f",
+     "blink": true
+    }
+   ]
+  },
+  {
+   "w0": 8,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     81667,
+     49500,
+     3900
+    ],
+    [
+     "w9",
+     81700,
+     49450,
+     3300
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "t": -1,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": ".c_MYS",
+     "t": -1,
+     "color": "#3498db"
+    },
+    {
+     "sel": ".c_BRN",
+     "t": -1,
+     "color": "#ffd23f"
+    }
+   ],
+   "labels": [
+    {
+     "text": "*KALIMANTAN*",
+     "x": 81600,
+     "y": 49700,
+     "w": 9,
+     "size": 90
+    }
+   ]
+  },
+  {
+   "w0": 10,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     81700,
+     49450,
+     3300
+    ],
+    [
+     "w22",
+     81750,
+     49200,
+     3000
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "w": 13,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": ".c_MYS",
+     "w": 19,
+     "color": "#3498db"
+    },
+    {
+     "sel": ".c_BRN",
+     "w": 23,
+     "color": "#ffd23f",
+     "blink": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "73%<br>INDONESIA",
+     "x": 81500,
+     "y": 49950,
+     "w": 13,
+     "size": 72
+    },
+    {
+     "text": "26%<br>MALAYSIA",
+     "x": 81500,
+     "y": 49200,
+     "w": 19,
+     "size": 64
+    },
+    {
+     "text": "BRUNEI",
+     "x": 82150,
+     "y": 48650,
+     "w": 24,
+     "size": 58,
+     "color": "#ffd23f"
+    }
+   ],
+   "rings": [
+    {
+     "x": 81861,
+     "y": 48735,
+     "r": 70,
+     "w": 24
+    }
+   ]
+  },
+  {
+   "w0": 30,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     81750,
+     49200,
+     3000
+    ],
+    [
+     "w41",
+     81500,
+     49300,
+     2600
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "t": -1,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": ".c_MYS",
+     "t": -1,
+     "color": "#3498db"
+    },
+    {
+     "sel": ".c_BRN",
+     "t": -1,
+     "color": "#ffd23f"
+    }
+   ],
+   "head": {
+    "text": "NYEBRANG NEGARA<br>*LEWAT DARAT*",
+    "w": 36,
+    "y": 260,
+    "size": 84
+   },
+   "rings": [
+    {
+     "x": 80653,
+     "y": 49722,
+     "r": 80,
+     "w": 38
+    },
+    {
+     "x": 81861,
+     "y": 48780,
+     "r": 80,
+     "w": 39
+    }
+   ]
+  },
+  {
+   "w0": 42,
+   "type": "map",
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     81500,
+     49300,
+     2600
+    ],
+    [
+     "w51",
+     81667,
+     49700,
+     7000
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "t": -1,
+     "color": "#2ecc71"
+    },
+    {
+     "sel": ".c_MYS",
+     "t": -1,
+     "color": "#3498db"
+    },
+    {
+     "sel": ".c_BRN",
+     "t": -1,
+     "color": "#ffd23f"
+    }
+   ],
+   "head": {
+    "text": "PULAU TERBESAR<br>*KE-3 DI DUNIA*",
+    "w": 47,
+    "y": 260,
+    "size": 88
+   }
+  },
+  {
+   "w0": 52,
+   "type": "card",
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "SATU PULAU",
+    "NGGAK HARUS",
+    "*SATU NEGARA*"
+   ]
+  }
+ ],
+ "faces": [
+  [
+   "w6",
+   "kaget",
+   2.0
+  ],
+  [
+   "w24",
+   "kaget",
+   1.8
+  ],
+  [
+   "w36",
+   "senang",
+   2.0
+  ],
+  [
+   "w53",
+   "setuju",
+   2.0
+  ],
+  [
+   "w60",
+   "menunjuk",
+   2.2
+  ]
+ ],
+ "id": "e03-kalimantan",
+ "script": "Pulau terbesar di Asia ini dibagi tiga negara. Ini Kalimantan. Sekitar tujuh puluh tiga persen milik Indonesia, dua puluh enam persen Malaysia, dan sisanya Brunei, negara kecil di pantai utara. Jadi di satu pulau, kamu bisa nyebrang ke tiga negara lewat darat. Dan ukurannya nggak main-main: ini pulau terbesar ketiga di dunia. Jadi intinya, satu pulau nggak harus satu negara. Kamu pernah ke Kalimantan bagian mana?",
+ "audio": "voice.mp3"
+}

@@ -1,0 +1,12 @@
+{
+  "note": "Log semua video @intinyaaje. Sebelum memilih topik baru, cek kolom topic dan angle: jangan ulang topik yang sama, dan jangan pakai angle yang sama dua kali dalam 14 hari terakhir.",
+  "episodes": [
+    {"id": "e01-oecusse", "date": "2026-10-27", "pillar": "A", "topic": "Oecusse, wilayah Timor Leste di dalam NTT", "angle": "eksklave: wilayah negara lain di dalam Indonesia", "hook": "pertanyaan kontras di peta", "visual": "peta", "title": "Ada Wilayah Timor Leste di Dalam Indonesia?! 😱"},
+    {"id": "e02-jari-keriput", "date": "2026-10-28", "pillar": "B", "topic": "jari keriput setelah lama di air", "angle": "tubuh: reaksi saraf yang disangka kulit menyerap air", "hook": "pertanyaan kenapa + koreksi anggapan umum", "visual": "foto + kartu", "title": "Kenapa Jari Keriput Kalau Kelamaan di Air? 🤔"},
+    {"id": "e03-kalimantan", "date": "2026-10-29", "pillar": "A", "topic": "Kalimantan dibagi tiga negara", "angle": "satu pulau dibagi tiga negara", "hook": "angka kontras (1 pulau 3 negara)", "visual": "peta", "title": "1 Pulau Tapi 3 Negara?! Ini Kalimantan 🗺️"},
+    {"id": "e04-gigi-atap", "date": "2026-10-30", "pillar": "C", "topic": "tradisi melempar gigi susu ke atap", "angle": "mitos tradisi dibongkar dengan fakta tubuh", "hook": "pengalaman masa kecil", "visual": "foto + peta + kartu", "title": "Gigi Susu Dilempar ke Atap, Biar Apa Sih? 🦷"},
+    {"id": "e05-merinding", "date": "2026-10-31", "pillar": "B", "topic": "kenapa merinding", "angle": "tubuh: refleks warisan nenek moyang", "hook": "pertanyaan kenapa + close-up kulit", "visual": "foto + diagram", "title": "Kenapa Kita Bisa Merinding? Ternyata Ini Warisan Nenek Moyang 😳"},
+    {"id": "e06-tanpa-bandara", "date": "2026-11-01", "pillar": "A", "topic": "negara Eropa tanpa bandara", "angle": "negara mini: tanpa bandara", "hook": "klaim mengejutkan", "visual": "peta", "title": "5 Negara Ini Nggak Punya Bandara Sama Sekali ✈️❌"},
+    {"id": "e07-bawang", "date": "2026-11-02", "pillar": "B", "topic": "kenapa motong bawang bikin nangis", "angle": "sains dapur: reaksi kimia saat memotong", "hook": "pertanyaan kenapa sehari-hari", "visual": "foto + kartu", "title": "Kenapa Motong Bawang Bikin Nangis? 🧅😭"}
+  ]
+}
