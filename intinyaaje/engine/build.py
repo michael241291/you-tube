@@ -179,7 +179,7 @@ def main():
     total = round(dur + 0.6, 2)
     resolve(ep, words)
     data = {'dur': total, 'words': words, 'scenes': ep['scenes'], 'faces': ep.get('faces', []),
-            'capY': ep.get('capY', 1300), 'asset': os.path.relpath(os.path.join(ROOT, 'assets'), ep_dir) + '/'}
+            'capY': ep.get('capY', 1300), 'style': ep.get('style', {}), 'asset': os.path.relpath(os.path.join(ROOT, 'assets'), ep_dir) + '/'}
     # scenes: inline map svg files
     for s in data['scenes']:
         if s.get('type') == 'map' and s.get('svgFile'):

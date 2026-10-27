@@ -11,7 +11,12 @@
    "visual": "peta",
    "title": "Ada Wilayah Timor Leste di Dalam Indonesia?! 😱",
    "music": "misteri",
-   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)"
+   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)",
+   "style": {
+    "theme": "kuning",
+    "cap": "pill",
+    "trans": "campur"
+   }
   },
   {
    "id": "e02-jari-keriput",
@@ -23,7 +28,12 @@
    "visual": "foto + kartu",
    "title": "Kenapa Jari Keriput Kalau Kelamaan di Air? 🤔",
    "music": "ceria",
-   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)"
+   "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+   "style": {
+    "theme": "hijau",
+    "cap": "glow",
+    "trans": "geser"
+   }
   },
   {
    "id": "e03-kalimantan",
@@ -35,7 +45,12 @@
    "visual": "peta",
    "title": "1 Pulau Tapi 3 Negara?! Ini Kalimantan 🗺️",
    "music": "petualangan",
-   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)"
+   "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+   "style": {
+    "theme": "oranye",
+    "cap": "solo",
+    "trans": "zoom"
+   }
   },
   {
    "id": "e04-gigi-atap",
@@ -47,7 +62,12 @@
    "visual": "foto + peta + kartu",
    "title": "Gigi Susu Dilempar ke Atap, Biar Apa Sih? 🦷",
    "music": "penasaran",
-   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)"
+   "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+   "style": {
+    "theme": "ungu",
+    "cap": "pill",
+    "trans": "putar"
+   }
   },
   {
    "id": "e05-merinding",
@@ -59,7 +79,12 @@
    "visual": "foto + diagram",
    "title": "Kenapa Kita Bisa Merinding? Ternyata Ini Warisan Nenek Moyang 😳",
    "music": "santai",
-   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)"
+   "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+   "style": {
+    "theme": "cyan",
+    "cap": "glow",
+    "trans": "campur"
+   }
   },
   {
    "id": "e06-tanpa-bandara",
@@ -71,7 +96,12 @@
    "visual": "peta",
    "title": "5 Negara Ini Nggak Punya Bandara Sama Sekali ✈️❌",
    "music": "misteri",
-   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)"
+   "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+   "style": {
+    "theme": "pink",
+    "cap": "solo",
+    "trans": "geser"
+   }
   },
   {
    "id": "e07-bawang",
@@ -83,7 +113,12 @@
    "visual": "foto + kartu",
    "title": "Kenapa Motong Bawang Bikin Nangis? 🧅😭",
    "music": "ceria",
-   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)"
+   "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+   "style": {
+    "theme": "kuning",
+    "cap": "pill",
+    "trans": "zoom"
+   }
   }
  ]
 }

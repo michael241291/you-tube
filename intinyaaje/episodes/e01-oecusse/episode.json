@@ -314,5 +314,10 @@
  ],
  "script_v1": "Ini Pulau Timor. Separuh Indonesia, separuh Timor Leste. Tapi lihat yang ini. Ada potongan Timor Leste yang nyempil di dalam wilayah Indonesia. Namanya Oecusse. Luasnya cuma sekitar delapan ratus kilometer persegi, dan di daratan dikelilingi NTT. Kok bisa? Tahun 1859, Portugis dan Belanda membagi pulau ini, dan Oecusse tetap milik Portugis. Jadi intinya, batas negara itu warisan penjajah, bukan garis alam. Kamu baru tahu ada daerah ini?",
  "music": "misteri",
- "ver": 2
+ "ver": 2,
+ "style": {
+  "theme": "kuning",
+  "cap": "pill",
+  "trans": "campur"
+ }
 }

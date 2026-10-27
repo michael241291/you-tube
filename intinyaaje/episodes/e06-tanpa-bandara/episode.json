@@ -458,5 +458,10 @@
  "audio": "voice.mp3",
  "script_v1": "Ada negara yang sama sekali nggak punya bandara. Bukan cuma satu, di Eropa ada lima. Vatikan, Monako, San Marino, Liechtenstein, dan Andorra. Ukurannya kecil, jadi bandara negara tetangga sudah cukup dekat. Mau ke Monako? Turun dulu di Nice, Prancis. Mau ke Vatikan? Turun di Roma. Kebanyakan cuma punya landasan helikopter. Jadi intinya, sebuah negara bisa jalan terus tanpa satu pun bandara. Tebak, dari lima ini mana yang paling kecil?",
  "music": "misteri",
- "ver": 2
+ "ver": 3,
+ "style": {
+  "theme": "pink",
+  "cap": "solo",
+  "trans": "geser"
+ }
 }
