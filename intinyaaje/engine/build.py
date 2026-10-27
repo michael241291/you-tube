@@ -196,12 +196,12 @@ def main():
     sh(f'rm -rf "{work}/fr" && mkdir -p "{work}"')
     sh(f'node {ENG}/render.js "{ep_dir}" {total} "{work}/fr"')
     # audio
-    music = os.path.join(ROOT, 'assets/music/lofi.mp3')
+    music = os.path.join(ROOT, 'assets/music', ep.get('music', 'santai') + '.mp3')
     cuts = [s['t0'] for s in ep['scenes'][1:]]
     sh(f'ffmpeg -v error -y -f lavfi -i "anoisesrc=d=0.7:c=pink:r=44100:a=0.5" -af "highpass=f=500,lowpass=f=6000,afade=t=in:st=0:d=0.3,afade=t=out:st=0.3:d=0.4,volume=0.55" "{work}/whoosh.wav"')
     inputs = f'-i "{audio}" -i "{music}" ' + ' '.join(f'-i "{work}/whoosh.wav"' for _ in cuts)
     fc = ['[0]aformat=sample_rates=44100:channel_layouts=stereo,apad=pad_dur=1,asplit=2[v][vs]',
-          f'[1]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.32,afade=t=out:st={total-1.2}:d=1.2[m]',
+          f'[1]aformat=sample_rates=44100:channel_layouts=stereo,volume={ep.get('musicVol', 0.30)},afade=t=out:st={total-1.2}:d=1.2[m]',
           '[m][vs]sidechaincompress=threshold=0.02:ratio=8:attack=15:release=400[md]']
     mixin = '[v][md]'
     for k, c in enumerate(cuts):
@@ -210,7 +210,7 @@ def main():
         mixin += f'[w{k}]'
     fc.append(f'{mixin}amix=inputs={2+len(cuts)}:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=9[out]')
     sh(f'ffmpeg -v error -y {inputs} -filter_complex "{";".join(fc)}" -map "[out]" -t {total} -ar 44100 "{work}/mix.wav"')
-    outv = os.path.join(ep_dir, f"{ep['id']}.mp4")
+    outv = os.path.join(ep_dir, f"{ep['id']}" + (f"-v{ep['ver']}" if ep.get('ver') else '') + '.mp4')
     sh(f'ffmpeg -v error -y -framerate 30 -i "{work}/fr/f_%05d.jpg" -i "{work}/mix.wav" -c:v libx264 -preset medium -crf 20 -pix_fmt yuv420p -c:a aac -b:a 192k -shortest -movflags +faststart "{outv}"')
     print('video', outv, total)
 
