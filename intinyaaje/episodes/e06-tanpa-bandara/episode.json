@@ -22,13 +22,6 @@
      6600
     ]
    ],
-   "head": {
-    "text": "NEGARA<br>*TANPA BANDARA*?!",
-    "t": -1,
-    "y": 230,
-    "size": 100,
-    "t1": 2.6
-   },
    "rings": [
     {
      "x": 50431,
@@ -80,12 +73,6 @@
      5200
     ]
    ],
-   "head": {
-    "text": "DI EROPA ADA *5*",
-    "w": 11,
-    "y": 260,
-    "size": 100
-   },
    "rings": [
     {
      "x": 53459,
@@ -174,12 +161,6 @@
      3600
     ]
    ],
-   "head": {
-    "text": "NEGARANYA<br>*KECIL BANGET*",
-    "w": 22,
-    "y": 260,
-    "size": 92
-   },
    "rings": [
     {
      "x": 52061,
@@ -458,10 +439,112 @@
  "audio": "voice.mp3",
  "script_v1": "Ada negara yang sama sekali nggak punya bandara. Bukan cuma satu, di Eropa ada lima. Vatikan, Monako, San Marino, Liechtenstein, dan Andorra. Ukurannya kecil, jadi bandara negara tetangga sudah cukup dekat. Mau ke Monako? Turun dulu di Nice, Prancis. Mau ke Vatikan? Turun di Roma. Kebanyakan cuma punya landasan helikopter. Jadi intinya, sebuah negara bisa jalan terus tanpa satu pun bandara. Tebak, dari lima ini mana yang paling kecil?",
  "music": "misteri",
- "ver": 3,
+ "ver": 4,
  "style": {
   "theme": "pink",
   "cap": "solo",
   "trans": "geser"
- }
+ },
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Negara *tanpa bandara*?!"
+   ],
+   [
+    "w8",
+    "Di Eropa ada... *5*"
+   ],
+   [
+    "w22",
+    "Kenapa? *Negaranya mini*"
+   ],
+   [
+    "w31",
+    "Mau ke Monako? *Lewat Nice*"
+   ],
+   [
+    "w39",
+    "Mau ke Vatikan? *Lewat Roma*"
+   ],
+   [
+    "w45",
+    "Cuma punya *helipad*"
+   ],
+   [
+    "w50",
+    "Jadi *intinya*..."
+   ]
+  ],
+  "counter": {
+   "keys": [
+    [
+     "w0",
+     0
+    ],
+    [
+     "w14",
+     0
+    ],
+    [
+     "w15",
+     1
+    ],
+    [
+     "w16",
+     2
+    ],
+    [
+     "w17",
+     3
+    ],
+    [
+     "w19",
+     4
+    ],
+    [
+     "w21",
+     5
+    ]
+   ],
+   "dec": 0,
+   "unit": "negara",
+   "w": 300
+  },
+  "badges": [
+   [
+    "w0",
+    "0 BANDARA",
+    "#ff5c8a"
+   ],
+   [
+    "w31",
+    "PINJAM TETANGGA",
+    "#ffd23f"
+   ],
+   [
+    "w45",
+    "HELIPAD",
+    "#2ee6d6"
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w7",
+   "NOL!",
+   540,
+   800,
+   -8,
+   "#ff5c8a"
+  ],
+  [
+   "w49",
+   "WUSSS!",
+   640,
+   1060,
+   10,
+   "#2ee6d6"
+  ]
+ ]
 }
