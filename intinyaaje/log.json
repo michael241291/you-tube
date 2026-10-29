@@ -37,93 +37,103 @@
     },
     {
       "id": "e03-kalimantan",
-      "date": "2026-10-29",
+      "date": "2026-11-03",
       "pillar": "A",
       "topic": "Kalimantan dibagi tiga negara",
-      "angle": "satu pulau dibagi tiga negara",
-      "hook": "angka kontras (1 pulau 3 negara)",
+      "angle": "satu pulau tiga negara: Indonesia, Malaysia (Sabah-Sarawak), Brunei; hampir 6x Pulau Jawa",
+      "hook": "Kalimantan itu, punya Indonesia, kan?",
       "visual": "peta",
       "title": "1 Pulau Tapi 3 Negara?! Ini Kalimantan 🗺️",
-      "music": "petualangan",
-      "version": "v4: kalimat tanya direkam ulang (take paling naik), penutup ya/tidak; v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+      "music": "penasaran",
+      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
       "style": {
-        "theme": "oranye",
-        "cap": "solo",
+        "theme": "hijau",
+        "cap": "frasa",
         "trans": "zoom"
       },
-      "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
+      "status": "draf (dueAt 3 Nov 17:00, dijadwalkan rutinitas harian)",
+      "closing": "pertanyaan",
+      "video": "episodes/e03-kalimantan/e03-kalimantan-v7.mp4"
     },
     {
       "id": "e04-gigi-atap",
       "date": "2026-10-30",
       "pillar": "C",
       "topic": "tradisi melempar gigi susu ke atap",
-      "angle": "mitos tradisi dibongkar dengan fakta tubuh",
-      "hook": "pengalaman masa kecil",
+      "angle": "bedah gusi: gigi dewasa sudah menunggu di bawah dan menghancurkan akar gigi susu",
+      "hook": "Gigi susu dilempar ke atap, biar tumbuh bagus, kan?",
       "visual": "foto + peta + kartu",
       "title": "Gigi Susu Dilempar ke Atap, Biar Apa Sih? 🦷",
-      "music": "penasaran",
-      "version": "v5: kalimat tanya direkam ulang (take paling naik), penutup ya/tidak; v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+      "music": "ceria",
+      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
       "style": {
-        "theme": "ungu",
-        "cap": "pill",
-        "trans": "putar"
+        "theme": "pink",
+        "cap": "frasa2",
+        "trans": "geser"
       },
-      "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
+      "status": "terjadwal 30 Okt 17:00",
+      "closing": "pertanyaan",
+      "video": "episodes/e04-gigi-atap/e04-gigi-atap-v7.mp4"
     },
     {
       "id": "e05-merinding",
       "date": "2026-10-31",
       "pillar": "B",
       "topic": "kenapa merinding",
-      "angle": "tubuh: refleks warisan nenek moyang",
-      "hook": "pertanyaan kenapa + close-up kulit",
+      "angle": "bedah kulit: otot arrector pili menegakkan rambut, refleks warisan hewan berbulu",
+      "hook": "Kamu, pernah merinding juga, kan?",
       "visual": "foto + diagram",
-      "title": "Kenapa Kita Bisa Merinding? Ternyata Ini Warisan Nenek Moyang 😳",
-      "music": "santai",
-      "version": "v4: kalimat tanya direkam ulang (take paling naik), penutup ya/tidak; v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+      "title": "Kenapa Kita Bisa Merinding? 🥶",
+      "music": "misteri",
+      "version": "v8: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
       "style": {
         "theme": "cyan",
-        "cap": "glow",
-        "trans": "campur"
+        "cap": "frasa",
+        "trans": "zoom"
       },
-      "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
+      "status": "terjadwal 31 Okt 17:00",
+      "closing": "punchline",
+      "video": "episodes/e05-merinding/e05-merinding-v8.mp4"
     },
     {
       "id": "e06-tanpa-bandara",
       "date": "2026-11-01",
       "pillar": "A",
       "topic": "negara Eropa tanpa bandara",
-      "angle": "negara mini: tanpa bandara",
-      "hook": "klaim mengejutkan",
+      "angle": "negara mini tanpa bandara numpang bandara tetangga; Vatikan lebih kecil dari Taman Monas",
+      "hook": "Tiap negara, pasti punya bandara, kan?",
       "visual": "peta",
-      "title": "5 Negara Ini Nggak Punya Bandara Sama Sekali ✈️❌",
-      "music": "misteri",
-      "version": "v5: kalimat tanya direkam ulang (take paling naik), penutup ya/tidak; v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+      "title": "5 Negara Ini Nggak Punya Bandara Sama Sekali ✈️",
+      "music": "petualangan",
+      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
       "style": {
-        "theme": "pink",
-        "cap": "solo",
+        "theme": "kuning",
+        "cap": "frasa2",
         "trans": "geser"
       },
-      "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
+      "status": "terjadwal 1 Nov 17:00",
+      "closing": "punchline",
+      "video": "episodes/e06-tanpa-bandara/e06-tanpa-bandara-v7.mp4"
     },
     {
       "id": "e07-bawang",
       "date": "2026-11-02",
       "pillar": "B",
       "topic": "kenapa motong bawang bikin nangis",
-      "angle": "sains dapur: reaksi kimia saat memotong",
-      "hook": "pertanyaan kenapa sehari-hari",
+      "angle": "bedah sel bawang: dua zat bertemu jadi gas, mata membilas dengan air mata; tips pisau tajam & dinginkan",
+      "hook": "Motong bawang, pasti bikin nangis, kan?",
       "visual": "foto + kartu",
-      "title": "Kenapa Motong Bawang Bikin Nangis? 🧅😭",
-      "music": "ceria",
-      "version": "v5: kalimat tanya direkam ulang (take paling naik), penutup ya/tidak; v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+      "title": "Kenapa Motong Bawang Bikin Nangis? 🧅",
+      "music": "santai",
+      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
       "style": {
-        "theme": "kuning",
-        "cap": "pill",
+        "theme": "ungu",
+        "cap": "frasa",
         "trans": "zoom"
       },
-      "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
+      "status": "draf (dueAt 2 Nov 17:00, dijadwalkan rutinitas harian)",
+      "closing": "tips + punchline",
+      "video": "episodes/e07-bawang/e07-bawang-v7.mp4"
     }
   ],
   "pilots": [
