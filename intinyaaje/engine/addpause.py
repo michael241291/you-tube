@@ -9,7 +9,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import asralign, build
 from splice import rd, wr, SR
 
-TARGET = {',': 0.0, '.': 0.32, '!': 0.34, '?': 0.36, '…': 0.45}
+MAXW = int(os.environ.get("MAXW","5"))
+TARGET = {',': 0.16, '.': 0.32, '!': 0.34, '?': 0.36, '…': 0.45}
 
 
 def env_db(x, t0, t1):
@@ -25,16 +26,33 @@ def main(script, src, out):
     w = asralign.align(text, src, dur)
     sil = [(a, b if b is not None else dur) for a, b in build.silences(src, '-40dB', 0.03)]
     edits = []  # (posisi, tambahan detik) ; tambahan negatif = pangkas
+    # koma hanya diberi jeda bila potongan di antara jeda lain > MAXW kata (biar tidak putus-putus)
+    def mark(t): return '…' if t.endswith('...') else (t[-1] if t[-1] in TARGET else None)
+    def gap(i): return w[i + 1][1] - w[i][2]
+    brk = [mark(toks[i]) in ('.', '!', '?', '…') or gap(i) >= 0.12 for i in range(len(toks) - 1)]
+    commas = set(); run = []
+    for i in range(len(toks)):
+        run.append(i)
+        if i == len(toks) - 1 or brk[i]:
+            if len(run) > MAXW:
+                cs = [j for j in run[:-1] if mark(toks[j]) == ',']
+                # pilih koma yang paling membagi rata
+                while cs and len(run) > MAXW:
+                    j = min(cs, key=lambda j: abs((j - run[0] + 1) - len(run) / 2)); commas.add(j)
+                    left = [k for k in run if k <= j]; right = [k for k in run if k > j]
+                    run = left if len(left) > len(right) else right; cs = [c for c in cs if c in run[:-1]]
+            run = []
     for i in range(len(toks) - 1):
-        t = toks[i]; m = '…' if t.endswith('...') else (t[-1] if t[-1] in TARGET else None)
+        t = toks[i]; m = mark(t)
         if not m: continue
+        if m == ',' and i not in commas: continue
         a, b = w[i][2], w[i + 1][1]
         cand = [(s, e) for s, e in sil if e > a - 0.08 and s < b + 0.08]
         if cand:
             s, e = max(cand, key=lambda z: z[1] - z[0]); cur = e - s; pos = (s + e) / 2
         else:
             db, pos = env_db(x, a - 0.06, b + 0.06)
-            if db > -32: continue          # tidak ada celah hening: jangan sentuh
+            if db > (-32 if m == ',' else -28): continue          # tidak ada celah hening: jangan sentuh
             cur = 0.0
         add = min(TARGET[m], 0.6) - cur
         if add > 0.02: edits.append((pos, add))

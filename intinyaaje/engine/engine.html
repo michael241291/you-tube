@@ -38,6 +38,7 @@ function mapScene(s,lt,idx){
   let css='';
   (s.hl||[]).forEach(o=>{const p=prog(lt,o.t,o.t+(o.dur||0.5));if(p<=0&&!o.show)return;if(o.t1&&lt>o.t1+0.4)return;
     const off=o.t1?prog(lt,o.t1,o.t1+0.4):0;
+    if(o.move){const q=io(p),[mx,my,mr]=o.move;css+=`${o.sel}{transform-box:fill-box;transform-origin:center;transform:translate(${mx*q}px,${my*q}px) rotate(${(mr||0)*q}deg)}`;return}
     if(o.hide){css+=`${o.sel}{opacity:${1-io(p)}}`;return}
     if(o.show){css+=`${o.sel}{opacity:${io(p)*(1-off)}}`;return}
     const blink=o.blink?(0.65+0.35*Math.sin(lt*7)):1;
