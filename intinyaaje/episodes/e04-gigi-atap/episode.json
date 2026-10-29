@@ -228,7 +228,7 @@
    "tag": "INTINYA",
    "y": 400,
    "lines": [
-    "YANG MENENTUKAN:",
+    "KUNCINYA TETAP:",
     "*PERAWATAN*",
     "*GIGIMU*"
    ]
@@ -262,11 +262,11 @@
   ]
  ],
  "id": "e04-gigi-atap",
- "script": "Waktu kecil, gigi susu kamu pernah dilempar ke atap? Katanya biar gigi barunya tumbuh bagus. Ternyata, tradisi kayak gini bukan cuma di Indonesia. Di Korea, gigi dilempar ke atap biar ditemukan burung murai pembawa untung. Di Jepang, gigi atas dilempar ke bawah, gigi bawah dilempar ke atas. Faktanya... gigi baru tumbuh karena gigi dewasa di bawahnya mendorong dan menghancurkan akar gigi susu. Manusia punya dua puluh gigi susu. Jadi intinya... mau dilempar ke mana pun, yang menentukan tetap perawatan gigimu. Dulu gigimu dilempar ke mana?",
+ "script": "Waktu kecil, gigi susu kamu pernah dilempar ke atap? Katanya biar gigi barunya tumbuh bagus. Ternyata, tradisi kayak gini bukan cuma di Indonesia. Di Korea, gigi dilempar ke atap biar ditemukan burung murai pembawa untung. Di Jepang, gigi atas dilempar ke bawah, gigi bawah dilempar ke atas. Faktanya... gigi baru tumbuh karena gigi dewasa di bawahnya mendorong dan menghancurkan akar gigi susu. Manusia punya dua puluh gigi susu. Jadi intinya... mau dilempar ke mana pun, yang menentukan tetap perawatan gigimu. Dulu gigimu dilempar ke atap juga, nggak?",
  "audio": "voice.mp3",
  "script_v1": "Waktu kecil, gigi susu kamu pernah dilempar ke atap? Katanya biar gigi barunya tumbuh bagus. Ternyata tradisi kayak gini bukan cuma di Indonesia. Di Korea, gigi dilempar ke atap biar ditemukan burung murai pembawa untung. Di Jepang, gigi atas dilempar ke bawah, gigi bawah dilempar ke atas. Faktanya, gigi baru tumbuh karena gigi dewasa di bawahnya mendorong dan menghancurkan akar gigi susu. Manusia punya dua puluh gigi susu. Jadi intinya, mau dilempar ke mana pun, yang menentukan tetap perawatan gigimu. Dulu gigimu dilempar ke mana?",
  "music": "penasaran",
- "ver": 4,
+ "ver": 5,
  "style": {
   "theme": "ungu",
   "cap": "box",
