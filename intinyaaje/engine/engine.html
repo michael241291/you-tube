@@ -36,9 +36,12 @@ function mapScene(s,lt,idx){
   const vx=cx-w/2,vy=cy-h/2;
   const toS=(x,y)=>[(x-vx)/w*W,(y-vy)/h*H];
   let css='';
-  (s.hl||[]).forEach(o=>{const p=prog(lt,o.t,o.t+0.5);if(p<=0)return;
+  (s.hl||[]).forEach(o=>{const p=prog(lt,o.t,o.t+(o.dur||0.5));if(p<=0&&!o.show)return;if(o.t1&&lt>o.t1+0.4)return;
+    const off=o.t1?prog(lt,o.t1,o.t1+0.4):0;
+    if(o.hide){css+=`${o.sel}{opacity:${1-io(p)}}`;return}
+    if(o.show){css+=`${o.sel}{opacity:${io(p)*(1-off)}}`;return}
     const blink=o.blink?(0.65+0.35*Math.sin(lt*7)):1;
-    css+=`${o.sel}{fill:${o.color||Y};fill-opacity:${(0.25+0.75*p)*blink};stroke:#fff;stroke-width:${w/400}}`});
+    css+=`${o.sel}{fill:${o.color||Y};fill-opacity:${(0.25+0.75*p)*blink*(1-off)+(o.base??0)*off};${o.stroke===false?'':`stroke:#fff;stroke-width:${w/400}`}}`});
   const ml=document.getElementById('maplayer');
   if(MAPCUR!==idx){ml.innerHTML=`<svg id="msvg" width="${W}" height="${H}" style="position:absolute;left:0;top:0"><style id="mcss"></style><rect id="msea" fill="${s.sea||'#0d1d33'}"/>${s.svg}</svg>`;MAPCUR=idx;}
   ml.style.display='block';
@@ -50,6 +53,14 @@ function mapScene(s,lt,idx){
   (s.rings||[]).forEach(o=>{const p=prog(lt,o.t,o.t+0.6);if(p<=0||(o.t1&&lt>o.t1))return;const [x,y]=toS(o.x,o.y);const r=(o.r||70)*(1+0.12*Math.sin(lt*6));
     ov+=`<div style="position:absolute;left:${x-r}px;top:${y-r}px;width:${2*r}px;height:${2*r}px;border-radius:50%;border:9px solid ${o.color||'#ff3b30'};box-shadow:0 0 30px rgba(255,59,48,.6);opacity:${eo(p)};transform:scale(${0.4+0.6*eb(p)})"></div>`});
   (s.arrows||[]).forEach(o=>{ov+=arrowHTML(o,lt,toS)});
+  // partikel dalam koordinat dunia (ikut kamera): {x,y,bw,bh,n,vx,vy,color,size,t,t1,sink:true -> mengendap di dasar}
+  (s.wdots||[]).forEach(o=>{const a=prog(lt,o.t||0,(o.t||0)+0.6);if(a<=0||(o.t1&&lt>o.t1+0.4))return;const off=o.t1?1-prog(lt,o.t1,o.t1+0.4):1;
+    const n=o.n||30,sc=W/w,col=o.color||'#cfd8e3',sz=(o.size||10)*sc;const el=lt-(o.t||0);
+    for(let i=0;i<n;i++){let x,y;
+      if(o.flow){const life=o.life||2.2,ph=(el/life+rnd(i,5))%1;x=o.x+o.dx*ph+Math.sin(el*2+i)*12*(1-ph)+(rnd(i,1)-0.5)*o.bw*ph;y=o.y+o.dy*ph+(rnd(i,2)-0.5)*o.bh*ph}
+      else{x=o.x+((rnd(i,1)*o.bw+(o.vx||0)*el+Math.sin(el*1.7+i)*10)%o.bw+o.bw)%o.bw;y=o.y+((rnd(i,2)*o.bh+(o.vy||0)*el+Math.cos(el*1.3+i)*10)%o.bh+o.bh)%o.bh}
+      const [sx,sy]=toS(x,y);const s2=sz*(0.6+0.8*rnd(i,3));const c=o.mix&&rnd(i,6)<o.mix?o.color2:col;
+      ov+=`<div style="position:absolute;left:${sx-s2/2}px;top:${sy-s2/2}px;width:${s2}px;height:${s2}px;border-radius:50%;background:${c};box-shadow:0 0 ${s2*0.6}px ${c};opacity:${(0.6+0.4*rnd(i,4))*clamp(a*2)*off}"></div>`}});
   (s.labels||[]).forEach(o=>{const p=prog(lt,o.t,o.t+0.4);if(p<=0||(o.t1&&lt>o.t1))return;const [x,y]=toS(o.x,o.y);
     if(o.pill){ov+=calloutHTML(o,x,y,p);return}
     ov+=`<div class="stroke" style="position:absolute;left:${x}px;top:${y}px;transform:translate(-50%,calc(-50% + ${Math.sin(lt*2.2+o.x)*6}px)) scale(${0.3+0.7*eb(p)}) rotate(${(1-eo(p))*-10}deg);opacity:${clamp(p*2)};color:${o.color||'#fff'};font-weight:800;font-size:${o.size||48}px;white-space:nowrap;letter-spacing:1px">${hl(o.text)}</div>`});
@@ -200,7 +211,7 @@ function barsHTML(b,lt){const a=prog(lt,b.t||0,(b.t||0)+0.4);if(a<=0||(b.t1&&lt>
   return `<div style="position:absolute;left:${b.x||70}px;top:${b.y||700}px;width:${b.bw||940}px;padding:24px 32px;border-radius:26px;background:rgba(12,14,20,.82);opacity:${clamp(a*2)};transform:translateY(${(1-eo(a))*40}px)">${b.title?`<div style="font-size:30px;font-weight:800;letter-spacing:3px;color:${Y}">${b.title}</div>`:''}${rows}</div>`}
 function zoomTagHTML(z,lt){const a=eb(prog(lt,z.t||0,(z.t||0)+0.35));if(a<=0)return '';return `<div style="position:absolute;left:44px;top:205px;padding:8px 20px;border-radius:24px;background:#141418;color:#fff;font-weight:800;font-size:30px;letter-spacing:1px;transform:scale(${a});transform-origin:0 50%">🔍 ${z.text||'DIPERBESAR'}</div>`}
 function gaugeHTML(t){const g=EP.gauge;if(!g)return '';const ks=g.keys;let v=ks[0][1];for(let i=0;i<ks.length-1;i++){if(t>=ks[i][0]){v=t<ks[i+1][0]?lerp(ks[i][1],ks[i+1][1],io(prog(t,ks[i][0],ks[i+1][0]))):ks[i+1][1]}}
-  const c1=g.low||'#3ddc84',c2=g.high||'#ff4d5e';const col=v>0.66?c2:v>0.33?'#ffd23f':c1;const a=eo(prog(t,0,0.4))*(g.t1?1-prog(t,g.t1,g.t1+0.3):1);if(a<=0)return '';
+  const c1=g.low||'#3ddc84',c2=g.high||'#ff4d5e';const col=v>0.66?c2:v>0.33?'#ffd23f':c1;const g0=g.t0||0;const a=eo(prog(t,g0,g0+0.4))*(g.t1?1-prog(t,g.t1,g.t1+0.3):1);if(a<=0)return '';
   return `<div style="position:absolute;right:44px;top:${g.y||330}px;width:96px;padding:14px 0;border-radius:20px;background:rgba(16,16,20,.88);text-align:center;opacity:${a}"><div style="color:#fff;font-weight:800;font-size:24px;margin-bottom:10px">${g.label||''}</div>
    <div style="margin:0 auto;width:40px;height:${g.h||220}px;border-radius:12px;background:rgba(255,255,255,.15);position:relative;overflow:hidden"><div style="position:absolute;left:0;bottom:0;width:100%;height:${v*100}%;background:${col};border-radius:10px"></div></div>
    ${g.unit!==undefined?`<div style="color:${col};font-weight:800;font-size:28px;margin-top:8px">${Math.round(v*100)}${g.unit}</div>`:''}</div>`}

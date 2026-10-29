@@ -1,0 +1,451 @@
+{
+ "id": "p01-lpg",
+ "pillar": "bedah",
+ "angle": "bau elpiji sengaja ditambahkan sebagai alarm kebocoran",
+ "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau? 👃",
+ "description": "Uji coba (tidak diunggah).",
+ "script": "Gas elpiji itu bau, kan? Padahal gasnya... nggak berbau. Coba kita bedah tabungnya. Isinya propana, sama butana. Dua-duanya bening. Nggak ada baunya, sama sekali. Nah, ini bahaya. Bocor dikit, kita nggak sadar. Makanya, sebelum masuk tabung... gasnya dicampur zat pembau. Namanya, etil merkaptan. Baunya nyengat, kayak kol busuk. Dan hidung kita, peka banget. Satu bagian merkaptan, di antara... hampir tiga miliar bagian udara, masih kecium! Terus, elpiji itu, lebih berat dari udara. Kalau bocor, dia ngumpul di lantai. Jadi, kalau kecium bau ini, jangan nyalain api. Buka pintu, buka jendela. Intinya... bau elpiji itu sengaja. Itu alarm, buat nyelametin kamu.",
+ "audio": "voice.mp3",
+ "music": "penasaran",
+ "musicVol": 0.26,
+ "style": {
+  "theme": "oranye",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "closing": "punchline",
+ "ver": 2,
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Elpiji itu *bau*, kan?"
+   ],
+   [
+    "w9",
+    "Kita *bedah* tabungnya"
+   ],
+   [
+    "w13",
+    "Isinya: *propana + butana*"
+   ],
+   [
+    "w24",
+    "Bocor dikit? *Nggak sadar*"
+   ],
+   [
+    "w32",
+    "Makanya dicampur *pembau*"
+   ],
+   [
+    "w48",
+    "Hidung kita *super peka*"
+   ],
+   [
+    "w65",
+    "Elpiji *lebih berat* dari udara"
+   ],
+   [
+    "w78",
+    "Kecium? *Jangan nyalain api*"
+   ],
+   [
+    "w90",
+    ""
+   ]
+  ],
+  "badges": [
+   [
+    "w19",
+    "TIDAK BERBAU",
+    "#9aa5b1"
+   ],
+   [
+    "w37",
+    "BERBAU",
+    "#ff9f1c"
+   ]
+  ],
+  "sub": [
+   [
+    "w53",
+    "1 bagian di antara ±2,8 miliar bagian udara"
+   ],
+   [
+    "w65",
+    ""
+   ]
+  ]
+ },
+ "gauge": {
+  "label": "BAU",
+  "keys": [
+   [
+    "w36",
+    0
+   ],
+   [
+    "w44",
+    1
+   ]
+  ],
+  "y": 560,
+  "t1": "w64",
+  "t0": "w36"
+ },
+ "sfx": [
+  [
+   "w11",
+   "DIBELAH!",
+   700,
+   620,
+   -8,
+   "#ffd23f"
+  ],
+  [
+   "w27",
+   "PSSST!",
+   720,
+   640,
+   8,
+   "#e6edf3"
+  ],
+  [
+   "w46",
+   "HOEK!",
+   760,
+   760,
+   -6,
+   "#3ddc84"
+  ],
+  [
+   "w84",
+   "JANGAN!",
+   430,
+   620,
+   -8,
+   "#ff4d5e"
+  ]
+ ],
+ "faces": [
+  [
+   "w4",
+   "bingung",
+   2.0
+  ],
+  [
+   "w49",
+   "kaget",
+   2.0
+  ],
+  [
+   "w83",
+   "menunjuk",
+   2.2
+  ],
+  [
+   "w95",
+   "setuju",
+   2.2
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "w0": 0,
+   "svgFile": "lpg.svg",
+   "sea": "#1b2b3e",
+   "cam": [
+    [
+     0,
+     520,
+     1330,
+     1000
+    ],
+    [
+     "w8",
+     520,
+     1330,
+     1000
+    ],
+    [
+     "w9",
+     430,
+     1352,
+     760
+    ],
+    [
+     "w23",
+     430,
+     1352,
+     760
+    ],
+    [
+     "w24",
+     420,
+     1150,
+     600
+    ],
+    [
+     "w31",
+     420,
+     1150,
+     600
+    ],
+    [
+     "w32",
+     430,
+     1352,
+     760
+    ],
+    [
+     "w47",
+     430,
+     1352,
+     760
+    ],
+    [
+     "w48",
+     640,
+     1150,
+     950
+    ],
+    [
+     "w64",
+     640,
+     1150,
+     950
+    ],
+    [
+     "w65",
+     470,
+     1300,
+     1080
+    ],
+    [
+     "w79",
+     470,
+     1300,
+     1080
+    ],
+    [
+     "w80",
+     830,
+     1180,
+     720
+    ],
+    [
+     "w85",
+     830,
+     1180,
+     720
+    ],
+    [
+     "w86",
+     540,
+     1260,
+     1150
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".skin",
+     "w": 11,
+     "hide": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".cutline",
+     "w": 11,
+     "show": true,
+     "dur": 0.3,
+     "w1": 13
+    },
+    {
+     "sel": ".flame",
+     "w": 84,
+     "hide": true,
+     "dur": 0.4
+    }
+   ],
+   "wdots": [
+    {
+     "w": 13,
+     "x": 222,
+     "y": 1150,
+     "bw": 216,
+     "bh": 145,
+     "n": 26,
+     "vx": 18,
+     "vy": -10,
+     "color": "#d7e2ec",
+     "size": 13
+    },
+    {
+     "w": 13,
+     "x": 222,
+     "y": 1325,
+     "bw": 216,
+     "bh": 140,
+     "n": 46,
+     "vx": 6,
+     "vy": 3,
+     "color": "#eaf7ff",
+     "size": 8
+    },
+    {
+     "w": 37,
+     "x": 222,
+     "y": 1150,
+     "bw": 216,
+     "bh": 145,
+     "n": 12,
+     "vx": -14,
+     "vy": 8,
+     "color": "#ffd23f",
+     "size": 15
+    },
+    {
+     "w": 27,
+     "w1": 32,
+     "flow": true,
+     "x": 372,
+     "y": 1040,
+     "dx": 170,
+     "dy": 110,
+     "bw": 110,
+     "bh": 110,
+     "n": 30,
+     "life": 2.0,
+     "color": "#e6edf3",
+     "size": 13
+    },
+    {
+     "w": 48,
+     "w1": 65,
+     "x": 470,
+     "y": 760,
+     "bw": 560,
+     "bh": 330,
+     "n": 70,
+     "vx": 12,
+     "vy": -6,
+     "color": "#c9d3dd",
+     "size": 8,
+     "mix": 0.03,
+     "color2": "#ffd23f"
+    },
+    {
+     "w": 72,
+     "w1": 89,
+     "flow": true,
+     "x": 372,
+     "y": 1040,
+     "dx": -40,
+     "dy": 440,
+     "bw": 120,
+     "bh": 40,
+     "n": 40,
+     "life": 2.4,
+     "color": "#e6edf3",
+     "size": 12,
+     "mix": 0.25,
+     "color2": "#ffd23f"
+    },
+    {
+     "w": 75,
+     "w1": 89,
+     "x": 40,
+     "y": 1462,
+     "bw": 900,
+     "bh": 50,
+     "n": 60,
+     "vx": 22,
+     "vy": 0,
+     "color": "#e6edf3",
+     "size": 11,
+     "mix": 0.25,
+     "color2": "#ffd23f"
+    }
+   ],
+   "labels": [
+    {
+     "w": 14,
+     "w1": 24,
+     "x": 480,
+     "y": 1200,
+     "text": "PROPANA + BUTANA",
+     "pill": true,
+     "size": 34
+    },
+    {
+     "w": 16,
+     "w1": 24,
+     "x": 480,
+     "y": 1400,
+     "text": "bentuk cair",
+     "pill": true,
+     "size": 30
+    },
+    {
+     "w": 41,
+     "w1": 48,
+     "x": 480,
+     "y": 1215,
+     "text": "ETIL *MERKAPTAN*",
+     "pill": true,
+     "size": 34
+    },
+    {
+     "w": 75,
+     "w1": 86,
+     "x": 640,
+     "y": 1440,
+     "text": "NGUMPUL DI LANTAI",
+     "pill": true,
+     "size": 36
+    },
+    {
+     "w": 86,
+     "w1": 90,
+     "x": 250,
+     "y": 900,
+     "text": "BUKA *PINTU & JENDELA*",
+     "pill": true,
+     "size": 46
+    }
+   ],
+   "arrows": [
+    {
+     "w": 68,
+     "w1": 75,
+     "x": 250,
+     "y": 1460,
+     "ang": -90,
+     "len": 220,
+     "color": "#ffd23f"
+    }
+   ],
+   "rings": [
+    {
+     "w": 27,
+     "w1": 32,
+     "x": 372,
+     "y": 1036,
+     "r": 60
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 90,
+   "tag": "INTINYA",
+   "y": 400,
+   "lines": [
+    "BAU ELPIJI ITU",
+    "*SENGAJA*:",
+    "ALARM BUAT KAMU"
+   ]
+  }
+ ]
+}
