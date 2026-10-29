@@ -62,7 +62,11 @@
      "w": 17,
      "size": 64
     }
-   ]
+   ],
+   "zoomTag": {
+    "text": "DIPERBESAR: SEL BAWANG",
+    "w": 10
+   }
   },
   {
    "w0": 21,
@@ -98,7 +102,7 @@
    "tag": "PROSESNYA",
    "bg": "#0f2430",
    "bg2": "#1d5363",
-   "y": 400,
+   "y": 330,
    "size": 88,
    "lines": [
     {
@@ -116,6 +120,25 @@
     {
      "text": "BUAT MEMBILAS",
      "w": 36
+    }
+   ],
+   "dots": [
+    {
+     "x": 90,
+     "y": 860,
+     "bw": 900,
+     "bh": 360,
+     "n": 46,
+     "vy": -120,
+     "vx": 0,
+     "color": "#e8ff9a",
+     "size": 16,
+     "box": true,
+     "bg": "rgba(20,40,30,.55)",
+     "title": "GAS NAIK KE MATA ↑",
+     "legend": "titik = molekul gas",
+     "legendLeft": 0,
+     "w": 25
     }
    ]
   },
@@ -142,6 +165,31 @@
     "w": 40,
     "y": 260,
     "size": 84
+   },
+   "bars": {
+    "x": 70,
+    "y": 720,
+    "bw": 940,
+    "title": "SEL YANG HANCUR VS GAS",
+    "w": 39,
+    "items": [
+     {
+      "label": "Sedikit sel hancur",
+      "value": 0.28,
+      "w": 40,
+      "color": "#ffd23f",
+      "badge": "gas sedikit",
+      "good": true
+     },
+     {
+      "label": "*Banyak* sel hancur",
+      "value": 0.95,
+      "w": 43,
+      "color": "#ff4d5e",
+      "badge": "gas banyak",
+      "good": false
+     }
+    ]
    }
   },
   {
@@ -188,10 +236,38 @@
  "audio": "voice.mp3",
  "script_v1": "Kenapa motong bawang bikin kita nangis? Bukan karena bawangnya sedih. Waktu pisau memotong, sel-sel bawang pecah dan enzim di dalamnya bercampur. Hasilnya, gas bernama syn-propanethial-S-oxide. Gas ini naik, kena mata, dan mata langsung mengeluarkan air mata buat membilasnya. Makin banyak sel yang hancur, makin banyak gasnya. Jadi intinya, air matamu itu sistem pertahanan, bukan baper. Kamu punya trik biar nggak nangis?",
  "music": "ceria",
- "ver": 3,
+ "ver": 4,
  "style": {
   "theme": "kuning",
   "cap": "pill",
   "trans": "zoom"
+ },
+ "gauge": {
+  "label": "GAS",
+  "keys": [
+   [
+    "w0",
+    0
+   ],
+   [
+    "w12",
+    0.05
+   ],
+   [
+    "w22",
+    0.45
+   ],
+   [
+    "w27",
+    0.8
+   ],
+   [
+    "w33",
+    1
+   ]
+  ],
+  "unit": "%",
+  "y": 330,
+  "t1": "w38"
  }
 }

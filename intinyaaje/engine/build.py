@@ -172,7 +172,7 @@ def resolve(ep, words):
         if isinstance(o, list): return [absw(x) for x in o]
         if isinstance(o, dict): return {k: absw(v) for k, v in o.items()}
         return o
-    for key in ('hud', 'sfx', 'check'):
+    for key in ('hud', 'sfx', 'check', 'gauge'):
         if key in ep: ep[key] = absw(ep[key])
     ep['faces'] = [[ws(f[0][1:]) if isinstance(f[0], str) else f[0]] + f[1:] for f in ep.get('faces', [])]
 
@@ -186,7 +186,7 @@ def main():
     total = round(dur + 0.6, 2)
     resolve(ep, words)
     data = {'dur': total, 'words': words, 'scenes': ep['scenes'], 'faces': ep.get('faces', []),
-            'capY': ep.get('capY', 1300), 'style': ep.get('style', {}), 'hud': ep.get('hud'), 'sfx': ep.get('sfx', []), 'check': ep.get('check'), 'asset': os.path.relpath(os.path.join(ROOT, 'assets'), ep_dir) + '/'}
+            'capY': ep.get('capY', 1300), 'style': ep.get('style', {}), 'hud': ep.get('hud'), 'sfx': ep.get('sfx', []), 'check': ep.get('check'), 'gauge': ep.get('gauge'), 'asset': os.path.relpath(os.path.join(ROOT, 'assets'), ep_dir) + '/'}
     # scenes: inline map svg files
     for s in data['scenes']:
         if s.get('type') == 'map' and s.get('svgFile'):
