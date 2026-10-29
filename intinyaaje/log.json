@@ -111,7 +111,7 @@
         "cap": "frasa2",
         "trans": "geser"
       },
-      "status": "terjadwal 1 Nov 17:00",
+      "status": "draf (dueAt 1 Nov 17:00, dijadwalkan rutinitas harian)",
       "closing": "punchline",
       "video": "episodes/e06-tanpa-bandara/e06-tanpa-bandara-v7.mp4"
     },
