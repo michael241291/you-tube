@@ -1,12 +1,11 @@
-"""Naikkan nada kata terakhir kalimat tanya (TTS bahasa Indonesia cenderung turun di akhir pertanyaan).
+"""Naikkan nada akhir kalimat tanya dengan TD-PSOLA (perubahan nada halus, durasi tetap, tanpa memotong suara).
 
-lift(audio_in, wav_out, words, semis=4.0)
-  words: [[kata, mulai, selesai], ...] dari build.align (selesai = mulai + 0.92*durasi kata).
-  Setiap kata yang diakhiri '?' (termasuk '?!' dan '?...') dibuat beberapa versi dengan rubberband
-  (pitch naik bertahap, formant dipertahankan), lalu disambung berurutan dengan crossfade pendek
-  sehingga nadanya meluncur naik di ujung kalimat.
+lift(audio_in, wav_out, words, semis=3.5)
+  words: [[kata, mulai, selesai], ...] dari build.align.
+  Untuk tiap kata berakhiran '?', nada dinaikkan bertahap mulai ~40% kata terakhir sampai ujungnya
+  (kurva halus 0 -> +semis), lalu kembali normal setelah kata selesai.
 """
-import os, re, subprocess, tempfile
+import re, subprocess
 import numpy as np
 
 SR = 44100
@@ -15,7 +14,7 @@ SR = 44100
 def _read(path):
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'],
                          capture_output=True, check=True).stdout
-    return np.frombuffer(raw, np.float32).copy()
+    return np.frombuffer(raw, np.float32).astype(np.float64)
 
 
 def _write(x, path):
@@ -23,49 +22,106 @@ def _write(x, path):
                    input=x.astype(np.float32).tobytes(), check=True)
 
 
-def _shift(seg, ratio, tmp):
-    a, b = os.path.join(tmp, 'a.wav'), os.path.join(tmp, 'b.wav')
-    _write(seg, a)
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', a, '-af',
-                    f'rubberband=pitch={ratio:.4f}:formant=preserved:pitchq=quality', b], check=True)
-    y = _read(b)
-    if len(y) < len(seg):
-        y = np.pad(y, (0, len(seg) - len(y)))
-    return y[:len(seg)]
+def _f0(x, hop):
+    """F0 per hop sampel (0 = tak bersuara), autokorelasi sederhana."""
+    win = int(0.04 * SR); lo, hi = SR // 400, SR // 70
+    out = []
+    for i in range(0, len(x), hop):
+        fr = x[max(0, i - win // 2): i + win // 2]
+        if len(fr) < win or np.sqrt((fr ** 2).mean()) < 0.01:
+            out.append(0.0); continue
+        fr = fr - fr.mean()
+        ac = np.correlate(fr, fr, 'full')[len(fr) - 1:]
+        k = lo + int(np.argmax(ac[lo:hi]))
+        out.append(SR / k if ac[k] > 0.35 * ac[0] else 0.0)
+    f = np.array(out)
+    # isi lubang kecil
+    for i in range(1, len(f) - 1):
+        if f[i] == 0 and f[i - 1] > 0 and f[i + 1] > 0:
+            f[i] = (f[i - 1] + f[i + 1]) / 2
+    return f
 
 
-def lift(audio_in, wav_out, words, semis=4.0):
+def _psola(x, ratio_fn):
+    """ratio_fn(t_sampel) -> faktor nada (1 = sama). Hanya bagian bersuara yang diubah."""
+    hop = int(0.005 * SR)
+    f0 = _f0(x, hop)
+    # tanda pitch analisis
+    marks = []
+    i = 0
+    while i < len(x):
+        f = f0[min(len(f0) - 1, i // hop)]
+        if f <= 0:
+            i += hop; continue
+        P = int(SR / f)
+        seg = x[i:i + P]
+        if len(seg) == 0: break
+        j = i + int(np.argmax(np.abs(seg)))
+        if not marks or j - marks[-1] > P * 0.5:
+            marks.append(j)
+        i = j + P
+    marks = np.array(marks)
+    if len(marks) < 3:
+        return x.copy()
+    y = x.copy()
+    # proses per region bersuara (rangkaian tanda yang berdekatan)
+    regions = []
+    s = 0
+    for k in range(1, len(marks)):
+        if marks[k] - marks[k - 1] > SR / 60:
+            regions.append(marks[s:k]); s = k
+    regions.append(marks[s:])
+    for rm in regions:
+        if len(rm) < 4: continue
+        a0, a1 = int(rm[0]), int(rm[-1])
+        if max(ratio_fn(t) for t in range(a0, a1, hop)) <= 1.001: continue
+        periods = np.diff(rm)
+        pad = int(periods.max()) + 2
+        L = a1 - a0
+        out = np.zeros(L + 2 * pad); wsum = np.zeros(L + 2 * pad)
+        ts = float(a0)
+        while ts <= a1:
+            k = int(np.argmin(np.abs(rm - ts)))
+            P = int(periods[min(k, len(periods) - 1)])
+            c = int(rm[k])
+            if c - P < 0 or c + P > len(x): break
+            w = np.hanning(2 * P)
+            o = int(round(ts)) - P - (a0 - pad)
+            if o < 0 or o + 2 * P > len(out): break
+            out[o:o + 2 * P] += x[c - P:c + P] * w
+            wsum[o:o + 2 * P] += w
+            ts += P / ratio_fn(int(ts))
+        seg = out[pad:pad + L]; ws = wsum[pad:pad + L]
+        good = ws > 0.2
+        seg[good] = seg[good] / ws[good]
+        seg[~good] = x[a0:a1][~good]
+        xf = min(int(0.012 * SR), L // 4)
+        fade = np.ones(L); fade[:xf] = np.linspace(0, 1, xf); fade[-xf:] = np.linspace(1, 0, xf)
+        y[a0:a1] = x[a0:a1] * (1 - fade) + seg * fade
+    return y
+
+
+def lift(audio_in, wav_out, words, semis=3.5):
     x = _read(audio_in)
-    n_q = 0
-    with tempfile.TemporaryDirectory() as tmp:
-        for i, (w, s, e) in enumerate(words):
-            if not re.search(r'\?[!.]*$', w):
-                continue
-            dur = (e - s) / 0.92
-            a = max(0, int((s - 0.02) * SR))
-            nxt = words[i + 1][1] if i + 1 < len(words) else s + dur + 0.4
-            b = min(len(x), int(min(s + dur + 0.18, nxt - 0.02) * SR))
-            if b - a < int(0.12 * SR):
-                continue
-            seg = x[a:b]
-            steps = [0.0, semis * 0.35, semis * 0.7, semis]
-            vers = [seg if k == 0 else _shift(seg, 2 ** (st / 12), tmp) for k, st in enumerate(steps)]
-            L = len(seg)
-            # bagian awal kata tetap, 30%..100% naik bertahap
-            edges = [0, int(L * 0.3), int(L * 0.5), int(L * 0.72), L]
-            out = np.zeros(L, np.float32)
-            xf = int(0.02 * SR)
-            for k in range(4):
-                lo, hi = max(0, edges[k] - xf), min(L, edges[k + 1] + xf)
-                wgt = np.ones(hi - lo, np.float32)
-                if k > 0:
-                    r = min(2 * xf, hi - lo)
-                    wgt[:r] = np.linspace(0, 1, r)
-                if k < 3:
-                    r = min(2 * xf, hi - lo)
-                    wgt[-r:] = np.minimum(wgt[-r:], np.linspace(1, 0, r))
-                out[lo:hi] += vers[k][lo:hi] * wgt
-            x[a:b] = out
-            n_q += 1
-    _write(x, wav_out)
-    return n_q
+    zones = []
+    for i, (w, s, e) in enumerate(words):
+        if not re.search(r'\?[!.]*$', w):
+            continue
+        dur = (e - s) / 0.92
+        start = s + dur * 0.35
+        end = s + dur + 0.12
+        zones.append((start * SR, end * SR))
+    if not zones:
+        _write(x, wav_out); return 0
+    top = 2 ** (semis / 12)
+
+    def ratio(t):
+        for a, b in zones:
+            if a <= t <= b + 0.15 * SR:
+                if t >= b: return top
+                u = (t - a) / (b - a)
+                return 1 + (top - 1) * (0.5 - 0.5 * np.cos(np.pi * u))
+        return 1.0
+    y = _psola(x, ratio)
+    _write(y, wav_out)
+    return len(zones)
