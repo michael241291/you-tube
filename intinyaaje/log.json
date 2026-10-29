@@ -50,7 +50,8 @@
     "theme": "oranye",
     "cap": "solo",
     "trans": "zoom"
-   }
+   },
+   "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
   },
   {
    "id": "e04-gigi-atap",
@@ -67,7 +68,8 @@
     "theme": "ungu",
     "cap": "pill",
     "trans": "putar"
-   }
+   },
+   "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
   },
   {
    "id": "e05-merinding",
@@ -84,7 +86,8 @@
     "theme": "cyan",
     "cap": "glow",
     "trans": "campur"
-   }
+   },
+   "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
   },
   {
    "id": "e06-tanpa-bandara",
@@ -101,7 +104,8 @@
     "theme": "pink",
     "cap": "solo",
     "trans": "geser"
-   }
+   },
+   "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
   },
   {
    "id": "e07-bawang",
@@ -118,7 +122,19 @@
     "theme": "kuning",
     "cap": "pill",
     "trans": "zoom"
-   }
+   },
+   "status": "tunggu buat ulang (gaya lama; jangan dijadwalkan sampai versi gaya bercerita + bedah selesai)"
+  }
+ ],
+ "pilots": [
+  {
+   "id": "p01-lpg",
+   "date": "2026-10-29",
+   "status": "pilot disetujui user (tidak diunggah)",
+   "closing": "punchline",
+   "voicecheck": "3,8 kata/frasa, jeda tiap 1,8 dtk, nada 8,4 semiton",
+   "sync_err": 0.044,
+   "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau?"
   }
  ]
 }
