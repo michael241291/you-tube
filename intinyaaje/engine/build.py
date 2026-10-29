@@ -31,8 +31,13 @@ def silences(path, noise='-34dB', d=0.14):
 
 
 def align(script, audio):
-    """Word timings from known script + pause detection (no transcription needed)."""
+    """Word timings: Whisper (asralign) bila tersedia, kalau gagal pakai tebakan jeda lama."""
     dur = duration(audio)
+    try:
+        import asralign
+        return asralign.align(script, audio, dur), dur
+    except Exception as ex:
+        print("asralign gagal, pakai jeda:", ex)
     words = script.split()
     sil = [(s, e if e is not None else dur) for s, e in silences(audio)]
     start = 0.0
