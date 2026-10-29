@@ -1,220 +1,376 @@
 {
- "pillar": "B",
- "angle": "tubuh: refleks warisan nenek moyang",
- "title": "Kenapa Kita Bisa Merinding? Ternyata Ini Warisan Nenek Moyang 😳",
- "description": "Merinding terjadi karena otot kecil arrector pili di pangkal rambut berkontraksi atas perintah sistem saraf simpatik, saat kedinginan atau emosi kuat. Pada hewan berbulu, bulu yang berdiri menahan udara (lebih hangat) dan membuat tubuh tampak lebih besar; landak menegakkan durinya. Pada manusia ini dianggap refleks sisa.\n\nSumber: Wikipedia - Goose bumps. Foto: \"2003-09-17 Goose bumps\" oleh Ildar Sagdejev (CC BY-SA 3.0); \"PilioerectionAnimation\" oleh AnthonyCaccese (CC BY-SA 4.0); \"Reserve Sigean - Porc-épic du Cap 03\" oleh Tylwyth Eldar (CC BY-SA 4.0), via Wikimedia Commons.\n\n#faktaunik #tubuhmanusia #merinding #shorts",
- "scenes": [
-  {
-   "w0": 0,
-   "type": "photo",
-   "src": "img/goose.jpg",
-   "kb": [
-    [
-     0,
-     0.4,
-     0.5,
-     1.0
-    ],
-    [
-     "w7",
-     0.4,
-     0.5,
-     1.45
-    ]
+ "id": "e05-merinding",
+ "pillar": "kok bisa",
+ "angle": "bedah kulit: otot arrector pili menegakkan rambut, refleks warisan hewan berbulu",
+ "title": "Kenapa Kita Bisa Merinding? 🥶",
+ "script": "Kamu, pernah merinding juga, kan? Bulu tangan, tiba-tiba berdiri semua. Coba, kita bedah kulitnya. Di bawah tiap helai rambut, ada otot kecil banget. Namanya, arrector pili. Pas kedinginan, atau kaget... saraf langsung nyuruh otot ini, narik. Rambutnya berdiri. Kulitnya jadi bintik-bintik. Nah, buat kucing, ini berguna banget. Bulunya ngembang, jadi lebih hangat, gitu. Badannya juga kelihatan lebih gede, di depan musuh. Nah, kita? Bulunya udah tipis. Nggak jadi hangat, nggak kelihatan gede juga. Yang tersisa, cuma bintik-bintiknya. Intinya... merinding itu warisan nenek moyang. Refleksnya masih ada, bulunya yang hilang.",
+ "audio": "voice.mp3",
+ "music": "misteri",
+ "musicVol": 0.24,
+ "style": {
+  "theme": "cyan",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "closing": "punchline",
+ "ver": 8,
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Pernah *merinding*, kan?"
    ],
-   "head": {
-    "text": "KENAPA KITA<br>*MERINDING*?",
-    "t": -1,
-    "y": 230,
-    "size": 100,
-    "t1": 2.6
-   },
-   "rings": [
-    {
-     "x": 0.36,
-     "y": 0.55,
-     "r": 130,
-     "w": 4
-    }
+   [
+    "w10",
+    "Kita *bedah* kulitnya"
+   ],
+   [
+    "w19",
+    "Ada *otot super kecil*"
+   ],
+   [
+    "w26",
+    "Kedinginan? *Otot narik!*"
+   ],
+   [
+    "w36",
+    "Rambut *berdiri*"
+   ],
+   [
+    "w42",
+    "Buat kucing: *berguna*"
+   ],
+   [
+    "w61",
+    "Kita? Bulunya *tipis*"
+   ],
+   [
+    "w77",
+    ""
    ]
-  },
-  {
-   "w0": 8,
-   "type": "photo",
-   "src": "img/PilioerectionAnimation.jpg",
-   "fit": "contain",
-   "bg": "#3a0f05",
-   "bg2": "#7a2a10",
-   "kb": [
-    [
-     0,
-     0.45,
-     0.55,
-     1.0
-    ],
-    [
-     "w30",
-     0.42,
-     0.55,
-     1.25
-    ]
-   ],
-   "labels": [
-    {
-     "text": "OTOT<br>*ARRECTOR PILI*",
-     "x": 0.58,
-     "y": 0.2,
-     "w": 16,
-     "size": 58,
-     "w1": 27
-    }
-   ],
-   "arrows": [
-    {
-     "x": 0.3,
-     "y": 0.64,
-     "w": 13,
-     "ang": -40,
-     "len": 260
-    }
-   ],
-   "head": {
-    "text": "NARIK RAMBUT<br>*SAMPAI BERDIRI*",
-    "w": 27,
-    "y": 260,
-    "size": 84
-   }
-  },
-  {
-   "w0": 31,
-   "type": "card",
-   "tag": "HEWAN BERBULU",
-   "bg": "#1b1330",
-   "bg2": "#4a2d6b",
-   "y": 420,
-   "lines": [
-    {
-     "text": "BULU MENGEMBANG",
-     "w": 37
-    },
-    {
-     "text": "*LEBIH HANGAT*",
-     "w": 40
-    },
-    {
-     "text": "*KELIHATAN LEBIH BESAR*",
-     "w": 43,
-     "size": 76
-    }
-   ]
-  },
-  {
-   "w0": 49,
-   "type": "photo",
-   "src": "img/Reserve_Sigean_Porc_pic_du_Cap_03.jpg",
-   "kb": [
-    [
-     0,
-     0.5,
-     0.4,
-     1.0
-    ],
-    [
-     "w54",
-     0.55,
-     0.35,
-     1.2
-    ]
-   ],
-   "head": {
-    "text": "*LANDAK* JUGA!",
-    "w": 49,
-    "y": 260,
-    "size": 100
-   },
-   "arrows": [
-    {
-     "x": 0.6,
-     "y": 0.3,
-     "w": 51,
-     "ang": -60,
-     "len": 220
-    }
-   ]
-  },
-  {
-   "w0": 55,
-   "type": "photo",
-   "src": "img/goose.jpg",
-   "kb": [
-    [
-     0,
-     0.5,
-     0.45,
-     1.5
-    ],
-    [
-     "w63",
-     0.5,
-     0.45,
-     1.9
-    ]
-   ],
-   "head": {
-    "text": "KITA? CUMA SISA<br>*BINTIKNYA*",
-    "w": 56,
-    "y": 260,
-    "size": 88
-   }
-  },
-  {
-   "w0": 64,
-   "type": "card",
-   "tag": "INTINYA",
-   "y": 420,
-   "lines": [
-    "MERINDING ITU",
-    "*SISA REFLEKS*",
-    "NENEK MOYANG"
-   ]
-  }
+  ]
+ },
+ "sfx": [
+  [
+   "w8",
+   "MERINDING!",
+   620,
+   700,
+   -8,
+   "#2ee6d6"
+  ],
+  [
+   "w12",
+   "DIBELAH!",
+   720,
+   640,
+   -8,
+   "#2ee6d6"
+  ],
+  [
+   "w30",
+   "ZZZT!",
+   760,
+   700,
+   8,
+   "#ffd23f"
+  ],
+  [
+   "w47",
+   "FSSHH!",
+   760,
+   640,
+   -6,
+   "#ff5c8a"
+  ],
+  [
+   "w65",
+   "CUMA SEGINI?",
+   560,
+   700,
+   6,
+   "#ffd23f",
+   1.6,
+   90
+  ]
  ],
  "faces": [
   [
-   "w4",
+   "w3",
    "kaget",
    2.0
   ],
   [
-   "w45",
+   "w31",
+   "menunjuk",
+   2.0
+  ],
+  [
+   "w57",
    "senang",
    2.0
   ],
   [
-   "w55",
+   "w64",
    "bingung",
    2.0
   ],
   [
-   "w65",
+   "w82",
    "setuju",
-   2.0
-  ],
-  [
-   "w72",
-   "menunjuk",
-   2.4
+   2.2
   ]
  ],
- "id": "e05-merinding",
- "script": "Kenapa kita bisa merinding? Lihat bintik-bintik kecil ini. Di bawah tiap rambut ada otot super kecil, namanya arrector pili. Waktu kedinginan atau takut, saraf menyuruh otot ini menarik rambut sampai berdiri. Buat hewan berbulu, ini berguna banget: bulunya mengembang, badannya lebih hangat, dan kelihatan lebih besar di depan musuh. Landak juga pakai cara yang mirip. Kita?... Bulunya udah tipis, jadi yang tersisa cuma bintik-bintiknya. Jadi intinya... merinding itu sisa refleks nenek moyang. Kamu juga suka merinding pas dengar lagu, nggak?",
- "audio": "voice.mp3",
- "script_v1": "Kenapa kita bisa merinding? Lihat bintik-bintik kecil ini. Di bawah tiap rambut ada otot super kecil, namanya arrector pili. Waktu kedinginan atau takut, saraf menyuruh otot ini menarik rambut sampai berdiri. Buat hewan berbulu, ini berguna banget: bulunya mengembang, badannya lebih hangat, dan kelihatan lebih besar di depan musuh. Landak juga pakai cara yang mirip. Kita? Bulunya udah tipis, jadi yang tersisa cuma bintik-bintiknya. Jadi intinya, merinding itu sisa refleks nenek moyang. Lagu apa yang bikin kamu merinding?",
- "music": "santai",
- "ver": 5,
- "style": {
-  "theme": "cyan",
-  "cap": "glow",
-  "trans": "campur"
- }
+ "scenes": [
+  {
+   "type": "map",
+   "w0": 0,
+   "svgFile": "merinding.svg",
+   "sea": "#062a2e",
+   "cam": [
+    [
+     0,
+     540,
+     1200,
+     780
+    ],
+    [
+     "w11",
+     540,
+     1200,
+     780
+    ],
+    [
+     "w12",
+     1850,
+     1200,
+     1120
+    ],
+    [
+     "w23",
+     1850,
+     1200,
+     1120
+    ],
+    [
+     "w24",
+     1890,
+     1110,
+     860
+    ],
+    [
+     "w40",
+     1890,
+     1110,
+     860
+    ],
+    [
+     "w42",
+     3250,
+     1180,
+     1150
+    ],
+    [
+     "w60",
+     3250,
+     1180,
+     1150
+    ],
+    [
+     "w61",
+     540,
+     1200,
+     780
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".bump",
+     "w": 12,
+     "hide": true,
+     "dur": 0.1
+    },
+    {
+     "sel": ".hairflat",
+     "w": 7,
+     "hide": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".hairup",
+     "w": 7,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".bumps",
+     "w": 8,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".muscle",
+     "w": 20,
+     "color": "#ffd23f",
+     "dur": 0.5,
+     "w1": 29,
+     "stroke": false
+    },
+    {
+     "sel": ".nerve",
+     "w": 30,
+     "show": true,
+     "dur": 0.3,
+     "w1": 37
+    },
+    {
+     "sel": ".muscle",
+     "w": 35,
+     "hide": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".muscleC",
+     "w": 35,
+     "show": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".hairA",
+     "w": 35,
+     "hide": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".hairB",
+     "w": 35,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".bump",
+     "w": 38,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".cat",
+     "w": 47,
+     "hide": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".catpuff",
+     "w": 47,
+     "show": true,
+     "dur": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "w": 14,
+     "w1": 24,
+     "x": 1420,
+     "y": 800,
+     "text": "FOLIKEL RAMBUT",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 23,
+     "w1": 36,
+     "x": 1480,
+     "y": 800,
+     "text": "OTOT *ARRECTOR PILI*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 30,
+     "w1": 37,
+     "x": 1360,
+     "y": 1560,
+     "text": "SARAF",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 38,
+     "w1": 42,
+     "x": 1990,
+     "y": 860,
+     "text": "*BINTIK* MERINDING",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 49,
+     "w1": 55,
+     "x": 2780,
+     "y": 800,
+     "text": "LEBIH *HANGAT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 55,
+     "w1": 61,
+     "x": 2780,
+     "y": 800,
+     "text": "KELIHATAN *GEDE*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 63,
+     "w1": 77,
+     "x": 120,
+     "y": 800,
+     "text": "BULU *TIPIS*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 73,
+     "w1": 77,
+     "x": 520,
+     "y": 1420,
+     "text": "CUMA *BINTIKNYA*",
+     "pill": true,
+     "size": 42
+    }
+   ],
+   "arrows": [
+    {
+     "w": 35,
+     "w1": 40,
+     "x": 1960,
+     "y": 1010,
+     "ang": 45,
+     "len": 180,
+     "color": "#ffd23f"
+    }
+   ],
+   "rings": [
+    {
+     "w": 20,
+     "w1": 29,
+     "x": 1900,
+     "y": 1110,
+     "r": 110
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 77,
+   "tag": "INTINYA",
+   "y": 400,
+   "lines": [
+    "MERINDING ITU",
+    "*WARISAN*",
+    "NENEK MOYANG"
+   ]
+  }
+ ]
 }

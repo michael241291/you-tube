@@ -1,276 +1,96 @@
 {
- "pillar": "A",
- "angle": "satu pulau dibagi tiga negara",
+ "id": "e03-kalimantan",
+ "pillar": "peta",
+ "angle": "satu pulau tiga negara: Indonesia, Malaysia (Sabah-Sarawak), Brunei; hampir 6x Pulau Jawa",
  "title": "1 Pulau Tapi 3 Negara?! Ini Kalimantan 🗺️",
- "description": "Kalimantan (Borneo) adalah pulau terbesar di Asia dan terbesar ketiga di dunia. Sekitar 73% wilayahnya milik Indonesia, sekitar 26% Malaysia (Sabah dan Sarawak), dan sisanya Brunei.\n\nSumber: Wikipedia - Borneo. Peta: Natural Earth (domain publik).\n\n#faktaunik #peta #kalimantan #borneo #shorts",
- "scenes": [
-  {
-   "w0": 0,
-   "type": "map",
-   "svgFile": "map.svg",
-   "cam": [
-    [
-     0,
-     81667,
-     49600,
-     4200
-    ],
-    [
-     "w7",
-     81667,
-     49500,
-     3900
-    ]
+ "script": "Kalimantan itu, punya Indonesia, kan? Ternyata... nggak semuanya. Pulau ini, dibagi tiga negara. Sekitar tujuh puluh tiga persen, punya Indonesia. Bagian utaranya, punya Malaysia. Namanya Sabah, sama Sarawak. Terus, di pinggir pantai, ada negara kecil. Namanya, Brunei. Kecil, tapi kaya, karena minyak. Hebatnya, di satu pulau ini... kamu bisa nyebrang ke tiga negara, lewat darat. Dan ukurannya, nggak main-main. Ini pulau terbesar ketiga, di dunia. Luasnya, hampir enam kali Pulau Jawa! Intinya... satu pulau, nggak harus satu negara. Kamu udah pernah ke Kalimantan, belum?",
+ "audio": "voice.mp3",
+ "music": "penasaran",
+ "musicVol": 0.24,
+ "style": {
+  "theme": "hijau",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "closing": "pertanyaan",
+ "ver": 7,
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Kalimantan *punya Indonesia*?"
    ],
-   "head": {
-    "text": "1 PULAU<br>*3 NEGARA*?!",
-    "t": -1,
-    "y": 230,
-    "size": 110,
-    "t1": 3.0
-   },
-   "hl": [
-    {
-     "sel": ".c_IDN",
-     "t": -1,
-     "color": "#2ecc71"
-    },
-    {
-     "sel": ".c_MYS",
-     "t": -1,
-     "color": "#3498db"
-    },
-    {
-     "sel": ".c_BRN",
-     "t": -1,
-     "color": "#ffd23f",
-     "blink": true
-    }
+   [
+    "w5",
+    "Ternyata... *nggak semua*"
+   ],
+   [
+    "w8",
+    "1 pulau, *3 negara*"
+   ],
+   [
+    "w20",
+    "Utara: *Malaysia*"
+   ],
+   [
+    "w28",
+    "Si kecil kaya: *Brunei*"
+   ],
+   [
+    "w42",
+    "Nyebrang negara *lewat darat*"
+   ],
+   [
+    "w55",
+    "Pulau *terbesar ke-3*"
+   ],
+   [
+    "w65",
+    "Hampir *6× Pulau Jawa*"
+   ],
+   [
+    "w71",
+    ""
    ]
-  },
-  {
-   "w0": 8,
-   "type": "map",
-   "svgFile": "map.svg",
-   "cam": [
-    [
-     0,
-     81667,
-     49500,
-     3900
-    ],
-    [
-     "w9",
-     81700,
-     49450,
-     3300
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".c_IDN",
-     "t": -1,
-     "color": "#2ecc71"
-    },
-    {
-     "sel": ".c_MYS",
-     "t": -1,
-     "color": "#3498db"
-    },
-    {
-     "sel": ".c_BRN",
-     "t": -1,
-     "color": "#ffd23f"
-    }
-   ],
-   "labels": [
-    {
-     "text": "*KALIMANTAN*",
-     "x": 81600,
-     "y": 49700,
-     "w": 9,
-     "size": 90
-    }
-   ]
-  },
-  {
-   "w0": 10,
-   "type": "map",
-   "svgFile": "map.svg",
-   "cam": [
-    [
-     0,
-     81700,
-     49450,
-     3300
-    ],
-    [
-     "w22",
-     81750,
-     49200,
-     3000
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".c_IDN",
-     "w": 13,
-     "color": "#2ecc71"
-    },
-    {
-     "sel": ".c_MYS",
-     "w": 19,
-     "color": "#3498db"
-    },
-    {
-     "sel": ".c_BRN",
-     "w": 23,
-     "color": "#ffd23f",
-     "blink": true
-    }
-   ],
-   "labels": [
-    {
-     "text": "73%<br>INDONESIA",
-     "x": 81500,
-     "y": 49820,
-     "w": 13,
-     "size": 72
-    },
-    {
-     "text": "26%<br>MALAYSIA",
-     "x": 81500,
-     "y": 49150,
-     "w": 19,
-     "size": 64
-    },
-    {
-     "text": "BRUNEI",
-     "x": 82150,
-     "y": 48650,
-     "w": 24,
-     "size": 58,
-     "color": "#ffd23f"
-    }
-   ],
-   "rings": [
-    {
-     "x": 81861,
-     "y": 48735,
-     "r": 70,
-     "w": 24
-    }
-   ]
-  },
-  {
-   "w0": 30,
-   "type": "map",
-   "svgFile": "map.svg",
-   "cam": [
-    [
-     0,
-     81750,
-     49200,
-     3000
-    ],
-    [
-     "w41",
-     81500,
-     49300,
-     2600
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".c_IDN",
-     "t": -1,
-     "color": "#2ecc71"
-    },
-    {
-     "sel": ".c_MYS",
-     "t": -1,
-     "color": "#3498db"
-    },
-    {
-     "sel": ".c_BRN",
-     "t": -1,
-     "color": "#ffd23f"
-    }
-   ],
-   "head": {
-    "text": "NYEBRANG NEGARA<br>*LEWAT DARAT*",
-    "w": 36,
-    "y": 260,
-    "size": 84
-   },
-   "rings": [
-    {
-     "x": 80653,
-     "y": 49722,
-     "r": 80,
-     "w": 38
-    },
-    {
-     "x": 81861,
-     "y": 48780,
-     "r": 80,
-     "w": 39
-    }
-   ]
-  },
-  {
-   "w0": 42,
-   "type": "map",
-   "svgFile": "map.svg",
-   "cam": [
-    [
-     0,
-     81500,
-     49300,
-     2600
-    ],
-    [
-     "w51",
-     81667,
-     49700,
-     7000
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".c_IDN",
-     "t": -1,
-     "color": "#2ecc71"
-    },
-    {
-     "sel": ".c_MYS",
-     "t": -1,
-     "color": "#3498db"
-    },
-    {
-     "sel": ".c_BRN",
-     "t": -1,
-     "color": "#ffd23f"
-    }
-   ],
-   "head": {
-    "text": "PULAU TERBESAR<br>*KE-3 DI DUNIA*",
-    "w": 47,
-    "y": 260,
-    "size": 88
-   }
-  },
-  {
-   "w0": 52,
-   "type": "card",
-   "tag": "INTINYA",
-   "y": 420,
-   "lines": [
-    "SATU PULAU",
-    "NGGAK HARUS",
-    "*SATU NEGARA*"
-   ]
-  }
+  ]
+ },
+ "sfx": [
+  [
+   "w6",
+   "EH?!",
+   600,
+   700,
+   -8,
+   "#ff5c8a"
+  ],
+  [
+   "w39",
+   "KAYA MINYAK!",
+   620,
+   700,
+   6,
+   "#ffd23f",
+   1.6,
+   90
+  ],
+  [
+   "w49",
+   "NYEBRANG!",
+   640,
+   700,
+   -6,
+   "#3ddc84"
+  ],
+  [
+   "w70",
+   "6×!",
+   600,
+   700,
+   8,
+   "#ffd23f",
+   1.4,
+   150
+  ]
  ],
  "faces": [
   [
@@ -279,35 +99,211 @@
    2.0
   ],
   [
-   "w24",
-   "kaget",
-   1.8
-  ],
-  [
    "w36",
-   "senang",
+   "menunjuk",
    2.0
   ],
   [
    "w53",
-   "setuju",
+   "senang",
    2.0
   ],
   [
-   "w60",
-   "menunjuk",
+   "w67",
+   "kaget",
+   2.0
+  ],
+  [
+   "w79",
+   "berpikir",
    2.2
   ]
  ],
- "id": "e03-kalimantan",
- "script": "Pulau terbesar di Asia ini dibagi... tiga negara. Ini, Kalimantan. Sekitar tujuh puluh tiga persen milik Indonesia, dua puluh enam persen Malaysia, dan sisanya Brunei, negara kecil di pantai utara. Jadi di satu pulau, kamu bisa nyebrang ke tiga negara lewat darat. Dan ukurannya nggak main-main. Ini pulau terbesar ketiga di dunia. Jadi intinya... satu pulau nggak harus satu negara. Kamu udah pernah ke Kalimantan, belum?",
- "audio": "voice.mp3",
- "script_v1": "Pulau terbesar di Asia ini dibagi tiga negara. Ini Kalimantan. Sekitar tujuh puluh tiga persen milik Indonesia, dua puluh enam persen Malaysia, dan sisanya Brunei, negara kecil di pantai utara. Jadi di satu pulau, kamu bisa nyebrang ke tiga negara lewat darat. Dan ukurannya nggak main-main: ini pulau terbesar ketiga di dunia. Jadi intinya, satu pulau nggak harus satu negara. Kamu pernah ke Kalimantan bagian mana?",
- "music": "petualangan",
- "ver": 5,
- "style": {
-  "theme": "oranye",
-  "cap": "solo",
-  "trans": "zoom"
- }
+ "scenes": [
+  {
+   "type": "map",
+   "w0": 0,
+   "svgFile": "map.svg",
+   "cam": [
+    [
+     0,
+     81667,
+     49650,
+     4300
+    ],
+    [
+     "w11",
+     81667,
+     49650,
+     4300
+    ],
+    [
+     "w12",
+     81667,
+     49700,
+     4000
+    ],
+    [
+     "w27",
+     81667,
+     49700,
+     4000
+    ],
+    [
+     "w28",
+     81861,
+     48780,
+     1300
+    ],
+    [
+     "w41",
+     81861,
+     48780,
+     1300
+    ],
+    [
+     "w42",
+     81500,
+     49250,
+     3300
+    ],
+    [
+     "w54",
+     81500,
+     49250,
+     3300
+    ],
+    [
+     "w55",
+     81667,
+     49700,
+     9000
+    ],
+    [
+     "w64",
+     81667,
+     49700,
+     9000
+    ],
+    [
+     "w65",
+     80900,
+     51000,
+     5600
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".c_IDN",
+     "w": 2,
+     "color": "#3ddc84",
+     "dur": 0.5
+    },
+    {
+     "sel": ".c_MYS",
+     "w": 6,
+     "color": "#3aa0ff",
+     "dur": 0.4
+    },
+    {
+     "sel": ".c_BRN",
+     "w": 6,
+     "color": "#ffd23f",
+     "dur": 0.4,
+     "blink": true
+    }
+   ],
+   "labels": [
+    {
+     "text": "*73%* INDONESIA",
+     "x": 81300,
+     "y": 50000,
+     "w": 14,
+     "w1": 28,
+     "size": 50,
+     "pill": true
+    },
+    {
+     "text": "*MALAYSIA*",
+     "x": 82200,
+     "y": 48950,
+     "w": 23,
+     "w1": 28,
+     "size": 46,
+     "pill": true
+    },
+    {
+     "text": "SABAH & SARAWAK",
+     "x": 82200,
+     "y": 49200,
+     "w": 25,
+     "w1": 28,
+     "size": 40,
+     "pill": true
+    },
+    {
+     "text": "*BRUNEI*",
+     "x": 81950,
+     "y": 48700,
+     "w": 36,
+     "w1": 42,
+     "size": 50,
+     "pill": true
+    },
+    {
+     "text": "*JAWA*",
+     "x": 79300,
+     "y": 51500,
+     "w": 69,
+     "w1": 71,
+     "size": 50,
+     "pill": true
+    },
+    {
+     "text": "*KALIMANTAN*",
+     "x": 81300,
+     "y": 49600,
+     "w": 66,
+     "w1": 71,
+     "size": 50,
+     "pill": true
+    }
+   ],
+   "rings": [
+    {
+     "x": 81861,
+     "y": 48735,
+     "r": 70,
+     "w": 34,
+     "w1": 42
+    },
+    {
+     "x": 80653,
+     "y": 49722,
+     "r": 80,
+     "w": 49,
+     "w1": 55
+    },
+    {
+     "x": 81861,
+     "y": 48780,
+     "r": 80,
+     "w": 51,
+     "w1": 55
+    }
+   ],
+   "arrows": []
+  },
+  {
+   "type": "card",
+   "w0": 71,
+   "tag": "INTINYA",
+   "y": 400,
+   "lines": [
+    "SATU PULAU",
+    "NGGAK HARUS",
+    "*SATU NEGARA*"
+   ]
+  }
+ ]
 }

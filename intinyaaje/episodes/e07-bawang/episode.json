@@ -1,273 +1,370 @@
 {
- "pillar": "B",
- "angle": "sains dapur: reaksi kimia saat memotong",
- "title": "Kenapa Motong Bawang Bikin Nangis? 🧅😭",
- "description": "Saat bawang dipotong, sel pecah dan enzim alliinase bercampur dengan senyawa sulfur; enzim lachrymatory-factor synthase lalu membentuk gas syn-propanethial-S-oxide yang mengiritasi mata sehingga air mata keluar.\n\nSumber: Wikipedia - Syn-Propanethial-S-oxide. Foto: \"Cortando cebolla\" oleh Lali Masriera (CC BY 2.0); \"Cells from a red onion epidermal peel\" oleh Adrian J. Hunter (CC BY-SA 3.0); \"Syn-propanethial-S-oxide-3D-balls\" oleh Ben Mills (domain publik); \"Mixed onions\" oleh Colin (CC BY-SA 3.0), via Wikimedia Commons.\n\n#faktaunik #sains #bawang #dapur #shorts",
- "scenes": [
-  {
-   "w0": 0,
-   "type": "photo",
-   "src": "img/Cortando_cebolla.jpg",
-   "kb": [
-    [
-     0,
-     0.45,
-     0.5,
-     1.0
-    ],
-    [
-     "w9",
-     0.42,
-     0.55,
-     1.3
-    ]
+ "id": "e07-bawang",
+ "pillar": "kok bisa",
+ "angle": "bedah sel bawang: dua zat bertemu jadi gas, mata membilas dengan air mata; tips pisau tajam & dinginkan",
+ "title": "Kenapa Motong Bawang Bikin Nangis? 🧅",
+ "script": "Motong bawang, pasti bikin nangis, kan? Padahal, kita nggak lagi sedih. Coba, kita bedah bawangnya. Bawang itu, isinya ribuan sel kecil. Waktu pisau masuk, selnya pecah. Dua zat yang tadinya terpisah... akhirnya ketemu. Hasilnya, gas yang gampang menguap. Gas ini naik, langsung kena mata. Mata kaget, terus... keluarin air mata. Buat membilas gasnya. Makin tumpul pisaunya, makin banyak sel yang hancur. Makin pedih juga matanya. Jadi, pakai pisau yang tajam. Atau, dinginin dulu bawangnya di kulkas. Intinya... air matamu itu, bukan baper. Itu matamu, lagi membela diri.",
+ "audio": "voice.mp3",
+ "music": "santai",
+ "musicVol": 0.24,
+ "style": {
+  "theme": "ungu",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "closing": "tips + punchline",
+ "ver": 7,
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Motong bawang = *nangis*"
    ],
-   "head": {
-    "text": "KENAPA BAWANG<br>BIKIN *NANGIS*?",
-    "t": -1,
-    "y": 230,
-    "size": 96,
-    "t1": 2.4
-   }
-  },
-  {
-   "w0": 10,
-   "type": "photo",
-   "src": "img/Cells_from_a_red_onion_epidermal_peel.jpg",
-   "kb": [
-    [
-     0,
-     0.5,
-     0.5,
-     1.0
-    ],
-    [
-     "w20",
-     0.5,
-     0.5,
-     1.4
-    ]
+   [
+    "w11",
+    "Kita *bedah* bawangnya"
    ],
-   "head": {
-    "text": "SEL BAWANG<br>*PECAH*",
-    "w": 13,
-    "y": 260,
-    "size": 100
-   },
-   "labels": [
-    {
-     "text": "ENZIM BERCAMPUR",
-     "x": 0.5,
-     "y": 0.42,
-     "w": 17,
-     "size": 64
-    }
+   [
+    "w15",
+    "Isinya *ribuan sel*"
    ],
-   "zoomTag": {
-    "text": "DIPERBESAR: SEL BAWANG",
-    "w": 10
-   }
-  },
-  {
-   "w0": 21,
-   "type": "photo",
-   "src": "img/molecule.png",
-   "fit": "contain",
-   "bg": "#0e1a2b",
-   "bg2": "#24456b",
-   "kb": [
-    [
-     0,
-     0.5,
-     0.5,
-     0.75
-    ],
-    [
-     "w24",
-     0.5,
-     0.5,
-     0.85
-    ]
+   [
+    "w21",
+    "Pisau masuk, sel *pecah*"
    ],
-   "head": {
-    "text": "GAS PEMICU<br>*AIR MATA*",
-    "w": 22,
-    "y": 260,
-    "size": 96
-   }
-  },
-  {
-   "w0": 25,
-   "type": "card",
-   "tag": "PROSESNYA",
-   "bg": "#0f2430",
-   "bg2": "#1d5363",
-   "y": 330,
-   "size": 88,
-   "lines": [
-    {
-     "text": "GAS NAIK",
-     "w": 27
-    },
-    {
-     "text": "↓ KENA MATA",
-     "w": 29
-    },
-    {
-     "text": "↓ *AIR MATA KELUAR*",
-     "w": 33
-    },
-    {
-     "text": "BUAT MEMBILAS",
-     "w": 36
-    }
+   [
+    "w26",
+    "Dua zat *ketemu*"
    ],
-   "dots": [
-    {
-     "x": 90,
-     "y": 860,
-     "bw": 900,
-     "bh": 360,
-     "n": 46,
-     "vy": -120,
-     "vx": 0,
-     "color": "#e8ff9a",
-     "size": 16,
-     "box": true,
-     "bg": "rgba(20,40,30,.55)",
-     "title": "GAS NAIK KE MATA ↑",
-     "legend": "titik = molekul gas",
-     "legendLeft": 0,
-     "w": 25
-    }
+   [
+    "w33",
+    "Jadi *gas* yang menguap"
+   ],
+   [
+    "w38",
+    "Gas naik ke *mata*"
+   ],
+   [
+    "w44",
+    "Mata *membilas* gasnya"
+   ],
+   [
+    "w53",
+    "Pisau tumpul = *lebih pedih*"
+   ],
+   [
+    "w65",
+    "Tips: *pisau tajam*"
+   ],
+   [
+    "w70",
+    "Atau *dinginin* dulu"
+   ],
+   [
+    "w76",
+    ""
    ]
-  },
-  {
-   "w0": 38,
-   "type": "photo",
-   "src": "img/Mixed_onions.jpg",
-   "kb": [
-    [
-     0,
-     0.5,
-     0.55,
-     1.0
-    ],
-    [
-     "w45",
-     0.55,
-     0.6,
-     1.3
-    ]
+  ]
+ },
+ "gauge": {
+  "label": "PEDIH",
+  "keys": [
+   [
+    "w53",
+    0.35
    ],
-   "head": {
-    "text": "MAKIN HANCUR,<br>*MAKIN BANYAK GAS*",
-    "w": 40,
-    "y": 260,
-    "size": 84
-   },
-   "bars": {
-    "x": 70,
-    "y": 720,
-    "bw": 940,
-    "title": "SEL YANG HANCUR VS GAS",
-    "w": 39,
-    "items": [
-     {
-      "label": "Sedikit sel hancur",
-      "value": 0.28,
-      "w": 40,
-      "color": "#ffd23f",
-      "badge": "gas sedikit",
-      "good": true
-     },
-     {
-      "label": "*Banyak* sel hancur",
-      "value": 0.95,
-      "w": 43,
-      "color": "#ff4d5e",
-      "badge": "gas banyak",
-      "good": false
-     }
-    ]
-   }
-  },
-  {
-   "w0": 46,
-   "type": "card",
-   "tag": "INTINYA",
-   "y": 400,
-   "lines": [
-    "AIR MATAMU ITU",
-    "*SISTEM PERTAHANAN*,",
-    "BUKAN BAPER"
+   [
+    "w62",
+    1
    ]
-  }
+  ],
+  "y": 560,
+  "t0": "w53",
+  "t1": "w65"
+ },
+ "sfx": [
+  [
+   "w13",
+   "DIBELAH!",
+   720,
+   640,
+   -8,
+   "#b18cff"
+  ],
+  [
+   "w24",
+   "KRAK!",
+   760,
+   700,
+   8,
+   "#ffd23f"
+  ],
+  [
+   "w45",
+   "PERIH!",
+   760,
+   700,
+   -6,
+   "#ff5c8a"
+  ],
+  [
+   "w67",
+   "SRET!",
+   760,
+   780,
+   6,
+   "#3ddc84"
+  ]
  ],
  "faces": [
   [
-   "w6",
-   "senang",
-   2.0
-  ],
-  [
-   "w15",
+   "w4",
    "kaget",
    2.0
   ],
   [
-   "w33",
+   "w31",
    "berpikir",
    2.0
   ],
   [
    "w47",
-   "setuju",
+   "kaget",
    2.0
   ],
   [
-   "w55",
-   "menunjuk",
-   2.4
+   "w66",
+   "dapat-ide",
+   2.2
+  ],
+  [
+   "w82",
+   "setuju",
+   2.2
   ]
  ],
- "id": "e07-bawang",
- "script": "Kenapa motong bawang bikin kita nangis? Bukan karena bawangnya... sedih. Waktu pisau memotong, sel-sel bawang pecah dan enzim di dalamnya bercampur. Hasilnya... gas bernama syn-propanethial-S-oxide. Gas ini naik, kena mata, dan mata langsung mengeluarkan air mata buat membilasnya. Makin banyak sel yang hancur, makin banyak gasnya. Jadi intinya... air matamu itu sistem pertahanan, bukan baper. Kamu punya trik biar nggak nangis?",
- "audio": "voice.mp3",
- "script_v1": "Kenapa motong bawang bikin kita nangis? Bukan karena bawangnya sedih. Waktu pisau memotong, sel-sel bawang pecah dan enzim di dalamnya bercampur. Hasilnya, gas bernama syn-propanethial-S-oxide. Gas ini naik, kena mata, dan mata langsung mengeluarkan air mata buat membilasnya. Makin banyak sel yang hancur, makin banyak gasnya. Jadi intinya, air matamu itu sistem pertahanan, bukan baper. Kamu punya trik biar nggak nangis?",
- "music": "ceria",
- "ver": 6,
- "style": {
-  "theme": "kuning",
-  "cap": "pill",
-  "trans": "zoom"
- },
- "gauge": {
-  "label": "GAS",
-  "keys": [
-   [
-    "w0",
-    0
+ "scenes": [
+  {
+   "type": "map",
+   "w0": 0,
+   "svgFile": "bawang.svg",
+   "sea": "#1d1033",
+   "cam": [
+    [
+     0,
+     540,
+     960,
+     1080
+    ],
+    [
+     "w15",
+     540,
+     960,
+     1080
+    ],
+    [
+     "w16",
+     1900,
+     1040,
+     1260
+    ],
+    [
+     "w37",
+     1900,
+     1040,
+     1260
+    ],
+    [
+     "w38",
+     540,
+     960,
+     1080
+    ],
+    [
+     "w69",
+     540,
+     960,
+     1080
+    ],
+    [
+     "w70",
+     3060,
+     1050,
+     1100
+    ]
    ],
-   [
-    "w12",
-    0.05
+   "hl": [
+    {
+     "sel": ".knife",
+     "w": 1,
+     "move": [
+      -80,
+      200,
+      -6
+     ],
+     "dur": 0.8
+    },
+    {
+     "sel": ".onionwhole",
+     "w": 13,
+     "hide": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".onioncut",
+     "w": 13,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".crack",
+     "w": 24,
+     "show": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".red",
+     "w": 44,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".tears",
+     "w": 47,
+     "show": true,
+     "dur": 0.4,
+     "w1": 50
+    },
+    {
+     "sel": ".tears2",
+     "w": 50,
+     "show": true,
+     "dur": 0.4
+    }
    ],
-   [
-    "w22",
-    0.45
+   "wdots": [
+    {
+     "w": 30,
+     "w1": 38,
+     "x": 1380,
+     "y": 580,
+     "bw": 1020,
+     "bh": 940,
+     "n": 90,
+     "vx": 30,
+     "vy": -20,
+     "color": "#7b61ff",
+     "size": 12,
+     "mix": 0.5,
+     "color2": "#ff9f1c"
+    },
+    {
+     "w": 34,
+     "w1": 38,
+     "flow": true,
+     "x": 1900,
+     "y": 1400,
+     "dx": 0,
+     "dy": -900,
+     "bw": 800,
+     "bh": 200,
+     "n": 60,
+     "life": 2.0,
+     "color": "#ffd23f",
+     "size": 12
+    },
+    {
+     "w": 38,
+     "w1": 53,
+     "flow": true,
+     "x": 540,
+     "y": 1020,
+     "dx": 0,
+     "dy": -440,
+     "bw": 300,
+     "bh": 80,
+     "n": 50,
+     "life": 1.8,
+     "color": "#ffd23f",
+     "size": 11
+    }
    ],
-   [
-    "w27",
-    0.8
+   "labels": [
+    {
+     "w": 17,
+     "w1": 24,
+     "x": 1420,
+     "y": 470,
+     "text": "*RIBUAN* SEL BAWANG",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 26,
+     "w1": 33,
+     "x": 1420,
+     "y": 470,
+     "text": "ENZIM + *ZAT BELERANG*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 34,
+     "w1": 38,
+     "x": 1420,
+     "y": 470,
+     "text": "*GAS* PEMICU AIR MATA",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 53,
+     "w1": 65,
+     "x": 120,
+     "y": 760,
+     "text": "PISAU TUMPUL = *SEL HANCUR*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 65,
+     "w1": 70,
+     "x": 120,
+     "y": 760,
+     "text": "PISAU *TAJAM*",
+     "pill": true,
+     "size": 46
+    },
+    {
+     "w": 71,
+     "w1": 76,
+     "x": 2700,
+     "y": 470,
+     "text": "*DINGININ* DULU",
+     "pill": true,
+     "size": 46
+    }
    ],
-   [
-    "w33",
-    1
+   "rings": [
+    {
+     "w": 44,
+     "w1": 53,
+     "x": 540,
+     "y": 520,
+     "r": 200
+    }
    ]
-  ],
-  "unit": "%",
-  "y": 330,
-  "t1": "w38"
- }
+  },
+  {
+   "type": "card",
+   "w0": 76,
+   "tag": "INTINYA",
+   "y": 400,
+   "lines": [
+    "BUKAN BAPER,",
+    "MATAMU LAGI",
+    "*MEMBELA DIRI*"
+   ]
+  }
+ ]
 }
