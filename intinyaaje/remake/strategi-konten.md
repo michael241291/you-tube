@@ -2,7 +2,7 @@
 
 STATUS STRATEGI: DISETUJUI USER (29 Okt 2026) — strategi v2
 STATUS PILOT BEDAH: DISETUJUI USER (29 Okt 2026) — pilot LPG (p01-lpg-v2): "udah lebih bagus kok"; tayang 29 Okt 18.00
-STATUS PRODUKSI: TUNGGU PERINTAH USER (31 Okt: user menilai suara batch 29 Okt "gak enak, gak mengalir" dan video "kayak ketutupan" di Shorts; video uji perbaikan → "jangan dulu"; Merinding 31 Okt tetap tayang atas pilihan user)
+STATUS PRODUKSI: OTOMATIS (31 Okt 14.02, user: "Gausa persetujuan saya lagi langsung jalankan aja otomatisnya" — produksi & penjadwalan berjalan tanpa menunggu persetujuan; perbaikan SUARA ALIR + AREA AMAN berlaku untuk video berikutnya; Bandara/Bawang/Kalimantan versi 29 Okt tetap tayang sesuai jadwal; berhenti hanya bila user bilang "jangan dulu")
 
 Terakhir diperbarui: 29 Okt 2026 sore. Dokumen ini diperbarui setiap minggu dari dua sumber: Shorts yang sedang viral (riset Apify + referensi user) dan data channel @intinyaaje sendiri. Tujuan utama: **channel viral** dengan meniru pola video viral, tetap aman untuk monetisasi.
 
@@ -17,7 +17,7 @@ Terakhir diperbarui: 29 Okt 2026 sore. Dokumen ini diperbarui setiap minggu dari
 - **Penutup:** tidak harus pertanyaan. Bergantian loop / punchline / teaser / tips; pertanyaan hanya bila topiknya mengundang cerita. Ajakan komentar di caption/deskripsi ("Benda apa lagi yang mau dibedah?").
 - **YouTube-first:** judul pertanyaan pendek, maksimal 1 emoji. Yang diukur tiap minggu: average_view_percentage dan durasi tonton (Windsor), bukan hanya views.
 - **Belajar terus + update skill (user 29 Okt):** tiap minggu minimal 3 pelajaran berbasis data + 1 eksperimen terkontrol (ubah satu hal), dibandingkan pada umur video yang sama. Setiap pelajaran yang terbukti langsung ditulis di "Aturan hasil belajar" (berlaku di run berikutnya) DAN diusulkan ke skill intinyaaje-weekly.
-- **Gerbang:** video/suara baru hanya dibuat setelah user menyuruh (STATUS PRODUKSI); kalau user bilang "jangan dulu", hanya perbarui aturan.
+- **Produksi otomatis (user 31 Okt):** riset → naskah → suara → video → jadwal berjalan tanpa menunggu persetujuan; tetap kirim laporan + contoh video; kalau user bilang "jangan dulu", berhenti dan hanya perbarui aturan.
 
 ### Contoh 7 topik minggu depan (disetujui sebagai arah)
 1. Kok kulkas bisa dingin, padahal belakangnya panas? (bedah)
@@ -30,7 +30,7 @@ Terakhir diperbarui: 29 Okt 2026 sore. Dokumen ini diperbarui setiap minggu dari
 
 ## Aturan hasil belajar (WAJIB diikuti setiap run, sama seperti aturan skill)
 Format: (tanggal) aturan — bukti. Tambahkan aturan baru di sini setiap kali ada pelajaran yang terbukti atau masukan user, lalu usulkan juga ke skill.
-- (31 Okt, masukan user) **SUARA ALIR menggantikan aturan potongan ≤5 kata**: naskah yang dicacah koma/titik + jeda addpause + sambungan take membuat suara tersendat ("gak enak, gak mengalir"). Aturan baru: kalimat utuh ±6–14 kata, koma hanya di tempat berhenti napas, "..." maks 2 kali; SATU rekaman utuh tanpa sambungan dan tanpa jeda tambahan; setelan uji stability 0.5 / similarity 0.8 / style 0.25 / speed 1.0 dengan voice clone "mike indo" yang sudah diperbarui user (cek voice_id baru). voicecheck hanya penanda. BELUM diuji — perlu izin user untuk 1 video uji.
+- (31 Okt, masukan user) **SUARA ALIR menggantikan aturan potongan ≤5 kata**: naskah yang dicacah koma/titik + jeda addpause + sambungan take membuat suara tersendat ("gak enak, gak mengalir"). Aturan baru: kalimat utuh ±6–14 kata, koma hanya di tempat berhenti napas, "..." maks 2 kali; SATU rekaman utuh tanpa sambungan dan tanpa jeda tambahan; setelan uji stability 0.5 / similarity 0.8 / style 0.25 / speed 1.0 dengan voice clone "mike indo" yang sudah diperbarui user (cek voice_id baru). voicecheck hanya penanda. Langsung dipakai mulai batch berikutnya (user 31 Okt); hasil dicatat di log.json dan dievaluasi.
 - (31 Okt, dari screenshot user di iPhone) **AREA AMAN SHORTS (angka terukur, menggantikan perkiraan)**: video tampil penuh selebar layar mulai dari ujung atas, jadi tertutup: atas y 0–330 (jam, tombol kembali, ikon cari & titik tiga — judul HUD kita di y ±260 tertabrak), kanan x ≥ 880 mulai y ±1120 (like, komentar, save, share, remix), bawah y ≥ 1400 (label "Auto-dubbed", nama channel, judul, views, tombol share). Subtitle kita di y ±1420–1520 tertutup label "Auto-dubbed" dan ikon Save. Aturan: judul HUD mulai y ≥ 350; subtitle (capY) ±1150–1230 dan lebar ≤ 820 px (x 60–880); stiker wajah, label, sfx, gauge di x 60–860, y 350–1350; benda utama di y 380–1100. Wajib cek contact sheet dengan overlay zona ini.
 - (31 Okt, dari screenshot user) **YouTube memutar "Auto-dubbed"** pada Short LPG: YouTube membuat sulih suara AI otomatis, jadi penonton (termasuk user) bisa mendengar suara dubbing YouTube, bukan suara mike indo — kemungkinan besar penyebab suara "gak enak". Perbaikan (dilakukan user di YouTube Studio, Claude tidak punya akses): Settings → Upload defaults → Advanced settings → matikan "Allow automatic dubbing"; set bahasa video = Indonesian; untuk video yang sudah tayang buka Studio → Languages lalu hapus/unpublish dub otomatis. Setelah itu dengar ulang sebelum menilai suara.
 - (29 Okt) Timing subtitle selalu dari Whisper (asralign.py); render tanpa Whisper dilarang — subtitle cara lama meleset sampai 1,4 dtk.
