@@ -2,7 +2,7 @@
 
 STATUS STRATEGI: DISETUJUI USER (29 Okt 2026) — strategi v2
 STATUS PILOT BEDAH: DISETUJUI USER (29 Okt 2026) — pilot LPG (p01-lpg-v2): "udah lebih bagus kok"; tayang 29 Okt 18.00
-STATUS PRODUKSI: TUNGGU PERINTAH USER (batch buat ulang e03–e07 selesai 29 Okt sore atas perintah "lanjut buat dan jadwalkan seperti biasa"; video baru berikutnya menunggu perintah)
+STATUS PRODUKSI: TUNGGU PERINTAH USER (31 Okt: user menilai suara batch 29 Okt "gak enak, gak mengalir" dan video "kayak ketutupan" di Shorts; video uji perbaikan → "jangan dulu"; Merinding 31 Okt tetap tayang atas pilihan user)
 
 Terakhir diperbarui: 29 Okt 2026 sore. Dokumen ini diperbarui setiap minggu dari dua sumber: Shorts yang sedang viral (riset Apify + referensi user) dan data channel @intinyaaje sendiri. Tujuan utama: **channel viral** dengan meniru pola video viral, tetap aman untuk monetisasi.
 
@@ -30,6 +30,8 @@ Terakhir diperbarui: 29 Okt 2026 sore. Dokumen ini diperbarui setiap minggu dari
 
 ## Aturan hasil belajar (WAJIB diikuti setiap run, sama seperti aturan skill)
 Format: (tanggal) aturan — bukti. Tambahkan aturan baru di sini setiap kali ada pelajaran yang terbukti atau masukan user, lalu usulkan juga ke skill.
+- (31 Okt, masukan user) **SUARA ALIR menggantikan aturan potongan ≤5 kata**: naskah yang dicacah koma/titik + jeda addpause + sambungan take membuat suara tersendat ("gak enak, gak mengalir"). Aturan baru: kalimat utuh ±6–14 kata, koma hanya di tempat berhenti napas, "..." maks 2 kali; SATU rekaman utuh tanpa sambungan dan tanpa jeda tambahan; setelan uji stability 0.5 / similarity 0.8 / style 0.25 / speed 1.0 dengan voice clone "mike indo" yang sudah diperbarui user (cek voice_id baru). voicecheck hanya penanda. BELUM diuji — perlu izin user untuk 1 video uji.
+- (31 Okt, masukan user) **AREA AMAN SHORTS**: video "kayak ketutupan". UI Shorts menutupi atas ±0–170 px, bawah ±1500–1920 px (judul/channel/deskripsi), kanan ±900–1080 px mulai y ±860 (tombol). Semua teks, subtitle, label, sfx, stiker wajah, gauge, dan benda utama di x 60–880, y 200–1450; capY ±1150–1250. Contact sheet wajib dicek dengan overlay zona merah. Menunggu screenshot user untuk memastikan.
 - (29 Okt) Timing subtitle selalu dari Whisper (asralign.py); render tanpa Whisper dilarang — subtitle cara lama meleset sampai 1,4 dtk.
 - (29 Okt) Sambungan kalimat hanya dengan splice2.py (timing Whisper) dan wajib dicek Whisper bahwa semua kata naskah terdengar — splice lama memotong kata "baper".
 - (29 Okt) **QC kata pakai Whisper medium (`remake/medcheck.py`)**, bukan hanya small — small tidak mendengar kata isian "Nah," dan "gitu" di take Merinding. Kata isian yang terdengar natural dimasukkan ke naskah (subtitle ikut); yang aneh dipotong (contoh: "atau" di Bandara dipotong).
@@ -37,10 +39,10 @@ Format: (tanggal) aturan — bukti. Tambahkan aturan baru di sini setiap kali ad
 - (29 Okt) Hook suara jangan "Kok…?"/"Kenapa…?"; pakai tag "…, kan?" atau pernyataan mengejutkan. Tetap 3 take + qrise: dari 15 take hook "kan?" hasilnya -29% s/d +136%; pilih +20% s/d +70% (terlalu tinggi terdengar dibuat-buat). Menambah koma/kata ("Kamu, pernah merinding juga, kan?") membantu nada naik. Judul HUD di layar boleh tetap "Kok…?".
 - (29 Okt) Teks kartu/headline maksimal ±14 karakter per baris; judul HUD ±30 karakter — "YANG MENENTUKAN:" terpotong; "Eropa: 5 negara tanpa bandara" jadi 2 baris.
 - (29 Okt) Penutup tidak harus pertanyaan; variasikan loop/punchline/teaser/tips/pertanyaan — permintaan user, akan diukur.
-- (29 Okt) **Naskah gaya bercerita:** potongan ≤5 kata dipisah koma/titik, kata lisan sehari-hari, alur sebab-akibat — reel presto 4,4 kata/tarikan napas; video lama kita 6–10.
+- (29 Okt, DIGANTI 31 Okt oleh SUARA ALIR) **Naskah gaya bercerita:** potongan ≤5 kata dipisah koma/titik, kata lisan sehari-hari, alur sebab-akibat — reel presto 4,4 kata/tarikan napas; video lama kita 6–10.
 - (29 Okt) **JANGAN pakai tag `<break time=...>` di naskah TTS** — 2 take uji (2.124 kredit) membuat suara menambah kata sendiri dan durasi melar ke 59 dtk.
-- (29 Okt) **Jeda dirapikan setelah rekaman dengan `addpause.py`**: titik/!/?/… diberi jeda di celah antar kata yang sudah ada; **koma hanya diberi jeda 0,16 dtk bila frasanya > 5 kata** (MAXW=5; Gigi 5,6 → 4,9 kata/frasa); jeda > 0,6 dtk dipangkas. Jeda di setiap koma terlalu putus-putus.
-- (29 Okt) **voicecheck.py wajib lolos** (≤5 kata/frasa, jeda tiap ≤2,5 dtk). Rentang nada hanya penanda (target ≥10 semiton).
+- (29 Okt, TIDAK DIPAKAI sejak 31 Okt) **Jeda dirapikan setelah rekaman dengan `addpause.py`**: titik/!/?/… diberi jeda di celah antar kata yang sudah ada; **koma hanya diberi jeda 0,16 dtk bila frasanya > 5 kata** (MAXW=5; Gigi 5,6 → 4,9 kata/frasa); jeda > 0,6 dtk dipangkas. Jeda di setiap koma terlalu putus-putus.
+- (29 Okt, sejak 31 Okt hanya penanda) **voicecheck.py wajib lolos** (≤5 kata/frasa, jeda tiap ≤2,5 dtk). Rentang nada hanya penanda (target ≥10 semiton).
 - (29 Okt) **Suara versi B** (stability 0.30, similarity 0.8, style 0.5, speaker boost, speed 0.95) diuji di 5 video / 10 take: rentang nada 7,4–8,6 semiton (tidak lebih hidup dari versi A ±8) dan 3 dari 10 take menambah kata isian. Versi B boleh dipakai dengan QC Whisper medium; nada datar belum terpecahkan → eksperimen berikutnya: coba model eleven_v3/v4 dengan tag arah suara pada 1 video uji (perlu izin user).
 - (29 Okt) **Subtitle per tarikan napas** (`cap: frasa`/`frasa2`): 2–5 kata yang berganti saat narator berhenti, kata aktif disorot.
 - (29 Okt) **Kamera bedah:** selalu beri key penahan satu kata sebelum pindah. Benda utama di 25–63% tinggi layar; label pill dekat tepi kanan pakai `side: "l"`; label & sfx jangan di area subtitle (±1240–1340 px layar).
@@ -98,6 +100,7 @@ Biaya suara batch buat ulang 29 Okt: ±7.000 kredit (10 take narasi + 18 take ho
 - (29 Okt) User: penutup tidak harus pertanyaan; topik campur asal relate; durasi maksimal 1 menit; jangan buat video sebelum disuruh; Claude harus terus belajar dan setiap pelajaran juga dimasukkan ke skill.
 - (29 Okt) User: suara dan subtitle harus seperti orang bercerita (acuan presto). → voicecheck.py + aturan naskah + subtitle per tarikan napas.
 - (29 Okt sore) **Pilot LPG** disetujui user; tayang 29 Okt 18.00.
+- (31 Okt) User: suara batch 29 Okt tidak mengalir; tampilan tertutup UI Shorts. → SUARA ALIR + AREA AMAN (lihat Aturan hasil belajar). Merinding tetap tayang 31 Okt; Bandara/Bawang/Kalimantan masih draf.
 - (29 Okt sore) **Batch buat ulang e03–e07** dengan gaya bedah/peta: 39–43 dtk, 84–106 kata, voicecheck lolos semua (3,0–4,9 kata/frasa, jeda tiap 1,5–1,9 dtk), sinkron rata-rata 0,06 dtk. Ilustrasi baru: rumah panggung + penampang gusi (Gigi), penampang kulit + kucing (Merinding), dapur + sel bawang + kulkas (Bawang); peta dengan pill, bars Vatikan vs Taman Monas (Bandara), perbandingan Jawa ×6 (Kalimantan).
 
 ## Aturan aman monetisasi
