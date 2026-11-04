@@ -134,6 +134,27 @@
       "status": "draf (dueAt 2 Nov 17:00, dijadwalkan rutinitas harian)",
       "closing": "tips + punchline",
       "video": "episodes/e07-bawang/e07-bawang-v7.mp4"
+    },
+    {
+      "id": "e08-kulkas",
+      "date": "2026-11-04",
+      "pillar": "bedah",
+      "topic": "kenapa belakang kulkas panas",
+      "angle": "kulkas memindahkan panas lewat refrigeran + tips jangan mepet tembok",
+      "hook": "Kulkas itu dingin di dalam, tapi coba pegang belakangnya, panas, kan?",
+      "closing": "tips",
+      "visual": "ilustrasi kulkas dibelah (evaporator, kompresor, kondensor)",
+      "music": "ceria",
+      "style": {
+        "theme": "cyan",
+        "cap": "frasa2",
+        "trans": "geser"
+      },
+      "version": "v1: SUARA ALIR (1 take utuh, tanpa sambungan/jeda tambahan), suara Alvar (akun ElevenLabs baru), area aman Shorts",
+      "title": "Kok Belakang Kulkas Panas, Padahal Dalamnya Dingin? 🧊",
+      "durasi": 51.1,
+      "status": "terjadwal 4 Nov 17:00",
+      "video": "episodes/e08-kulkas/e08-kulkas-v1.mp4"
     }
   ],
   "pilots": [
