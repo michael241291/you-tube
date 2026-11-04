@@ -1,0 +1,436 @@
+{
+ "id": "e08-kulkas",
+ "pillar": "bedah",
+ "angle": "kulkas tidak membuat dingin tapi memindahkan panas lewat refrigeran; tips jangan mepet tembok",
+ "title": "Kok Belakang Kulkas Panas, Padahal Dalamnya Dingin? 🧊",
+ "script": "Kulkas itu dingin di dalam, tapi coba pegang belakangnya, panas, kan? Itu bukan rusak, justru di situ rahasianya. Yuk kita bedah kulkasnya. Di dalam pipa kulkas ada cairan khusus namanya refrigeran. Cairan ini gampang banget menguap, bahkan di suhu yang dingin. Waktu lewat di dalam kulkas, dia menguap dan menyedot panas dari makanan kamu. Gasnya lalu ditekan sama kompresor, mesin yang suka bunyi dengung di bagian bawah. Karena ditekan, gasnya jadi panas banget. Panas itulah yang dibuang lewat pipa berliku di belakang kulkas. Setelah dingin, dia jadi cair lagi dan muter terus tanpa henti. Jadi kulkas sebenarnya nggak bikin dingin... dia cuma mindahin panas dari dalam ke luar. Makanya, jangan taruh kulkas terlalu mepet ke tembok, biar panasnya gampang keluar.",
+ "audio": "voice.mp3",
+ "music": "ceria",
+ "musicVol": 0.22,
+ "style": {
+  "theme": "cyan",
+  "cap": "frasa2",
+  "trans": "geser"
+ },
+ "closing": "tips",
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Alvar - Warm, Clear, and Natural",
+  "voice_id": "8py0rPdIK626Y4I858QV",
+  "account": "ElevenLabs akun baru 4 Nov"
+ },
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Kok *belakangnya panas*?"
+   ],
+   [
+    "w18",
+    "Kita *bedah* kulkas"
+   ],
+   [
+    "w22",
+    "Ada *refrigeran*"
+   ],
+   [
+    "w41",
+    "Nyedot *panas makanan*"
+   ],
+   [
+    "w54",
+    "Ditekan *kompresor*"
+   ],
+   [
+    "w73",
+    "Panas *dibuang*"
+   ],
+   [
+    "w83",
+    "Muter *terus*"
+   ],
+   [
+    "w94",
+    ""
+   ],
+   [
+    "w108",
+    "Jangan *mepet tembok*"
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w9",
+   "PANAS!",
+   620,
+   620,
+   -8,
+   "#ff6b4a"
+  ],
+  [
+   "w20",
+   "DIBELAH!",
+   640,
+   560,
+   -8,
+   "#2ee6d6"
+  ],
+  [
+   "w62",
+   "NGUUUNG!",
+   600,
+   620,
+   6,
+   "#ffd23f"
+  ],
+  [
+   "w72",
+   "PANAS BANGET!",
+   520,
+   620,
+   -6,
+   "#ff3b30",
+   1.6,
+   80
+  ]
+ ],
+ "faces": [
+  [
+   "w10",
+   "kaget",
+   2.0
+  ],
+  [
+   "w47",
+   "menunjuk",
+   2.0
+  ],
+  [
+   "w63",
+   "senang",
+   2.0
+  ],
+  [
+   "w113",
+   "setuju",
+   2.2
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "kulkas.svg",
+   "sea": "#0d2236",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     500,
+     930,
+     1180
+    ],
+    [
+     "w21",
+     500,
+     930,
+     1180
+    ],
+    [
+     "w22",
+     560,
+     720,
+     900
+    ],
+    [
+     "w53",
+     560,
+     720,
+     900
+    ],
+    [
+     "w54",
+     560,
+     990,
+     780
+    ],
+    [
+     "w72",
+     560,
+     990,
+     780
+    ],
+    [
+     "w73",
+     690,
+     780,
+     980
+    ],
+    [
+     "w82",
+     690,
+     780,
+     980
+    ],
+    [
+     "w83",
+     500,
+     930,
+     1180
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".skin",
+     "w": 20,
+     "hide": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".cutline",
+     "w": 20,
+     "show": true,
+     "dur": 0.3,
+     "w1": 22
+    },
+    {
+     "sel": ".evap",
+     "w": 30,
+     "color": "#3aa0ff",
+     "blink": true,
+     "w1": 54,
+     "stroke": false
+    },
+    {
+     "sel": ".comp",
+     "w": 58,
+     "color": "#ffd23f",
+     "w1": 67,
+     "stroke": false
+    },
+    {
+     "sel": ".cond",
+     "w": 71,
+     "color": "#ff3b30",
+     "blink": true,
+     "w1": 94,
+     "stroke": false
+    }
+   ],
+   "wdots": [
+    {
+     "w": 7,
+     "w1": 20,
+     "x": 700,
+     "y": 450,
+     "bw": 120,
+     "bh": 600,
+     "n": 30,
+     "vx": 30,
+     "vy": -10,
+     "color": "#ff6b4a",
+     "size": 10
+    },
+    {
+     "w": 31,
+     "w1": 54,
+     "flow": true,
+     "x": 580,
+     "y": 450,
+     "dx": 0,
+     "dy": 240,
+     "bw": 50,
+     "bh": 30,
+     "n": 24,
+     "life": 1.6,
+     "color": "#bfe9ff",
+     "size": 9
+    },
+    {
+     "w": 47,
+     "w1": 54,
+     "flow": true,
+     "x": 430,
+     "y": 850,
+     "dx": 140,
+     "dy": -260,
+     "bw": 120,
+     "bh": 60,
+     "n": 26,
+     "life": 1.6,
+     "color": "#ff9f1c",
+     "size": 11
+    },
+    {
+     "w": 56,
+     "w1": 73,
+     "flow": true,
+     "x": 600,
+     "y": 700,
+     "dx": 0,
+     "dy": 300,
+     "bw": 20,
+     "bh": 30,
+     "n": 20,
+     "life": 1.4,
+     "color": "#9fd8ff",
+     "size": 9
+    },
+    {
+     "w": 67,
+     "w1": 83,
+     "flow": true,
+     "x": 640,
+     "y": 1046,
+     "dx": 60,
+     "dy": -500,
+     "bw": 40,
+     "bh": 40,
+     "n": 26,
+     "life": 1.8,
+     "color": "#ff3b30",
+     "size": 10
+    },
+    {
+     "w": 76,
+     "w1": 94,
+     "x": 760,
+     "y": 450,
+     "bw": 60,
+     "bh": 600,
+     "n": 40,
+     "vx": 45,
+     "vy": -8,
+     "color": "#ff9f1c",
+     "size": 10
+    },
+    {
+     "w": 83,
+     "w1": 94,
+     "flow": true,
+     "x": 740,
+     "y": 440,
+     "dx": -140,
+     "dy": 20,
+     "bw": 20,
+     "bh": 20,
+     "n": 16,
+     "life": 1.2,
+     "color": "#bfe9ff",
+     "size": 9
+    }
+   ],
+   "labels": [
+    {
+     "w": 27,
+     "w1": 41,
+     "x": 330,
+     "y": 470,
+     "text": "*REFRIGERAN*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 49,
+     "w1": 54,
+     "x": 330,
+     "y": 900,
+     "text": "SEDOT *PANAS*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 58,
+     "w1": 73,
+     "x": 535,
+     "y": 1040,
+     "text": "*KOMPRESOR*",
+     "pill": true,
+     "size": 40,
+     "side": "l"
+    },
+    {
+     "w": 76,
+     "w1": 83,
+     "x": 680,
+     "y": 620,
+     "text": "PANAS *DIBUANG*",
+     "pill": true,
+     "size": 40,
+     "side": "l"
+    }
+   ],
+   "rings": [
+    {
+     "w": 8,
+     "w1": 20,
+     "x": 715,
+     "y": 760,
+     "r": 120
+    }
+   ],
+   "arrows": []
+  },
+  {
+   "type": "card",
+   "w0": 94,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "KULKAS CUMA",
+    "*MINDAHIN*",
+    "PANAS"
+   ]
+  },
+  {
+   "type": "map",
+   "svgFile": "kulkas.svg",
+   "sea": "#0d2236",
+   "w0": 108,
+   "cam": [
+    [
+     0,
+     640,
+     860,
+     1100
+    ]
+   ],
+   "wdots": [
+    {
+     "w": 110,
+     "x": 760,
+     "y": 450,
+     "bw": 50,
+     "bh": 600,
+     "n": 40,
+     "vx": 40,
+     "vy": -6,
+     "color": "#ff9f1c",
+     "size": 10
+    }
+   ],
+   "labels": [
+    {
+     "w": 112,
+     "x": 800,
+     "y": 520,
+     "text": "KASIH *JARAK*",
+     "pill": true,
+     "size": 44,
+     "side": "l"
+    }
+   ],
+   "arrows": [
+    {
+     "w": 115,
+     "x": 760,
+     "y": 760,
+     "ang": 0,
+     "len": 160,
+     "color": "#ffd23f"
+    }
+   ]
+  }
+ ]
+}
