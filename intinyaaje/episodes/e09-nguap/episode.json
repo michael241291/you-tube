@@ -1,0 +1,331 @@
+{
+ "id": "e09-nguap",
+ "pillar": "kok bisa",
+ "angle": "nguap menular: otak meniru, lebih kuat ke orang dekat (empati), anak <4-5 th jarang, anjing ikut",
+ "title": "Kenapa Nguap Itu Nular? 🥱",
+ "script": "Lihat orang nguap, terus kamu ikut nguap, kan? Bahkan baca kata nguap aja, mungkin sekarang kamu udah pengen nguap. Ini namanya nguap menular, dan ilmuwan sampai sekarang masih penasaran. Salah satu dugaannya ada di otak kita. Waktu lihat orang lain nguap, bagian otak yang suka meniru ikut aktif, jadi badan kita refleks ngikutin. Menariknya, nguap lebih gampang nular dari orang yang dekat sama kita, kayak keluarga atau sahabat, daripada dari orang asing. Makanya banyak peneliti mengaitkannya sama empati. Anak kecil juga jarang ketularan, karena kemampuan ini baru muncul sekitar umur empat sampai lima tahun. Bahkan anjing bisa ketularan nguap dari pemiliknya. Jadi kalau kamu barusan nguap, mungkin itu tanda kamu orangnya peka. Udah nguap belum?",
+ "audio": "voice.mp3",
+ "music": "santai",
+ "musicVol": 0.22,
+ "style": {
+  "theme": "ungu",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "closing": "pertanyaan",
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Alvar",
+  "voice_id": "8py0rPdIK626Y4I858QV"
+ },
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Kok nguap *nular*?"
+   ],
+   [
+    "w19",
+    "*Nguap menular*"
+   ],
+   [
+    "w29",
+    "Dugaannya: *otak*"
+   ],
+   [
+    "w53",
+    "Paling nular: *orang dekat*"
+   ],
+   [
+    "w72",
+    "Ada hubungannya *empati*"
+   ],
+   [
+    "w78",
+    "Anak kecil *jarang*"
+   ],
+   [
+    "w94",
+    "Anjing *juga bisa*!"
+   ],
+   [
+    "w101",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w2",
+   "HOAAAM!",
+   600,
+   560,
+   -8,
+   "#ffd23f"
+  ],
+  [
+   "w6",
+   "IKUTAN!",
+   620,
+   640,
+   6,
+   "#3ddc84"
+  ],
+  [
+   "w46",
+   "NIRU!",
+   260,
+   980,
+   -6,
+   "#ff9fc0"
+  ],
+  [
+   "w98",
+   "HOAAM!",
+   300,
+   1000,
+   8,
+   "#ffd23f"
+  ]
+ ],
+ "faces": [
+  [
+   "w14",
+   "kaget",
+   2.0
+  ],
+  [
+   "w40",
+   "berpikir",
+   2.0
+  ],
+  [
+   "w75",
+   "senang",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "nguap.svg",
+   "sea": "#2a1640",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     900,
+     1080
+    ],
+    [
+     "w35",
+     540,
+     900,
+     1080
+    ],
+    [
+     "w36",
+     780,
+     760,
+     760
+    ],
+    [
+     "w52",
+     780,
+     760,
+     760
+    ],
+    [
+     "w53",
+     1800,
+     720,
+     1100
+    ],
+    [
+     "w77",
+     1800,
+     720,
+     1100
+    ],
+    [
+     "w78",
+     2850,
+     850,
+     900
+    ],
+    [
+     "w93",
+     2850,
+     850,
+     900
+    ],
+    [
+     "w94",
+     3300,
+     880,
+     900
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".p1eo",
+     "w": 2,
+     "hide": true,
+     "dur": 0.3,
+     "w1": 11
+    },
+    {
+     "sel": ".p1ey",
+     "w": 2,
+     "show": true,
+     "dur": 0.3,
+     "w1": 11
+    },
+    {
+     "sel": ".wave",
+     "w": 3,
+     "show": true,
+     "dur": 0.3,
+     "w1": 12
+    },
+    {
+     "sel": ".p2eo",
+     "w": 5,
+     "hide": true,
+     "dur": 0.3,
+     "w1": 14
+    },
+    {
+     "sel": ".p2ey",
+     "w": 5,
+     "show": true,
+     "dur": 0.3,
+     "w1": 14
+    },
+    {
+     "sel": ".brain",
+     "w": 34,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".mirror",
+     "w": 44,
+     "show": true,
+     "dur": 0.3,
+     "w1": 53
+    },
+    {
+     "sel": ".p2eo",
+     "w": 49,
+     "hide": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".p2ey",
+     "w": 49,
+     "show": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".dogo",
+     "w": 97,
+     "hide": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".dogy",
+     "w": 97,
+     "show": true,
+     "dur": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "w": 20,
+     "w1": 29,
+     "x": 330,
+     "y": 470,
+     "text": "NGUAP *MENULAR*",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 44,
+     "w1": 53,
+     "x": 560,
+     "y": 470,
+     "text": "OTAK *MENIRU*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 88,
+     "w1": 94,
+     "x": 2560,
+     "y": 540,
+     "text": "BARU MUNCUL *4–5 TAHUN*",
+     "pill": true,
+     "size": 38
+    },
+    {
+     "w": 96,
+     "w1": 101,
+     "x": 3000,
+     "y": 560,
+     "text": "ANJING *IKUT NGUAP*",
+     "pill": true,
+     "size": 42
+    }
+   ],
+   "rings": [
+    {
+     "w": 44,
+     "w1": 53,
+     "x": 805,
+     "y": 640,
+     "r": 80
+    }
+   ],
+   "bars": {
+    "w": 55,
+    "w1": 72,
+    "title": "GAMPANG KETULARAN",
+    "y": 500,
+    "items": [
+     {
+      "label": "*KELUARGA*",
+      "value": 1,
+      "color": "#3ddc84",
+      "w": 65
+     },
+     {
+      "label": "SAHABAT",
+      "value": 0.8,
+      "color": "#ffd23f",
+      "w": 67
+     },
+     {
+      "label": "ORANG ASING",
+      "value": 0.35,
+      "color": "#ff5c8a",
+      "w": 70
+     }
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "w0": 101,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "IKUT NGUAP =",
+    "TANDA KAMU",
+    "*PEKA*"
+   ]
+  }
+ ]
+}

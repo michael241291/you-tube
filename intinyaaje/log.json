@@ -155,6 +155,26 @@
       "durasi": 51.1,
       "status": "terjadwal 4 Nov 17:00",
       "video": "episodes/e08-kulkas/e08-kulkas-v1.mp4"
+    },
+    {
+      "id": "e09-nguap",
+      "date": "2026-11-05",
+      "pillar": "kok bisa",
+      "topic": "kenapa nguap menular",
+      "angle": "otak meniru, lebih kuat ke orang dekat (empati), anak <4-5 th jarang, anjing ikut",
+      "hook": "Lihat orang nguap, terus kamu ikut nguap, kan?",
+      "closing": "pertanyaan",
+      "music": "santai",
+      "style": {
+        "theme": "ungu",
+        "cap": "frasa",
+        "trans": "zoom"
+      },
+      "version": "v1 suara Alvar, 1 take utuh",
+      "title": "Kenapa Nguap Itu Nular? 🥱",
+      "durasi": 50.8,
+      "status": "terjadwal 5 Nov 17:00",
+      "video": "episodes/e09-nguap/e09-nguap-v1.mp4"
     }
   ],
   "pilots": [
