@@ -1,0 +1,2 @@
+6 Nov 2026: narasi e10 sudah dibuat di ElevenLabs (flow Vgdyog4VuZevJXD4MX36, node JEHNacGK2fgkvc9803Rw, generation vLDOjqlpKoE5qCrAxiqR 45,5 dtk dan OSESeku0MFJd22HkW2GV 43,6 dtk, voice Alvar).
+Unduhan ditolak proxy (403): host elevenlabsusercontent.com dan api.elevenlabs.io tidak diizinkan. Perlu host itu dibuka, lalu unduh kedua take, jalankan medcheck, dan lanjut build.
