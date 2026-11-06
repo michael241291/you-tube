@@ -4,6 +4,8 @@ STATUS STRATEGI: DISETUJUI USER (29 Okt 2026) — strategi v2
 STATUS PILOT BEDAH: DISETUJUI USER (29 Okt 2026) — pilot LPG (p01-lpg-v2): "udah lebih bagus kok"; tayang 29 Okt 18.00
 STATUS PRODUKSI: OTOMATIS (31 Okt 14.02, user: "Gausa persetujuan saya lagi langsung jalankan aja otomatisnya" — produksi & penjadwalan berjalan tanpa menunggu persetujuan; perbaikan SUARA ALIR + AREA AMAN berlaku untuk video berikutnya; Bandara/Bawang/Kalimantan versi 29 Okt tetap tayang sesuai jadwal; berhenti hanya bila user bilang "jangan dulu")
 
+SYARAT JADWAL OTOMATIS (6 Nov): rutinitas terjadwal gagal 5–6 Nov karena (1) jaringan environment jadwal memblokir unduhan suara (elevenlabsusercontent.com, api.elevenlabs.io → 403), dan (2) rutinitas push ke branch claude/…, padahal Buffer mengambil video dari branch main. Agar jalan: izinkan host elevenlabsusercontent.com, api.elevenlabs.io, storage.googleapis.com, huggingface.co, raw.githubusercontent.com di pengaturan jaringan jadwal, dan perintah jadwal wajib memuat "Commit dan push langsung ke branch main". Bila unduhan suara tetap terblokir: tulis naskah + BLOCKED.txt, push ke main, laporkan (jangan tayangkan video tanpa suara). e10 HP dicas dibuat manual dari sesi 6 Nov.
+
 Terakhir diperbarui: 29 Okt 2026 sore. Dokumen ini diperbarui setiap minggu dari dua sumber: Shorts yang sedang viral (riset Apify + referensi user) dan data channel @intinyaaje sendiri. Tujuan utama: **channel viral** dengan meniru pola video viral, tetap aman untuk monetisasi.
 
 ## Strategi v2 (disetujui user 29 Okt)
