@@ -1,0 +1,306 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Alvar",
+  "voice_id": "8py0rPdIK626Y4I858QV",
+  "speed": 1.1
+ },
+ "id": "e13-korek-gas",
+ "pillar": "bedah benda",
+ "angle": "korek gas tanpa batu: per + palu memukul kristal piezo, ribuan volt, percikan + katup gas",
+ "viral_bukti": "Cara Kerja Pematik Korek Api (rl5HOJaGc84) 13 jt",
+ "title": "Korek Gas Ada Baterainya? 🔥",
+ "music": "misteri",
+ "style": {
+  "theme": "ungu",
+  "cap": "frasa",
+  "trans": "campur"
+ },
+ "closing": "tips",
+ "experiment": "alur cerita dua suara + speed 1.1",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "*Klik*, langsung nyala"
+   ],
+   [
+    "w12",
+    "Kata orang: *baterai*"
+   ],
+   [
+    "w19",
+    "Kata servis: *kristal*"
+   ],
+   [
+    "w31",
+    "Kita bedah *koreknya*"
+   ],
+   [
+    "w50",
+    "Kristal *ajaib*"
+   ],
+   [
+    "w71",
+    "Gas + percikan = *api*"
+   ],
+   [
+    "w83",
+    "Ditemukan *1880*"
+   ],
+   [
+    "w105",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w0",
+   "KLIK!",
+   620,
+   560,
+   -8,
+   "#ffd23f"
+  ],
+  [
+   "w46",
+   "TOK!",
+   620,
+   600,
+   6,
+   "#ff7a59"
+  ],
+  [
+   "w60",
+   "ZZZT!",
+   600,
+   600,
+   -6,
+   "#7fd1ff"
+  ]
+ ],
+ "faces": [
+  [
+   "w18",
+   "bingung",
+   2.0
+  ],
+  [
+   "w52",
+   "kaget",
+   2.0
+  ],
+  [
+   "w95",
+   "setuju",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "korek.svg",
+   "sea": "#1a1430",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     780,
+     1000
+    ],
+    [
+     "w30",
+     540,
+     780,
+     1000
+    ],
+    [
+     "w31",
+     1800,
+     760,
+     1200
+    ],
+    [
+     "w49",
+     1800,
+     760,
+     1200
+    ],
+    [
+     "w50",
+     1780,
+     600,
+     800
+    ],
+    [
+     "w70",
+     1780,
+     600,
+     800
+    ],
+    [
+     "w71",
+     1800,
+     720,
+     1200
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".apiA",
+     "w": 5,
+     "show": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".tombol",
+     "w": 32,
+     "move": [
+      0,
+      60,
+      0
+     ],
+     "dur": 0.4
+    },
+    {
+     "sel": ".per",
+     "w": 35,
+     "move": [
+      0,
+      40,
+      0
+     ],
+     "dur": 0.4
+    },
+    {
+     "sel": ".palu",
+     "w": 43,
+     "move": [
+      -30,
+      0,
+      0
+     ],
+     "dur": 0.15
+    },
+    {
+     "sel": ".kristalGlow",
+     "w": 46,
+     "show": true,
+     "dur": 0.2,
+     "blink": true,
+     "w1": 60
+    },
+    {
+     "sel": ".spark",
+     "w": 61,
+     "show": true,
+     "dur": 0.15,
+     "blink": true,
+     "w1": 81
+    },
+    {
+     "sel": ".katup",
+     "w": 75,
+     "color": "#ffd23f",
+     "dur": 0.4
+    },
+    {
+     "sel": ".api",
+     "w": 81,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "wdots": [
+    {
+     "flow": true,
+     "w": 76,
+     "w1": 110,
+     "x": 1800,
+     "y": 780,
+     "dx": -60,
+     "dy": -450,
+     "bw": 30,
+     "bh": 30,
+     "life": 1.2,
+     "n": 30,
+     "color": "#bfe8ff",
+     "size": 10
+    }
+   ],
+   "labels": [
+    {
+     "w": 12,
+     "w1": 31,
+     "x": 80,
+     "y": 430,
+     "text": "KATA ORANG: *BATERAI*",
+     "pill": true,
+     "size": 38
+    },
+    {
+     "w": 19,
+     "w1": 31,
+     "x": 80,
+     "y": 520,
+     "text": "KATA SERVIS: *KRISTAL*",
+     "pill": true,
+     "size": 38
+    },
+    {
+     "w": 35,
+     "w1": 43,
+     "x": 1330,
+     "y": 260,
+     "text": "*PER* KETARIK",
+     "pill": true,
+     "size": 46
+    },
+    {
+     "w": 43,
+     "w1": 50,
+     "x": 1330,
+     "y": 260,
+     "text": "PALU *NGETOK* KRISTAL",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 57,
+     "w1": 71,
+     "x": 1450,
+     "y": 350,
+     "text": "*RIBUAN VOLT*",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 95,
+     "w1": 105,
+     "x": 1330,
+     "y": 260,
+     "text": "TAHAN *PULUHAN RIBU* KLIK",
+     "pill": true,
+     "size": 40
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 105,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "NGGAK ADA",
+    "BATERAI, CUMA",
+    "*KRISTAL DIPUKUL*"
+   ]
+  }
+ ],
+ "script": "Klik. Korek gas di warung langsung nyala, padahal nggak ada batu api. Kata orang, di dalamnya ada baterai kecil. Kata tukang servis, isinya cuma kristal. Siapa yang bener? Kita cari intinya. Pas tombolnya ditekan, ada per kecil yang ikut ketarik. Di ujung tekanan, pelatuknya lepas dan ngetok sepotong kristal keramik. Kristal ini aneh. Kalau dipukul mendadak, dia ngeluarin listrik ribuan volt. Listriknya lompat di celah kecil ujung kawat, jadi percikan biru. Tombol yang sama juga buka katup gas. Gas ketemu percikan, jadilah api. Efek ini ditemukan kakak beradik Curie tahun seribu delapan ratus delapan puluh. Kristalnya tahan puluhan ribu kali klik, biasanya gasnya habis duluan. Jadi tukang servis yang bener. Nggak ada baterai, cuma kristal yang dipukul. Kalau diklik ada percikan tapi nggak nyala, berarti gasnya yang habis."
+}

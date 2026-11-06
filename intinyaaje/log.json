@@ -187,6 +187,66 @@
    "music": "lofi",
    "closing": "tips",
    "note": "Dibuat manual dari sesi karena routine gagal: proxy routine blokir unduhan ElevenLabs (403) + routine push ke branch, bukan main"
+  },
+  {
+   "id": "e11-mie-lilin",
+   "date": "2026-11-07",
+   "time": "17:00",
+   "pillar": "mitos makanan",
+   "angle": "mi instan tidak dilapisi lilin: keruh dari tepung, minyak dari penggorengan; yang perlu dikurangi bumbu (natrium)",
+   "viral_bukti": "bahaya mie instan buat dimakan (dorXiT1aNy0) 49 jt; mie instan di bawah mikroskop (gDz8BV5EZic) 1,8 jt",
+   "title": "Mi Instan Dilapisi Lilin? 🍜",
+   "closing": "jawab-konflik",
+   "experiment": "alur cerita dua suara + speed 1.1",
+   "music": "penasaran",
+   "style": {
+    "theme": "oranye",
+    "cap": "frasa",
+    "trans": "geser"
+   },
+   "voice": "Alvar take_a/b speed 1.1",
+   "dur": 57.05,
+   "status": "terjadwal"
+  },
+  {
+   "id": "e12-hp-beras",
+   "date": "2026-11-08",
+   "time": "17:00",
+   "pillar": "tips HP / mitos",
+   "angle": "HP kecemplung jangan dikubur beras: air di port, debu beras masuk; matikan, ketuk port ke bawah, angin, tunggu 24 jam",
+   "viral_bukti": "Tips pertolongan pertama saat HP terkena air (r3-vVfUWgsQ) 1,7 jt; tips atasi HP masuk air (qrmqzX_Cyow) 1,1 jt",
+   "title": "HP Kecemplung, Kubur di Beras? 📱",
+   "closing": "punchline",
+   "experiment": "alur cerita dua suara + speed 1.1",
+   "music": "ceria",
+   "style": {
+    "theme": "cyan",
+    "cap": "frasa2",
+    "trans": "putar"
+   },
+   "voice": "Alvar take_a/b speed 1.1",
+   "dur": 55.85,
+   "status": "draf"
+  },
+  {
+   "id": "e13-korek-gas",
+   "date": "2026-11-09",
+   "time": "17:00",
+   "pillar": "bedah benda",
+   "angle": "korek gas tanpa batu: per + palu memukul kristal piezo, ribuan volt, percikan + katup gas",
+   "viral_bukti": "Cara Kerja Pematik Korek Api (rl5HOJaGc84) 13 jt",
+   "title": "Korek Gas Ada Baterainya? 🔥",
+   "closing": "tips",
+   "experiment": "alur cerita dua suara + speed 1.1",
+   "music": "misteri",
+   "style": {
+    "theme": "ungu",
+    "cap": "frasa",
+    "trans": "campur"
+   },
+   "voice": "Alvar take_a/b speed 1.1",
+   "dur": 53.03,
+   "status": "draf"
   }
  ],
  "pilots": [

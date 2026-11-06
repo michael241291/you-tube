@@ -1,0 +1,277 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Alvar",
+  "voice_id": "8py0rPdIK626Y4I858QV",
+  "speed": 1.1
+ },
+ "id": "e11-mie-lilin",
+ "pillar": "mitos makanan",
+ "angle": "mi instan tidak dilapisi lilin: keruh dari tepung, minyak dari penggorengan; yang perlu dikurangi bumbu (natrium)",
+ "viral_bukti": "bahaya mie instan buat dimakan (dorXiT1aNy0) 49 jt; mie instan di bawah mikroskop (gDz8BV5EZic) 1,8 jt",
+ "title": "Mi Instan Dilapisi Lilin? 🍜",
+ "music": "penasaran",
+ "style": {
+  "theme": "oranye",
+  "cap": "frasa",
+  "trans": "geser"
+ },
+ "closing": "jawab-konflik",
+ "experiment": "alur cerita dua suara + speed 1.1",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Rebusan mi *keruh*"
+   ],
+   [
+    "w15",
+    "Kata ibu kos: *lilin*"
+   ],
+   [
+    "w27",
+    "Kata pabrik: *nggak*"
+   ],
+   [
+    "w40",
+    "Kita bedah *mi-nya*"
+   ],
+   [
+    "w64",
+    "Keruh dari *tepung*"
+   ],
+   [
+    "w73",
+    "Kata *ahli pangan*"
+   ],
+   [
+    "w95",
+    "Yang bahaya: *bumbu*"
+   ],
+   [
+    "w118",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w11",
+   "KERUH!",
+   640,
+   600,
+   -8,
+   "#ffd23f"
+  ],
+  [
+   "w45",
+   "CESSS!",
+   620,
+   560,
+   6,
+   "#ff7a59"
+  ],
+  [
+   "w94",
+   "MATI LAMPU?",
+   560,
+   620,
+   -6,
+   "#ffd23f"
+  ]
+ ],
+ "faces": [
+  [
+   "w26",
+   "bingung",
+   2.0
+  ],
+  [
+   "w85",
+   "senang",
+   2.0
+  ],
+  [
+   "w110",
+   "kaget",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "mie.svg",
+   "sea": "#2a1e3d",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     520,
+     820,
+     1000
+    ],
+    [
+     "w39",
+     520,
+     820,
+     1000
+    ],
+    [
+     "w40",
+     1800,
+     860,
+     1300
+    ],
+    [
+     "w94",
+     1800,
+     860,
+     1300
+    ],
+    [
+     "w95",
+     3250,
+     560,
+     1500
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".lilin",
+     "w": 73,
+     "show": true,
+     "dur": 0.5,
+     "w1": 95
+    },
+    {
+     "sel": ".silang",
+     "w": 79,
+     "show": true,
+     "dur": 0.4,
+     "w1": 95
+    },
+    {
+     "sel": ".pori",
+     "w": 55,
+     "show": true,
+     "dur": 0.8
+    },
+    {
+     "sel": ".tepung",
+     "w": 64,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".minyakB",
+     "w": 69,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".gunting",
+     "w": 128,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".separuh",
+     "w": 129,
+     "show": true,
+     "dur": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "w": 15,
+     "w1": 40,
+     "x": 90,
+     "y": 430,
+     "text": "IBU KOS: *ADA LILIN*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 27,
+     "w1": 40,
+     "x": 90,
+     "y": 520,
+     "text": "PABRIK: *NGGAK ADA*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 40,
+     "w1": 43,
+     "x": 1300,
+     "y": 300,
+     "text": "*PENAMPANG* SEHELAI MI",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 43,
+     "w1": 55,
+     "x": 1250,
+     "y": 300,
+     "text": "DIKUKUS → *DIGORENG*",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 55,
+     "w1": 64,
+     "x": 1350,
+     "y": 300,
+     "text": "PENUH *PORI*",
+     "pill": true,
+     "size": 48
+    },
+    {
+     "w": 73,
+     "w1": 95,
+     "x": 1250,
+     "y": 300,
+     "text": "*NGGAK ADA LILIN*",
+     "pill": true,
+     "size": 48
+    }
+   ],
+   "bars": {
+    "w": 102,
+    "w1": 118,
+    "title": "NATRIUM (MG)",
+    "y": 470,
+    "items": [
+     {
+      "label": "*1 BUNGKUS*",
+      "value": 0.85,
+      "color": "#ff7a59",
+      "w": 103
+     },
+     {
+      "label": "BATAS SEHARI",
+      "value": 1.0,
+      "color": "#3ddc84",
+      "w": 111
+     }
+    ]
+   }
+  },
+  {
+   "type": "card",
+   "w0": 118,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "NGGAK ADA LILIN,",
+    "BUMBUNYA",
+    "*PAKAI SETENGAH*"
+   ]
+  }
+ ],
+ "script": "Tengah malam, kamu masak mi instan di dapur kos. Air rebusannya keruh, ada minyak ngambang. Kata ibu kos, rebusan pertama wajib dibuang, soalnya mi instan dilapisi lilin. Kata pabriknya, nggak ada lilin sama sekali. Siapa yang bener? Kita cari intinya. Mi instan itu dikukus, terus digoreng sebentar di minyak sawit panas. Airnya menguap, mi-nya jadi penuh pori kayak spons. Makanya tiga menit langsung lunak. Keruhnya dari tepung yang larut. Minyaknya sisa gorengan tadi. Profesor pangan IPB, Made Astawan, bilang nggak ada lilin di mi instan. Lagian kalau beneran lilin, mangkokmu bisa dipakai pas mati lampu. Tapi ada yang lebih perlu dikurangi, bumbunya. Satu bungkus bisa sampai seribu tujuh ratus miligram natrium. Batas sehari dari Kemenkes cuma dua ribu. Jadi ibu kos salah soal lilinnya, tapi bener soal hati-hatinya. Bumbunya pakai setengah aja."
+}

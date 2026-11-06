@@ -1,0 +1,287 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Alvar",
+  "voice_id": "8py0rPdIK626Y4I858QV",
+  "speed": 1.1
+ },
+ "id": "e12-hp-beras",
+ "pillar": "tips HP / mitos",
+ "angle": "HP kecemplung jangan dikubur beras: air di port, debu beras masuk; matikan, ketuk port ke bawah, angin, tunggu 24 jam",
+ "viral_bukti": "Tips pertolongan pertama saat HP terkena air (r3-vVfUWgsQ) 1,7 jt; tips atasi HP masuk air (qrmqzX_Cyow) 1,1 jt",
+ "title": "HP Kecemplung, Kubur di Beras? 📱",
+ "music": "ceria",
+ "style": {
+  "theme": "cyan",
+  "cap": "frasa2",
+  "trans": "putar"
+ },
+ "closing": "punchline",
+ "experiment": "alur cerita dua suara + speed 1.1",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "HP *nyemplung*!"
+   ],
+   [
+    "w6",
+    "Kata temen: *beras*"
+   ],
+   [
+    "w13",
+    "Kata pabrik: *jangan*"
+   ],
+   [
+    "w25",
+    "Kita bedah *HP-nya*"
+   ],
+   [
+    "w58",
+    "Panduan *Apple*"
+   ],
+   [
+    "w70",
+    "Yang *bener*:"
+   ],
+   [
+    "w122",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w3",
+   "BYUR!",
+   620,
+   560,
+   -8,
+   "#4fb3ff"
+  ],
+  [
+   "w79",
+   "TUK TUK",
+   230,
+   960,
+   6,
+   "#ffd23f"
+  ],
+  [
+   "w119",
+   "KORSLET!",
+   560,
+   620,
+   -6,
+   "#ff5c8a"
+  ]
+ ],
+ "faces": [
+  [
+   "w5",
+   "kaget",
+   2.0
+  ],
+  [
+   "w44",
+   "bingung",
+   2.0
+  ],
+  [
+   "w104",
+   "menunjuk",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "hp2.svg",
+   "sea": "#0e3b4a",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     530,
+     700,
+     1000
+    ],
+    [
+     "w24",
+     530,
+     700,
+     1000
+    ],
+    [
+     "w25",
+     1950,
+     1150,
+     1350
+    ],
+    [
+     "w69",
+     1950,
+     1150,
+     1350
+    ],
+    [
+     "w70",
+     3250,
+     780,
+     1250
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".ciprat",
+     "w": 3,
+     "show": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".airB",
+     "w": 32,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".debu",
+     "w": 51,
+     "show": true,
+     "dur": 0.8
+    },
+    {
+     "sel": ".silangB",
+     "w": 64,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".tetes",
+     "w": 79,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".angin",
+     "w": 89,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".jam",
+     "w": 96,
+     "show": true,
+     "dur": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "w": 6,
+     "w1": 25,
+     "x": 80,
+     "y": 300,
+     "text": "TEMEN: *KUBUR DI BERAS*",
+     "pill": true,
+     "size": 38
+    },
+    {
+     "w": 13,
+     "w1": 25,
+     "x": 80,
+     "y": 385,
+     "text": "PABRIK: *JANGAN*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 36,
+     "w1": 49,
+     "x": 1350,
+     "y": 600,
+     "text": "AIR *NGUMPET* DI LUBANG",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 49,
+     "w1": 58,
+     "x": 1350,
+     "y": 600,
+     "text": "DEBU BERAS *MASUK*",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 58,
+     "w1": 70,
+     "x": 1350,
+     "y": 600,
+     "text": "APPLE: *JANGAN BERAS*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 74,
+     "w1": 79,
+     "x": 2700,
+     "y": 330,
+     "text": "1. *MATIKAN*",
+     "pill": true,
+     "size": 48
+    },
+    {
+     "w": 79,
+     "w1": 89,
+     "x": 2700,
+     "y": 330,
+     "text": "2. *KETUK*, LUBANG KE BAWAH",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 89,
+     "w1": 96,
+     "x": 2700,
+     "y": 330,
+     "text": "3. TEMPAT *BERANGIN*",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 96,
+     "w1": 105,
+     "x": 2700,
+     "y": 330,
+     "text": "4. TUNGGU *24 JAM*",
+     "pill": true,
+     "size": 46
+    },
+    {
+     "w": 105,
+     "w1": 122,
+     "x": 2700,
+     "y": 330,
+     "text": "*JANGAN* DICAS / DINYALAIN",
+     "pill": true,
+     "size": 40
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 122,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BUKAN BERAS,",
+    "TAPI *WAKTU*",
+    "DAN *ANGIN*"
+   ]
+  }
+ ],
+ "script": "Lagi nyuci, HP-mu nyemplung ke ember. Kata temen, langsung kubur di beras semalaman. Kata pabrik HP, jangan pakai beras. Siapa yang bener? Kita cari intinya. Beras memang nyerap air, tapi pelan banget. Air di HP justru ngumpet di lubang colokan dan sela tombol. Beras nggak bisa nyedot dari situ. Yang ada, debu beras malah ikut masuk ke lubang. Apple sampai nulis di panduan resminya, jangan masukin HP ke kantong beras. Terus yang bener gimana? Kalau masih nyala, matikan dulu. Ketuk pelan, lubang colokan menghadap ke bawah, biar airnya netes. Taruh di tempat kering yang ada anginnya. Kata Apple, keringnya bisa sampai dua puluh empat jam. Jangan dicas, jangan disembur hair dryer panas. Yang paling sering bikin rusak justru buru-buru dinyalain buat ngecek. Jadi temenmu bener soal sabarnya, salah soal berasnya. Yang ngeringin HP itu waktu dan angin."
+}
