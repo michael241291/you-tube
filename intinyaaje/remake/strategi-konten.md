@@ -35,9 +35,9 @@ Format: (tanggal) aturan — bukti. Tambahkan aturan baru di sini setiap kali ad
 - (6 Nov) **TOPIK DARI YANG VIRAL** (user: "topiknya jangan buat tabrakan, tapi kamu riset dari yang viral mendapatkan views"). Setiap topik wajib punya bukti viral: ≥1 Shorts Indonesia ≥1 jt views (atau ≥300 rb dalam 30 hari) di kluster yang sama, ditulis di antrean di bawah dan di log.json `viral_bukti`. Tidak boleh sama dengan @kitabedah (48 judul YouTube mereka sudah dicek 6 Nov) atau topik kita sendiri, dan bukan salinan video viralnya: ambil pertanyaannya, sudut + ALUR CERITA sendiri. Data: riset/viral-2026-11-06.txt.
 
 ### Antrean topik (bukti viral 6 Nov, sudah dicek tidak tabrakan)
-1. Mie instan "ada lilinnya", bahaya? — mitos makanan. Bukti: "bahaya mie instan buat dimakan" 49 jt; "mie instan di bawah mikroskop" 1,8 jt. Dua suara: kata ibu kos vs kata BPOM/pabrik.
-2. HP kecemplung air: masukin beras? — HP. Bukti: "Pertolongan pertama HP terkena air" 1,7 jt; "atasi HP masuk air" 1,1 jt. Dua suara: kata teman (beras) vs kata pabrik HP.
-3. Korek api gas nyala tanpa batu, kok bisa? — bedah benda. Bukti: "Cara kerja pemantik korek api" 13 jt. Dua suara: kata orang ada baterainya vs isinya kristal yang dipencet.
+1. ~~Mie instan "ada lilinnya", bahaya?~~ → e11, terjadwal 7 Nov. — mitos makanan. Bukti: "bahaya mie instan buat dimakan" 49 jt; "mie instan di bawah mikroskop" 1,8 jt. Dua suara: kata ibu kos vs kata BPOM/pabrik.
+2. ~~HP kecemplung air: masukin beras?~~ → e12, draf 8 Nov. — HP. Bukti: "Pertolongan pertama HP terkena air" 1,7 jt; "atasi HP masuk air" 1,1 jt. Dua suara: kata teman (beras) vs kata pabrik HP.
+3. ~~Korek api gas nyala tanpa batu, kok bisa?~~ → e13, draf 9 Nov. — bedah benda. Bukti: "Cara kerja pemantik korek api" 13 jt. Dua suara: kata orang ada baterainya vs isinya kristal yang dipencet.
 4. Kenapa mabuk kendaraan, padahal yang nyetir nggak? — tubuh. Bukti: "Kenapa kita bisa mabuk di kendaraan" 817 rb; "Mengapa manusia bisa muntah" 1,1 jt. Dua suara: kata orang minyak angin/duduk depan vs otak yang bingung.
 5. Ban pesawat dihantam 70 ton pas mendarat, kok nggak meledak? — kendaraan. Bukti: "Kenapa ban pesawat tidak meledak" 1,9 jt; "kipas mesin pesawat" 1,6 jt; "mesin pesawat sulit dibuat" 5,9 jt.
 6. Mesin jahit: kok benang atas bisa ngunci benang bawah? — bedah benda. Bukti: "baru tau cara kerja mesin jahit" 2,8 jt.
