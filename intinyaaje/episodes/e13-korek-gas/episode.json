@@ -1,12 +1,13 @@
 {
  "audio": "voice.mp3",
  "musicVol": 0.22,
- "ver": 1,
+ "ver": 2,
  "capY": 1170,
  "voice": {
-  "name": "Alvar",
-  "voice_id": "8py0rPdIK626Y4I858QV",
-  "speed": 1.1
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
  },
  "id": "e13-korek-gas",
  "pillar": "bedah benda",
@@ -20,7 +21,7 @@
   "trans": "campur"
  },
  "closing": "tips",
- "experiment": "alur cerita dua suara + speed 1.1",
+ "experiment": "suara v4 ekspresif + tag emosi (Senandika)",
  "hud": {
   "title": [
    [
@@ -302,5 +303,5 @@
    ]
   }
  ],
- "script": "Klik. Korek gas di warung langsung nyala, padahal nggak ada batu api. Kata orang, di dalamnya ada baterai kecil. Kata tukang servis, isinya cuma kristal. Siapa yang bener? Kita cari intinya. Pas tombolnya ditekan, ada per kecil yang ikut ketarik. Di ujung tekanan, pelatuknya lepas dan ngetok sepotong kristal keramik. Kristal ini aneh. Kalau dipukul mendadak, dia ngeluarin listrik ribuan volt. Listriknya lompat di celah kecil ujung kawat, jadi percikan biru. Tombol yang sama juga buka katup gas. Gas ketemu percikan, jadilah api. Efek ini ditemukan kakak beradik Curie tahun seribu delapan ratus delapan puluh. Kristalnya tahan puluhan ribu kali klik, biasanya gasnya habis duluan. Jadi tukang servis yang bener. Nggak ada baterai, cuma kristal yang dipukul. Kalau diklik ada percikan tapi nggak nyala, berarti gasnya yang habis."
+ "script": "Klik. Korek gas di warung langsung nyala, padahal nggak ada batu api. Kata orang, di dalamnya ada baterai kecil. Kata tukang servis? Isinya cuma kristal. Siapa yang bener? Kita cari intinya! Pas tombolnya ditekan, ada per kecil yang ikut ketarik. Di ujung tekanan, pelatuknya lepas dan ngetok sepotong kristal keramik. Kristal ini aneh. Kalau dipukul mendadak, dia ngeluarin listrik ribuan volt! Listriknya lompat di celah kecil ujung kawat, jadi percikan biru. Tombol yang sama juga buka katup gas. Gas ketemu percikan, jadilah api. Efek ini ditemukan kakak beradik Curie tahun seribu delapan ratus delapan puluh. Kristalnya tahan puluhan ribu kali klik, biasanya gasnya habis duluan. Jadi tukang servis yang bener. Nggak ada baterai, cuma kristal yang dipukul. Kalau diklik ada percikan tapi nggak nyala, berarti gasnya yang habis."
 }
