@@ -1,0 +1,273 @@
+{
+ "id": "e10-hp-dicas",
+ "pillar": "mitos vs fakta",
+ "angle": "HP dicas semalaman: chip berhenti ngisi saat penuh; musuhnya panas (bantal/selimut); fitur pengisian pintar tahan 80%",
+ "title": "HP Dicas Semalaman Bikin Rusak? 🔋",
+ "script": "HP dicas semalaman bikin baterai cepat rusak, kan? Sebenernya nggak separah itu. Baterai HP zaman sekarang punya chip pengatur yang otomatis berhenti ngisi pas sudah penuh, jadi nggak bakal meledak gara-gara kepenuhan. Yang bikin baterai cepat capek justru panas. Baterai lithium paling nggak suka dibiarkan penuh sambil kepanasan, apalagi kalau HP-nya ketutup bantal atau selimut. Makanya banyak HP sekarang punya fitur pengisian pintar, yang nahan di delapan puluh persen dulu, terus baru diisi penuh menjelang kamu bangun. Jadi yang perlu dihindari bukan semalamannya, tapi panasnya. Taruh HP di tempat yang adem, jangan di bawah bantal.",
+ "audio": "voice.mp3",
+ "music": "lofi",
+ "musicVol": 0.22,
+ "style": {
+  "theme": "hijau",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "closing": "tips",
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Alvar",
+  "voice_id": "8py0rPdIK626Y4I858QV"
+ },
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Dicas semalaman = *rusak*?"
+   ],
+   [
+    "w8",
+    "Nggak *separah* itu"
+   ],
+   [
+    "w12",
+    "Ada *chip pengatur*"
+   ],
+   [
+    "w32",
+    "Musuhnya: *panas*"
+   ],
+   [
+    "w48",
+    "Apalagi *ketutup bantal*"
+   ],
+   [
+    "w55",
+    "Fitur *pengisian pintar*"
+   ],
+   [
+    "w77",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w6",
+   "RUSAK?",
+   620,
+   560,
+   -8,
+   "#ff5c8a"
+  ],
+  [
+   "w21",
+   "STOP!",
+   300,
+   980,
+   6,
+   "#3ddc84"
+  ],
+  [
+   "w38",
+   "PANAS!",
+   620,
+   620,
+   -6,
+   "#ff3b30"
+  ],
+  [
+   "w52",
+   "GERAH!",
+   300,
+   980,
+   8,
+   "#ffd23f"
+  ]
+ ],
+ "faces": [
+  [
+   "w8",
+   "berpikir",
+   2.0
+  ],
+  [
+   "w38",
+   "kaget",
+   2.0
+  ],
+  [
+   "w62",
+   "senang",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "hp.svg",
+   "sea": "#0f1530",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     460,
+     780,
+     1000
+    ],
+    [
+     "w11",
+     460,
+     780,
+     1000
+    ],
+    [
+     "w12",
+     1800,
+     830,
+     1150
+    ],
+    [
+     "w47",
+     1800,
+     830,
+     1150
+    ],
+    [
+     "w48",
+     3200,
+     820,
+     1150
+    ],
+    [
+     "w54",
+     3200,
+     820,
+     1150
+    ],
+    [
+     "w55",
+     1800,
+     830,
+     1150
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".chip",
+     "w": 17,
+     "blink": true,
+     "dur": 0.4,
+     "w1": 22
+    },
+    {
+     "sel": ".lvl60",
+     "w": 22,
+     "hide": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".lvl100",
+     "w": 22,
+     "show": true,
+     "dur": 0.8,
+     "w1": 64
+    },
+    {
+     "sel": ".heatB",
+     "w": 38,
+     "show": true,
+     "dur": 0.5,
+     "w1": 48
+    },
+    {
+     "sel": ".hotC",
+     "w": 51,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".lvl80",
+     "w": 64,
+     "show": true,
+     "dur": 0.6,
+     "w1": 72
+    },
+    {
+     "sel": ".lvl100b",
+     "w": 72,
+     "show": true,
+     "dur": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "w": 17,
+     "w1": 26,
+     "x": 1360,
+     "y": 380,
+     "text": "*CHIP* PENGATUR",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 26,
+     "w1": 32,
+     "x": 1360,
+     "y": 380,
+     "text": "PENUH = *BERHENTI*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 38,
+     "w1": 48,
+     "x": 1360,
+     "y": 380,
+     "text": "PENUH + *PANAS* = CAPEK",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 51,
+     "w1": 55,
+     "x": 2760,
+     "y": 520,
+     "text": "PANAS *TERJEBAK*",
+     "pill": true,
+     "size": 44
+    },
+    {
+     "w": 64,
+     "w1": 72,
+     "x": 1360,
+     "y": 380,
+     "text": "TAHAN DI *80%*",
+     "pill": true,
+     "size": 46
+    },
+    {
+     "w": 72,
+     "w1": 77,
+     "x": 1360,
+     "y": 380,
+     "text": "PENUH *PAS BANGUN*",
+     "pill": true,
+     "size": 42
+    }
+   ],
+   "arrows": []
+  },
+  {
+   "type": "card",
+   "w0": 77,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BUKAN",
+    "SEMALAMANNYA,",
+    "TAPI *PANASNYA*"
+   ]
+  }
+ ]
+}

@@ -1,215 +1,227 @@
 {
-  "note": "Log semua video @intinyaaje. Sebelum memilih topik baru, cek kolom topic dan angle: jangan ulang topik yang sama, dan jangan pakai angle yang sama dua kali dalam 14 hari terakhir.",
-  "episodes": [
-    {
-      "id": "e01-oecusse",
-      "date": "2026-10-27",
-      "pillar": "A",
-      "topic": "Oecusse, wilayah Timor Leste di dalam NTT",
-      "angle": "eksklave: wilayah negara lain di dalam Indonesia",
-      "hook": "pertanyaan kontras di peta",
-      "visual": "peta",
-      "title": "Ada Wilayah Timor Leste di Dalam Indonesia?! 😱",
-      "music": "misteri",
-      "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)",
-      "style": {
-        "theme": "kuning",
-        "cap": "pill",
-        "trans": "campur"
-      }
+ "note": "Log semua video @intinyaaje. Sebelum memilih topik baru, cek kolom topic dan angle: jangan ulang topik yang sama, dan jangan pakai angle yang sama dua kali dalam 14 hari terakhir.",
+ "episodes": [
+  {
+   "id": "e01-oecusse",
+   "date": "2026-10-27",
+   "pillar": "A",
+   "topic": "Oecusse, wilayah Timor Leste di dalam NTT",
+   "angle": "eksklave: wilayah negara lain di dalam Indonesia",
+   "hook": "pertanyaan kontras di peta",
+   "visual": "peta",
+   "title": "Ada Wilayah Timor Leste di Dalam Indonesia?! 😱",
+   "music": "misteri",
+   "version": "v2: narasi A, musik per topik, motion v2 (27 Okt)",
+   "style": {
+    "theme": "kuning",
+    "cap": "pill",
+    "trans": "campur"
+   }
+  },
+  {
+   "id": "e02-jari-keriput",
+   "date": "2026-10-28",
+   "pillar": "B",
+   "topic": "jari keriput setelah lama di air",
+   "angle": "tubuh: reaksi saraf yang disangka kulit menyerap air",
+   "hook": "pertanyaan kenapa + koreksi anggapan umum",
+   "visual": "foto + kartu",
+   "title": "Kenapa Jari Keriput Kalau Kelamaan di Air? 🤔",
+   "music": "ceria",
+   "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
+   "style": {
+    "theme": "hijau",
+    "cap": "glow",
+    "trans": "geser"
+   }
+  },
+  {
+   "id": "e03-kalimantan",
+   "date": "2026-11-03",
+   "pillar": "A",
+   "topic": "Kalimantan dibagi tiga negara",
+   "angle": "satu pulau tiga negara: Indonesia, Malaysia (Sabah-Sarawak), Brunei; hampir 6x Pulau Jawa",
+   "hook": "Kalimantan itu, punya Indonesia, kan?",
+   "visual": "peta",
+   "title": "1 Pulau Tapi 3 Negara?! Ini Kalimantan 🗺️",
+   "music": "penasaran",
+   "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
+   "style": {
+    "theme": "hijau",
+    "cap": "frasa",
+    "trans": "zoom"
+   },
+   "status": "draf (dueAt 3 Nov 17:00, dijadwalkan rutinitas harian)",
+   "closing": "pertanyaan",
+   "video": "episodes/e03-kalimantan/e03-kalimantan-v7.mp4"
+  },
+  {
+   "id": "e04-gigi-atap",
+   "date": "2026-10-30",
+   "pillar": "C",
+   "topic": "tradisi melempar gigi susu ke atap",
+   "angle": "bedah gusi: gigi dewasa sudah menunggu di bawah dan menghancurkan akar gigi susu",
+   "hook": "Gigi susu dilempar ke atap, biar tumbuh bagus, kan?",
+   "visual": "foto + peta + kartu",
+   "title": "Gigi Susu Dilempar ke Atap, Biar Apa Sih? 🦷",
+   "music": "ceria",
+   "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
+   "style": {
+    "theme": "pink",
+    "cap": "frasa2",
+    "trans": "geser"
+   },
+   "status": "terjadwal 30 Okt 17:00",
+   "closing": "pertanyaan",
+   "video": "episodes/e04-gigi-atap/e04-gigi-atap-v7.mp4"
+  },
+  {
+   "id": "e05-merinding",
+   "date": "2026-10-31",
+   "pillar": "B",
+   "topic": "kenapa merinding",
+   "angle": "bedah kulit: otot arrector pili menegakkan rambut, refleks warisan hewan berbulu",
+   "hook": "Kamu, pernah merinding juga, kan?",
+   "visual": "foto + diagram",
+   "title": "Kenapa Kita Bisa Merinding? 🥶",
+   "music": "misteri",
+   "version": "v8: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
+   "style": {
+    "theme": "cyan",
+    "cap": "frasa",
+    "trans": "zoom"
+   },
+   "status": "terjadwal 31 Okt 17:00",
+   "closing": "punchline",
+   "video": "episodes/e05-merinding/e05-merinding-v8.mp4"
+  },
+  {
+   "id": "e06-tanpa-bandara",
+   "date": "2026-11-01",
+   "pillar": "A",
+   "topic": "negara Eropa tanpa bandara",
+   "angle": "negara mini tanpa bandara numpang bandara tetangga; Vatikan lebih kecil dari Taman Monas",
+   "hook": "Tiap negara, pasti punya bandara, kan?",
+   "visual": "peta",
+   "title": "5 Negara Ini Nggak Punya Bandara Sama Sekali ✈️",
+   "music": "petualangan",
+   "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
+   "style": {
+    "theme": "kuning",
+    "cap": "frasa2",
+    "trans": "geser"
+   },
+   "status": "draf (dueAt 1 Nov 17:00, dijadwalkan rutinitas harian)",
+   "closing": "punchline",
+   "video": "episodes/e06-tanpa-bandara/e06-tanpa-bandara-v7.mp4"
+  },
+  {
+   "id": "e07-bawang",
+   "date": "2026-11-02",
+   "pillar": "B",
+   "topic": "kenapa motong bawang bikin nangis",
+   "angle": "bedah sel bawang: dua zat bertemu jadi gas, mata membilas dengan air mata; tips pisau tajam & dinginkan",
+   "hook": "Motong bawang, pasti bikin nangis, kan?",
+   "visual": "foto + kartu",
+   "title": "Kenapa Motong Bawang Bikin Nangis? 🧅",
+   "music": "santai",
+   "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
+   "style": {
+    "theme": "ungu",
+    "cap": "frasa",
+    "trans": "zoom"
+   },
+   "status": "draf (dueAt 2 Nov 17:00, dijadwalkan rutinitas harian)",
+   "closing": "tips + punchline",
+   "video": "episodes/e07-bawang/e07-bawang-v7.mp4"
+  },
+  {
+   "id": "e08-kulkas",
+   "date": "2026-11-04",
+   "pillar": "bedah",
+   "topic": "kenapa belakang kulkas panas",
+   "angle": "kulkas memindahkan panas lewat refrigeran + tips jangan mepet tembok",
+   "hook": "Kulkas itu dingin di dalam, tapi coba pegang belakangnya, panas, kan?",
+   "closing": "tips",
+   "visual": "ilustrasi kulkas dibelah (evaporator, kompresor, kondensor)",
+   "music": "ceria",
+   "style": {
+    "theme": "cyan",
+    "cap": "frasa2",
+    "trans": "geser"
+   },
+   "version": "v1: SUARA ALIR (1 take utuh, tanpa sambungan/jeda tambahan), suara Alvar (akun ElevenLabs baru), area aman Shorts",
+   "title": "Kok Belakang Kulkas Panas, Padahal Dalamnya Dingin? 🧊",
+   "durasi": 51.1,
+   "status": "terjadwal 4 Nov 17:00",
+   "video": "episodes/e08-kulkas/e08-kulkas-v1.mp4"
+  },
+  {
+   "id": "e09-nguap",
+   "date": "2026-11-05",
+   "pillar": "kok bisa",
+   "topic": "kenapa nguap menular",
+   "angle": "otak meniru, lebih kuat ke orang dekat (empati), anak <4-5 th jarang, anjing ikut",
+   "hook": "Lihat orang nguap, terus kamu ikut nguap, kan?",
+   "closing": "pertanyaan",
+   "music": "santai",
+   "style": {
+    "theme": "ungu",
+    "cap": "frasa",
+    "trans": "zoom"
+   },
+   "version": "v1 suara Alvar, 1 take utuh",
+   "title": "Kenapa Nguap Itu Nular? 🥱",
+   "durasi": 50.8,
+   "status": "terjadwal 5 Nov 17:00",
+   "video": "episodes/e09-nguap/e09-nguap-v1.mp4"
+  },
+  {
+   "id": "e10-hp-dicas",
+   "date": "2026-11-06",
+   "time": "17:00",
+   "title": "HP Dicas Semalaman Bikin Rusak? 🔋",
+   "voice": "Alvar (take_b)",
+   "dur": 45.1,
+   "theme": "hijau",
+   "music": "lofi",
+   "closing": "tips",
+   "note": "Dibuat manual dari sesi karena routine gagal: proxy routine blokir unduhan ElevenLabs (403) + routine push ke branch, bukan main"
+  }
+ ],
+ "pilots": [
+  {
+   "id": "p01-lpg",
+   "date": "2026-10-29",
+   "status": "pilot disetujui user (tidak diunggah)",
+   "closing": "punchline",
+   "voicecheck": "3,8 kata/frasa, jeda tiap 1,8 dtk, nada 8,4 semiton",
+   "sync_err": 0.044,
+   "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau?",
+   "scheduled": {
+    "date": "2026-10-29",
+    "time": "18:00 (khusus hari ini, permintaan user)",
+    "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau? 👃",
+    "video": "episodes/p01-lpg/p01-lpg-v2.mp4",
+    "buffer": {
+     "youtube": "6ae30e5199d20553079516cd",
+     "facebook": "6ae30e52b7b59a9a1c6b8ae5"
     },
-    {
-      "id": "e02-jari-keriput",
-      "date": "2026-10-28",
-      "pillar": "B",
-      "topic": "jari keriput setelah lama di air",
-      "angle": "tubuh: reaksi saraf yang disangka kulit menyerap air",
-      "hook": "pertanyaan kenapa + koreksi anggapan umum",
-      "visual": "foto + kartu",
-      "title": "Kenapa Jari Keriput Kalau Kelamaan di Air? 🤔",
-      "music": "ceria",
-      "version": "v3: + gaya per video (tema/subtitle/transisi), 27 Okt malam",
-      "style": {
-        "theme": "hijau",
-        "cap": "glow",
-        "trans": "geser"
-      }
-    },
-    {
-      "id": "e03-kalimantan",
-      "date": "2026-11-03",
-      "pillar": "A",
-      "topic": "Kalimantan dibagi tiga negara",
-      "angle": "satu pulau tiga negara: Indonesia, Malaysia (Sabah-Sarawak), Brunei; hampir 6x Pulau Jawa",
-      "hook": "Kalimantan itu, punya Indonesia, kan?",
-      "visual": "peta",
-      "title": "1 Pulau Tapi 3 Negara?! Ini Kalimantan 🗺️",
-      "music": "penasaran",
-      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
-      "style": {
-        "theme": "hijau",
-        "cap": "frasa",
-        "trans": "zoom"
-      },
-      "status": "draf (dueAt 3 Nov 17:00, dijadwalkan rutinitas harian)",
-      "closing": "pertanyaan",
-      "video": "episodes/e03-kalimantan/e03-kalimantan-v7.mp4"
-    },
-    {
-      "id": "e04-gigi-atap",
-      "date": "2026-10-30",
-      "pillar": "C",
-      "topic": "tradisi melempar gigi susu ke atap",
-      "angle": "bedah gusi: gigi dewasa sudah menunggu di bawah dan menghancurkan akar gigi susu",
-      "hook": "Gigi susu dilempar ke atap, biar tumbuh bagus, kan?",
-      "visual": "foto + peta + kartu",
-      "title": "Gigi Susu Dilempar ke Atap, Biar Apa Sih? 🦷",
-      "music": "ceria",
-      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
-      "style": {
-        "theme": "pink",
-        "cap": "frasa2",
-        "trans": "geser"
-      },
-      "status": "terjadwal 30 Okt 17:00",
-      "closing": "pertanyaan",
-      "video": "episodes/e04-gigi-atap/e04-gigi-atap-v7.mp4"
-    },
-    {
-      "id": "e05-merinding",
-      "date": "2026-10-31",
-      "pillar": "B",
-      "topic": "kenapa merinding",
-      "angle": "bedah kulit: otot arrector pili menegakkan rambut, refleks warisan hewan berbulu",
-      "hook": "Kamu, pernah merinding juga, kan?",
-      "visual": "foto + diagram",
-      "title": "Kenapa Kita Bisa Merinding? 🥶",
-      "music": "misteri",
-      "version": "v8: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
-      "style": {
-        "theme": "cyan",
-        "cap": "frasa",
-        "trans": "zoom"
-      },
-      "status": "terjadwal 31 Okt 17:00",
-      "closing": "punchline",
-      "video": "episodes/e05-merinding/e05-merinding-v8.mp4"
-    },
-    {
-      "id": "e06-tanpa-bandara",
-      "date": "2026-11-01",
-      "pillar": "A",
-      "topic": "negara Eropa tanpa bandara",
-      "angle": "negara mini tanpa bandara numpang bandara tetangga; Vatikan lebih kecil dari Taman Monas",
-      "hook": "Tiap negara, pasti punya bandara, kan?",
-      "visual": "peta",
-      "title": "5 Negara Ini Nggak Punya Bandara Sama Sekali ✈️",
-      "music": "petualangan",
-      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
-      "style": {
-        "theme": "kuning",
-        "cap": "frasa2",
-        "trans": "geser"
-      },
-      "status": "draf (dueAt 1 Nov 17:00, dijadwalkan rutinitas harian)",
-      "closing": "punchline",
-      "video": "episodes/e06-tanpa-bandara/e06-tanpa-bandara-v7.mp4"
-    },
-    {
-      "id": "e07-bawang",
-      "date": "2026-11-02",
-      "pillar": "B",
-      "topic": "kenapa motong bawang bikin nangis",
-      "angle": "bedah sel bawang: dua zat bertemu jadi gas, mata membilas dengan air mata; tips pisau tajam & dinginkan",
-      "hook": "Motong bawang, pasti bikin nangis, kan?",
-      "visual": "foto + kartu",
-      "title": "Kenapa Motong Bawang Bikin Nangis? 🧅",
-      "music": "santai",
-      "version": "v7: buat ulang 29 Okt gaya terbaru (naskah bercerita, suara versi B, subtitle frasa, ilustrasi/kamera bedah atau peta, HUD/sfx/stiker, kartu INTINYA)",
-      "style": {
-        "theme": "ungu",
-        "cap": "frasa",
-        "trans": "zoom"
-      },
-      "status": "draf (dueAt 2 Nov 17:00, dijadwalkan rutinitas harian)",
-      "closing": "tips + punchline",
-      "video": "episodes/e07-bawang/e07-bawang-v7.mp4"
-    },
-    {
-      "id": "e08-kulkas",
-      "date": "2026-11-04",
-      "pillar": "bedah",
-      "topic": "kenapa belakang kulkas panas",
-      "angle": "kulkas memindahkan panas lewat refrigeran + tips jangan mepet tembok",
-      "hook": "Kulkas itu dingin di dalam, tapi coba pegang belakangnya, panas, kan?",
-      "closing": "tips",
-      "visual": "ilustrasi kulkas dibelah (evaporator, kompresor, kondensor)",
-      "music": "ceria",
-      "style": {
-        "theme": "cyan",
-        "cap": "frasa2",
-        "trans": "geser"
-      },
-      "version": "v1: SUARA ALIR (1 take utuh, tanpa sambungan/jeda tambahan), suara Alvar (akun ElevenLabs baru), area aman Shorts",
-      "title": "Kok Belakang Kulkas Panas, Padahal Dalamnya Dingin? 🧊",
-      "durasi": 51.1,
-      "status": "terjadwal 4 Nov 17:00",
-      "video": "episodes/e08-kulkas/e08-kulkas-v1.mp4"
-    },
-    {
-      "id": "e09-nguap",
-      "date": "2026-11-05",
-      "pillar": "kok bisa",
-      "topic": "kenapa nguap menular",
-      "angle": "otak meniru, lebih kuat ke orang dekat (empati), anak <4-5 th jarang, anjing ikut",
-      "hook": "Lihat orang nguap, terus kamu ikut nguap, kan?",
-      "closing": "pertanyaan",
-      "music": "santai",
-      "style": {
-        "theme": "ungu",
-        "cap": "frasa",
-        "trans": "zoom"
-      },
-      "version": "v1 suara Alvar, 1 take utuh",
-      "title": "Kenapa Nguap Itu Nular? 🥱",
-      "durasi": 50.8,
-      "status": "terjadwal 5 Nov 17:00",
-      "video": "episodes/e09-nguap/e09-nguap-v1.mp4"
-    }
-  ],
-  "pilots": [
-    {
-      "id": "p01-lpg",
-      "date": "2026-10-29",
-      "status": "pilot disetujui user (tidak diunggah)",
-      "closing": "punchline",
-      "voicecheck": "3,8 kata/frasa, jeda tiap 1,8 dtk, nada 8,4 semiton",
-      "sync_err": 0.044,
-      "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau?",
-      "scheduled": {
-        "date": "2026-10-29",
-        "time": "18:00 (khusus hari ini, permintaan user)",
-        "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau? 👃",
-        "video": "episodes/p01-lpg/p01-lpg-v2.mp4",
-        "buffer": {
-          "youtube": "6ae30e5199d20553079516cd",
-          "facebook": "6ae30e52b7b59a9a1c6b8ae5"
-        },
-        "status": "scheduled"
-      }
-    }
-  ],
-  "scheduled_extra": [
-    {
-      "date": "2026-10-29",
-      "time": "18:00 (khusus hari ini, permintaan user)",
-      "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau? 👃",
-      "video": "episodes/p01-lpg/p01-lpg-v2.mp4",
-      "buffer": {
-        "youtube": "6ae30e5199d20553079516cd",
-        "facebook": "6ae30e52b7b59a9a1c6b8ae5"
-      },
-      "status": "scheduled"
-    }
-  ]
+    "status": "scheduled"
+   }
+  }
+ ],
+ "scheduled_extra": [
+  {
+   "date": "2026-10-29",
+   "time": "18:00 (khusus hari ini, permintaan user)",
+   "title": "Kok Gas LPG Bau, Padahal Gasnya Nggak Berbau? 👃",
+   "video": "episodes/p01-lpg/p01-lpg-v2.mp4",
+   "buffer": {
+    "youtube": "6ae30e5199d20553079516cd",
+    "facebook": "6ae30e52b7b59a9a1c6b8ae5"
+   },
+   "status": "scheduled"
+  }
+ ]
 }
