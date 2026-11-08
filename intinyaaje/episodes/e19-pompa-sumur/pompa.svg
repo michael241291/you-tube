@@ -1,0 +1,18 @@
+<defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0f0820"/><stop offset="1" stop-color="#33215f"/></linearGradient><radialGradient id="hot" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff3b30" stop-opacity=".85"/><stop offset="1" stop-color="#ff3b30" stop-opacity="0"/></radialGradient><radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe14d" stop-opacity=".8"/><stop offset="1" stop-color="#ffe14d" stop-opacity="0"/></radialGradient></defs>
+<rect x="-1200" y="-800" width="6400" height="3600" fill="url(#bg)"/>
+<rect x="-1200" y="1100" width="6400" height="1500" fill="#5a4632"/>
+<rect x="-1200" y="560" width="6400" height="2200" fill="#6b5236"/>
+<rect x="380" y="560" width="300" height="1500" fill="#2a1d12"/>
+<g class="air"><rect x="380" y="1700" width="300" height="360" fill="#4fb3ff"/></g>
+<rect x="440" y="400" width="200" height="160" rx="20" fill="#ff7a59"/><rect x="500" y="440" width="80" height="20" fill="#fff"/>
+<g class="pipa"><rect x="520" y="560" width="40" height="1300" fill="#c9ced6"/></g>
+<g class="airNaik" opacity="0"><rect x="526" y="1150" width="28" height="700" fill="#4fb3ff"/></g>
+<g class="batas" opacity="0"><path d="M280 1150 H780" stroke="#ffd23f" stroke-width="10" stroke-dasharray="30 14"/><text x="790" y="1165" font-size="56" font-weight="900" fill="#ffd23f">±10 m</text></g>
+<g class="batas7" opacity="0"><path d="M280 1050 H780" stroke="#ff5c8a" stroke-width="10" stroke-dasharray="30 14"/><text x="790" y="1065" font-size="56" font-weight="900" fill="#ff5c8a">6-7 m</text></g>
+<g class="udara" opacity="0"><path d="M300 300 v120 l-20 -24 m20 24 l20 -24" stroke="#bfe8ff" stroke-width="10" fill="none"/><path d="M760 300 v120 l-20 -24 m20 24 l20 -24" stroke="#bfe8ff" stroke-width="10" fill="none"/></g>
+<g class="bunyi" opacity="0"><text x="540" y="340" font-size="70" font-weight="900" fill="#fff" text-anchor="middle">NGIIING</text></g>
+<rect x="1850" y="560" width="300" height="1500" fill="#2a1d12"/><rect x="1850" y="1700" width="300" height="360" fill="#4fb3ff"/>
+<rect x="1980" y="560" width="40" height="1200" fill="#c9ced6"/>
+<g class="celup"><rect x="1940" y="1760" width="120" height="200" rx="24" fill="#3ddc84"/></g>
+<g class="dorong" opacity="0"><rect x="1986" y="560" width="28" height="1200" fill="#4fb3ff"/></g>
+<g class="keran" opacity="0"><path d="M1980 460 h120 v60" stroke="#c9ced6" stroke-width="30" fill="none"/><path d="M2100 540 v80" stroke="#4fb3ff" stroke-width="20" stroke-dasharray="20 10"/></g>

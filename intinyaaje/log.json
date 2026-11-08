@@ -181,7 +181,7 @@
    "date": "2026-11-06",
    "time": "17:00",
    "title": "HP Dicas Semalaman Bikin Rusak? 🔋",
-   "voice": "Alvar (take_b)",
+   "voice": "v2: Senandika eleven_v4 + tag emosi (user setuju 7 Nov)",
    "dur": 45.1,
    "theme": "hijau",
    "music": "lofi",
@@ -204,7 +204,7 @@
     "cap": "frasa",
     "trans": "geser"
    },
-   "voice": "Alvar take_a/b speed 1.1",
+   "voice": "v2: Senandika eleven_v4 + tag emosi (user setuju 7 Nov)",
    "dur": 57.05,
    "status": "terjadwal"
   },
@@ -224,7 +224,7 @@
     "cap": "frasa2",
     "trans": "putar"
    },
-   "voice": "Alvar take_a/b speed 1.1",
+   "voice": "v2: Senandika eleven_v4 + tag emosi (user setuju 7 Nov)",
    "dur": 55.85,
    "status": "draf"
   },
@@ -244,9 +244,149 @@
     "cap": "frasa",
     "trans": "campur"
    },
-   "voice": "Alvar take_a/b speed 1.1",
+   "voice": "v2: Senandika eleven_v4 + tag emosi (user setuju 7 Nov)",
    "dur": 53.03,
    "status": "draf"
+  },
+  {
+   "id": "e14-mabuk",
+   "date": "2026-11-10",
+   "pillar": "tubuh",
+   "topic": "Mabuk Kendaraan Gara-Gara Minyak Angin? 🚗",
+   "angle": "mabuk kendaraan = konflik sinyal telinga dalam vs mata; sopir antisipasi gerak",
+   "hook": "adegan \"kamu\" + dua suara bertentangan + \"Siapa yang bener? Kita cari intinya!\"",
+   "visual": "ilustrasi vektor + kamera",
+   "title": "Mabuk Kendaraan Gara-Gara Minyak Angin? 🚗",
+   "music": "santai",
+   "style": {
+    "theme": "kuning",
+    "cap": "frasa",
+    "trans": "zoom"
+   },
+   "closing": "tips",
+   "viral_bukti": "Kenapa kita bisa mabuk di dalam kendaraan? (FhVyPeof8fo) 817 rb",
+   "voice": "Senandika eleven_v4 + tag emosi",
+   "version": "v1 batch manual 8 Nov"
+  },
+  {
+   "id": "e15-trafo",
+   "date": "2026-11-11",
+   "pillar": "bedah jalan",
+   "topic": "Tabung di Tiang Listrik Itu Gas? ⚡",
+   "angle": "trafo tiang: lilitan banyak vs sedikit turunin 20 kV jadi 220 V; dengung 100 Hz; isinya minyak",
+   "hook": "adegan \"kamu\" + dua suara bertentangan + \"Siapa yang bener? Kita cari intinya!\"",
+   "visual": "ilustrasi vektor + kamera",
+   "title": "Tabung di Tiang Listrik Itu Gas? ⚡",
+   "music": "misteri",
+   "style": {
+    "theme": "cyan",
+    "cap": "frasa2",
+    "trans": "geser"
+   },
+   "closing": "jawab-konflik",
+   "viral_bukti": "Komponen penting di tiang listrik 447 rb; kluster tiang listrik PLN 16 jt",
+   "voice": "Senandika eleven_v4 + tag emosi",
+   "version": "v1 batch manual 8 Nov"
+  },
+  {
+   "id": "e16-obat",
+   "date": "2026-11-12",
+   "pillar": "tubuh",
+   "topic": "Obat Sesudah Makan, Harus Kenyang? 💊",
+   "angle": "obat sesudah makan: makanan jadi bantalan lambung untuk obat iritatif (NSAID), roti kecil cukup, maks 2 jam; ada obat sebelum makan",
+   "hook": "adegan \"kamu\" + dua suara bertentangan + \"Siapa yang bener? Kita cari intinya!\"",
+   "visual": "ilustrasi vektor + kamera",
+   "title": "Obat Sesudah Makan, Harus Kenyang? 💊",
+   "music": "lofi",
+   "style": {
+    "theme": "pink",
+    "cap": "frasa",
+    "trans": "putar"
+   },
+   "closing": "tips",
+   "viral_bukti": "perjalanan obat dalam tubuh (IYwmTS3jp1o) 10 jt",
+   "voice": "Senandika eleven_v4 + tag emosi",
+   "version": "v1 batch manual 8 Nov"
+  },
+  {
+   "id": "e17-mesin-jahit",
+   "date": "2026-11-13",
+   "pillar": "bedah benda",
+   "topic": "Mesin Jahit Bikin Simpul? 🧵",
+   "angle": "mesin jahit lockstitch: kait putar nyamber loop benang atas memutari spul, dua benang saling kunci tanpa simpul",
+   "hook": "adegan \"kamu\" + dua suara bertentangan + \"Siapa yang bener? Kita cari intinya!\"",
+   "visual": "ilustrasi vektor + kamera",
+   "title": "Mesin Jahit Bikin Simpul? 🧵",
+   "music": "penasaran",
+   "style": {
+    "theme": "oranye",
+    "cap": "frasa2",
+    "trans": "campur"
+   },
+   "closing": "punchline",
+   "viral_bukti": "Puluhan tahun hidup, baru tau cara kerja mesin jahit! (t8bcNxze_yY) 2,8 jt",
+   "voice": "Senandika eleven_v4 + tag emosi",
+   "version": "v1 batch manual 8 Nov"
+  },
+  {
+   "id": "e18-ban-pesawat",
+   "date": "2026-11-14",
+   "pillar": "kendaraan",
+   "topic": "Ban Pesawat Isinya Angin Biasa? ✈️",
+   "angle": "ban pesawat ±200 psi (6x ban mobil), isi nitrogen (kering, tak beku, tak bakar), sumbat lebur buang tekanan saat rem panas",
+   "hook": "adegan \"kamu\" + dua suara bertentangan + \"Siapa yang bener? Kita cari intinya!\"",
+   "visual": "ilustrasi vektor + kamera",
+   "title": "Ban Pesawat Isinya Angin Biasa? ✈️",
+   "music": "petualangan",
+   "style": {
+    "theme": "hijau",
+    "cap": "frasa",
+    "trans": "geser"
+   },
+   "closing": "punchline",
+   "viral_bukti": "Kenapa Ban Pesawat Tidak Meledak Saat Mendarat? (-XIKbUqKFSo) 1,9 jt",
+   "voice": "Senandika eleven_v4 + tag emosi",
+   "version": "v1 batch manual 8 Nov"
+  },
+  {
+   "id": "e19-pompa-sumur",
+   "date": "2026-11-15",
+   "pillar": "rumah",
+   "topic": "Air Sumur Nggak Naik, Ganti Pompa Gede? 💧",
+   "angle": "pompa sedot mentok ±10 m teori / 6-7 m praktik karena yang dorong air = tekanan udara; solusi pompa jet/celup di bawah",
+   "hook": "adegan \"kamu\" + dua suara bertentangan + \"Siapa yang bener? Kita cari intinya!\"",
+   "visual": "ilustrasi vektor + kamera",
+   "title": "Air Sumur Nggak Naik, Ganti Pompa Gede? 💧",
+   "music": "ceria",
+   "style": {
+    "theme": "ungu",
+    "cap": "frasa2",
+    "trans": "zoom"
+   },
+   "closing": "jawab-konflik",
+   "viral_bukti": "Cara Kerja Sumur Bor: Kenapa Pompa Sedot Mentok di Tujuh Meter? (BoKpKTpnd7A) 4,2 jt",
+   "voice": "Senandika eleven_v4 + tag emosi",
+   "version": "v1 batch manual 8 Nov"
+  },
+  {
+   "id": "e20-netral-motor",
+   "date": "2026-11-16",
+   "pillar": "kendaraan",
+   "topic": "Kenapa Netral Motor Nyelip di Tengah? 🏍️",
+   "angle": "pola gigi 1-N-2: netral di tengah supaya turun gigi terus pasti mentok di gigi 1, tidak nyasar netral saat ngerem/tanjakan",
+   "hook": "adegan \"kamu\" + dua suara bertentangan + \"Siapa yang bener? Kita cari intinya!\"",
+   "visual": "ilustrasi vektor + kamera",
+   "title": "Kenapa Netral Motor Nyelip di Tengah? 🏍️",
+   "music": "ceria",
+   "style": {
+    "theme": "kuning",
+    "cap": "frasa",
+    "trans": "campur"
+   },
+   "closing": "tips",
+   "viral_bukti": "Motor Ini Tidak Punya Gigi Netral (FAtYJGZ1Ao4) 13 jt",
+   "voice": "Senandika eleven_v4 + tag emosi",
+   "version": "v1 batch manual 8 Nov"
   }
  ],
  "pilots": [

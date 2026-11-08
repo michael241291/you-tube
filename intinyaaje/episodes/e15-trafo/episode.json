@@ -1,0 +1,291 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
+ },
+ "id": "e15-trafo",
+ "pillar": "bedah jalan",
+ "angle": "trafo tiang: lilitan banyak vs sedikit turunin 20 kV jadi 220 V; dengung 100 Hz; isinya minyak",
+ "viral_bukti": "Komponen penting di tiang listrik 447 rb; kluster tiang listrik PLN 16 jt",
+ "title": "Tabung di Tiang Listrik Itu Gas? ⚡",
+ "music": "misteri",
+ "style": {
+  "theme": "cyan",
+  "cap": "frasa2",
+  "trans": "geser"
+ },
+ "closing": "jawab-konflik",
+ "experiment": "batch manual 8 Nov",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Tabung di *tiang*"
+   ],
+   [
+    "w11",
+    "Kata tetangga: *gas*"
+   ],
+   [
+    "w18",
+    "Kata PLN: *trafo*"
+   ],
+   [
+    "w28",
+    "Listrik *20.000 V*"
+   ],
+   [
+    "w47",
+    "Kita bedah *tabungnya*"
+   ],
+   [
+    "w62",
+    "*20.000 → 220 V*"
+   ],
+   [
+    "w77",
+    "Kenapa *berdengung*?"
+   ],
+   [
+    "w99",
+    "Tetap *bahaya*"
+   ],
+   [
+    "w110",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w8",
+   "NGUUUNG",
+   600,
+   560,
+   -6,
+   "#2ee6d6"
+  ],
+  [
+   "w44",
+   "GOSONG!",
+   600,
+   640,
+   8,
+   "#ff3b5c"
+  ]
+ ],
+ "faces": [
+  [
+   "w17",
+   "bingung",
+   2.0
+  ],
+  [
+   "w66",
+   "kaget",
+   2.0
+  ],
+  [
+   "w99",
+   "setuju",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "trafo.svg",
+   "sea": "#041a1f",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     630,
+     741,
+     1376
+    ],
+    [
+     "w46",
+     630,
+     741,
+     1376
+    ],
+    [
+     "w47",
+     1900,
+     718,
+     1346
+    ],
+    [
+     "w76",
+     1900,
+     718,
+     1346
+    ],
+    [
+     "w77",
+     1900,
+     520,
+     800
+    ],
+    [
+     "w87",
+     1900,
+     520,
+     800
+    ],
+    [
+     "w88",
+     1900,
+     718,
+     1346
+    ],
+    [
+     "w98",
+     1900,
+     718,
+     1346
+    ],
+    [
+     "w99",
+     3235,
+     739,
+     1420
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".dengung",
+     "w": 8,
+     "show": true,
+     "dur": 0.3,
+     "w1": 47
+    },
+    {
+     "sel": ".gasTag",
+     "w": 13,
+     "show": true,
+     "dur": 0.3,
+     "w1": 22
+    },
+    {
+     "sel": ".kabelHot",
+     "w": 34,
+     "show": true,
+     "dur": 0.4,
+     "w1": 47
+    },
+    {
+     "sel": ".volt1",
+     "w": 54,
+     "show": true,
+     "dur": 0.4,
+     "w1": 77
+    },
+    {
+     "sel": ".volt2",
+     "w": 58,
+     "show": true,
+     "dur": 0.4,
+     "w1": 77
+    },
+    {
+     "sel": ".getar",
+     "w": 79,
+     "show": true,
+     "dur": 0.3,
+     "w1": 99
+    },
+    {
+     "sel": ".bahaya",
+     "w": 101,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 11,
+     "w1": 18,
+     "x": 31,
+     "y": 129,
+     "text": "KATA TETANGGA: *GAS*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 18,
+     "w1": 28,
+     "x": 31,
+     "y": 231,
+     "text": "KATA PLN: *TRAFO*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 34,
+     "w1": 47,
+     "x": 31,
+     "y": 129,
+     "text": "*20.000 VOLT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 54,
+     "w1": 62,
+     "x": 1314,
+     "y": 120,
+     "text": "LILITAN *BANYAK*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 58,
+     "w1": 62,
+     "x": 1314,
+     "y": 219,
+     "text": "LILITAN *SEDIKIT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 77,
+     "w1": 88,
+     "x": 1552,
+     "y": 164,
+     "text": "BERGETAR *100×/DETIK*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 88,
+     "w1": 99,
+     "x": 1314,
+     "y": 120,
+     "text": "ISINYA *MINYAK*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 110,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BUKAN GAS,",
+    "TAPI TETAP",
+    "*JANGAN DIDEKATI*"
+   ]
+  }
+ ],
+ "script": "Di tiang depan rumahmu ada tabung abu-abu gede yang kadang berdengung. Kata tetangga, itu tabung gas, jangan dekat-dekat. Kata PLN? Itu trafo. Siapa yang bener? Kita cari intinya! Kabel paling atas di tiang itu bawa listrik dua puluh ribu volt. Kalau langsung masuk rumah, semua barangmu gosong. Di dalam tabung ada dua gulungan kawat. Gulungan pertama lilitannya banyak, gulungan kedua lilitannya sedikit. Perbandingan lilitan itu yang nurunin dua puluh ribu volt jadi dua ratus dua puluh volt! Dengungnya dari inti besi yang ikut bergetar seratus kali tiap detik. Isinya juga bukan gas, tapi minyak khusus buat dingin dan penyekat. Tapi tetap jangan dipanjat atau dilempar layangan, karena kabelnya bertegangan tinggi. Jadi tetangga salah soal gasnya, tapi bener soal jangan dekat-dekat."
+}

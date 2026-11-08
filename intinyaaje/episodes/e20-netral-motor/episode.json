@@ -1,0 +1,261 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
+ },
+ "id": "e20-netral-motor",
+ "pillar": "kendaraan",
+ "angle": "pola gigi 1-N-2: netral di tengah supaya turun gigi terus pasti mentok di gigi 1, tidak nyasar netral saat ngerem/tanjakan",
+ "viral_bukti": "Motor Ini Tidak Punya Gigi Netral (FAtYJGZ1Ao4) 13 jt",
+ "title": "Kenapa Netral Motor Nyelip di Tengah? 🏍️",
+ "music": "ceria",
+ "style": {
+  "theme": "kuning",
+  "cap": "frasa",
+  "trans": "campur"
+ },
+ "closing": "tips",
+ "experiment": "batch manual 8 Nov",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "*1 – N – 2*"
+   ],
+   [
+    "w18",
+    "Kata temen: *biar susah*"
+   ],
+   [
+    "w23",
+    "Kata montir: *biar selamat*"
+   ],
+   [
+    "w34",
+    "Kalau N *di bawah*…"
+   ],
+   [
+    "w70",
+    "N *di tengah*"
+   ],
+   [
+    "w92",
+    "Lampu N *susah dicari*"
+   ],
+   [
+    "w110",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w36",
+   "CIIIT!",
+   600,
+   560,
+   -8,
+   "#ff3b5c"
+  ],
+  [
+   "w69",
+   "BAHAYA!",
+   600,
+   640,
+   6,
+   "#ffd23f"
+  ]
+ ],
+ "faces": [
+  [
+   "w17",
+   "bingung",
+   2.0
+  ],
+  [
+   "w69",
+   "kaget",
+   2.0
+  ],
+  [
+   "w100",
+   "setuju",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "netral.svg",
+   "sea": "#0b1226",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     800,
+     1154
+    ],
+    [
+     "w33",
+     540,
+     800,
+     1154
+    ],
+    [
+     "w34",
+     1810,
+     805,
+     1590
+    ],
+    [
+     "w69",
+     1810,
+     805,
+     1590
+    ],
+    [
+     "w70",
+     540,
+     800,
+     1154
+    ],
+    [
+     "w91",
+     540,
+     800,
+     1154
+    ],
+    [
+     "w92",
+     3300,
+     844,
+     1287
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".xB",
+     "w": 51,
+     "show": true,
+     "dur": 0.3,
+     "w1": 70
+    },
+    {
+     "sel": ".mogok",
+     "w": 58,
+     "show": true,
+     "dur": 0.3,
+     "w1": 70
+    },
+    {
+     "sel": ".turun",
+     "w": 74,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".setengah",
+     "w": 83,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".lampuN",
+     "w": 93,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".aman",
+     "w": 114,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 18,
+     "w1": 23,
+     "x": 38,
+     "y": 287,
+     "text": "KATA TEMEN: *BIAR SUSAH*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 23,
+     "w1": 34,
+     "x": 38,
+     "y": 373,
+     "text": "KATA MONTIR: *BIAR SELAMAT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 42,
+     "w1": 52,
+     "x": 1118,
+     "y": 98,
+     "text": "KALAU N *PALING BAWAH*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 52,
+     "w1": 63,
+     "x": 1118,
+     "y": 98,
+     "text": "MESIN *LEPAS* DARI RODA",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 74,
+     "w1": 83,
+     "x": 38,
+     "y": 287,
+     "text": "INJAK TERUS = *GIGI 1*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 83,
+     "w1": 92,
+     "x": 38,
+     "y": 287,
+     "text": "N CUMA *SETENGAH LANGKAH*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 101,
+     "w1": 110,
+     "x": 2740,
+     "y": 272,
+     "text": "GIGI 1 *PALING KUAT*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 110,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "NETRAL DI TENGAH",
+    "ITU BUKAN ISENG,",
+    "TAPI *PENGAMAN*"
+   ]
+  }
+ ],
+ "script": "Motor kopling, gigi satu ada di bawah, netral di atasnya, terus gigi dua. Kenapa netral nyelip di tengah? Kata temen, biar pemula susah. Kata montir? Biar kamu selamat. Siapa yang bener? Kita cari intinya! Bayangin kamu ngerem mendadak sambil nurunin gigi berkali-kali. Kalau netral ada paling bawah, motormu bisa nyasar ke netral. Mesin lepas dari roda, pas mau tancap lagi, motor nggak jalan. Di lampu merah atau tanjakan, itu bahaya! Dengan netral di tengah, injak terus ke bawah pasti mentok di gigi satu. Netral cuma setengah langkah, dicongkel pelan dari gigi satu. Makanya lampu netral sering susah dicari, itu memang disengaja. Gigi satu juga paling kuat buat jalan dari diam. Jadi montir yang bener. Netral di tengah itu bukan iseng, tapi pengaman."
+}

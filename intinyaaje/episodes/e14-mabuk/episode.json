@@ -1,0 +1,299 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
+ },
+ "id": "e14-mabuk",
+ "pillar": "tubuh",
+ "angle": "mabuk kendaraan = konflik sinyal telinga dalam vs mata; sopir antisipasi gerak",
+ "viral_bukti": "Kenapa kita bisa mabuk di dalam kendaraan? (FhVyPeof8fo) 817 rb",
+ "title": "Mabuk Kendaraan Gara-Gara Minyak Angin? 🚗",
+ "music": "santai",
+ "style": {
+  "theme": "kuning",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "closing": "tips",
+ "experiment": "batch manual 8 Nov",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Mabuk pas *mudik*"
+   ],
+   [
+    "w16",
+    "Kata orang: *minyak angin*"
+   ],
+   [
+    "w22",
+    "Kata dokter: *otak*"
+   ],
+   [
+    "w34",
+    "Kita bedah *kepalanya*"
+   ],
+   [
+    "w62",
+    "Dua laporan *bentrok*"
+   ],
+   [
+    "w80",
+    "Kenapa sopir *aman*?"
+   ],
+   [
+    "w98",
+    "Biar *nggak mabuk*"
+   ],
+   [
+    "w110",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w13",
+   "MUTER!",
+   620,
+   600,
+   -8,
+   "#3ddc84"
+  ],
+  [
+   "w62",
+   "ERROR!",
+   600,
+   640,
+   6,
+   "#ff3b5c"
+  ]
+ ],
+ "faces": [
+  [
+   "w24",
+   "bingung",
+   2.0
+  ],
+  [
+   "w62",
+   "kaget",
+   2.0
+  ],
+  [
+   "w99",
+   "menunjuk",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "mabuk.svg",
+   "sea": "#1b2a4a",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     530,
+     906,
+     1098
+    ],
+    [
+     "w33",
+     530,
+     906,
+     1098
+    ],
+    [
+     "w34",
+     1890,
+     869,
+     1494
+    ],
+    [
+     "w46",
+     1890,
+     869,
+     1494
+    ],
+    [
+     "w47",
+     1720,
+     840,
+     950
+    ],
+    [
+     "w53",
+     1720,
+     840,
+     950
+    ],
+    [
+     "w54",
+     1900,
+     840,
+     950
+    ],
+    [
+     "w61",
+     1900,
+     840,
+     950
+    ],
+    [
+     "w62",
+     1890,
+     869,
+     1494
+    ],
+    [
+     "w79",
+     1890,
+     869,
+     1494
+    ],
+    [
+     "w80",
+     3250,
+     910,
+     1008
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".pusing",
+     "w": 13,
+     "show": true,
+     "dur": 0.4,
+     "w1": 34
+    },
+    {
+     "sel": ".sinyal1",
+     "w": 47,
+     "show": true,
+     "dur": 0.4,
+     "w1": 80
+    },
+    {
+     "sel": ".sinyal2",
+     "w": 54,
+     "show": true,
+     "dur": 0.4,
+     "w1": 80
+    },
+    {
+     "sel": ".bingung",
+     "w": 62,
+     "show": true,
+     "dur": 0.3,
+     "w1": 80
+    },
+    {
+     "sel": ".mual",
+     "w": 72,
+     "show": true,
+     "dur": 0.5,
+     "w1": 80
+    },
+    {
+     "sel": ".horizon",
+     "w": 95,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".depan",
+     "w": 98,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 16,
+     "w1": 28,
+     "x": 52,
+     "y": 418,
+     "text": "KATA ORANG: *MINYAK ANGIN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 22,
+     "w1": 34,
+     "x": 52,
+     "y": 499,
+     "text": "KATA DOKTER: *OTAK*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 35,
+     "w1": 47,
+     "x": 1240,
+     "y": 205,
+     "text": "TELINGA DALAM: *CAIRAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 48,
+     "w1": 54,
+     "x": 1307,
+     "y": 418,
+     "text": "TELINGA: *KITA GERAK!*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 55,
+     "w1": 62,
+     "x": 1487,
+     "y": 418,
+     "text": "MATA: *KITA DIAM*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 68,
+     "w1": 80,
+     "x": 1240,
+     "y": 205,
+     "text": "DIKIRA *KERACUNAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 86,
+     "w1": 98,
+     "x": 2811,
+     "y": 462,
+     "text": "SOPIR *TAHU DULUAN*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 110,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "MUAL ITU",
+    "DARI *OTAK*,",
+    "BUKAN DARI",
+    "PERUT"
+   ]
+  }
+ ],
+ "script": "Mudik naik mobil, kamu duduk di belakang sambil main HP. Sepuluh menit kemudian, perut mulai muter. Kata orang, kamu kurang minyak angin. Kata dokter saraf? Ini urusan otak. Siapa yang bener? Kita cari intinya! Di telinga dalam ada cairan yang ikut goyang tiap mobil belok atau ngerem. Dia lapor ke otak, kita lagi gerak. Tapi matamu lagi ngelihat layar HP yang diam. Otak dapat dua laporan yang bertentangan! Salah satu dugaan ilmuwan, otak mengira kamu keracunan, jadi perut disuruh mual. Terus kenapa sopirnya nggak pernah mabuk? Karena dia tahu kapan mau belok, badannya siap duluan, matanya lihat jalan. Makanya, duduk di depan, lihat jauh ke depan, dan simpan dulu HP-nya. Jadi minyak angin cuma bikin enak, yang bikin mual itu otak yang bingung."
+}

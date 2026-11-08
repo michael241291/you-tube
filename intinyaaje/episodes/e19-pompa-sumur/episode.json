@@ -1,0 +1,310 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
+ },
+ "id": "e19-pompa-sumur",
+ "pillar": "rumah",
+ "angle": "pompa sedot mentok ±10 m teori / 6-7 m praktik karena yang dorong air = tekanan udara; solusi pompa jet/celup di bawah",
+ "viral_bukti": "Cara Kerja Sumur Bor: Kenapa Pompa Sedot Mentok di Tujuh Meter? (BoKpKTpnd7A) 4,2 jt",
+ "title": "Air Sumur Nggak Naik, Ganti Pompa Gede? 💧",
+ "music": "ceria",
+ "style": {
+  "theme": "ungu",
+  "cap": "frasa2",
+  "trans": "zoom"
+ },
+ "closing": "jawab-konflik",
+ "experiment": "batch manual 8 Nov",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Air sumur *nggak naik*"
+   ],
+   [
+    "w13",
+    "Kata tukang: *pompa gede*"
+   ],
+   [
+    "w20",
+    "Kata guru: *mentok*"
+   ],
+   [
+    "w35",
+    "Pompa *nggak nyedot*"
+   ],
+   [
+    "w58",
+    "Batasnya *±10 meter*"
+   ],
+   [
+    "w80",
+    "Pompa gede = *bunyi doang*"
+   ],
+   [
+    "w91",
+    "Taruh *di bawah*"
+   ],
+   [
+    "w110",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w8",
+   "NGIIING…",
+   600,
+   560,
+   -6,
+   "#ffffff"
+  ],
+  [
+   "w28",
+   "MENTOK!",
+   600,
+   620,
+   8,
+   "#ff5c8a"
+  ]
+ ],
+ "faces": [
+  [
+   "w19",
+   "bingung",
+   2.0
+  ],
+  [
+   "w67",
+   "kaget",
+   2.0
+  ],
+  [
+   "w100",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "pompa.svg",
+   "sea": "#0f0820",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     600,
+     842,
+     1332
+    ],
+    [
+     "w9",
+     600,
+     842,
+     1332
+    ],
+    [
+     "w10",
+     600,
+     1671,
+     1524
+    ],
+    [
+     "w34",
+     600,
+     1671,
+     1524
+    ],
+    [
+     "w35",
+     600,
+     842,
+     1332
+    ],
+    [
+     "w57",
+     600,
+     842,
+     1332
+    ],
+    [
+     "w58",
+     600,
+     1671,
+     1524
+    ],
+    [
+     "w79",
+     600,
+     1671,
+     1524
+    ],
+    [
+     "w80",
+     600,
+     842,
+     1332
+    ],
+    [
+     "w90",
+     600,
+     842,
+     1332
+    ],
+    [
+     "w91",
+     2000,
+     1691,
+     1450
+    ],
+    [
+     "w101",
+     2000,
+     1691,
+     1450
+    ],
+    [
+     "w102",
+     2000,
+     920,
+     1228
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".bunyi",
+     "w": 6,
+     "show": true,
+     "dur": 0.3,
+     "w1": 13
+    },
+    {
+     "sel": ".udara",
+     "w": 48,
+     "show": true,
+     "dur": 0.4,
+     "w1": 80
+    },
+    {
+     "sel": ".airNaik",
+     "w": 49,
+     "show": true,
+     "dur": 1.0,
+     "w1": 91
+    },
+    {
+     "sel": ".batas",
+     "w": 63,
+     "show": true,
+     "dur": 0.4,
+     "w1": 91
+    },
+    {
+     "sel": ".batas7",
+     "w": 70,
+     "show": true,
+     "dur": 0.4,
+     "w1": 91
+    },
+    {
+     "sel": ".dorong",
+     "w": 101,
+     "show": true,
+     "dur": 1.0
+    },
+    {
+     "sel": ".keran",
+     "w": 103,
+     "show": true,
+     "dur": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "w": 13,
+     "w1": 20,
+     "x": -63,
+     "y": 994,
+     "text": "KATA TUKANG: *POMPA GEDE*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 20,
+     "w1": 35,
+     "x": -63,
+     "y": 1107,
+     "text": "KATA GURU FISIKA: *MENTOK*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 35,
+     "w1": 48,
+     "x": 20,
+     "y": 250,
+     "text": "POMPA *NGGAK NYEDOT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 48,
+     "w1": 58,
+     "x": 20,
+     "y": 250,
+     "text": "YANG DORONG: *UDARA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 58,
+     "w1": 68,
+     "x": -63,
+     "y": 994,
+     "text": "MAKS *±10 METER*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 68,
+     "w1": 80,
+     "x": -63,
+     "y": 994,
+     "text": "PRAKTIK *6–7 METER*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 91,
+     "w1": 102,
+     "x": 1369,
+     "y": 1047,
+     "text": "POMPA *DI BAWAH*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 110,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BUKAN YANG",
+    "PALING GEDE,",
+    "TAPI *PALING DEKAT AIR*"
+   ]
+  }
+ ],
+ "script": "Air sumur di rumah makin dalam, pompanya cuma bunyi tapi airnya nggak naik. Kata tukang, beli pompa yang lebih gede. Kata guru fisika? Pompa segede apa pun bakal mentok. Siapa yang bener? Kita cari intinya! Pompa itu sebenarnya nggak nyedot air. Dia cuma bikin pipa jadi kosong udara. Yang dorong air naik itu udara di atas permukaan sumur. Dan dorongan udara cuma kuat ngangkat air sekitar sepuluh meter! Di lapangan malah cuma enam sampai tujuh meter, karena gesekan di pipa. Jadi beli pompa lebih gede itu cuma bikin bunyinya lebih kencang. Solusinya, pompa ditaruh di bawah. Pompa jet atau pompa celup dorong air dari dalam sumur, bukan narik dari atas. Jadi guru fisika yang bener. Pompa yang benar bukan yang paling gede, tapi yang paling dekat ke air."
+}

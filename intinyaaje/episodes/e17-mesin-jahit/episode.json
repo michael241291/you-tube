@@ -1,0 +1,274 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
+ },
+ "id": "e17-mesin-jahit",
+ "pillar": "bedah benda",
+ "angle": "mesin jahit lockstitch: kait putar nyamber loop benang atas memutari spul, dua benang saling kunci tanpa simpul",
+ "viral_bukti": "Puluhan tahun hidup, baru tau cara kerja mesin jahit! (t8bcNxze_yY) 2,8 jt",
+ "title": "Mesin Jahit Bikin Simpul? 🧵",
+ "music": "penasaran",
+ "style": {
+  "theme": "oranye",
+  "cap": "frasa2",
+  "trans": "campur"
+ },
+ "closing": "punchline",
+ "experiment": "batch manual 8 Nov",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Jahitan *bajumu*"
+   ],
+   [
+    "w11",
+    "Kata orang: *simpul*"
+   ],
+   [
+    "w20",
+    "Kata penjahit: *nggak*"
+   ],
+   [
+    "w33",
+    "Kita bedah *mesinnya*"
+   ],
+   [
+    "w59",
+    "Jadi *lingkaran*"
+   ],
+   [
+    "w71",
+    "*Kait* yang muter"
+   ],
+   [
+    "w93",
+    "*Ngunci*, bukan simpul"
+   ],
+   [
+    "w106",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w53",
+   "JLEB!",
+   620,
+   560,
+   -6,
+   "#ffd23f"
+  ],
+  [
+   "w74",
+   "SWUSH!",
+   600,
+   600,
+   8,
+   "#ff3b5c"
+  ]
+ ],
+ "faces": [
+  [
+   "w24",
+   "bingung",
+   2.0
+  ],
+  [
+   "w74",
+   "kaget",
+   2.0
+  ],
+  [
+   "w96",
+   "senang",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "jahit.svg",
+   "sea": "#1a0d05",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     770,
+     1154
+    ],
+    [
+     "w32",
+     540,
+     770,
+     1154
+    ],
+    [
+     "w33",
+     1900,
+     880,
+     1250
+    ],
+    [
+     "w58",
+     1900,
+     880,
+     1250
+    ],
+    [
+     "w59",
+     1950,
+     900,
+     800
+    ],
+    [
+     "w80",
+     1950,
+     900,
+     800
+    ],
+    [
+     "w81",
+     3300,
+     718,
+     1120
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".simpul",
+     "w": 15,
+     "show": true,
+     "dur": 0.3,
+     "w1": 22
+    },
+    {
+     "sel": ".jarum",
+     "w": 52,
+     "move": [
+      0,
+      180,
+      0
+     ],
+     "dur": 0.5
+    },
+    {
+     "sel": ".loop",
+     "w": 63,
+     "show": true,
+     "dur": 0.4,
+     "w1": 74
+    },
+    {
+     "sel": ".loopBesar",
+     "w": 74,
+     "show": true,
+     "dur": 0.6,
+     "w1": 81
+    },
+    {
+     "sel": ".kait",
+     "w": 71,
+     "move": [
+      0,
+      0,
+      300
+     ],
+     "dur": 1.5
+    },
+    {
+     "sel": ".putus",
+     "w": 112,
+     "show": true,
+     "dur": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "w": 11,
+     "w1": 20,
+     "x": 38,
+     "y": 257,
+     "text": "KATA ORANG: *SIMPUL*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 20,
+     "w1": 33,
+     "x": 38,
+     "y": 343,
+     "text": "KATA PENJAHIT: *NGGAK ADA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 38,
+     "w1": 46,
+     "x": 1356,
+     "y": 324,
+     "text": "BENANG *ATAS* (JARUM)",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 46,
+     "w1": 52,
+     "x": 1356,
+     "y": 417,
+     "text": "BENANG *BAWAH* (SPUL)",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 63,
+     "w1": 71,
+     "x": 1602,
+     "y": 544,
+     "text": "JADI *LINGKARAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 71,
+     "w1": 81,
+     "x": 1602,
+     "y": 544,
+     "text": "*KAIT* NYAMBER",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 93,
+     "w1": 106,
+     "x": 2813,
+     "y": 220,
+     "text": "*SALING KUNCI*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 106,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BUKAN SIMPUL,",
+    "TAPI DUA BENANG",
+    "*SALING KUNCI*"
+   ]
+  }
+ ],
+ "script": "Coba lihat jahitan di bajumu. Benangnya rapi, atas bawah, nggak lepas-lepas. Kata orang, mesin jahit bikin simpul di tiap tusukan. Kata penjahit? Nggak ada simpul sama sekali. Siapa yang bener? Kita cari intinya! Mesin jahit pakai dua benang. Satu dari atas lewat jarum, satu lagi dari gulungan kecil di bawah, namanya spul. Jarum nusuk kain, bawa benang atas turun. Pas jarum naik sedikit, benang atas membentuk lingkaran kecil. Di situ ada kait yang muter, nyamber lingkaran itu, terus bawa memutari spul! Benang atas jadi melingkari benang bawah, lalu ditarik kencang ke tengah kain. Dua benang saling ngunci, bukan disimpul. Semua itu terjadi ratusan kali tiap menit. Jadi penjahitnya yang bener. Makanya kalau satu benang putus, jahitannya gampang terurai."
+}

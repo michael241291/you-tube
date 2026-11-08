@@ -1,0 +1,20 @@
+<defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0b1226"/><stop offset="1" stop-color="#22305a"/></linearGradient><radialGradient id="hot" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff3b30" stop-opacity=".85"/><stop offset="1" stop-color="#ff3b30" stop-opacity="0"/></radialGradient><radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe14d" stop-opacity=".8"/><stop offset="1" stop-color="#ffe14d" stop-opacity="0"/></radialGradient></defs>
+<rect x="-1200" y="-800" width="6400" height="3600" fill="url(#bg)"/>
+<rect x="-1200" y="1100" width="6400" height="1500" fill="#3b3b46"/>
+<rect x="440" y="340" width="200" height="760" rx="40" fill="#1e2a48" stroke="#4fb3ff" stroke-width="8"/>
+<g class="g4"><circle cx="540" cy="400" r="54" fill="#0b1226" stroke="#fff" stroke-width="10"/><text x="540" y="424" font-size="66" font-weight="900" fill="#fff" text-anchor="middle">4</text></g>
+<g class="g3"><circle cx="540" cy="540" r="54" fill="#0b1226" stroke="#fff" stroke-width="10"/><text x="540" y="564" font-size="66" font-weight="900" fill="#fff" text-anchor="middle">3</text></g>
+<g class="g2"><circle cx="540" cy="680" r="54" fill="#0b1226" stroke="#fff" stroke-width="10"/><text x="540" y="704" font-size="66" font-weight="900" fill="#fff" text-anchor="middle">2</text></g>
+<g class="gN"><circle cx="540" cy="790" r="54" fill="#0b1226" stroke="#3ddc84" stroke-width="10"/><text x="540" y="814" font-size="66" font-weight="900" fill="#3ddc84" text-anchor="middle">N</text></g>
+<g class="g1"><circle cx="540" cy="960" r="54" fill="#0b1226" stroke="#ffd23f" stroke-width="10"/><text x="540" y="984" font-size="66" font-weight="900" fill="#ffd23f" text-anchor="middle">1</text></g>
+<g class="setengah" opacity="0"><path d="M620 960 Q690 880 620 800" stroke="#3ddc84" stroke-width="12" fill="none" stroke-dasharray="20 12"/></g>
+<g class="turun" opacity="0"><path d="M370 420 V990" stroke="#ff3b5c" stroke-width="18" marker-end=""/><path d="M370 990 l-30 -40 h60z" fill="#ff3b5c"/></g>
+<path d="M1300 1100 L2100 700 L2500 700 L2500 1100Z" fill="#555"/>
+<g class="motor"><g transform="translate(1700 860) rotate(-27)"><circle cx="-90" cy="60" r="56" fill="#222"/><circle cx="110" cy="60" r="56" fill="#222"/><path d="M-120 20 L-40 -40 L80 -40 L140 20Z" fill="#ff3b5c"/></g></g>
+<g class="lampu"><rect x="2200" y="300" width="110" height="300" rx="20" fill="#222"/><circle cx="2255" cy="370" r="36" fill="#ff3b30"/><circle cx="2255" cy="450" r="36" fill="#553"/><circle cx="2255" cy="530" r="36" fill="#353"/></g>
+<g class="mogok" opacity="0"><text x="1700" y="600" font-size="90" font-weight="900" fill="#ffd23f" text-anchor="middle">NETRAL?!</text></g>
+<g class="nBawah"><rect x="1120" y="300" width="160" height="330" rx="30" fill="#1e2a48"/><text x="1200" y="380" font-size="54" font-weight="900" fill="#fff" text-anchor="middle">2</text><text x="1200" y="470" font-size="54" font-weight="900" fill="#fff" text-anchor="middle">1</text><text x="1200" y="580" font-size="64" font-weight="900" fill="#3ddc84" text-anchor="middle">N</text></g>
+<g class="xB" opacity="0"><path d="M1090 355 L1310 575 M1310 355 L1090 575" stroke="#ff3b5c" stroke-width="26" stroke-linecap="round"/></g>
+<circle cx="3300" cy="660" r="320" fill="#1e2a48" stroke="#9aa3ad" stroke-width="20"/><path d="M3300 660 L3430 480" stroke="#ff3b5c" stroke-width="16" stroke-linecap="round"/>
+<g class="lampuN" opacity="0"><circle cx="3300" cy="860" r="60" fill="#3ddc84"/><text x="3300" y="884" font-size="70" font-weight="900" fill="#0b1226" text-anchor="middle">N</text></g>
+<g class="aman" opacity="0"><rect x="3020" y="1060" width="560" height="120" rx="60" fill="#3ddc84"/><text x="3300" y="1142" font-size="70" font-weight="900" fill="#0b1226" text-anchor="middle">PENGAMAN</text></g>

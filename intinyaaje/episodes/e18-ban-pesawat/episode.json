@@ -1,0 +1,263 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
+ },
+ "id": "e18-ban-pesawat",
+ "pillar": "kendaraan",
+ "angle": "ban pesawat ±200 psi (6x ban mobil), isi nitrogen (kering, tak beku, tak bakar), sumbat lebur buang tekanan saat rem panas",
+ "viral_bukti": "Kenapa Ban Pesawat Tidak Meledak Saat Mendarat? (-XIKbUqKFSo) 1,9 jt",
+ "title": "Ban Pesawat Isinya Angin Biasa? ✈️",
+ "music": "petualangan",
+ "style": {
+  "theme": "hijau",
+  "cap": "frasa",
+  "trans": "geser"
+ },
+ "closing": "punchline",
+ "experiment": "batch manual 8 Nov",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Mendarat *ngebut*"
+   ],
+   [
+    "w14",
+    "Kata orang: *angin biasa*"
+   ],
+   [
+    "w21",
+    "Kata teknisi: *nitrogen*"
+   ],
+   [
+    "w32",
+    "Kita bedah *bannya*"
+   ],
+   [
+    "w56",
+    "Kenapa *nitrogen*?"
+   ],
+   [
+    "w80",
+    "Kalau rem *kepanasan*"
+   ],
+   [
+    "w97",
+    "Ban yang *tahu diri*"
+   ],
+   [
+    "w106",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w3",
+   "BRAKK!",
+   620,
+   560,
+   -8,
+   "#ffd23f"
+  ],
+  [
+   "w11",
+   "DOR!",
+   760,
+   700,
+   8,
+   "#ff3b5c"
+  ],
+  [
+   "w94",
+   "PSSST…",
+   600,
+   600,
+   -6,
+   "#7fd1ff"
+  ]
+ ],
+ "faces": [
+  [
+   "w20",
+   "bingung",
+   2.0
+  ],
+  [
+   "w96",
+   "kaget",
+   2.0
+  ],
+  [
+   "w99",
+   "setuju",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "ban.svg",
+   "sea": "#07160f",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     794,
+     1213
+    ],
+    [
+     "w31",
+     540,
+     794,
+     1213
+    ],
+    [
+     "w32",
+     1900,
+     763,
+     1627
+    ],
+    [
+     "w79",
+     1900,
+     763,
+     1627
+    ],
+    [
+     "w80",
+     3300,
+     729,
+     1000
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".pesawat",
+     "w": 0,
+     "move": [
+      0,
+      60,
+      0
+     ],
+     "dur": 1.2
+    },
+    {
+     "sel": ".ban_mobil_pecah",
+     "w": 7,
+     "show": true,
+     "dur": 0.3,
+     "w1": 14
+    },
+    {
+     "sel": ".psi",
+     "w": 37,
+     "show": true,
+     "dur": 0.4,
+     "w1": 43
+    },
+    {
+     "sel": ".ban6",
+     "w": 43,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".es",
+     "w": 64,
+     "show": true,
+     "dur": 0.4,
+     "w1": 80
+    },
+    {
+     "sel": ".panas",
+     "w": 81,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".keluar",
+     "w": 87,
+     "show": true,
+     "dur": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "w": 14,
+     "w1": 21,
+     "x": 12,
+     "y": 255,
+     "text": "KATA ORANG: *ANGIN BIASA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 21,
+     "w1": 32,
+     "x": 12,
+     "y": 345,
+     "text": "KATA TEKNISI: *NITROGEN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 47,
+     "w1": 56,
+     "x": 1192,
+     "y": 40,
+     "text": "NGGAK GEPENG *PULUHAN TON*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 56,
+     "w1": 64,
+     "x": 1192,
+     "y": 40,
+     "text": "NITROGEN: *KERING*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 64,
+     "w1": 80,
+     "x": 1192,
+     "y": 40,
+     "text": "UAP AIR → *ES*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 84,
+     "w1": 97,
+     "x": 2865,
+     "y": 285,
+     "text": "SUMBAT *MELELEH*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 106,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "ISINYA *NITROGEN*,",
+    "KEMPIS DULU",
+    "SEBELUM *MELEDAK*"
+   ]
+  }
+ ],
+ "script": "Pesawat mendarat, rodanya hantam landasan sambil ngebut. Ban mobil aja bisa pecah kena lubang. Kata orang, ban pesawat isinya angin biasa. Kata teknisi bandara? Isinya nitrogen. Siapa yang bener? Kita cari intinya! Ban pesawat dipompa keras banget, sekitar dua ratus psi. Itu kira-kira enam kali ban mobilmu. Makanya bannya nggak gepeng waktu kena beban puluhan ton. Diisinya nitrogen, karena kering dan nggak bikin api. Di ketinggian dingin banget, udara biasa yang mengandung uap air bisa jadi es di dalam ban. Kalau rem kepanasan, ada sumbat khusus yang meleleh dan buang tekanannya pelan-pelan, jadi bannya kempis, bukan meledak! Ban pesawat ternyata lebih tahu diri daripada ban mobil. Jadi teknisinya yang bener. Dan tekanannya dicek rutin sebelum terbang."
+}

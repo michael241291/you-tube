@@ -1,0 +1,267 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1170,
+ "voice": {
+  "name": "Senandika",
+  "voice_id": "eESTQeTcGUli0jYysKtx",
+  "model": "eleven_v4",
+  "tags": true
+ },
+ "id": "e16-obat",
+ "pillar": "tubuh",
+ "angle": "obat sesudah makan: makanan jadi bantalan lambung untuk obat iritatif (NSAID), roti kecil cukup, maks 2 jam; ada obat sebelum makan",
+ "viral_bukti": "perjalanan obat dalam tubuh (IYwmTS3jp1o) 10 jt",
+ "title": "Obat Sesudah Makan, Harus Kenyang? 💊",
+ "music": "lofi",
+ "style": {
+  "theme": "pink",
+  "cap": "frasa",
+  "trans": "putar"
+ },
+ "closing": "tips",
+ "experiment": "batch manual 8 Nov; sumber Kemenkes",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "*Sesudah makan* = kenyang?"
+   ],
+   [
+    "w7",
+    "Kata ibu: *kenyang dulu*"
+   ],
+   [
+    "w16",
+    "Kata apoteker: *nggak*"
+   ],
+   [
+    "w26",
+    "Kita bedah *lambungnya*"
+   ],
+   [
+    "w48",
+    "Makanan = *bantalan*"
+   ],
+   [
+    "w66",
+    "Yang penting *waktunya*"
+   ],
+   [
+    "w78",
+    "Ada juga *sebelum makan*"
+   ],
+   [
+    "w105",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w47",
+   "PERIH!",
+   600,
+   600,
+   -8,
+   "#ff3b30"
+  ]
+ ],
+ "faces": [
+  [
+   "w19",
+   "bingung",
+   2.0
+  ],
+  [
+   "w56",
+   "dapat-ide",
+   2.0
+  ],
+  [
+   "w92",
+   "menunjuk",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "obat.svg",
+   "sea": "#1a0614",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     550,
+     790,
+     1008
+    ],
+    [
+     "w25",
+     550,
+     790,
+     1008
+    ],
+    [
+     "w26",
+     1880,
+     754,
+     1213
+    ],
+    [
+     "w65",
+     1880,
+     754,
+     1213
+    ],
+    [
+     "w66",
+     3300,
+     800,
+     1154
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".kenyang",
+     "w": 11,
+     "show": true,
+     "dur": 0.3,
+     "w1": 26
+    },
+    {
+     "sel": ".pil",
+     "w": 41,
+     "move": [
+      -40,
+      200,
+      40
+     ],
+     "dur": 0.6
+    },
+    {
+     "sel": ".perih",
+     "w": 46,
+     "show": true,
+     "dur": 0.3,
+     "w1": 48
+    },
+    {
+     "sel": ".kosong",
+     "w": 48,
+     "hide": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".roti",
+     "w": 50,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".bantal",
+     "w": 50,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".arc2",
+     "w": 69,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".sebelum",
+     "w": 81,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".tanya",
+     "w": 115,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 7,
+     "w1": 16,
+     "x": 111,
+     "y": 342,
+     "text": "KATA IBU: *MAKAN KENYANG*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 16,
+     "w1": 26,
+     "x": 111,
+     "y": 417,
+     "text": "KATA APOTEKER: *NGGAK HARUS*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 30,
+     "w1": 38,
+     "x": 1352,
+     "y": 215,
+     "text": "BISA *IRITASI* LAMBUNG",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 48,
+     "w1": 57,
+     "x": 1352,
+     "y": 215,
+     "text": "MAKANAN = *BANTALAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 57,
+     "w1": 66,
+     "x": 1352,
+     "y": 215,
+     "text": "ROTI KECIL *CUKUP*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 69,
+     "w1": 78,
+     "x": 2798,
+     "y": 287,
+     "text": "*MAKS 2 JAM* SETELAH MAKAN",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 81,
+     "w1": 98,
+     "x": 2798,
+     "y": 287,
+     "text": "ADA YANG *SEBELUM* MAKAN",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 105,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "MAKAN DULU",
+    "IYA, TAPI",
+    "*NGGAK PERLU KENYANG*"
+   ]
+  }
+ ],
+ "script": "Resep dari dokter tulisannya, diminum sesudah makan. Kata ibu, berarti harus makan nasi sampai kenyang dulu. Kata apoteker? Nggak harus. Siapa yang bener? Kita cari intinya! Ada obat yang bikin dinding lambung iritasi, contohnya obat nyeri kayak ibuprofen. Kalau lambungnya kosong, obat langsung nempel ke dinding lambung. Perih. Makanan jadi bantalan. Tapi bantalannya nggak harus sepiring nasi. Menurut Kemenkes, roti porsi kecil atau camilan pun cukup. Yang penting waktunya. Minum sesaat setelah makan, jangan lewat dari dua jam. Nah, ada juga obat yang justru harus diminum sebelum makan, setengah sampai satu jam sebelumnya. Karena makanan bisa menghambat penyerapannya. Jadi aturan di kemasan itu bukan basa-basi. Ibu bener soal makan dulu, tapi nggak perlu sampai kenyang. Kalau bingung, tanya apoteker."
+}

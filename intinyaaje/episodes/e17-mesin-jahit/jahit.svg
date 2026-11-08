@@ -1,0 +1,17 @@
+<defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#1a0d05"/><stop offset="1" stop-color="#5a2a0e"/></linearGradient><radialGradient id="hot" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff3b30" stop-opacity=".85"/><stop offset="1" stop-color="#ff3b30" stop-opacity="0"/></radialGradient><radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe14d" stop-opacity=".8"/><stop offset="1" stop-color="#ffe14d" stop-opacity="0"/></radialGradient></defs>
+<rect x="-1200" y="-800" width="6400" height="3600" fill="url(#bg)"/>
+<rect x="-1200" y="1100" width="6400" height="1500" fill="#4a2e1a"/>
+<path d="M220 360 L420 300 Q540 380 660 300 L860 360 L960 560 L820 620 L800 1080 H280 L260 620 L120 560 Z" fill="#2ec4ff"/>
+<g class="jahitan"><path d="M300 700 H780" stroke="#fff" stroke-width="10" stroke-dasharray="34 18"/></g>
+<g class="simpul" opacity="0"><circle cx="320" cy="700" r="16" fill="#ff3b5c"/><circle cx="424" cy="700" r="16" fill="#ff3b5c"/><circle cx="528" cy="700" r="16" fill="#ff3b5c"/><circle cx="632" cy="700" r="16" fill="#ff3b5c"/><circle cx="736" cy="700" r="16" fill="#ff3b5c"/></g>
+<rect x="1450" y="740" width="900" height="50" fill="#ffd9a8"/>
+<g class="benangAtas"><path d="M1900 120 V740" stroke="#ff3b5c" stroke-width="10"/></g>
+<g class="jarum"><rect x="1888" y="200" width="24" height="560" rx="10" fill="#c9ced6"/></g>
+<g class="kait"><circle cx="1900" cy="1000" r="170" fill="none" stroke="#9aa3ad" stroke-width="30" stroke-dasharray="820 250"/></g>
+<g class="spul"><circle cx="1900" cy="1000" r="80" fill="#ffd23f"/><circle cx="1900" cy="1000" r="24" fill="#5a2a0e"/></g>
+<g class="benangBawah"><path d="M1980 1000 Q2100 900 1960 770 H2350" stroke="#2ec4ff" stroke-width="10" fill="none"/></g>
+<g class="loop" opacity="0"><ellipse cx="1950" cy="860" rx="50" ry="80" fill="none" stroke="#ff3b5c" stroke-width="10"/></g>
+<g class="loopBesar" opacity="0"><circle cx="1900" cy="1000" r="210" fill="none" stroke="#ff3b5c" stroke-width="12"/></g>
+<rect x="2800" y="600" width="1000" height="120" fill="#ffd9a8"/>
+<g class="kunci"><path d="M2840 600 h100 v60 h40 v-60 h100 v60 h40 v-60 h100 v60 h40 v-60 h100 v60 h40 v-60 h100 v60 h40 v-60 h100 v60 h40 v-60 h100 v60 h40 v-60" stroke="#ff3b5c" stroke-width="12" fill="none"/><path d="M2840 720 h100 v-60 h40 v60 h100 v-60 h40 v60 h100 v-60 h40 v60 h100 v-60 h40 v60 h100 v-60 h40 v60 h100 v-60 h40 v60 h100 v-60 h40 v60" stroke="#2ec4ff" stroke-width="12" fill="none"/></g>
+<g class="putus" opacity="0"><path d="M3240 560 l60 60 M3240 620 l60 -60" stroke="#ffd23f" stroke-width="16"/></g>
