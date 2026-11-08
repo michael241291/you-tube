@@ -1,0 +1,7 @@
+Rutinitas 2026-11-08 (Minggu): BAGIAN 2 tidak bisa dijalankan.
+- Unduhan suara diblokir proxy: elevenlabsusercontent.com -> 403 (api.elevenlabs.io -> 404 di root, perlu diizinkan; storage.googleapis.com -> 400).
+- faster-whisper belum terpasang (pip perlu lewat proxy), tidak diuji.
+- Dokumen claude/intinyaaje-strategi-konten.md TIDAK ADA di branch main (folder claude/ tidak ada), jadi STATUS, Aturan hasil belajar, dan Antrean topik tidak bisa dibaca.
+Host yang harus diizinkan: elevenlabsusercontent.com, api.elevenlabs.io, storage.googleapis.com, huggingface.co, raw.githubusercontent.com.
+Tidak ada naskah/suara dibuat; kredit ElevenLabs tidak terpakai.
+Stok Buffer: e12 tayang 8 Nov 17.00, e13 dijadwalkan 9 Nov 17.00; setelah itu kosong.
