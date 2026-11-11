@@ -1,0 +1,171 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e33-ac-sirkulasi",
+ "pillar": "kendaraan",
+ "angle": "mode sirkulasi dalam AC mobil menumpuk CO2 (4 orang ±2.000 ppm dalam 20 menit) → ngantuk; pakai udara luar",
+ "viral_bukti": "Fitur Tersembunyi Pada Mobil Yang Tidak Diketahui Orang-orang (sA4BpxjSTtk) 9,6 jt; Fakta paling berguna buat mobil (fW7kSniMy7g) 21 jt",
+ "title": "Ngantuk di Mobil Gara-Gara Tombol Ini? 🚗",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck; sumber CO2Meter/GSS",
+ "style": {
+  "theme": "kuning",
+  "cap": "frasa",
+  "trans": "campur"
+ },
+ "music": "santai",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Perjalanan *jauh*"
+   ],
+   [
+    "w41",
+    "Isi kabin: *CO₂*"
+   ],
+   [
+    "w96",
+    "Tombol *yang benar*"
+   ],
+   [
+    "w110",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w19",
+   "bingung",
+   2.0
+  ],
+  [
+   "w96",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "ac.svg",
+   "sea": "#1a2433",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     530,
+     816,
+     1098
+    ],
+    [
+     "w40",
+     530,
+     816,
+     1098
+    ],
+    [
+     "w41",
+     1900,
+     873,
+     1405
+    ],
+    [
+     "w95",
+     1900,
+     873,
+     1405
+    ],
+    [
+     "w96",
+     3300,
+     719,
+     1000
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".zzz",
+     "w": 19,
+     "show": true,
+     "dur": 0.3,
+     "w1": 41
+    },
+    {
+     "sel": ".co2",
+     "w": 61,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".ppm2",
+     "w": 70,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".luar",
+     "w": 106,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".dalam",
+     "w": 106,
+     "hide": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 21,
+     "w1": 26,
+     "x": 52,
+     "y": 353,
+     "text": "KATA ORANG: *KECAPEKAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 26,
+     "w1": 35,
+     "x": 52,
+     "y": 435,
+     "text": "SENSOR: *NAPAS SENDIRI*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 86,
+     "w1": 96,
+     "x": 1289,
+     "y": 281,
+     "text": "*SUSAH FOKUS*, NGANTUK",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 110,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "SIRKULASI DALAM",
+    "SEBENTAR SAJA,",
+    "LALU *UDARA LUAR*"
+   ]
+  }
+ ],
+ "script": "Perjalanan jauh, kaca mobil ditutup, AC dipasang ke mode sirkulasi dalam biar cepat dingin. Satu jam kemudian semua penumpang ngantuk berat. Kata orang, itu karena kecapekan. Kata sensor udara, itu karena kalian menghirup napas sendiri. Siapa yang bener? Kita cari intinya. Mode sirkulasi dalam memutar udara yang sama di kabin, tanpa mengambil udara dari luar. Tiap kali kita bernapas, kita mengeluarkan karbon dioksida. Udara luar normalnya sekitar empat ratus ppm. Uji di mobil berisi empat orang, kadarnya bisa tembus dua ribu ppm dalam dua puluh menit. Di angka itu, orang mulai susah fokus, pusing, dan ngantuk. Solusinya gampang. Pakai sirkulasi dalam sebentar saja buat mendinginkan, lalu pindah ke udara luar. Kalau mulai menguap terus, buka jendela sebentar."
+}

@@ -1,0 +1,173 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e29-huruf-a",
+ "pillar": "unik",
+ "angle": "dua bentuk huruf a: keduanya turunan A kapital; versi satu tingkat dari tulisan tangan cepat, dua tingkat umum di huruf cetak tegak",
+ "viral_bukti": "Kenapa Huruf a kecil Ada Dua Bentuk? (weBceyk2aww) 5,1 jt",
+ "title": "Huruf a di HP Kok Beda Sama Tulisanmu? 🔤",
+ "closing": "teaser",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "oranye",
+  "cap": "frasa",
+  "trans": "campur"
+ },
+ "music": "penasaran",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Tulis huruf *a*"
+   ],
+   [
+    "w14",
+    "Di HP *beda*"
+   ],
+   [
+    "w44",
+    "Asalnya *A kapital*"
+   ],
+   [
+    "w92",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w21",
+   "bingung",
+   2.0
+  ],
+  [
+   "w44",
+   "senang",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "huruf.svg",
+   "sea": "#1d1730",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     758,
+     1124
+    ],
+    [
+     "w13",
+     540,
+     758,
+     1124
+    ],
+    [
+     "w14",
+     1900,
+     802,
+     1332
+    ],
+    [
+     "w43",
+     1900,
+     802,
+     1332
+    ],
+    [
+     "w44",
+     3300,
+     762,
+     1332
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".tingkat",
+     "w": 23,
+     "show": true,
+     "dur": 0.3
+    },
+    {
+     "sel": ".panah",
+     "w": 53,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".duaA",
+     "w": 64,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".gg",
+     "w": 109,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 27,
+     "w1": 32,
+     "x": 1320,
+     "y": 241,
+     "text": "GURU: *a BULAT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 32,
+     "w1": 38,
+     "x": 1320,
+     "y": 340,
+     "text": "HP: *a BERTINGKAT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 44,
+     "w1": 53,
+     "x": 2720,
+     "y": 201,
+     "text": "TURUNAN *A KAPITAL*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 79,
+     "w1": 92,
+     "x": 2720,
+     "y": 201,
+     "text": "HURUF MIRING: *BULAT LAGI*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 92,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "VERSI TANGAN",
+    "vs",
+    "*VERSI CETAK*"
+   ]
+  }
+ ],
+ "script": "Coba tulis huruf a kecil di kertas. Pasti bentuknya bulat dengan satu tangkai, kan? Sekarang lihat huruf a di layar HP-mu. Bentuknya beda, ada lengkungan di atasnya. Guru SD ngajarin yang bulat, buku dan HP pakai yang bertingkat. Siapa yang bener? Kita cari intinya. Dua-duanya sah, dan dua-duanya turunan dari huruf A kapital. Waktu orang menulis cepat pakai tangan, bagian atas huruf makin disederhanakan, jadilah a bulat satu tingkat. Versi bertingkat jadi bentuk yang umum di huruf cetak tegak. Coba perhatikan tulisan miring di buku. Di sana a-nya sering kembali jadi bulat. Jadi kamu nggak salah nulis selama ini. Kamu cuma pakai versi tangan, sementara HP-mu pakai versi cetak. Huruf g juga punya dua bentuk, lho."
+}

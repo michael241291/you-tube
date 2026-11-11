@@ -1,0 +1,12 @@
+<defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#1d1730"/><stop offset="1" stop-color="#3a2d63"/></linearGradient><radialGradient id="hot" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff3b30" stop-opacity=".85"/><stop offset="1" stop-color="#ff3b30" stop-opacity="0"/></radialGradient><radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe14d" stop-opacity=".8"/><stop offset="1" stop-color="#ffe14d" stop-opacity="0"/></radialGradient></defs>
+<rect x="-1200" y="-800" width="6400" height="3600" fill="url(#bg)"/>
+<rect x="-1200" y="1100" width="6400" height="1500" fill="#2a2440"/>
+<rect x="160" y="300" width="760" height="760" rx="20" fill="#fffdf0"/><rect x="200" y="400" width="680" height="4" fill="#bcd"/><rect x="200" y="480" width="680" height="4" fill="#bcd"/><rect x="200" y="560" width="680" height="4" fill="#bcd"/><rect x="200" y="640" width="680" height="4" fill="#bcd"/><rect x="200" y="720" width="680" height="4" fill="#bcd"/><rect x="200" y="800" width="680" height="4" fill="#bcd"/><rect x="200" y="880" width="680" height="4" fill="#bcd"/><rect x="200" y="960" width="680" height="4" fill="#bcd"/><rect x="200" y="1040" width="680" height="4" fill="#bcd"/>
+<g class="aTangan"><text x="540" y="820" font-size="420" fill="#2b2b2b" text-anchor="middle" font-family="Comic Sans MS, cursive" font-style="italic">ɑ</text></g>
+<rect x="1640" y="260" width="520" height="900" rx="60" fill="#111"/><rect x="1670" y="320" width="460" height="780" rx="30" fill="#f5f7fb"/>
+<g class="aCetak"><text x="1900" y="860" font-size="440" fill="#2b2b2b" text-anchor="middle" font-family="Georgia, serif">a</text></g>
+<g class="tingkat" opacity="0"><rect x="1750" y="520" width="300" height="10" fill="#ff5c8a"/></g>
+<g class="kapital"><text x="3020" y="800" font-size="360" font-weight="700" fill="#ffd23f" text-anchor="middle" font-family="Arial">A</text></g>
+<g class="panah" opacity="0"><path d="M3180 640 h160" stroke="#fff" stroke-width="14"/><path d="M3360 640 l-40 -30 v60z" fill="#fff"/></g>
+<g class="duaA" opacity="0"><text x="3520" y="760" font-size="280" fill="#3ddc84" text-anchor="middle" font-family="Georgia, serif">a</text><text x="3520" y="1100" font-size="280" fill="#4fb3ff" text-anchor="middle" font-family="cursive" font-style="italic">ɑ</text></g>
+<g class="gg" opacity="0"><text x="3300" y="300" font-size="90" font-weight="900" fill="#ff9f1c" text-anchor="middle" font-family="Arial">g · ɡ</text></g>

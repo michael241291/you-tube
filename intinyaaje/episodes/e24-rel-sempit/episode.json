@@ -1,0 +1,171 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e24-rel-sempit",
+ "pillar": "kendaraan",
+ "angle": "rel 1067 mm: rel pertama 1867 justru 1435; kolonial pilih sempit (murah, berkelok), Jepang ubah sisa rel lebar; Whoosh & jalur baru 1435",
+ "viral_bukti": "kenapa kereta di Indonesia mungil mungil?? (I0sVU0aEVcI) 5,5 jt",
+ "title": "Kenapa Kereta Kita Mungil? 🚆",
+ "closing": "jawab-konflik",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "cyan",
+  "cap": "frasa2",
+  "trans": "putar"
+ },
+ "music": "ceria",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Kereta kita *mungil*"
+   ],
+   [
+    "w39",
+    "Kita ukur *relnya*"
+   ],
+   [
+    "w102",
+    "Sekarang *berbalik*"
+   ],
+   [
+    "w124",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w39",
+   "bingung",
+   2.0
+  ],
+  [
+   "w102",
+   "senang",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "rel.svg",
+   "sea": "#0b2230",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     550,
+     944,
+     1142
+    ],
+    [
+     "w38",
+     550,
+     944,
+     1142
+    ],
+    [
+     "w39",
+     1900,
+     923,
+     1405
+    ],
+    [
+     "w101",
+     1900,
+     923,
+     1405
+    ],
+    [
+     "w102",
+     3300,
+     788,
+     1198
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".lebar",
+     "w": 51,
+     "show": true,
+     "dur": 0.4,
+     "w1": 61
+    },
+    {
+     "sel": ".whoosh",
+     "w": 105,
+     "show": true,
+     "dur": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "w": 11,
+     "w1": 22,
+     "x": 53,
+     "y": 463,
+     "text": "KATA ORANG: *BIAR MURAH*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 22,
+     "w1": 39,
+     "x": 53,
+     "y": 547,
+     "text": "REL PERTAMA: *LEBAR*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 61,
+     "w1": 75,
+     "x": 1289,
+     "y": 331,
+     "text": "DIPILIH: *1.067 mm*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 85,
+     "w1": 98,
+     "x": 1289,
+     "y": 331,
+     "text": "JEPANG: *DIUBAH SEMPIT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 75,
+     "w1": 85,
+     "x": 1289,
+     "y": 403,
+     "text": "GAMPANG *BERKELOK*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 124,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "SEMPIT BUKAN",
+    "KARENA PELIT,",
+    "TAPI *WARISAN*"
+   ]
+  }
+ ],
+ "script": "Pernah lihat kereta di luar negeri yang kelihatan gagah dan lebar? Banyak orang bilang kereta kita mungil karena relnya sengaja dibuat murah. Tapi rel pertama di Indonesia, tahun seribu delapan ratus enam puluh tujuh di Semarang, justru rel lebar. Siapa yang bener? Kita cari intinya. Jarak antar rel itu ada standarnya. Rel lebar ukurannya seribu empat ratus tiga puluh lima milimeter. Pemerintah kolonial waktu itu memilih rel yang lebih sempit, seribu enam puluh tujuh milimeter. Lebih murah dibangun dan lebih gampang berkelok di pegunungan Jawa. Waktu pendudukan Jepang, rel lebar yang tersisa di Jawa ikut diubah jadi sempit. Makanya keretanya ikut ramping. Sekarang arahnya berbalik. Whoosh dan jalur baru di Sumatra serta Sulawesi pakai rel lebar, supaya kuat menahan beban dan kecepatan lebih tinggi. Jadi rel kita sempit bukan karena pelit, tapi karena warisan."
+}

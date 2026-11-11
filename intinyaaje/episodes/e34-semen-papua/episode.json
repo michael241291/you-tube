@@ -1,0 +1,177 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e34-semen-papua",
+ "pillar": "indonesia",
+ "angle": "semen Rp2 jt di Ilaga: belum ada jalan darat, semua lewat pesawat kecil dari Timika; ongkos terbang > harga semen",
+ "viral_bukti": "Alasan Kenapa Harga Barang Mahal di Papua (vjx1bud7WfQ) 3,2 jt",
+ "title": "Semen Rp2 Juta, Pedagangnya Serakah? 🏔️",
+ "closing": "jawab-konflik",
+ "experiment": "2 video/hari + suara Puck; sumber Bisnis.com (Bupati Puncak, 2019)",
+ "style": {
+  "theme": "hijau",
+  "cap": "frasa2",
+  "trans": "zoom"
+ },
+ "music": "petualangan",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Semen *Rp2 juta*"
+   ],
+   [
+    "w35",
+    "Lewat *udara*"
+   ],
+   [
+    "w85",
+    "Bukan cuma *semen*"
+   ],
+   [
+    "w111",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w22",
+   "bingung",
+   2.0
+  ],
+  [
+   "w85",
+   "kaget",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "semen.svg",
+   "sea": "#0e2a1e",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     819,
+     1000
+    ],
+    [
+     "w34",
+     540,
+     819,
+     1000
+    ],
+    [
+     "w35",
+     1900,
+     883,
+     1553
+    ],
+    [
+     "w84",
+     1900,
+     883,
+     1553
+    ],
+    [
+     "w85",
+     3300,
+     950,
+     1008
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".sakPapua",
+     "w": 9,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".pesawatKecil",
+     "w": 51,
+     "move": [
+      500,
+      0,
+      0
+     ],
+     "dur": 2.5
+    },
+    {
+     "sel": ".ongkos",
+     "w": 76,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".trans",
+     "w": 95,
+     "show": true,
+     "dur": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "w": 20,
+     "w1": 27,
+     "x": 105,
+     "y": 398,
+     "text": "KATA ORANG: *SERAKAH*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 27,
+     "w1": 35,
+     "x": 105,
+     "y": 472,
+     "text": "YANG PERNAH KE SANA: *JALANNYA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 41,
+     "w1": 48,
+     "x": 1224,
+     "y": 229,
+     "text": "*BELUM ADA* JALAN DARAT",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 66,
+     "w1": 76,
+     "x": 1224,
+     "y": 229,
+     "text": "1 SAK = *40–50 KG*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 111,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "YANG MAHAL",
+    "BUKAN PEDAGANG,",
+    "TAPI *JARAKNYA*"
+   ]
+  }
+ ],
+ "script": "Di Jawa, satu sak semen sekitar tujuh puluh ribuan. Di Ilaga, pegunungan Papua, bupatinya pernah menyebut harganya dua juta rupiah. Kata orang, pedagangnya pasti ambil untung gila-gilaan. Kata yang pernah ke sana, jalannya yang mahal. Siapa yang bener? Kita cari intinya. Ilaga waktu itu belum tersambung jalan darat. Semua barang datang naik pesawat kecil dari Timika. Pesawat kecil cuma bisa angkut sedikit, dan bahan bakarnya mahal. Satu sak semen beratnya empat puluh sampai lima puluh kilo, jadi ongkos terbangnya jauh lebih mahal dari semennya sendiri. Bukan cuma semen. Mi instan semangkuk bisa tiga puluh ribu. Makanya pemerintah bikin program subsidi angkutan udara dan BBM satu harga, dan membuka jalan Trans Papua. Jadi yang bikin mahal bukan pedagangnya, tapi jarak dan gunungnya."
+}

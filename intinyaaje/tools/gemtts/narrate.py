@@ -4,13 +4,13 @@ API key: network secret environment (disarankan) / env GEMINI_API_KEY / /home/cl
 Kuota gratis: 10 permintaan/hari PER MODEL -> otomatis pindah model kalau kena 429."""
 import sys,json,base64,subprocess,urllib.request,os
 VOICE="Puck"
-MODELS=["gemini-3.1-flash-tts-preview","gemini-3.8-flash-tts","gemini-2.5-flash-preview-tts","gemini-2.5-pro-preview-tts","gemini-3.8-flash-lite-tts"]
+MODELS=[m for m in os.environ.get("GEM_MODELS","gemini-3.1-flash-tts-preview,gemini-2.5-flash-preview-tts,gemini-2.5-pro-preview-tts").split(",")]
 STYLE=("Say in Indonesian like an energetic, curious young storyteller explaining a surprising fact to a friend, "
        "expressive with questions rising in pitch: ")
 # Key: (1) network secret di environment (proxy menempelkan header x-goog-api-key, key tidak terlihat di sini),
 # (2) env GEMINI_API_KEY, (3) file /home/claude/.secrets/gemini_key. Kalau tidak ada, request dikirim tanpa key.
 K=os.environ.get('GEMINI_API_KEY') or (open('/home/claude/.secrets/gemini_key').read().strip() if os.path.exists('/home/claude/.secrets/gemini_key') else '')
-ep=sys.argv[1].rstrip('/'); txt=open(f"{ep}/script.txt").read().strip()
+ep=sys.argv[1].rstrip("/"); txt=open(f"{ep}/tts.txt" if os.path.exists(f"{ep}/tts.txt") else f"{ep}/script.txt").read().strip()
 out=sys.argv[2] if len(sys.argv)>2 else f"{ep}/voice.mp3"
 body={"contents":[{"parts":[{"text":STYLE+txt}]}],
       "generationConfig":{"responseModalities":["AUDIO"],"speechConfig":{"voiceConfig":{"prebuiltVoiceConfig":{"voiceName":VOICE}}}}}
@@ -19,7 +19,8 @@ for model in MODELS:
         data=json.dumps(body).encode(),headers=({"x-goog-api-key":K} if K else {})|{"Content-Type":"application/json"})
     try:
         r=json.load(urllib.request.urlopen(req,timeout=300))
-        pcm=base64.b64decode(r['candidates'][0]['content']['parts'][0]['inlineData']['data']); break
+        try: pcm=base64.b64decode(r['candidates'][0]['content']['parts'][0]['inlineData']['data']); break
+        except (KeyError,IndexError): print(model,'tanpa audio:',json.dumps(r.get('candidates',[{}])[0].get('finishReason','?')),flush=True); continue
     except urllib.error.HTTPError as e:
         print(model,e.code,e.read().decode()[:160].replace('\n',' '),flush=True)
 else: sys.exit("SEMUA MODEL KENA KUOTA - coba lagi besok")

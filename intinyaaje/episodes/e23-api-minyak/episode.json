@@ -1,0 +1,199 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e23-api-minyak",
+ "pillar": "rumah",
+ "angle": "api minyak jangan disiram air: air tenggelam, jadi uap, melempar minyak terbakar; tutup wajan",
+ "viral_bukti": "Kandungan Air Membuat Api Menyambar (XB5FalmQQ_c) 9,1 jt",
+ "title": "Minyak Wajan Terbakar, Siram Air? 🔥",
+ "closing": "punchline",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "oranye",
+  "cap": "frasa",
+  "trans": "geser"
+ },
+ "music": "penasaran",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Minyak *terbakar*"
+   ],
+   [
+    "w9",
+    "Refleks: *siram air*"
+   ],
+   [
+    "w27",
+    "Kita bedah *wajannya*"
+   ],
+   [
+    "w88",
+    "Yang benar: *tutup*"
+   ],
+   [
+    "w117",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w83",
+   "WUUSH!",
+   600,
+   560,
+   -8,
+   "#ff7a1a"
+  ]
+ ],
+ "faces": [
+  [
+   "w21",
+   "kaget",
+   2.0
+  ],
+  [
+   "w98",
+   "menunjuk",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "apiminyak.svg",
+   "sea": "#2a1408",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     550,
+     770,
+     1008
+    ],
+    [
+     "w26",
+     550,
+     770,
+     1008
+    ],
+    [
+     "w27",
+     1900,
+     588,
+     1346
+    ],
+    [
+     "w87",
+     1900,
+     588,
+     1346
+    ],
+    [
+     "w88",
+     3300,
+     795,
+     1008
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".gayung",
+     "w": 9,
+     "show": true,
+     "dur": 0.3,
+     "w1": 27
+    },
+    {
+     "sel": ".air",
+     "w": 33,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".uap",
+     "w": 59,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".bola",
+     "w": 83,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".tutup",
+     "w": 101,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".apiC",
+     "w": 112,
+     "hide": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 33,
+     "w1": 47,
+     "x": 1314,
+     "y": 21,
+     "text": "AIR *TENGGELAM*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 59,
+     "w1": 73,
+     "x": 1314,
+     "y": 21,
+     "text": "AIR → *UAP* SEKEJAP",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 88,
+     "w1": 98,
+     "x": 2861,
+     "y": 370,
+     "text": "API BUTUH *UDARA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 98,
+     "w1": 112,
+     "x": 2861,
+     "y": 422,
+     "text": "MATIKAN + *TUTUP*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 117,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "API MINYAK",
+    "JANGAN DISIRAM.",
+    "*TUTUP!*"
+   ]
+  }
+ ],
+ "script": "Lagi goreng ayam, tiba-tiba minyak di wajan nyala api. Refleks pertama, ambil gayung, siram air. Itu yang paling sering dilakukan, kan? Justru itu yang bikin dapur kebakaran. Siapa yang bener? Kita cari intinya. Air lebih berat dari minyak, jadi begitu disiram, air langsung tenggelam ke dasar wajan. Di bawah sana minyaknya sudah jauh lebih panas dari titik didih air. Air langsung berubah jadi uap dalam sekejap, dan uap butuh ruang jauh lebih besar. Uap itu nyembur ke atas sambil melempar minyak yang terbakar. Hasilnya bola api, bukan padam. Api itu butuh udara, jadi yang harus dilakukan malah kebalikannya. Matikan kompor, lalu tutup wajannya rapat dengan tutup panci atau kain tebal yang dibasahi. Biarkan dingin dulu sebelum dibuka. Gayung airnya simpan buat yang lain."
+}

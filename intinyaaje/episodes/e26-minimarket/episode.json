@@ -1,0 +1,187 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e26-minimarket",
+ "pillar": "uang",
+ "angle": "minimarket sebelahan = teori Hotelling: berebut pembeli di titik tengah + hemat riset lokasi",
+ "viral_bukti": "Alasan Minimarket Lebih Mendominasi Dibanding Supermarket (NxKZWmnL4p8) 4,3 jt",
+ "title": "Dua Minimarket Kok Sebelahan? 🏪",
+ "closing": "punchline",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "ungu",
+  "cap": "frasa2",
+  "trans": "zoom"
+ },
+ "music": "lofi",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Dua toko *sebelahan*"
+   ],
+   [
+    "w36",
+    "Satu jalan, *dua toko*"
+   ],
+   [
+    "w77",
+    "Hemat *riset*"
+   ],
+   [
+    "w108",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w13",
+   "bingung",
+   2.0
+  ],
+  [
+   "w73",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "minimarket.svg",
+   "sea": "#0e1f33",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     909,
+     1000
+    ],
+    [
+     "w35",
+     540,
+     909,
+     1000
+    ],
+    [
+     "w36",
+     2000,
+     686,
+     1389
+    ],
+    [
+     "w76",
+     2000,
+     686,
+     1389
+    ],
+    [
+     "w77",
+     540,
+     909,
+     1000
+    ],
+    [
+     "w96",
+     540,
+     909,
+     1000
+    ],
+    [
+     "w97",
+     3400,
+     869,
+     1000
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".b1",
+     "w": 44,
+     "move": [
+      -560,
+      0,
+      0
+     ],
+     "dur": 1.0
+    },
+    {
+     "sel": ".a1",
+     "w": 63,
+     "move": [
+      540,
+      0,
+      0
+     ],
+     "dur": 1.0
+    },
+    {
+     "sel": ".tengah",
+     "w": 73,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 11,
+     "w1": 22,
+     "x": 105,
+     "y": 488,
+     "text": "KATA ORANG: *BODOH*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 22,
+     "w1": 30,
+     "x": 105,
+     "y": 562,
+     "text": "KATA EKONOM: *PINTAR*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 77,
+     "w1": 97,
+     "x": 105,
+     "y": 488,
+     "text": "LOKASI *TERBUKTI*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 67,
+     "w1": 73,
+     "x": 1396,
+     "y": 101,
+     "text": "BERHENTI *DI TENGAH*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 108,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BUKAN NEKAT,",
+    "REBUTAN",
+    "*PEMBELI*"
+   ]
+  }
+ ],
+ "script": "Di dekat rumahmu pasti ada dua minimarket yang letaknya sebelahan, kan? Kata orang, itu bodoh, saingan kok dempet, nanti pembelinya dibagi dua. Kata ahli ekonomi, justru itu strategi yang pintar. Siapa yang bener? Kita cari intinya. Bayangkan satu jalan panjang dengan pembeli tersebar rata. Kalau satu toko di ujung, toko lawan cukup buka sedikit lebih dekat ke tengah, dan dapat pembeli lebih banyak. Toko pertama ikut geser. Akhirnya dua-duanya berhenti di tengah, berdempetan. Ini disebut teori Hotelling. Ada untung tambahan juga. Kalau satu toko sudah ramai di situ, lokasinya terbukti bagus, jadi pesaing nggak perlu riset mahal. Pembeli juga senang, tinggal pilih yang lebih murah atau lebih adem. Jadi mereka bukan nekat, mereka sedang berebut pembeli di titik yang sama. Yang untung, kamu."
+}

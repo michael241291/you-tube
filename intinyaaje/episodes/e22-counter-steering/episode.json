@@ -1,0 +1,199 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e22-counter-steering",
+ "pillar": "kendaraan",
+ "angle": "countersteering: mau belok kanan, setang kanan didorong; motor belok karena miring",
+ "viral_bukti": "Memahami Fisika Counter Steering (FkpO3-wbobQ) 1,2 jt; kluster fakta motor 13 jt",
+ "title": "Belok Kanan Malah Dorong Setang Kanan? 🏍️",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "hijau",
+  "cap": "frasa2",
+  "trans": "zoom"
+ },
+ "music": "petualangan",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Belok *kanan*"
+   ],
+   [
+    "w13",
+    "Kata pembalap: *kebalik*"
+   ],
+   [
+    "w34",
+    "Lihat dari *atas*"
+   ],
+   [
+    "w79",
+    "*Countersteering*"
+   ],
+   [
+    "w107",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w33",
+   "HAH?!",
+   620,
+   600,
+   -8,
+   "#ffd23f"
+  ]
+ ],
+ "faces": [
+  [
+   "w33",
+   "bingung",
+   2.0
+  ],
+  [
+   "w79",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "counter.svg",
+   "sea": "#0f2a1f",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     550,
+     919,
+     1000
+    ],
+    [
+     "w33",
+     550,
+     919,
+     1000
+    ],
+    [
+     "w34",
+     1900,
+     823,
+     1775
+    ],
+    [
+     "w78",
+     1900,
+     823,
+     1775
+    ],
+    [
+     "w79",
+     3300,
+     792,
+     1332
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".putarKanan",
+     "w": 6,
+     "show": true,
+     "dur": 0.3,
+     "w1": 13
+    },
+    {
+     "sel": ".dorong",
+     "w": 50,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".rodaKiri",
+     "w": 54,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".rodaTop",
+     "w": 54,
+     "hide": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".jalur",
+     "w": 70,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".kmh",
+     "w": 83,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 6,
+     "w1": 13,
+     "x": 115,
+     "y": 498,
+     "text": "REFLEKS: *PUTAR KANAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 13,
+     "w1": 32,
+     "x": 115,
+     "y": 572,
+     "text": "PEMBALAP: *DORONG KANAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 40,
+     "w1": 50,
+     "x": 1128,
+     "y": 75,
+     "text": "MOTOR BELOK = *MIRING*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 79,
+     "w1": 83,
+     "x": 2720,
+     "y": 231,
+     "text": "*COUNTERSTEERING*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 107,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "MOTOR BELOK",
+    "KARENA *MIRING*,",
+    "BUKAN SETANG"
+   ]
+  }
+ ],
+ "script": "Kamu naik motor, mau belok kanan. Refleksnya pasti setang diputar ke kanan, kan? Tapi pembalap bilang kebalikannya. Mau belok kanan, setang kanan justru didorong ke depan, jadi rodanya sempat menghadap ke kiri. Kedengarannya ngawur. Siapa yang bener? Kita cari intinya. Motor nggak belok dengan memutar setang, motor belok dengan miring. Waktu setang kanan didorong, roda depan nyelonong sedikit ke kiri. Badan motor yang di atas roda jadi oleng ke kanan. Nah, kemiringan itulah yang bikin motor berbelok ke kanan. Teknik ini namanya countersteering. Di atas kecepatan sekitar dua puluh kilometer per jam, semua pengendara sebenarnya melakukannya tanpa sadar. Di kecepatan pelan, waktu parkir, baru setang diputar biasa. Jadi refleksmu nggak salah, cuma belum lengkap. Coba rasakan di jalan lurus yang sepi, dorong pelan saja."
+}

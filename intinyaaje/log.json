@@ -387,6 +387,300 @@
    "viral_bukti": "Motor Ini Tidak Punya Gigi Netral (FAtYJGZ1Ao4) 13 jt",
    "voice": "Senandika eleven_v4 + tag emosi",
    "version": "v1 batch manual 8 Nov"
+  },
+  {
+   "id": "e21-tornado",
+   "date": "2026-11-17",
+   "slot": "11:30",
+   "pillar": "alam",
+   "topic": "Indonesia Beneran Nggak Ada Tornado? 🌪️",
+   "angle": "antitesis video viral \"Indonesia nggak ada tornado\": puting beliung = tornado kecil (BMKG); Rancaekek Feb 2024 BRIN vs BMKG",
+   "viral_bukti": "Inilah kenapa di indonesia nggak ada tornado (wmgtPCrifQI) 24 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Indonesia Beneran Nggak Ada Tornado? 🌪️",
+   "music": "santai",
+   "style": {
+    "theme": "kuning",
+    "cap": "frasa",
+    "trans": "campur"
+   },
+   "closing": "tips",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e22-counter-steering",
+   "date": "2026-11-17",
+   "slot": "17:00",
+   "pillar": "kendaraan",
+   "topic": "Belok Kanan Malah Dorong Setang Kanan? 🏍️",
+   "angle": "countersteering: mau belok kanan, setang kanan didorong; motor belok karena miring",
+   "viral_bukti": "Memahami Fisika Counter Steering (FkpO3-wbobQ) 1,2 jt; kluster fakta motor 13 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Belok Kanan Malah Dorong Setang Kanan? 🏍️",
+   "music": "petualangan",
+   "style": {
+    "theme": "hijau",
+    "cap": "frasa2",
+    "trans": "zoom"
+   },
+   "closing": "tips",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e23-api-minyak",
+   "date": "2026-11-18",
+   "slot": "11:30",
+   "pillar": "rumah",
+   "topic": "Minyak Wajan Terbakar, Siram Air? 🔥",
+   "angle": "api minyak jangan disiram air: air tenggelam, jadi uap, melempar minyak terbakar; tutup wajan",
+   "viral_bukti": "Kandungan Air Membuat Api Menyambar (XB5FalmQQ_c) 9,1 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Minyak Wajan Terbakar, Siram Air? 🔥",
+   "music": "penasaran",
+   "style": {
+    "theme": "oranye",
+    "cap": "frasa",
+    "trans": "geser"
+   },
+   "closing": "punchline",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e24-rel-sempit",
+   "date": "2026-11-18",
+   "slot": "17:00",
+   "pillar": "kendaraan",
+   "topic": "Kenapa Kereta Kita Mungil? 🚆",
+   "angle": "rel 1067 mm: rel pertama 1867 justru 1435; kolonial pilih sempit (murah, berkelok), Jepang ubah sisa rel lebar; Whoosh & jalur baru 1435",
+   "viral_bukti": "kenapa kereta di Indonesia mungil mungil?? (I0sVU0aEVcI) 5,5 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Kenapa Kereta Kita Mungil? 🚆",
+   "music": "ceria",
+   "style": {
+    "theme": "cyan",
+    "cap": "frasa2",
+    "trans": "putar"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e25-lift-jatuh",
+   "date": "2026-11-19",
+   "slot": "11:30",
+   "pillar": "kota",
+   "topic": "Lift Jatuh, Lompat Biar Selamat? 🛗",
+   "angle": "mitos lompat di lift jatuh: lompatan cuma kurangi ±15% kecepatan; lift modern punya banyak kabel + governor + rem pengaman (Otis 1852)",
+   "viral_bukti": "Jangan Lakukan Ini Saat Mau Masuk Lift (HJ8W5N1crcs) 6,8 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Lift Jatuh, Lompat Biar Selamat? 🛗",
+   "music": "misteri",
+   "style": {
+    "theme": "pink",
+    "cap": "frasa",
+    "trans": "campur"
+   },
+   "closing": "tips",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e26-minimarket",
+   "date": "2026-11-19",
+   "slot": "17:00",
+   "pillar": "uang",
+   "topic": "Dua Minimarket Kok Sebelahan? 🏪",
+   "angle": "minimarket sebelahan = teori Hotelling: berebut pembeli di titik tengah + hemat riset lokasi",
+   "viral_bukti": "Alasan Minimarket Lebih Mendominasi Dibanding Supermarket (NxKZWmnL4p8) 4,3 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Dua Minimarket Kok Sebelahan? 🏪",
+   "music": "lofi",
+   "style": {
+    "theme": "ungu",
+    "cap": "frasa2",
+    "trans": "zoom"
+   },
+   "closing": "punchline",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e27-lidah-putih",
+   "date": "2026-11-20",
+   "slot": "11:30",
+   "pillar": "tubuh",
+   "topic": "Lidah Putih Tanda Panas Dalam? 👅",
+   "angle": "lidah putih: sisa makanan, sel mati, bakteri nyangkut di papila + mulut kering; panas dalam bukan diagnosis",
+   "viral_bukti": "Kenapa Lidah Ada Putih Putihnya? (cw4_lOPJpew) 5,7 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Lidah Putih Tanda Panas Dalam? 👅",
+   "music": "santai",
+   "style": {
+    "theme": "kuning",
+    "cap": "frasa",
+    "trans": "geser"
+   },
+   "closing": "tips",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e28-pesawat-pelan",
+   "date": "2026-11-20",
+   "slot": "17:00",
+   "pillar": "kendaraan",
+   "topic": "Pesawat 900 km/jam Kok Kerasa Diam? ✈️",
+   "angle": "pesawat 900 km/jam terasa pelan: tak ada patokan dekat; tubuh cuma rasakan percepatan; bayangan pesawat tunjukkan kecepatan asli",
+   "viral_bukti": "Pesawat Ngebut 900 Km/Jam, Tapi Kok Terasa Pelan? (A4UeLhV34yA) 3,2 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Pesawat 900 km/jam Kok Kerasa Diam? ✈️",
+   "music": "petualangan",
+   "style": {
+    "theme": "hijau",
+    "cap": "frasa",
+    "trans": "putar"
+   },
+   "closing": "loop",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e29-huruf-a",
+   "date": "2026-11-21",
+   "slot": "11:30",
+   "pillar": "unik",
+   "topic": "Huruf a di HP Kok Beda Sama Tulisanmu? 🔤",
+   "angle": "dua bentuk huruf a: keduanya turunan A kapital; versi satu tingkat dari tulisan tangan cepat, dua tingkat umum di huruf cetak tegak",
+   "viral_bukti": "Kenapa Huruf a kecil Ada Dua Bentuk? (weBceyk2aww) 5,1 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Huruf a di HP Kok Beda Sama Tulisanmu? 🔤",
+   "music": "penasaran",
+   "style": {
+    "theme": "oranye",
+    "cap": "frasa",
+    "trans": "campur"
+   },
+   "closing": "teaser",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e30-kereta-rem",
+   "date": "2026-11-21",
+   "slot": "17:00",
+   "pillar": "kendaraan",
+   "topic": "Masinis Kok Nggak Ngerem? 🚆",
+   "angle": "masinis nggak bisa ngerem mendadak: 8–12 gerbong ±600 ton, rem udara; simulasi KAI 100 km/jam butuh ±505 m",
+   "viral_bukti": "Kenapa Harus Berhenti Pas Palang Kereta Turun? (kFvyL-r8UP4) 6,9 jt; Kenapa Kereta Justru Dilarang Mengerem Darurat (lu4kNs0ip58) 1,9 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Masinis Kok Nggak Ngerem? 🚆",
+   "music": "ceria",
+   "style": {
+    "theme": "cyan",
+    "cap": "frasa2",
+    "trans": "zoom"
+   },
+   "closing": "tips",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e31-tol-bambu",
+   "date": "2026-11-22",
+   "slot": "11:30",
+   "pillar": "indonesia",
+   "topic": "Jalan Tol Kok Pakai Bambu? 🎋",
+   "angle": "tol Semarang-Demak di atas lumpur pakai ±6 juta bambu: matras mengapung + cerucuk, terendam lebih awet, PVD, 30–40% lebih murah (Bina Marga)",
+   "viral_bukti": "Jalan Tol di Atas Lumpur Laut, Ngambang di Atas Jutaan Bambu? (UNUWz4x74Bo) 1,1 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Jalan Tol Kok Pakai Bambu? 🎋",
+   "music": "misteri",
+   "style": {
+    "theme": "pink",
+    "cap": "frasa",
+    "trans": "geser"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e32-parasut",
+   "date": "2026-11-22",
+   "slot": "17:00",
+   "pillar": "kendaraan",
+   "topic": "Kenapa Penumpang Nggak Dikasih Parasut? 🪂",
+   "angle": "pesawat penumpang tanpa parasut: ±11 km udara tipis, 900 km/jam, tabrak sayap/ekor, kecelakaan saat lepas landas/mendarat",
+   "viral_bukti": "Mengapa Pesawat PENUMPANG Tidak Dilengkapi Parasut!! (d0D20trYSdU) 741 rb; kluster 3 Fakta Penerbangan (uAokdeGa_0I) 8,6 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Kenapa Penumpang Nggak Dikasih Parasut? 🪂",
+   "music": "lofi",
+   "style": {
+    "theme": "ungu",
+    "cap": "frasa2",
+    "trans": "putar"
+   },
+   "closing": "tips",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e33-ac-sirkulasi",
+   "date": "2026-11-23",
+   "slot": "11:30",
+   "pillar": "kendaraan",
+   "topic": "Ngantuk di Mobil Gara-Gara Tombol Ini? 🚗",
+   "angle": "mode sirkulasi dalam AC mobil menumpuk CO2 (4 orang ±2.000 ppm dalam 20 menit) → ngantuk; pakai udara luar",
+   "viral_bukti": "Fitur Tersembunyi Pada Mobil Yang Tidak Diketahui Orang-orang (sA4BpxjSTtk) 9,6 jt; Fakta paling berguna buat mobil (fW7kSniMy7g) 21 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Ngantuk di Mobil Gara-Gara Tombol Ini? 🚗",
+   "music": "santai",
+   "style": {
+    "theme": "kuning",
+    "cap": "frasa",
+    "trans": "campur"
+   },
+   "closing": "tips",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e34-semen-papua",
+   "date": "2026-11-23",
+   "slot": "17:00",
+   "pillar": "indonesia",
+   "topic": "Semen Rp2 Juta, Pedagangnya Serakah? 🏔️",
+   "angle": "semen Rp2 jt di Ilaga: belum ada jalan darat, semua lewat pesawat kecil dari Timika; ongkos terbang > harga semen",
+   "viral_bukti": "Alasan Kenapa Harga Barang Mahal di Papua (vjx1bud7WfQ) 3,2 jt",
+   "hook": "adegan \"kamu\"/klaim viral + dua suara bertentangan (antitesis)",
+   "title": "Semen Rp2 Juta, Pedagangnya Serakah? 🏔️",
+   "music": "petualangan",
+   "style": {
+    "theme": "hijau",
+    "cap": "frasa2",
+    "trans": "zoom"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
+   "version": "v1 batch 11 Nov"
   }
  ],
  "pilots": [

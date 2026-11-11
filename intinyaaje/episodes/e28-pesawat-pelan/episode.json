@@ -1,0 +1,194 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e28-pesawat-pelan",
+ "pillar": "kendaraan",
+ "angle": "pesawat 900 km/jam terasa pelan: tak ada patokan dekat; tubuh cuma rasakan percepatan; bayangan pesawat tunjukkan kecepatan asli",
+ "viral_bukti": "Pesawat Ngebut 900 Km/Jam, Tapi Kok Terasa Pelan? (A4UeLhV34yA) 3,2 jt",
+ "title": "Pesawat 900 km/jam Kok Kerasa Diam? ✈️",
+ "closing": "loop",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "hijau",
+  "cap": "frasa",
+  "trans": "putar"
+ },
+ "music": "petualangan",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Pesawat *terasa diam*"
+   ],
+   [
+    "w37",
+    "Otak butuh *patokan*"
+   ],
+   [
+    "w101",
+    "Lihat *bayangannya*"
+   ],
+   [
+    "w118",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w24",
+   "bingung",
+   2.0
+  ],
+  [
+   "w118",
+   "setuju",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "pesawat.svg",
+   "sea": "#0c2a52",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     731,
+     1376
+    ],
+    [
+     "w36",
+     540,
+     731,
+     1376
+    ],
+    [
+     "w37",
+     1900,
+     845,
+     1008
+    ],
+    [
+     "w55",
+     1900,
+     845,
+     1008
+    ],
+    [
+     "w56",
+     540,
+     731,
+     1376
+    ],
+    [
+     "w100",
+     540,
+     731,
+     1376
+    ],
+    [
+     "w101",
+     3300,
+     842,
+     1332
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".kmh",
+     "w": 16,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".blur",
+     "w": 45,
+     "show": true,
+     "dur": 0.4,
+     "w1": 56
+    },
+    {
+     "sel": ".awanJauh",
+     "w": 71,
+     "move": [
+      -60,
+      0,
+      0
+     ],
+     "dur": 3.0
+    },
+    {
+     "sel": ".bayang",
+     "w": 111,
+     "move": [
+      -700,
+      0,
+      0
+     ],
+     "dur": 2.5
+    }
+   ],
+   "labels": [
+    {
+     "w": 8,
+     "w1": 11,
+     "x": -59,
+     "y": 151,
+     "text": "MATA: *DIAM*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 11,
+     "w1": 21,
+     "x": -59,
+     "y": 253,
+     "text": "ANGKA: *900 km/jam*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 76,
+     "w1": 85,
+     "x": -59,
+     "y": 151,
+     "text": "BADAN CUMA RASA *PERUBAHAN*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 37,
+     "w1": 45,
+     "x": 1461,
+     "y": 420,
+     "text": "PATOKAN = BENDA *DEKAT*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 118,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BAYANGAN",
+    "PESAWAT =",
+    "*KECEPATAN ASLI*"
+   ]
+  }
+ ],
+ "script": "Kamu duduk di kursi pesawat, lihat ke jendela. Rasanya kayak diam, padahal katanya pesawat ini ngebut sembilan ratus kilometer per jam. Kalau secepat itu, kok nggak kerasa apa-apa? Siapa yang bener, mata atau angka? Kita cari intinya. Otak menilai kecepatan dari benda di dekat kita. Naik motor, pohon di pinggir jalan lewat cepat, makanya terasa ngebut. Di ketinggian sepuluh kilometer, benda terdekat itu awan dan daratan yang jauh sekali di bawah. Gerakannya di mata jadi pelan. Badan kita juga cuma merasakan perubahan kecepatan, bukan kecepatannya. Waktu lepas landas, kamu terdorong ke kursi. Begitu kecepatannya stabil, rasanya sama seperti duduk di rumah. Coba perhatikan bayangan pesawat di atas kota saat mau mendarat. Bayangan itu melesat melewati jalan dan atap. Nah, itu kecepatan aslinya."
+}

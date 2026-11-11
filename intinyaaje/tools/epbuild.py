@@ -21,7 +21,7 @@ def build(id,meta,regions,cams,hl,labels,sfx,faces,hud,card,svg,sea,extra=None):
     for (w,w1,sx,sy,text,*sz) in labels:
         cx,cy,cw=regAt(w); k=cw/1080
         labs.append({"w":w,"w1":w1,"x":round(cx+(sx-540)*k),"y":round(cy+(sy-960)*k),"text":text,"pill":True,"size":sz[0] if sz else 42})
-    ep={"audio":"voice.mp3","musicVol":0.22,"ver":1,"capY":1170,"voice":VOICE,"id":id,**meta,
+    ep={"audio":"voice.mp3","musicVol":0.22,"ver":1,"capY":1220,"voice":VOICE,"id":id,**meta,
         "hud":{"title":[["w%d"%w if w else "w0",t] for w,t in hud]},
         "sfx":[["w%d"%s[0],*s[1:]] for s in sfx],"faces":[["w%d"%f[0],f[1],2.0] for f in faces],
         "scenes":[{"type":"map","svgFile":svg,"sea":sea,"w0":0,"cam":keys,"hl":hl,"labels":labs,**(extra or {})},

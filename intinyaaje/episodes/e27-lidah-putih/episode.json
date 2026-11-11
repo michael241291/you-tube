@@ -1,0 +1,179 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e27-lidah-putih",
+ "pillar": "tubuh",
+ "angle": "lidah putih: sisa makanan, sel mati, bakteri nyangkut di papila + mulut kering; panas dalam bukan diagnosis",
+ "viral_bukti": "Kenapa Lidah Ada Putih Putihnya? (cw4_lOPJpew) 5,7 jt",
+ "title": "Lidah Putih Tanda Panas Dalam? 👅",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck; sumber detikHealth",
+ "style": {
+  "theme": "kuning",
+  "cap": "frasa",
+  "trans": "geser"
+ },
+ "music": "santai",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Lidah *putih*"
+   ],
+   [
+    "w31",
+    "Kita zoom *lidahnya*"
+   ],
+   [
+    "w82",
+    "Cara *beresin*"
+   ],
+   [
+    "w102",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w9",
+   "bingung",
+   2.0
+  ],
+  [
+   "w89",
+   "menunjuk",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "lidah.svg",
+   "sea": "#2a0f1a",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     820,
+     800
+    ],
+    [
+     "w30",
+     540,
+     820,
+     800
+    ],
+    [
+     "w31",
+     1900,
+     890,
+     1008
+    ],
+    [
+     "w81",
+     1900,
+     890,
+     1008
+    ],
+    [
+     "w82",
+     3300,
+     814,
+     1065
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".putih",
+     "w": 3,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".kotor",
+     "w": 45,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".bakteri",
+     "w": 50,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".sikat",
+     "w": 96,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".dokter",
+     "w": 112,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 9,
+     "w1": 19,
+     "x": 192,
+     "y": 483,
+     "text": "KATA ORANG: *PANAS DALAM*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 19,
+     "w1": 25,
+     "x": 192,
+     "y": 542,
+     "text": "DOKTER GIGI: *KOTOR*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 36,
+     "w1": 45,
+     "x": 1461,
+     "y": 465,
+     "text": "*PAPILA* = KARPET BERBULU",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 56,
+     "w1": 71,
+     "x": 1461,
+     "y": 465,
+     "text": "MULUT *KERING*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 102,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "MINUM, SIKAT,",
+    "BERSIHKAN",
+    "*LIDAH*"
+   ]
+  }
+ ],
+ "script": "Bangun tidur, ngaca, lidahmu putih kayak ada lapisan bedak. Kata orang, itu tanda panas dalam, langsung minum larutan penyegar. Kata dokter gigi, lidahmu cuma kotor. Siapa yang bener? Kita cari intinya. Permukaan lidah itu nggak mulus. Ada ribuan tonjolan kecil bernama papila, kayak karpet berbulu. Sisa makanan, sel kulit mati, dan bakteri gampang nyangkut di sela-selanya. Kalau mulut kering, misalnya kurang minum atau tidur mangap, tonjolan itu membengkak dan kotorannya numpuk. Dari jauh kelihatan putih. Makanya lidah paling putih justru pagi hari. Panas dalam itu istilah sehari-hari, bukan diagnosis. Cara beresinnya sederhana. Minum air yang cukup, sikat gigi, dan bersihkan lidah pelan-pelan. Tapi kalau putihnya tebal, nggak hilang berminggu-minggu, atau terasa sakit, periksa ke dokter."
+}

@@ -1,0 +1,16 @@
+<defs><linearGradient id="bg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#141826"/><stop offset="1" stop-color="#2a3150"/></linearGradient><radialGradient id="hot" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ff3b30" stop-opacity=".85"/><stop offset="1" stop-color="#ff3b30" stop-opacity="0"/></radialGradient><radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#ffe14d" stop-opacity=".8"/><stop offset="1" stop-color="#ffe14d" stop-opacity="0"/></radialGradient></defs>
+<rect x="-1200" y="-800" width="6400" height="3600" fill="url(#bg)"/>
+<rect x="-1200" y="1100" width="6400" height="1500" fill="#2a2a33"/>
+<rect x="330" y="120" width="420" height="1100" fill="#20263a" stroke="#6b7280" stroke-width="10"/>
+<g class="kabel"><rect x="520" y="120" width="8" height="300" fill="#c9ced6"/><rect x="540" y="120" width="8" height="300" fill="#c9ced6"/><rect x="560" y="120" width="8" height="300" fill="#c9ced6"/></g>
+<g class="kabin"><rect x="380" y="420" width="320" height="380" rx="16" fill="#9aa3ad"/><g transform="translate(540 760) scale(0.9)"><circle cx="0" cy="-150" r="46" fill="#f2c49b"/><path d="M-46 -170 q46 -50 92 0 v-16 q-46 -40 -92 0z" fill="#2b2b2b"/><rect x="-60" y="-100" width="120" height="150" rx="40" fill="#ff7a59"/></g></g>
+<g class="lompat" opacity="0"><path d="M640 600 v-80" stroke="#ffd23f" stroke-width="12"/><path d="M640 500 l-20 30 h40z" fill="#ffd23f"/></g>
+<g class="speed" opacity="0"><text x="540" y="1180" font-size="64" font-weight="900" fill="#ff5c8a" text-anchor="middle" font-family="Arial">±100 km/jam</text></g>
+<rect x="1600" y="150" width="40" height="1050" fill="#6b7280"/><rect x="2160" y="150" width="40" height="1050" fill="#6b7280"/>
+<rect x="1660" y="420" width="480" height="420" rx="16" fill="#9aa3ad"/>
+<g class="banyakKabel"><rect x="1840" y="150" width="10" height="270" fill="#c9ced6"/><rect x="1864" y="150" width="10" height="270" fill="#c9ced6"/><rect x="1888" y="150" width="10" height="270" fill="#c9ced6"/><rect x="1912" y="150" width="10" height="270" fill="#c9ced6"/><rect x="1936" y="150" width="10" height="270" fill="#c9ced6"/><rect x="1960" y="150" width="10" height="270" fill="#c9ced6"/></g>
+<g class="governor" opacity="0"><circle cx="1720" cy="220" r="60" fill="#ffd23f"/><circle cx="1720" cy="220" r="18" fill="#333"/></g>
+<g class="rem" opacity="0"><rect x="1638" y="560" width="40" height="120" fill="#ff3b5c"/><rect x="2122" y="560" width="40" height="120" fill="#ff3b5c"/></g>
+<rect x="3140" y="400" width="320" height="520" rx="20" fill="#2a3150"/><circle cx="3240" cy="480" r="36" fill="#9aa3ad"/><circle cx="3360" cy="480" r="36" fill="#9aa3ad"/><circle cx="3240" cy="580" r="36" fill="#9aa3ad"/><circle cx="3360" cy="580" r="36" fill="#9aa3ad"/><circle cx="3240" cy="680" r="36" fill="#9aa3ad"/><circle cx="3360" cy="680" r="36" fill="#9aa3ad"/>
+<g class="darurat" opacity="0"><circle cx="3300" cy="820" r="54" fill="#ff3b30"/><text x="3300" y="840" font-size="40" font-weight="900" fill="#fff" text-anchor="middle" font-family="Arial">!</text></g>
+<g class="otis" opacity="0"><text x="3300" y="1000" font-size="58" font-weight="900" fill="#ffd23f" text-anchor="middle" font-family="Arial">OTIS · 1852</text></g>

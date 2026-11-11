@@ -1,0 +1,211 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e25-lift-jatuh",
+ "pillar": "kota",
+ "angle": "mitos lompat di lift jatuh: lompatan cuma kurangi ±15% kecepatan; lift modern punya banyak kabel + governor + rem pengaman (Otis 1852)",
+ "viral_bukti": "Jangan Lakukan Ini Saat Mau Masuk Lift (HJ8W5N1crcs) 6,8 jt",
+ "title": "Lift Jatuh, Lompat Biar Selamat? 🛗",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "pink",
+  "cap": "frasa",
+  "trans": "campur"
+ },
+ "music": "misteri",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Lift *meluncur*"
+   ],
+   [
+    "w8",
+    "Lompat = *selamat*?"
+   ],
+   [
+    "w69",
+    "Lift *nggak* jatuh bebas"
+   ],
+   [
+    "w118",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w6",
+   "WAAA!",
+   620,
+   560,
+   -8,
+   "#ff5c8a"
+  ]
+ ],
+ "faces": [
+  [
+   "w6",
+   "kaget",
+   2.0
+  ],
+  [
+   "w69",
+   "senang",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "lift.svg",
+   "sea": "#141826",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     783,
+     1627
+    ],
+    [
+     "w68",
+     540,
+     783,
+     1627
+    ],
+    [
+     "w69",
+     1950,
+     783,
+     1553
+    ],
+    [
+     "w97",
+     1950,
+     783,
+     1553
+    ],
+    [
+     "w98",
+     3300,
+     844,
+     1139
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".kabin",
+     "w": 4,
+     "move": [
+      0,
+      300,
+      0
+     ],
+     "dur": 1.2
+    },
+    {
+     "sel": ".kabel",
+     "w": 4,
+     "hide": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".lompat",
+     "w": 13,
+     "show": true,
+     "dur": 0.3,
+     "w1": 31
+    },
+    {
+     "sel": ".speed",
+     "w": 37,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".governor",
+     "w": 87,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".rem",
+     "w": 91,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".otis",
+     "w": 98,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".darurat",
+     "w": 124,
+     "show": true,
+     "dur": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "w": 8,
+     "w1": 24,
+     "x": -168,
+     "y": 98,
+     "text": "KATA FILM: *LOMPAT!*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 24,
+     "w1": 31,
+     "x": -168,
+     "y": 218,
+     "text": "KATA FISIKA: *PERCUMA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 52,
+     "w1": 60,
+     "x": -168,
+     "y": 98,
+     "text": "LOMPAT: CUMA *−15%*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 77,
+     "w1": 83,
+     "x": 1274,
+     "y": 129,
+     "text": "*BANYAK* KABEL BAJA",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 118,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "JANGAN LOMPAT.",
+    "PENCET TOMBOL",
+    "*DARURAT*"
+   ]
+  }
+ ],
+ "script": "Kamu sendirian di lift, tiba-tiba lift meluncur turun. Kata film dan video viral, lompat tepat sebelum lift menghantam dasar, pasti selamat. Kedengarannya pintar, kan? Kata fisika, itu nyaris nggak ada gunanya. Siapa yang bener? Kita cari intinya. Lift yang jatuh dari lantai dua puluh bisa menghantam dasar sekitar seratus kilometer per jam. Lompatan atlet paling cuma mengurangi lima belas persennya. Belum lagi kamu harus tepat waktu dalam keadaan melayang. Kabar baiknya, lift modern hampir mustahil jatuh bebas. Lift digantung beberapa kabel baja sekaligus. Kalau turunnya terlalu cepat, alat pengatur kecepatan memicu rem darurat yang mencengkeram rel di dinding. Rem ini ditemukan Elisha Otis tahun seribu delapan ratus lima puluh dua, dan ia memamerkannya dengan memotong tali liftnya sendiri. Jadi kalau lift macet, jangan lompat. Pencet tombol darurat dan tunggu."
+}

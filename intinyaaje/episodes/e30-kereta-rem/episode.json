@@ -1,0 +1,194 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e30-kereta-rem",
+ "pillar": "kendaraan",
+ "angle": "masinis nggak bisa ngerem mendadak: 8–12 gerbong ±600 ton, rem udara; simulasi KAI 100 km/jam butuh ±505 m",
+ "viral_bukti": "Kenapa Harus Berhenti Pas Palang Kereta Turun? (kFvyL-r8UP4) 6,9 jt; Kenapa Kereta Justru Dilarang Mengerem Darurat (lu4kNs0ip58) 1,9 jt",
+ "title": "Masinis Kok Nggak Ngerem? 🚆",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck; sumber simulasi KAI Daop 8",
+ "style": {
+  "theme": "cyan",
+  "cap": "frasa2",
+  "trans": "zoom"
+ },
+ "music": "ceria",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Orang *nyelonong*"
+   ],
+   [
+    "w30",
+    "±600 *TON*"
+   ],
+   [
+    "w70",
+    "Jarak *berhenti*"
+   ],
+   [
+    "w97",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w2",
+   "TEEEET!",
+   620,
+   560,
+   -8,
+   "#ff3b30"
+  ]
+ ],
+ "faces": [
+  [
+   "w6",
+   "bingung",
+   2.0
+  ],
+  [
+   "w70",
+   "kaget",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "rem.svg",
+   "sea": "#1a1a2e",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     530,
+     933,
+     1053
+    ],
+    [
+     "w29",
+     530,
+     933,
+     1053
+    ],
+    [
+     "w30",
+     2300,
+     1098,
+     2352
+    ],
+    [
+     "w69",
+     2300,
+     1098,
+     2352
+    ],
+    [
+     "w70",
+     4000,
+     749,
+     1000
+    ],
+    [
+     "w96",
+     4000,
+     749,
+     1000
+    ],
+    [
+     "w97",
+     530,
+     933,
+     1053
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".ton",
+     "w": 30,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".jarak",
+     "w": 53,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".lapangan",
+     "w": 70,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".sirine",
+     "w": 104,
+     "show": true,
+     "dur": 0.3
+    }
+   ],
+   "labels": [
+    {
+     "w": 6,
+     "w1": 14,
+     "x": 72,
+     "y": 489,
+     "text": "NETIZEN: *KOK NGGAK NGEREM?*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 14,
+     "w1": 24,
+     "x": 72,
+     "y": 567,
+     "text": "MASINIS: *SUDAH NGEREM*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 45,
+     "w1": 53,
+     "x": 1276,
+     "y": 107,
+     "text": "REM *UDARA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 75,
+     "w1": 87,
+     "x": 3565,
+     "y": 328,
+     "text": "REM MENDADAK: *ANJLOK*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 97,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "SIRINE BUNYI?",
+    "*BERHENTI*,",
+    "TUNGGU LEWAT"
+   ]
+  }
+ ],
+ "script": "Ada orang nyelonong di perlintasan kereta. Komentar netizen selalu sama, masinisnya kenapa nggak ngerem? Kata masinis, dia sudah ngerem, tapi keretanya nggak mau berhenti. Siapa yang bener? Kita cari intinya. Satu rangkaian kereta penumpang bisa delapan sampai dua belas gerbong, beratnya sampai enam ratus ton. Remnya pakai tekanan udara, nggak bisa langsung mencengkeram. Simulasi KAI menunjukkan, di kecepatan seratus kilometer per jam, kereta butuh sekitar lima ratus meter untuk berhenti. Itu lima lapangan sepak bola. Kalau direm terlalu mendadak, gerbong bisa anjlok dan malah membahayakan ratusan penumpang. Jadi waktu masinis melihatmu di rel, biasanya semuanya sudah terlambat. Makanya palang dan sirine itu bukan pajangan. Begitu sirine bunyi, berhenti, dan tunggu sampai kereta benar-benar lewat."
+}

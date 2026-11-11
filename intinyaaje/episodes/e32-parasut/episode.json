@@ -1,0 +1,165 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e32-parasut",
+ "pillar": "kendaraan",
+ "angle": "pesawat penumpang tanpa parasut: ±11 km udara tipis, 900 km/jam, tabrak sayap/ekor, kecelakaan saat lepas landas/mendarat",
+ "viral_bukti": "Mengapa Pesawat PENUMPANG Tidak Dilengkapi Parasut!! (d0D20trYSdU) 741 rb; kluster 3 Fakta Penerbangan (uAokdeGa_0I) 8,6 jt",
+ "title": "Kenapa Penumpang Nggak Dikasih Parasut? 🪂",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "ungu",
+  "cap": "frasa2",
+  "trans": "putar"
+ },
+ "music": "lofi",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Kok *nggak ada* parasut?"
+   ],
+   [
+    "w37",
+    "Di ketinggian *11 km*"
+   ],
+   [
+    "w81",
+    "Kapan *kecelakaan*?"
+   ],
+   [
+    "w94",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w11",
+   "bingung",
+   2.0
+  ],
+  [
+   "w94",
+   "menunjuk",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "parasut.svg",
+   "sea": "#0c2a52",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     742,
+     1332
+    ],
+    [
+     "w36",
+     540,
+     742,
+     1332
+    ],
+    [
+     "w37",
+     1900,
+     807,
+     1539
+    ],
+    [
+     "w80",
+     1900,
+     807,
+     1539
+    ],
+    [
+     "w81",
+     3300,
+     830,
+     1302
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".parasutQ",
+     "w": 13,
+     "show": true,
+     "dur": 0.4,
+     "w1": 37
+    },
+    {
+     "sel": ".oksigen",
+     "w": 46,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".angin",
+     "w": 59,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".landas",
+     "w": 81,
+     "show": true,
+     "dur": 0.5
+    }
+   ],
+   "labels": [
+    {
+     "w": 9,
+     "w1": 18,
+     "x": -40,
+     "y": 181,
+     "text": "KATA ORANG: *MASKAPAI PELIT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 22,
+     "w1": 31,
+     "x": -40,
+     "y": 280,
+     "text": "KATA PILOT: *NGGAK BERGUNA*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 74,
+     "w1": 81,
+     "x": 1230,
+     "y": 159,
+     "text": "BISA TABRAK *SAYAP*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 94,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "DENGERIN",
+    "*PERAGAAN*",
+    "KESELAMATAN"
+   ]
+  }
+ ],
+ "script": "Naik pesawat, yang dibagikan cuma pelampung dan masker oksigen. Kata orang, maskapai pelit, harusnya tiap penumpang dikasih parasut. Kedengarannya masuk akal, kan? Kata pilot, parasut di pesawat penumpang malah nggak berguna. Siapa yang bener? Kita cari intinya. Pesawat jet terbang sekitar sebelas kilometer di atas tanah. Udara di sana terlalu tipis, kamu bisa pingsan dalam hitungan detik tanpa oksigen. Kecepatannya sekitar sembilan ratus kilometer per jam. Begitu keluar pintu, hembusan anginnya saja bisa mencederai. Lalu badanmu bisa menghantam sayap atau ekor. Dan kebanyakan kecelakaan terjadi waktu lepas landas atau mendarat, terlalu rendah buat parasut. Jadi maskapai bukan pelit. Yang menyelamatkanmu justru dengerin peragaan keselamatan sampai selesai."
+}

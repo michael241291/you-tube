@@ -1,0 +1,180 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e31-tol-bambu",
+ "pillar": "indonesia",
+ "angle": "tol Semarang-Demak di atas lumpur pakai ±6 juta bambu: matras mengapung + cerucuk, terendam lebih awet, PVD, 30–40% lebih murah (Bina Marga)",
+ "viral_bukti": "Jalan Tol di Atas Lumpur Laut, Ngambang di Atas Jutaan Bambu? (UNUWz4x74Bo) 1,1 jt",
+ "title": "Jalan Tol Kok Pakai Bambu? 🎋",
+ "closing": "jawab-konflik",
+ "experiment": "2 video/hari + suara Puck; sumber Bina Marga PUPR",
+ "style": {
+  "theme": "pink",
+  "cap": "frasa",
+  "trans": "geser"
+ },
+ "music": "misteri",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Tol di atas *laut*"
+   ],
+   [
+    "w38",
+    "Kita bedah *fondasinya*"
+   ],
+   [
+    "w99",
+    "±6 *juta* bambu"
+   ],
+   [
+    "w118",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w25",
+   "bingung",
+   2.0
+  ],
+  [
+   "w99",
+   "kaget",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "tolbambu.svg",
+   "sea": "#0a2a3a",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     900,
+     1434
+    ],
+    [
+     "w37",
+     540,
+     900,
+     1434
+    ],
+    [
+     "w38",
+     1900,
+     865,
+     1435
+    ],
+    [
+     "w98",
+     1900,
+     865,
+     1435
+    ],
+    [
+     "w99",
+     3300,
+     795,
+     1008
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".ambles",
+     "w": 53,
+     "show": true,
+     "dur": 0.4,
+     "w1": 57
+    },
+    {
+     "sel": ".matras",
+     "w": 59,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".cerucuk",
+     "w": 64,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".turun",
+     "w": 89,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".hemat",
+     "w": 108,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 19,
+     "w1": 30,
+     "x": -84,
+     "y": 296,
+     "text": "KATA ORANG: *GAMPANG LAPUK*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 30,
+     "w1": 38,
+     "x": -84,
+     "y": 402,
+     "text": "INSINYUR: *PALING KUAT*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 68,
+     "w1": 80,
+     "x": 1276,
+     "y": 260,
+     "text": "MATRAS *MENGAPUNG*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 80,
+     "w1": 89,
+     "x": 1276,
+     "y": 260,
+     "text": "TERENDAM = *AWET*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 118,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "BAMBU BUKAN",
+    "MURAHAN, ASAL",
+    "*TEMPATNYA PAS*"
+   ]
+  }
+ ],
+ "script": "Ada jalan tol yang dibangun di atas laut berlumpur antara Semarang dan Demak. Dan fondasinya pakai jutaan batang bambu. Kata orang, bambu itu gampang lapuk, masa jalan tol pakai bambu? Kata insinyurnya, justru di situ bambu paling kuat. Siapa yang bener? Kita cari intinya. Tanah di sana lumpur lunak, kalau ditimbun tanah biasa, timbunannya ambles nggak rata. Jadi bambu dianyam jadi matras berlapis dan ditancap jadi tiang kecil. Matras ini mengapung dan menyebarkan beban, kayak sepatu salju di atas salju. Bambu yang terendam terus di lumpur juga lebih awet. Airnya dikeluarkan dari lumpur lewat saluran tegak yang ditancapkan dalam-dalam. Menurut Bina Marga, dipakai hampir enam juta batang bambu, dan biayanya tiga puluh sampai empat puluh persen lebih murah. Jadi bambu itu bukan bahan murahan, asal ditaruh di tempat yang tepat."
+}

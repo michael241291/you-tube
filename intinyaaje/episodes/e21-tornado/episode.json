@@ -1,0 +1,193 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e21-tornado",
+ "pillar": "alam",
+ "angle": "antitesis video viral \"Indonesia nggak ada tornado\": puting beliung = tornado kecil (BMKG); Rancaekek Feb 2024 BRIN vs BMKG",
+ "viral_bukti": "Inilah kenapa di indonesia nggak ada tornado (wmgtPCrifQI) 24 jt",
+ "title": "Indonesia Beneran Nggak Ada Tornado? 🌪️",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck",
+ "style": {
+  "theme": "kuning",
+  "cap": "frasa",
+  "trans": "campur"
+ },
+ "music": "santai",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Indonesia *bebas tornado*?"
+   ],
+   [
+    "w37",
+    "BRIN vs *BMKG*"
+   ],
+   [
+    "w47",
+    "Kita bedah *pusarannya*"
+   ],
+   [
+    "w99",
+    "Yang jarang: *raksasanya*"
+   ],
+   [
+    "w108",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w29",
+   "KREEK!",
+   600,
+   600,
+   -8,
+   "#ff5c8a"
+  ]
+ ],
+ "faces": [
+  [
+   "w12",
+   "bingung",
+   2.0
+  ],
+  [
+   "w99",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "map",
+   "svgFile": "tornado.svg",
+   "sea": "#2b3140",
+   "w0": 0,
+   "cam": [
+    [
+     0,
+     540,
+     735,
+     1361
+    ],
+    [
+     "w46",
+     540,
+     735,
+     1361
+    ],
+    [
+     "w47",
+     1900,
+     792,
+     1332
+    ],
+    [
+     "w98",
+     1900,
+     792,
+     1332
+    ],
+    [
+     "w99",
+     3300,
+     723,
+     1405
+    ]
+   ],
+   "hl": [
+    {
+     "sel": ".atap",
+     "w": 27,
+     "show": true,
+     "dur": 0.4
+    },
+    {
+     "sel": ".besar",
+     "w": 78,
+     "show": true,
+     "dur": 0.5
+    },
+    {
+     "sel": ".sama",
+     "w": 99,
+     "show": true,
+     "dur": 0.4,
+     "w1": 108
+    },
+    {
+     "sel": ".langit",
+     "w": 108,
+     "show": true,
+     "dur": 0.6
+    },
+    {
+     "sel": ".lari",
+     "w": 120,
+     "show": true,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "w": 37,
+     "w1": 42,
+     "x": -52,
+     "y": 162,
+     "text": "KATA BRIN: *TORNADO*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 42,
+     "w1": 47,
+     "x": -52,
+     "y": 262,
+     "text": "KATA BMKG: *PUTING BELIUNG*",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 65,
+     "w1": 75,
+     "x": 1320,
+     "y": 231,
+     "text": "SAMA: PUSARAN DARI AWAN",
+     "pill": true,
+     "size": 42
+    },
+    {
+     "w": 90,
+     "w1": 99,
+     "x": 1320,
+     "y": 231,
+     "text": "KITA: *&lt;10 MENIT*",
+     "pill": true,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "w0": 108,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "PUTING BELIUNG",
+    "ITU *TORNADO*",
+    "UKURAN KECIL"
+   ]
+  }
+ ],
+ "script": "Banyak video bilang Indonesia aman dari tornado, karena kita dekat garis khatulistiwa. Kedengarannya masuk akal, kan? Tapi coba ingat Februari dua ribu dua puluh empat di Rancaekek. Pusaran angin nyabut atap pabrik dan rumah dalam hitungan menit. Peneliti BRIN bilang itu tornado. BMKG bilang itu puting beliung. Siapa yang bener? Kita cari intinya. Puting beliung itu sebenarnya tornado ukuran kecil, BMKG sendiri yang menyebutnya begitu. Bentuknya sama, pusaran angin dari awan badai sampai ke tanah. Bedanya di ukuran. Tornado besar di Amerika bisa ratusan kilometer per jam dan bertahan sejam. Puting beliung kita biasanya hilang kurang dari sepuluh menit. Yang jarang di Indonesia itu tornado raksasanya, bukan tornadonya. Jadi kalau langit siang tiba-tiba gelap pekat dan anginnya dingin, jangan santai. Menjauh dari pohon dan baliho."
+}
