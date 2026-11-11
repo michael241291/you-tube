@@ -196,6 +196,11 @@ def main():
     for s in data['scenes']:
         if s.get('type') == 'map' and s.get('svgFile'):
             s['svg'] = open(os.path.join(ep_dir, s.pop('svgFile'))).read()
+    js = ''
+    for s in data['scenes']:
+        if s.get('type') == 'anim' and s.get('animFile'):
+            js += open(os.path.join(ep_dir, s.pop('animFile'))).read() + '\n'
+    if js: data['animjs'] = open(os.path.join(ENG, 'animlib.js')).read() + '\n' + js
     # last scene runs to the end
     data['scenes'][-1]['t1'] = total + 1
     html = open(os.path.join(ENG, 'engine.html')).read().replace('/*EP*/', json.dumps(data, ensure_ascii=False))

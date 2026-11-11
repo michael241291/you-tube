@@ -14,7 +14,7 @@
  "viral_bukti": "Kandungan Air Membuat Api Menyambar (XB5FalmQQ_c) 9,1 jt",
  "title": "Minyak Wajan Terbakar, Siram Air? 🔥",
  "closing": "punchline",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "oranye",
   "cap": "frasa",
@@ -69,117 +69,75 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "apiminyak.svg",
-   "sea": "#2a1408",
-   "w0": 0,
-   "cam": [
-    [
-     0,
-     550,
-     770,
-     1008
-    ],
-    [
-     "w26",
-     550,
-     770,
-     1008
-    ],
-    [
-     "w27",
-     1900,
-     588,
-     1346
-    ],
-    [
-     "w87",
-     1900,
-     588,
-     1346
-    ],
-    [
-     "w88",
-     3300,
-     795,
-     1008
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".gayung",
-     "w": 9,
-     "show": true,
-     "dur": 0.3,
-     "w1": 27
-    },
-    {
-     "sel": ".air",
-     "w": 33,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".uap",
-     "w": 59,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".bola",
-     "w": 83,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".tutup",
-     "w": 101,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".apiC",
-     "w": 112,
-     "hide": true,
-     "dur": 0.4
-    }
-   ],
+   "type": "anim",
+   "anim": "wajan",
+   "animFile": "anim.js",
+   "view": "dapur1",
+   "w0": 0
+  },
+  {
+   "type": "anim",
+   "anim": "wajan",
+   "view": "potong",
+   "w0": 27
+  },
+  {
+   "type": "anim",
+   "anim": "wajan",
+   "view": "ledak",
+   "w0": 83,
    "labels": [
     {
-     "w": 33,
-     "w1": 47,
-     "x": 1314,
-     "y": 21,
-     "text": "AIR *TENGGELAM*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 59,
-     "w1": 73,
-     "x": 1314,
-     "y": 21,
-     "text": "AIR → *UAP* SEKEJAP",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 88,
-     "w1": 98,
-     "x": 2861,
-     "y": 370,
-     "text": "API BUTUH *UDARA*",
-     "pill": true,
-     "size": 42
-    },
+     "w": 86,
+     "w1": 88,
+     "x": 540,
+     "y": 640,
+     "text": "✗ BUKAN *PADAM*",
+     "size": 78,
+     "color": "#fff"
+    }
+   ]
+  },
+  {
+   "type": "anim",
+   "anim": "wajan",
+   "view": "benar",
+   "w0": 88,
+   "labels": [
     {
      "w": 98,
-     "w1": 112,
-     "x": 2861,
-     "y": 422,
-     "text": "MATIKAN + *TUTUP*",
+     "w1": 101,
+     "x": 90,
+     "y": 540,
+     "text": "1. MATIKAN *KOMPOR*",
      "pill": true,
-     "size": 42
+     "size": 40
+    },
+    {
+     "w": 101,
+     "w1": 107,
+     "x": 90,
+     "y": 540,
+     "text": "2. TUTUP *RAPAT*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 107,
+     "w1": 112,
+     "x": 90,
+     "y": 540,
+     "text": "ATAU KAIN TEBAL *BASAH*",
+     "pill": true,
+     "size": 40
+    },
+    {
+     "w": 112,
+     "x": 90,
+     "y": 540,
+     "text": "3. TUNGGU *DINGIN*",
+     "pill": true,
+     "size": 40
     }
    ]
   },
