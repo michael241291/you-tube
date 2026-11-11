@@ -1,0 +1,16 @@
+Draf Buffer @intinyaaje 17-23 Nov 2026 (YT id | FB id). Status awal: draft. Pindahkan ke scheduled maks ~2 hari ke depan (batas 10 post terjadwal per org, dipakai bersama AIVOOMA).
+17 Nov 11:30 e21 tornado        | YT 6af4469947402fe4a2650f2c | FB 6af446996a8034856ea89bb2
+17 Nov 17:00 e22 counter-steer  | YT 6af4469ad18307dbac67586a | FB 6af4469aac862eacabf7bfc3
+18 Nov 11:30 e23 api minyak     | YT 6af446bad18307dbac6761d4 | FB 6af446bbd18307dbac6761f4
+18 Nov 17:00 e24 rel sempit     | YT 6af446bb6a8034856ea8a3d0 | FB 6af446bcac862eacabf7c627
+19 Nov 11:30 e25 lift           | YT 6af446bc4335c02d1df1c099 | FB 6af446bdd18307dbac67628b
+19 Nov 17:00 e26 minimarket     | YT 6af446beac862eacabf7c9fc | FB 6af446beb4e85510389579cd
+20 Nov 11:30 e27 lidah          | YT 6af446dd4335c02d1df1c675 | FB 6af446deb4e8551038958370
+20 Nov 17:00 e28 pesawat pelan  | YT 6af446df4335c02d1df1c6a1 | FB 6af446df4335c02d1df1c6f3
+21 Nov 11:30 e29 huruf a        | YT 6af446e06a8034856ea8acfa | FB 6af446e06a8034856ea8ad41
+21 Nov 17:00 e30 kereta rem     | YT 6af446e1ac862eacabf7d1a6 | FB 6af446e14335c02d1df1c82e
+22 Nov 11:30 e31 tol bambu      | YT 6af44701b4e8551038958d32 | FB 6af447026a8034856ea8bf8f
+22 Nov 17:00 e32 parasut        | YT 6af447024335c02d1df1d48a | FB 6af4470347402fe4a26536b4
+23 Nov 11:30 e33 AC sirkulasi   | YT 6af447034335c02d1df1d4dc | FB 6af44704ac862eacabf7d937
+23 Nov 17:00 e34 semen Papua    | YT 6af4470547402fe4a265373d | FB 6af4470547402fe4a26537c6
+Masih draf dari batch lama: 15 Nov pompa (YT 6aefea6c9214322f682ce1d6, FB 6aefea6cd6bbae6fa1c5188e), 16 Nov netral (YT 6aefea6d229bf05daf8a1d11, FB 6aefea6e004e4879a7933031).
