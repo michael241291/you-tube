@@ -14,7 +14,7 @@
  "viral_bukti": "Inilah kenapa di indonesia nggak ada tornado (wmgtPCrifQI) 24 jt",
  "title": "Indonesia Beneran Nggak Ada Tornado? 🌪️",
  "closing": "tips",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "kuning",
   "cap": "frasa",
@@ -69,113 +69,29 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "tornado.svg",
-   "sea": "#2b3140",
+   "type": "anim",
+   "anim": "tornado",
+   "view": "globe",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     735,
-     1361
-    ],
-    [
-     "w46",
-     540,
-     735,
-     1361
-    ],
-    [
-     "w47",
-     1900,
-     792,
-     1332
-    ],
-    [
-     "w98",
-     1900,
-     792,
-     1332
-    ],
-    [
-     "w99",
-     3300,
-     723,
-     1405
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".atap",
-     "w": 27,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".besar",
-     "w": 78,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".sama",
-     "w": 99,
-     "show": true,
-     "dur": 0.4,
-     "w1": 108
-    },
-    {
-     "sel": ".langit",
-     "w": 108,
-     "show": true,
-     "dur": 0.6
-    },
-    {
-     "sel": ".lari",
-     "w": 120,
-     "show": true,
-     "dur": 0.4
-    }
-   ],
-   "labels": [
-    {
-     "w": 37,
-     "w1": 42,
-     "x": -52,
-     "y": 162,
-     "text": "KATA BRIN: *TORNADO*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 42,
-     "w1": 47,
-     "x": -52,
-     "y": 262,
-     "text": "KATA BMKG: *PUTING BELIUNG*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 65,
-     "w1": 75,
-     "x": 1320,
-     "y": 231,
-     "text": "SAMA: PUSARAN DARI AWAN",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 90,
-     "w1": 99,
-     "x": 1320,
-     "y": 231,
-     "text": "KITA: *&lt;10 MENIT*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "tornado",
+   "view": "kota",
+   "w0": 16
+  },
+  {
+   "type": "anim",
+   "anim": "tornado",
+   "view": "bedah",
+   "w0": 47
+  },
+  {
+   "type": "anim",
+   "anim": "tornado",
+   "view": "banding",
+   "w0": 78
   },
   {
    "type": "card",

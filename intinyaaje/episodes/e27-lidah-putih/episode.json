@@ -14,7 +14,7 @@
  "viral_bukti": "Kenapa Lidah Ada Putih Putihnya? (cw4_lOPJpew) 5,7 jt",
  "title": "Lidah Putih Tanda Panas Dalam? 👅",
  "closing": "tips",
- "experiment": "2 video/hari + suara Puck; sumber detikHealth",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "kuning",
   "cap": "frasa",
@@ -56,112 +56,29 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "lidah.svg",
-   "sea": "#2a0f1a",
+   "type": "anim",
+   "anim": "lidah",
+   "view": "cermin",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     820,
-     800
-    ],
-    [
-     "w30",
-     540,
-     820,
-     800
-    ],
-    [
-     "w31",
-     1900,
-     890,
-     1008
-    ],
-    [
-     "w81",
-     1900,
-     890,
-     1008
-    ],
-    [
-     "w82",
-     3300,
-     814,
-     1065
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".putih",
-     "w": 3,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".kotor",
-     "w": 45,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".bakteri",
-     "w": 50,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".sikat",
-     "w": 96,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".dokter",
-     "w": 112,
-     "show": true,
-     "dur": 0.4
-    }
-   ],
-   "labels": [
-    {
-     "w": 9,
-     "w1": 19,
-     "x": 192,
-     "y": 483,
-     "text": "KATA ORANG: *PANAS DALAM*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 19,
-     "w1": 25,
-     "x": 192,
-     "y": 542,
-     "text": "DOKTER GIGI: *KOTOR*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 36,
-     "w1": 45,
-     "x": 1461,
-     "y": 465,
-     "text": "*PAPILA* = KARPET BERBULU",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 56,
-     "w1": 71,
-     "x": 1461,
-     "y": 465,
-     "text": "MULUT *KERING*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "lidah",
+   "view": "zoom",
+   "w0": 31
+  },
+  {
+   "type": "anim",
+   "anim": "lidah",
+   "view": "pagi",
+   "w0": 75
+  },
+  {
+   "type": "anim",
+   "anim": "lidah",
+   "view": "beres",
+   "w0": 89
   },
   {
    "type": "card",

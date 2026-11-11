@@ -14,7 +14,7 @@
  "viral_bukti": "Alasan Minimarket Lebih Mendominasi Dibanding Supermarket (NxKZWmnL4p8) 4,3 jt",
  "title": "Dua Minimarket Kok Sebelahan? 🏪",
  "closing": "punchline",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "ungu",
   "cap": "frasa2",
@@ -56,120 +56,23 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "minimarket.svg",
-   "sea": "#0e1f33",
+   "type": "anim",
+   "anim": "toko",
+   "view": "jalan",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     909,
-     1000
-    ],
-    [
-     "w35",
-     540,
-     909,
-     1000
-    ],
-    [
-     "w36",
-     2000,
-     686,
-     1389
-    ],
-    [
-     "w76",
-     2000,
-     686,
-     1389
-    ],
-    [
-     "w77",
-     540,
-     909,
-     1000
-    ],
-    [
-     "w96",
-     540,
-     909,
-     1000
-    ],
-    [
-     "w97",
-     3400,
-     869,
-     1000
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".b1",
-     "w": 44,
-     "move": [
-      -560,
-      0,
-      0
-     ],
-     "dur": 1.0
-    },
-    {
-     "sel": ".a1",
-     "w": 63,
-     "move": [
-      540,
-      0,
-      0
-     ],
-     "dur": 1.0
-    },
-    {
-     "sel": ".tengah",
-     "w": 73,
-     "show": true,
-     "dur": 0.4
-    }
-   ],
-   "labels": [
-    {
-     "w": 11,
-     "w1": 22,
-     "x": 105,
-     "y": 488,
-     "text": "KATA ORANG: *BODOH*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 22,
-     "w1": 30,
-     "x": 105,
-     "y": 562,
-     "text": "KATA EKONOM: *PINTAR*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 77,
-     "w1": 97,
-     "x": 105,
-     "y": 488,
-     "text": "LOKASI *TERBUKTI*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 67,
-     "w1": 73,
-     "x": 1396,
-     "y": 101,
-     "text": "BERHENTI *DI TENGAH*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "toko",
+   "view": "hotel",
+   "w0": 36
+  },
+  {
+   "type": "anim",
+   "anim": "toko",
+   "view": "untung",
+   "w0": 77
   },
   {
    "type": "card",

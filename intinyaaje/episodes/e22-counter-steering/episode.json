@@ -14,7 +14,7 @@
  "viral_bukti": "Memahami Fisika Counter Steering (FkpO3-wbobQ) 1,2 jt; kluster fakta motor 13 jt",
  "title": "Belok Kanan Malah Dorong Setang Kanan? 🏍️",
  "closing": "tips",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "hijau",
   "cap": "frasa2",
@@ -32,8 +32,12 @@
     "Kata pembalap: *kebalik*"
    ],
    [
-    "w34",
+    "w20",
     "Lihat dari *atas*"
+   ],
+   [
+    "w40",
+    "Rahasianya: *miring*"
    ],
    [
     "w79",
@@ -69,119 +73,29 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "counter.svg",
-   "sea": "#0f2a1f",
+   "type": "anim",
+   "anim": "motor",
+   "view": "belakang",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     550,
-     919,
-     1000
-    ],
-    [
-     "w33",
-     550,
-     919,
-     1000
-    ],
-    [
-     "w34",
-     1900,
-     823,
-     1775
-    ],
-    [
-     "w78",
-     1900,
-     823,
-     1775
-    ],
-    [
-     "w79",
-     3300,
-     792,
-     1332
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".putarKanan",
-     "w": 6,
-     "show": true,
-     "dur": 0.3,
-     "w1": 13
-    },
-    {
-     "sel": ".dorong",
-     "w": 50,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".rodaKiri",
-     "w": 54,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".rodaTop",
-     "w": 54,
-     "hide": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".jalur",
-     "w": 70,
-     "show": true,
-     "dur": 0.6
-    },
-    {
-     "sel": ".kmh",
-     "w": 83,
-     "show": true,
-     "dur": 0.4
-    }
-   ],
-   "labels": [
-    {
-     "w": 6,
-     "w1": 13,
-     "x": 115,
-     "y": 498,
-     "text": "REFLEKS: *PUTAR KANAN*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 13,
-     "w1": 32,
-     "x": 115,
-     "y": 572,
-     "text": "PEMBALAP: *DORONG KANAN*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 40,
-     "w1": 50,
-     "x": 1128,
-     "y": 75,
-     "text": "MOTOR BELOK = *MIRING*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 79,
-     "w1": 83,
-     "x": 2720,
-     "y": 231,
-     "text": "*COUNTERSTEERING*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "motor",
+   "view": "atas",
+   "w0": 17
+  },
+  {
+   "type": "anim",
+   "anim": "motor",
+   "view": "miring",
+   "w0": 40
+  },
+  {
+   "type": "anim",
+   "anim": "motor",
+   "view": "cepat",
+   "w0": 83
   },
   {
    "type": "card",

@@ -14,7 +14,7 @@
  "viral_bukti": "Mengapa Pesawat PENUMPANG Tidak Dilengkapi Parasut!! (d0D20trYSdU) 741 rb; kluster 3 Fakta Penerbangan (uAokdeGa_0I) 8,6 jt",
  "title": "Kenapa Penumpang Nggak Dikasih Parasut? 🪂",
  "closing": "tips",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "ungu",
   "cap": "frasa2",
@@ -56,98 +56,29 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "parasut.svg",
-   "sea": "#0c2a52",
+   "type": "anim",
+   "anim": "parasut",
+   "view": "kabin",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     742,
-     1332
-    ],
-    [
-     "w36",
-     540,
-     742,
-     1332
-    ],
-    [
-     "w37",
-     1900,
-     807,
-     1539
-    ],
-    [
-     "w80",
-     1900,
-     807,
-     1539
-    ],
-    [
-     "w81",
-     3300,
-     830,
-     1302
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".parasutQ",
-     "w": 13,
-     "show": true,
-     "dur": 0.4,
-     "w1": 37
-    },
-    {
-     "sel": ".oksigen",
-     "w": 46,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".angin",
-     "w": 59,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".landas",
-     "w": 81,
-     "show": true,
-     "dur": 0.5
-    }
-   ],
-   "labels": [
-    {
-     "w": 9,
-     "w1": 18,
-     "x": -40,
-     "y": 181,
-     "text": "KATA ORANG: *MASKAPAI PELIT*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 22,
-     "w1": 31,
-     "x": -40,
-     "y": 280,
-     "text": "KATA PILOT: *NGGAK BERGUNA*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 74,
-     "w1": 81,
-     "x": 1230,
-     "y": 159,
-     "text": "BISA TABRAK *SAYAP*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "parasut",
+   "view": "tinggi",
+   "w0": 37
+  },
+  {
+   "type": "anim",
+   "anim": "parasut",
+   "view": "pintu",
+   "w0": 59
+  },
+  {
+   "type": "anim",
+   "anim": "parasut",
+   "view": "fase",
+   "w0": 81
   },
   {
    "type": "card",

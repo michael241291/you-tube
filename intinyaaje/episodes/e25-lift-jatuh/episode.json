@@ -14,7 +14,7 @@
  "viral_bukti": "Jangan Lakukan Ini Saat Mau Masuk Lift (HJ8W5N1crcs) 6,8 jt",
  "title": "Lift Jatuh, Lompat Biar Selamat? 🛗",
  "closing": "tips",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "pink",
   "cap": "frasa",
@@ -65,135 +65,29 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "lift.svg",
-   "sea": "#141826",
+   "type": "anim",
+   "anim": "lift",
+   "view": "jatuh",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     783,
-     1627
-    ],
-    [
-     "w68",
-     540,
-     783,
-     1627
-    ],
-    [
-     "w69",
-     1950,
-     783,
-     1553
-    ],
-    [
-     "w97",
-     1950,
-     783,
-     1553
-    ],
-    [
-     "w98",
-     3300,
-     844,
-     1139
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".kabin",
-     "w": 4,
-     "move": [
-      0,
-      300,
-      0
-     ],
-     "dur": 1.2
-    },
-    {
-     "sel": ".kabel",
-     "w": 4,
-     "hide": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".lompat",
-     "w": 13,
-     "show": true,
-     "dur": 0.3,
-     "w1": 31
-    },
-    {
-     "sel": ".speed",
-     "w": 37,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".governor",
-     "w": 87,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".rem",
-     "w": 91,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".otis",
-     "w": 98,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".darurat",
-     "w": 124,
-     "show": true,
-     "dur": 0.3
-    }
-   ],
-   "labels": [
-    {
-     "w": 8,
-     "w1": 24,
-     "x": -168,
-     "y": 98,
-     "text": "KATA FILM: *LOMPAT!*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 24,
-     "w1": 31,
-     "x": -168,
-     "y": 218,
-     "text": "KATA FISIKA: *PERCUMA*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 52,
-     "w1": 60,
-     "x": -168,
-     "y": 98,
-     "text": "LOMPAT: CUMA *−15%*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 77,
-     "w1": 83,
-     "x": 1274,
-     "y": 129,
-     "text": "*BANYAK* KABEL BAJA",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "lift",
+   "view": "hitung",
+   "w0": 37
+  },
+  {
+   "type": "anim",
+   "anim": "lift",
+   "view": "aman",
+   "w0": 69
+  },
+  {
+   "type": "anim",
+   "anim": "lift",
+   "view": "otis",
+   "w0": 98
   },
   {
    "type": "card",

@@ -14,7 +14,7 @@
  "viral_bukti": "Jalan Tol di Atas Lumpur Laut, Ngambang di Atas Jutaan Bambu? (UNUWz4x74Bo) 1,1 jt",
  "title": "Jalan Tol Kok Pakai Bambu? 🎋",
  "closing": "jawab-konflik",
- "experiment": "2 video/hari + suara Puck; sumber Bina Marga PUPR",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "pink",
   "cap": "frasa",
@@ -56,113 +56,35 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "tolbambu.svg",
-   "sea": "#0a2a3a",
+   "type": "anim",
+   "anim": "tol",
+   "view": "laut",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     900,
-     1434
-    ],
-    [
-     "w37",
-     540,
-     900,
-     1434
-    ],
-    [
-     "w38",
-     1900,
-     865,
-     1435
-    ],
-    [
-     "w98",
-     1900,
-     865,
-     1435
-    ],
-    [
-     "w99",
-     3300,
-     795,
-     1008
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".ambles",
-     "w": 53,
-     "show": true,
-     "dur": 0.4,
-     "w1": 57
-    },
-    {
-     "sel": ".matras",
-     "w": 59,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".cerucuk",
-     "w": 64,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".turun",
-     "w": 89,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".hemat",
-     "w": 108,
-     "show": true,
-     "dur": 0.4
-    }
-   ],
-   "labels": [
-    {
-     "w": 19,
-     "w1": 30,
-     "x": -84,
-     "y": 296,
-     "text": "KATA ORANG: *GAMPANG LAPUK*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 30,
-     "w1": 38,
-     "x": -84,
-     "y": 402,
-     "text": "INSINYUR: *PALING KUAT*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 68,
-     "w1": 80,
-     "x": 1276,
-     "y": 260,
-     "text": "MATRAS *MENGAPUNG*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 80,
-     "w1": 89,
-     "x": 1276,
-     "y": 260,
-     "text": "TERENDAM = *AWET*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "tol",
+   "view": "ambles",
+   "w0": 44
+  },
+  {
+   "type": "anim",
+   "anim": "tol",
+   "view": "matras",
+   "w0": 57
+  },
+  {
+   "type": "anim",
+   "anim": "tol",
+   "view": "pvd",
+   "w0": 89
+  },
+  {
+   "type": "anim",
+   "anim": "tol",
+   "view": "angka",
+   "w0": 99
   },
   {
    "type": "card",

@@ -14,7 +14,7 @@
  "viral_bukti": "Pesawat Ngebut 900 Km/Jam, Tapi Kok Terasa Pelan? (A4UeLhV34yA) 3,2 jt",
  "title": "Pesawat 900 km/jam Kok Kerasa Diam? ✈️",
  "closing": "loop",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "hijau",
   "cap": "frasa",
@@ -56,127 +56,35 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "pesawat.svg",
-   "sea": "#0c2a52",
+   "type": "anim",
+   "anim": "pesawat",
+   "view": "kabin",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     731,
-     1376
-    ],
-    [
-     "w36",
-     540,
-     731,
-     1376
-    ],
-    [
-     "w37",
-     1900,
-     845,
-     1008
-    ],
-    [
-     "w55",
-     1900,
-     845,
-     1008
-    ],
-    [
-     "w56",
-     540,
-     731,
-     1376
-    ],
-    [
-     "w100",
-     540,
-     731,
-     1376
-    ],
-    [
-     "w101",
-     3300,
-     842,
-     1332
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".kmh",
-     "w": 16,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".blur",
-     "w": 45,
-     "show": true,
-     "dur": 0.4,
-     "w1": 56
-    },
-    {
-     "sel": ".awanJauh",
-     "w": 71,
-     "move": [
-      -60,
-      0,
-      0
-     ],
-     "dur": 3.0
-    },
-    {
-     "sel": ".bayang",
-     "w": 111,
-     "move": [
-      -700,
-      0,
-      0
-     ],
-     "dur": 2.5
-    }
-   ],
-   "labels": [
-    {
-     "w": 8,
-     "w1": 11,
-     "x": -59,
-     "y": 151,
-     "text": "MATA: *DIAM*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 11,
-     "w1": 21,
-     "x": -59,
-     "y": 253,
-     "text": "ANGKA: *900 km/jam*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 76,
-     "w1": 85,
-     "x": -59,
-     "y": 151,
-     "text": "BADAN CUMA RASA *PERUBAHAN*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 37,
-     "w1": 45,
-     "x": 1461,
-     "y": 420,
-     "text": "PATOKAN = BENDA *DEKAT*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "pesawat",
+   "view": "motor",
+   "w0": 37
+  },
+  {
+   "type": "anim",
+   "anim": "pesawat",
+   "view": "langit",
+   "w0": 56
+  },
+  {
+   "type": "anim",
+   "anim": "pesawat",
+   "view": "dorong",
+   "w0": 76
+  },
+  {
+   "type": "anim",
+   "anim": "pesawat",
+   "view": "bayang",
+   "w0": 101
   },
   {
    "type": "card",

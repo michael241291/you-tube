@@ -14,7 +14,7 @@
  "viral_bukti": "Kenapa Huruf a kecil Ada Dua Bentuk? (weBceyk2aww) 5,1 jt",
  "title": "Huruf a di HP Kok Beda Sama Tulisanmu? 🔤",
  "closing": "teaser",
- "experiment": "2 video/hari + suara Puck",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
  "style": {
   "theme": "oranye",
   "cap": "frasa",
@@ -36,7 +36,15 @@
     "Asalnya *A kapital*"
    ],
    [
+    "w79",
+    "Lihat huruf *miring*"
+   ],
+   [
     "w92",
+    "Kamu *nggak salah*"
+   ],
+   [
+    "w109",
     ""
    ]
   ]
@@ -56,110 +64,33 @@
  ],
  "scenes": [
   {
-   "type": "map",
-   "svgFile": "huruf.svg",
-   "sea": "#1d1730",
+   "type": "anim",
+   "anim": "huruf",
+   "view": "kertas",
    "w0": 0,
-   "cam": [
-    [
-     0,
-     540,
-     758,
-     1124
-    ],
-    [
-     "w13",
-     540,
-     758,
-     1124
-    ],
-    [
-     "w14",
-     1900,
-     802,
-     1332
-    ],
-    [
-     "w43",
-     1900,
-     802,
-     1332
-    ],
-    [
-     "w44",
-     3300,
-     762,
-     1332
-    ]
-   ],
-   "hl": [
-    {
-     "sel": ".tingkat",
-     "w": 23,
-     "show": true,
-     "dur": 0.3
-    },
-    {
-     "sel": ".panah",
-     "w": 53,
-     "show": true,
-     "dur": 0.4
-    },
-    {
-     "sel": ".duaA",
-     "w": 64,
-     "show": true,
-     "dur": 0.5
-    },
-    {
-     "sel": ".gg",
-     "w": 109,
-     "show": true,
-     "dur": 0.4
-    }
-   ],
-   "labels": [
-    {
-     "w": 27,
-     "w1": 32,
-     "x": 1320,
-     "y": 241,
-     "text": "GURU: *a BULAT*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 32,
-     "w1": 38,
-     "x": 1320,
-     "y": 340,
-     "text": "HP: *a BERTINGKAT*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 44,
-     "w1": 53,
-     "x": 2720,
-     "y": 201,
-     "text": "TURUNAN *A KAPITAL*",
-     "pill": true,
-     "size": 42
-    },
-    {
-     "w": 79,
-     "w1": 92,
-     "x": 2720,
-     "y": 201,
-     "text": "HURUF MIRING: *BULAT LAGI*",
-     "pill": true,
-     "size": 42
-    }
-   ]
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "huruf",
+   "view": "evolusi",
+   "w0": 44
+  },
+  {
+   "type": "anim",
+   "anim": "huruf",
+   "view": "miring",
+   "w0": 79
+  },
+  {
+   "type": "anim",
+   "anim": "huruf",
+   "view": "kamu",
+   "w0": 92
   },
   {
    "type": "card",
-   "w0": 92,
+   "w0": 109,
    "tag": "INTINYA",
    "y": 420,
    "lines": [
