@@ -681,6 +681,30 @@
    "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
    "experiment": "2 video/hari (11.30 + 17.00, YT+FB) + suara Puck",
    "version": "v1 batch 11 Nov"
+  },
+  {
+   "id": "e35-helikopter",
+   "date": "2026-11-14",
+   "slot": "11:30",
+   "viral_bukti": "helikopter mesin mati (2tTpZq1wh3w) 919 rb",
+   "style": "animasi canvas",
+   "voice": "Puck"
+  },
+  {
+   "id": "e36-kapal-selam",
+   "date": "2026-11-15",
+   "slot": "11:30",
+   "viral_bukti": "kapal selam naik turun (MUdYJbkGx_0) 535 rb",
+   "style": "animasi canvas",
+   "voice": "Puck"
+  },
+  {
+   "id": "e37-kick-starter",
+   "date": "2026-11-16",
+   "slot": "11:30",
+   "viral_bukti": "kick starter hilang (2bD3j3hjhfo) 7,5 jt",
+   "style": "animasi canvas",
+   "voice": "Puck"
   }
  ],
  "pilots": [
