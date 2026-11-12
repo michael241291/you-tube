@@ -1,0 +1,104 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e36-kapal-selam",
+ "pillar": "cara kerja",
+ "angle": "antitesis \"kapal selam menyelam karena didorong mesin\": tangki pemberat diisi air/udara, hukum Archimedes",
+ "viral_bukti": "kapal selam naik turun (MUdYJbkGx_0) 535 rb (riset 11 Nov)",
+ "title": "Kapal Selam Menyelam Didorong Mesin? 🌊",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
+ "style": {
+  "theme": "cyan",
+  "cap": "frasa2",
+  "trans": "geser"
+ },
+ "music": "misteri",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "*Ribuan ton* baja"
+   ],
+   [
+    "w31",
+    "Kita bedah *lambungnya*"
+   ],
+   [
+    "w69",
+    "Cara *naik*"
+   ],
+   [
+    "w86",
+    "Cara *melayang*"
+   ],
+   [
+    "w113",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w49",
+   "PSSSHH!",
+   640,
+   600,
+   -8,
+   "#7cc8ff"
+  ]
+ ],
+ "faces": [
+  [
+   "w12",
+   "bingung",
+   2.0
+  ],
+  [
+   "w103",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "anim",
+   "anim": "selam",
+   "view": "laut",
+   "w0": 0,
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "selam",
+   "view": "potong",
+   "w0": 37
+  },
+  {
+   "type": "anim",
+   "anim": "selam",
+   "view": "layang",
+   "w0": 86
+  },
+  {
+   "type": "card",
+   "w0": 113,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "KAPAL SELAM",
+    "ATUR *BERAT*,",
+    "BUKAN DIDORONG"
+   ]
+  }
+ ],
+ "script": "Kapal selam itu beratnya ribuan ton dan terbuat dari baja. Banyak yang mikir, kapal selam bisa menyelam karena didorong mesinnya ke bawah. Tapi kapal selam bisa diam melayang di tengah laut. Siapa yang bener? Kita cari intinya. Di antara dua lapis lambungnya ada tangki pemberat. Waktu mau menyelam, katup dibuka, udara keluar, dan air laut masuk mengisi tangki. Kapal jadi lebih berat dari air yang dipindahkannya, lalu tenggelam pelan. Mau naik? Udara bertekanan tinggi disemburkan ke tangki, airnya terdorong keluar, kapal jadi lebih ringan dan mengapung. Kalau tangkinya diisi sebagian, berat kapal sama dengan gaya angkat air, jadi kapal melayang di kedalaman itu. Ini hukum Archimedes, sama kayak kamu mengapung di kolam renang. Jadi kapal selam nggak didorong ke bawah, dia mengatur beratnya sendiri.",
+ "description": "Kapal selam tidak menyelam karena didorong mesin ke bawah. Di antara lambung dalam dan luar ada tangki pemberat (ballast tank). Saat menyelam, katup dibuka sehingga udara keluar dan air laut masuk; kapal menjadi lebih berat dari air yang dipindahkan dan tenggelam. Untuk naik, udara bertekanan disemburkan ke tangki sehingga air terdorong keluar. Bila tangki terisi sebagian, berat kapal sama dengan gaya apung sehingga kapal melayang. Prinsipnya hukum Archimedes.\n\nSumber: detikEdu (Cara Kerja Kapal Selam). Musik: orisinal @intinyaaje.\nMau naik kapal selam? 👇\n\n#intinyaaje #kapalselam #sains #carakerja #shorts"
+}

@@ -1,0 +1,104 @@
+{
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "ver": 1,
+ "capY": 1220,
+ "voice": {
+  "name": "Puck",
+  "provider": "Gemini TTS",
+  "model": "gemini-3.1-flash-tts-preview"
+ },
+ "id": "e35-helikopter",
+ "pillar": "kendaraan",
+ "angle": "antitesis \"mesin heli mati = jatuh kayak batu\": autorotasi, sudut bilah turun, udara memutar rotor, flare sebelum mendarat",
+ "viral_bukti": "helikopter mesin mati (2tTpZq1wh3w) 919 rb (riset 11 Nov)",
+ "title": "Mesin Helikopter Mati, Pasti Jatuh? 🚁",
+ "closing": "tips",
+ "experiment": "2 video/hari + suara Puck + animasi canvas bergerak",
+ "style": {
+  "theme": "oranye",
+  "cap": "frasa",
+  "trans": "zoom"
+ },
+ "music": "petualangan",
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Mesin *mati*"
+   ],
+   [
+    "w24",
+    "Kita bedah *rotornya*"
+   ],
+   [
+    "w60",
+    "*Autorotasi*"
+   ],
+   [
+    "w67",
+    "Cara *mendarat*"
+   ],
+   [
+    "w100",
+    ""
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   "w3",
+   "DUK-DUK!",
+   620,
+   600,
+   -8,
+   "#ff5c8a"
+  ]
+ ],
+ "faces": [
+  [
+   "w8",
+   "bingung",
+   2.0
+  ],
+  [
+   "w60",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "anim",
+   "anim": "heli",
+   "view": "jatuh",
+   "w0": 0,
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "heli",
+   "view": "rotor",
+   "w0": 30
+  },
+  {
+   "type": "anim",
+   "anim": "heli",
+   "view": "turun",
+   "w0": 62
+  },
+  {
+   "type": "card",
+   "w0": 100,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "MESIN MATI",
+    "≠ JATUH.",
+    "*AUTOROTASI*"
+   ]
+  }
+ ],
+ "script": "Mesin helikopter tiba-tiba mati di udara. Kebanyakan orang mikir, ya sudah, helikopternya jatuh kayak batu. Tapi pilot helikopter justru wajib latihan mendarat tanpa mesin. Siapa yang bener? Kita cari intinya. Yang mengangkat helikopter itu baling-balingnya. Begitu mesin mati, pilot langsung menurunkan sudut bilah baling-baling. Helikopter mulai turun, dan udara yang menerjang dari bawah justru terus memutar baling-balingnya, kayak kincir angin. Namanya autorotasi. Ketinggian diubah jadi tenaga putaran. Beberapa meter sebelum menyentuh tanah, pilot mengangkat hidung helikopter, lalu menaikkan lagi sudut bilahnya. Tenaga putaran yang tersimpan dipakai untuk mengerem, jadi helikopter mendarat pelan. Latihan ini wajib dikuasai sebelum pilot dapat lisensi. Jadi mesin mati bukan berarti jatuh, asal pilotnya sigap.",
+ "description": "Kalau mesin helikopter mati, helikopter tidak langsung jatuh seperti batu. Pilot menurunkan sudut bilah baling-baling (collective) sehingga helikopter turun dan aliran udara dari bawah terus memutar baling-baling. Teknik ini disebut autorotasi: ketinggian diubah jadi tenaga putaran. Beberapa meter sebelum menyentuh tanah, pilot melakukan flare dan menaikkan sudut bilah untuk memakai tenaga putaran itu sebagai pengereman. Latihan autorotasi wajib bagi pilot helikopter.\n\nSumber: FAA Helicopter Flying Handbook (bab 11), ScienceABC. Musik: orisinal @intinyaaje.\nKamu berani naik helikopter? 👇\n\n#intinyaaje #helikopter #penerbangan #faktaunik #shorts"
+}
