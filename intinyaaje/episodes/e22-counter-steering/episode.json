@@ -1,7 +1,7 @@
 {
  "audio": "voice.mp3",
  "musicVol": 0.22,
- "ver": 1,
+ "ver": 2,
  "capY": 1220,
  "voice": {
   "name": "Puck",
@@ -109,5 +109,5 @@
    ]
   }
  ],
- "script": "Kamu naik motor, mau belok kanan. Refleksnya pasti setang diputar ke kanan, kan? Tapi pembalap bilang kebalikannya. Mau belok kanan, setang kanan justru didorong ke depan, jadi rodanya sempat menghadap ke kiri. Kedengarannya ngawur. Siapa yang bener? Kita cari intinya. Motor nggak belok dengan memutar setang, motor belok dengan miring. Waktu setang kanan didorong, roda depan nyelonong sedikit ke kiri. Badan motor yang di atas roda jadi oleng ke kanan. Nah, kemiringan itulah yang bikin motor berbelok ke kanan. Teknik ini namanya countersteering. Di atas kecepatan sekitar dua puluh kilometer per jam, semua pengendara sebenarnya melakukannya tanpa sadar. Di kecepatan pelan, waktu parkir, baru setang diputar biasa. Jadi refleksmu nggak salah, cuma belum lengkap. Coba rasakan di jalan lurus yang sepi, dorong pelan saja."
+ "script": "Kamu naik motor, mau belok kanan. Refleksnya pasti setang diputar ke kanan, kan? Tapi pembalap bilang kebalikannya. Mau belok kanan, setang kanan justru didorong ke depan, jadi rodanya sempat menghadap ke kiri. Kedengarannya ngawur. Siapa yang bener? Kita cari intinya. Motor nggak belok dengan memutar setang, motor belok dengan miring. Waktu setang kanan didorong, roda depan nyelonong sedikit ke kiri. Badan motor yang di atas roda jadi oleng ke kanan. Nah, kemiringan itulah yang bikin motor berbelok ke kanan. Teknik ini namanya countersteering. Di atas kecepatan sekitar dua puluh kilometer per jam, semua pengendara sebenarnya melakukannya tanpa sadar. Di kecepatan pelan, waktu parkir, baru setang diputar biasa. Jadi mau belok kanan, setang kanan memang didorong, bukan diputar. Kamu sudah melakukannya tiap hari tanpa sadar. Coba rasakan di jalan lurus yang sepi, dorong pelan saja."
 }
