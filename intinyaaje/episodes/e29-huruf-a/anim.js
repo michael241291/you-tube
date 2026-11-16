@@ -56,7 +56,7 @@ ANIM.huruf=(c,t,lt,s)=>{const P=AL.p,T=WT,sm=AL.sm,v=s.view;
     c.fillStyle=AL.rg(c,540,800,50,1200,[[0,'#2b2442'],[1,'#0e0b18']]);c.fillRect(-600,-800,2300,3600);
     H29.paper(c,300,870,420,520,-0.05);H29.handA(c,300,900,90,1);
     H29.phone(c,790,870,0.85,c=>{H29.glyph(c,'a',0,100,260,SERIF,'#111')});
-    const gA=sm(P(t,T(109),T(110)));
+    const gA=0;
     if(gA>0){c.fillStyle=`rgba(14,11,24,${.85*gA})`;c.fillRect(-600,-800,2300,3600);c.globalAlpha=gA;H29.glyph(c,'g',330,1020,320,ROUND,'#3ddc84');H29.glyph(c,'g',780,1020,320,SERIF,'#7cc8ff');AL.text(c,'HURUF g JUGA DUA BENTUK',540,560,{size:36,pill:true,color:'#ffd23f'});c.globalAlpha=1}
     c.setTransform(1,0,0,1,0,0);
     if(gA<0.5){AL.text(c,'VERSI TANGAN',300,1180,{size:34,pill:true,color:'#3ddc84'});AL.text(c,'VERSI CETAK',790,1180,{size:34,pill:true,color:'#7cc8ff'})}
