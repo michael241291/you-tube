@@ -88,10 +88,10 @@ ANIM.pisang = (c, t, lt, s) => {
   if (v === 'hook') {
     P01.bg(c, t);
     const swap = sm(P(t, T(3), T(3) + 0.5)); const fr = P01.pop(t, T(1)) * (1 - sm(P(t, T(3), T(3) + 0.4)));
-    P01.fridge(c, 830, 900, 0.55 * fr, 1);
+    P01.fridge(c, 880, 900, 0.7 * fr, 1);
     const bx = AL.mix(540, 470, P(t, T(1), T(2)));
-    P01.spr(c, 'kuning', bx, 860 + bob, 620, { s: (1 - swap) * Math.max(0.001, P01.pop(t, 0.05)) });
-    P01.spr(c, 'hitam', 540, 860 + bob, 640, { s: swap * (t < T(7) ? 1 : 1) , rot: t > T(7) && t < T(12) ? -0.08 * Math.sin(t * 20) * P(t, T(7), T(8)) : 0 });
+    P01.spr(c, 'kuning', bx, 880 + bob, 820, { s: Math.max(0.001, P01.pop(t, 0.05)), a: 1 - swap });
+    P01.spr(c, 'hitam', 540, 880 + bob, 860, { a: swap, s: swap > 0 ? 1 : 0, rot: t > T(7) && t < T(12) ? -0.08 * Math.sin(t * 20) * P(t, T(7), T(8)) : 0 });
     c.setTransform(1, 0, 0, 1, 0, 0);
     if (t > T(9) && t < T(12)) { const a = P01.pop(t, T(10)); c.save(); c.translate(820, 640); c.scale(a, a); AL.text(c, 'BUSUK?', 0, 0, { size: 64, pill: true, color: PAL.red }); c.restore(); }
     if (t > T(12)) { const a = P01.pop(t, T(12)); c.save(); c.translate(540, 1140); c.scale(a, a); AL.text(c, 'TUNGGU DULU!', 0, 0, { size: 48, pill: true, color: '#ffd23f' }); c.restore(); }
@@ -101,9 +101,9 @@ ANIM.pisang = (c, t, lt, s) => {
   }
   if (v === 'tropis') {
     P01.bg(c, t, P(t, T(21), T(26)));
-    P01.spr(c, 'sisir', 400, 880 + bob, 560, { s: P01.pop(t, s.t0 + 0.02) });
+    P01.spr(c, 'sisir', 380, 900 + bob, 700, { s: P01.pop(t, s.t0 + 0.02) });
     const temp = 1 - sm(P(t, T(21), T(26)));
-    P01.thermo(c, 860, 860, 0.25 + 0.55 * temp);
+    P01.thermo(c, 900, 880, 0.25 + 0.55 * temp);
     // matahari ke salju
     c.save(); c.globalAlpha = temp; c.fillStyle = '#ffc93c'; c.beginPath(); c.arc(860, 520, 60, 0, 6.283); c.fill(); c.restore();
     if (temp < 1) for (let i = 0; i < 26; i++) { const y = ((AL.r(i, 3) * 1600 + t * 120) % 1600) + 200; c.fillStyle = `rgba(255,255,255,${(1 - temp) * 0.9})`; c.beginPath(); c.arc(AL.r(i, 4) * 1080, y, 6 + 6 * AL.r(i, 5), 0, 6.283); c.fill(); }
@@ -114,7 +114,7 @@ ANIM.pisang = (c, t, lt, s) => {
   }
   if (v === 'sel') {
     P01.bg(c, t);
-    P01.spr(c, 'kuning', 300, 1000, 420, { s: 1, a: 0.9 });
+    P01.spr(c, 'kuning', 280, 1010, 500, { s: 1, a: 0.9 });
     const dmg = sm(P(t, T(33), T(35))), mix = sm(P(t, T(37), T(45))), dark = sm(P(t, T(46), T(52)));
     c.strokeStyle = 'rgba(59,51,42,.5)'; c.lineWidth = 6; c.setLineDash([12, 10]); c.beginPath(); c.moveTo(330, 960); c.lineTo(560, 880); c.stroke(); c.setLineDash([]);
     P01.cell(c, 640, 880, 260, t, dmg, mix, dark);
@@ -128,7 +128,7 @@ ANIM.pisang = (c, t, lt, s) => {
   if (v === 'apel') {
     P01.bg(c, t);
     const br = sm(P(t, T(56), T(59)));
-    P01.apple(c, 540, 860 + bob, 1.6 * P01.pop(t, T(53)), br);
+    P01.apple(c, 500, 880 + bob, 2.0 * P01.pop(t, T(53)), br);
     c.setTransform(1, 0, 0, 1, 0, 0);
     AL.text(c, 'REAKSI YANG SAMA', 540, 560, { size: 42, pill: true });
     return;
@@ -136,8 +136,8 @@ ANIM.pisang = (c, t, lt, s) => {
   if (v === 'daging') {
     P01.bg(c, t);
     const k = sm(P(t, T(66), T(66) + 0.6));
-    P01.spr(c, 'hitam', AL.mix(540, 300, k), 860 + bob, AL.mix(640, 440, k), {});
-    P01.spr(c, 'kupas', 780, 860 - bob, 440, { s: P01.pop(t, T(66)) });
+    P01.spr(c, 'hitam', AL.mix(540, 290, k), 880 + bob, AL.mix(860, 520, k), {});
+    P01.spr(c, 'kupas', 790, 880 - bob, 540, { s: P01.pop(t, T(66)) });
     c.setTransform(1, 0, 0, 1, 0, 0);
     if (t < T(66)) AL.text(c, 'RUSAKNYA CUMA DI KULIT', 540, 560, { size: 40, pill: true, color: '#ffd23f' });
     else { AL.text(c, 'DAGING LEBIH AWET', 540, 560, { size: 42, pill: true, color: '#7ee2a8' }); P01.mark(c, 900, 1060, true, P01.pop(t, T(68))); }
@@ -146,10 +146,10 @@ ANIM.pisang = (c, t, lt, s) => {
   }
   if (v === 'syarat') {
     P01.bg(c, t);
-    P01.fridge(c, 540, 1020, 0.5, 1);
+    P01.fridge(c, 540, 1040, 0.42, 1);
     const g = P(t, T(84), T(84) + 0.4);
-    P01.spr(c, 'kuning', 300, 760 + bob, 380, { s: P01.pop(t, T(76)) });
-    P01.spr(c, 'hijau', 790, 760 - bob, 360, { s: P01.pop(t, T(84)) });
+    P01.spr(c, 'kuning', 290, 780 + bob, 470, { s: P01.pop(t, T(76)) });
+    P01.spr(c, 'hijau', 800, 780 - bob, 450, { s: P01.pop(t, T(84)) });
     P01.mark(c, 410, 640, true, P01.pop(t, T(82)));
     P01.mark(c, 900, 640, false, P01.pop(t, T(88)));
     c.setTransform(1, 0, 0, 1, 0, 0);

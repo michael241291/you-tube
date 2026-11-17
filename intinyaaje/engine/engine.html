@@ -250,7 +250,7 @@ function render(t){
   let tx=0,ty=0,ts=1,tr=0,tb=0;
   if(tp<1){const k=1-te;ts=1+0.32*k;tb=k*14;if(kind===1){tx=k*130}else if(kind===2){ty=k*-230}else if(kind===3){tr=k*-4}}
   // handheld drift + emphasis punch
-  const dx=Math.sin(t*0.9)*6+Math.sin(t*2.3)*2,dy=Math.cos(t*0.7)*6,dr=Math.sin(t*0.5)*0.4;
+  const dz=ST.still?0:1;const dx=dz*(Math.sin(t*0.9)*6+Math.sin(t*2.3)*2),dy=dz*Math.cos(t*0.7)*6,dr=dz*Math.sin(t*0.5)*0.4;
   const pk=emphPunch(t);const punch=(1+0.05*eb(1-pk))*(pk>0?1:1);const ps=1+0.045*pk;
   const T=`translate(${tx+dx}px,${ty+dy}px) scale(${ts*ps}) rotate(${tr+dr}deg)`;
   const ml=document.getElementById('maplayer');ml.style.transform=T;ml.style.filter=tb>0.3?`blur(${tb}px)`:'none';
