@@ -1,7 +1,7 @@
 {
  "audio": "voice.mp3",
  "musicVol": 0.22,
- "ver": 1,
+ "ver": 2,
  "capY": 1220,
  "voice": {
   "name": "Puck",
@@ -99,12 +99,12 @@
    "tag": "INTINYA",
    "y": 420,
    "lines": [
-    "LIRIK",
-    "*VOLTASE AKI*,",
-    "BUKAN SELAH"
+    "BUKAN PELIT,",
+    "SELAH *JARANG*",
+    "DIPAKAI"
    ]
   }
  ],
- "script": "Motor matic baru sekarang banyak yang nggak punya selah. Kata warganet, pabriknya pelit, biar kalau aki tekor kita terpaksa ke bengkel. Kata Honda, alasannya justru datang dari pemakainya sendiri. Siapa yang bener? Kita cari intinya. Astra Honda Motor bilang, survei ke pemilik matic premium menunjukkan selah hampir nggak pernah dipakai. Jadi fitur itu dihapus. Motor sekarang juga pakai starter ACG, dinamo pengisi aki yang sekaligus jadi starter, jadi mesin nyala tanpa bunyi gigi. Sebagai gantinya, di speedometer ada indikator aki. Normalnya sekitar dua belas volt. Di sebelas koma enam volt, lampu aki merah menyala, motor masih bisa hidup, tapi matikan fitur idling stop. Kalau sudah sebelas volt, motor nggak bisa distarter, langsung bawa ke bengkel resmi. Jadi rajin lirik voltase aki, bukan kangen selah.",
+ "script": "Motor matic baru sekarang banyak yang nggak punya selah. Kata warganet, pabriknya pelit, biar kalau aki tekor kita terpaksa ke bengkel. Kata Honda, alasannya justru datang dari pemakainya sendiri. Siapa yang bener? Kita cari intinya. Astra Honda Motor bilang, survei ke pemilik matic premium menunjukkan selah hampir nggak pernah dipakai. Jadi fitur itu dihapus. Motor sekarang juga pakai starter ACG, dinamo pengisi aki yang sekaligus jadi starter, jadi mesin nyala tanpa bunyi gigi. Sebagai gantinya, di speedometer ada indikator aki. Normalnya sekitar dua belas volt. Di sebelas koma enam volt, lampu aki merah menyala, motor masih bisa hidup, tapi matikan fitur idling stop. Kalau sudah sebelas volt, motor nggak bisa distarter, langsung bawa ke bengkel resmi. Jadi selah dihapus bukan karena pabrik pelit, tapi karena hampir nggak ada yang pakai.",
  "description": "Banyak motor matic baru tidak lagi dibekali kick starter (selah). Menurut Astra Honda Motor, survei ke pemilik matic premium menunjukkan selah sangat jarang dipakai, sehingga fitur itu dihapus. Motor modern memakai starter ACG (dinamo pengisi aki yang juga berfungsi sebagai starter). Sebagai gantinya ada indikator aki/voltmeter: normal sekitar 12 V; di 11,6 V lampu aki merah menyala dan disarankan mematikan fitur idling stop; di 11 V motor tidak bisa distarter dan perlu dibawa ke bengkel resmi.\n\nSumber: detikOto (AHM, Apr 2022). Musik: orisinal @intinyaaje.\nMotor kamu masih ada selahnya? 👇\n\n#intinyaaje #motor #matic #tipsmotor #shorts"
 }
