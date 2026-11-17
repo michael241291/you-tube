@@ -135,7 +135,9 @@ def outro_panel(n_shown, hi, path):
         if on: rrect(dr, (x - 30, y - 12, W - x + 30, y + 80), 40, (*YEL, 255))
         col = (20, 20, 24) if on else WHT
         dr.text((x, y), f'{i+1}', font=F(52), fill=col if on else YEL)
-        dr.text((x + 80, y + 8), c[3], font=F(44, 'Bold' if on else 'Medium'), fill=col)
+        fs = 44
+        while dr.textlength(c[3], font=F(fs, 'Bold')) > W - 2 * x - 110: fs -= 2
+        dr.text((x + 80, y + 8 + (44 - fs) // 2), c[3], font=F(fs, 'Bold' if on else 'Medium'), fill=col)
         y += 106
     dr.text((70, H - 80), '@intinyaaje', font=F(30, 'Medium'), fill=DIM)
     im.save(path)
