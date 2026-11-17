@@ -1,0 +1,31 @@
+"""SUARA RESMI @intinyaaje (disetujui user 11 Nov 2026): Gemini TTS, suara Puck, 1 panggilan per video.
+Pakai: python3 narrate.py <episode_dir>   -> <episode_dir>/voice.mp3 (dari script.txt, TANPA tag)
+API key: network secret environment (disarankan) / env GEMINI_API_KEY / /home/claude/.secrets/gemini_key. JANGAN masuk repo.
+Kuota gratis: 10 permintaan/hari PER MODEL -> otomatis pindah model kalau kena 429."""
+import sys,json,base64,subprocess,urllib.request,os
+VOICE="Puck"
+MODELS=[m for m in os.environ.get("GEM_MODELS","gemini-3.1-flash-tts-preview,gemini-2.5-flash-preview-tts,gemini-2.5-pro-preview-tts").split(",")]
+STYLE=("Say in Indonesian like a gripping documentary storyteller: calm, warm and clear, building suspense slowly, with tense pauses at dramatic moments and relief when things turn out okay: ")
+# Key: (1) network secret di environment (proxy menempelkan header x-goog-api-key, key tidak terlihat di sini),
+# (2) env GEMINI_API_KEY, (3) file /home/claude/.secrets/gemini_key. Kalau tidak ada, request dikirim tanpa key.
+K=os.environ.get('GEMINI_API_KEY') or (open('/home/claude/.secrets/gemini_key').read().strip() if os.path.exists('/home/claude/.secrets/gemini_key') else '')
+ep=sys.argv[1].rstrip("/"); txt=open(f"{ep}/tts.txt" if os.path.exists(f"{ep}/tts.txt") else f"{ep}/script.txt").read().strip()
+out=sys.argv[2] if len(sys.argv)>2 else f"{ep}/voice.mp3"
+body={"contents":[{"parts":[{"text":STYLE+txt}]}],
+      "generationConfig":{"responseModalities":["AUDIO"],"speechConfig":{"voiceConfig":{"prebuiltVoiceConfig":{"voiceName":VOICE}}}}}
+for model in MODELS:
+    req=urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+        data=json.dumps(body).encode(),headers=({"x-goog-api-key":K} if K else {})|{"Content-Type":"application/json"})
+    try:
+        r=json.load(urllib.request.urlopen(req,timeout=300))
+        try: pcm=base64.b64decode(r['candidates'][0]['content']['parts'][0]['inlineData']['data']); break
+        except (KeyError,IndexError): print(model,'tanpa audio:',json.dumps(r.get('candidates',[{}])[0].get('finishReason','?')),flush=True); continue
+    except urllib.error.HTTPError as e:
+        print(model,e.code,e.read().decode()[:160].replace('\n',' '),flush=True)
+else: sys.exit("SEMUA MODEL KENA KUOTA - coba lagi besok")
+subprocess.run(['ffmpeg','-v','error','-y','-f','s16le','-ar','24000','-ac','1','-i','-',
+  '-af','silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse,loudnorm=I=-16:TP=-1.5',
+  '-ar','44100','-b:a','160k',out],input=pcm,check=True)
+asr=out+'.asr.json'
+if os.path.exists(asr): os.remove(asr)
+print('OK',out,model,VOICE)

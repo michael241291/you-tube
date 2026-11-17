@@ -1,0 +1,100 @@
+{
+ "id": "t01-pisang",
+ "audio": "voice.mp3",
+ "musicVol": 0.22,
+ "capY": 1220,
+ "music": "ceria",
+ "script": "Pisang masuk kulkas, besoknya kulitnya hitam legam. Langsung dibuang karena dikira busuk? Tunggu dulu. Kita cari intinya. Pisang itu buah tropis. Di bawah sekitar tiga belas derajat, sel-sel di kulitnya rusak kena dingin. Dinding selnya bocor, lalu zat fenol di kulit bertemu enzim bernama polifenol oksidase, dan bereaksi dengan oksigen. Hasilnya pigmen gelap, mirip apel yang jadi cokelat setelah digigit. Tapi kerusakan itu cuma di kulit. Dagingnya justru lebih awet, karena dingin memperlambat pematangan. Ada syaratnya: yang masuk kulkas harus pisang yang sudah matang. Pisang hijau di kulkas malah berhenti matang, dan nggak pernah jadi manis. Jadi pisang hitam dari kulkas bukan berarti busuk. Yang rusak cuma kulitnya, dagingnya biasanya masih bagus.",
+ "style": {
+  "theme": "kuning",
+  "cap": "frasa",
+  "trans": "campur"
+ },
+ "hud": {
+  "title": [
+   [
+    "w0",
+    "Pisang *kulkas*"
+   ],
+   [
+    "w17",
+    "Kenapa *hitam*?"
+   ],
+   [
+    "w60",
+    "Dagingnya *aman*"
+   ],
+   [
+    "w74",
+    "Ada *syaratnya*"
+   ],
+   [
+    "w96",
+    ""
+   ]
+  ]
+ },
+ "sfx": [],
+ "faces": [
+  [
+   "w10",
+   "bingung",
+   2.0
+  ],
+  [
+   "w66",
+   "dapat-ide",
+   2.0
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "anim",
+   "anim": "pisang",
+   "view": "hook",
+   "w0": 0,
+   "animFile": "anim.js"
+  },
+  {
+   "type": "anim",
+   "anim": "pisang",
+   "view": "tropis",
+   "w0": 17
+  },
+  {
+   "type": "anim",
+   "anim": "pisang",
+   "view": "sel",
+   "w0": 33
+  },
+  {
+   "type": "anim",
+   "anim": "pisang",
+   "view": "apel",
+   "w0": 53
+  },
+  {
+   "type": "anim",
+   "anim": "pisang",
+   "view": "daging",
+   "w0": 60
+  },
+  {
+   "type": "anim",
+   "anim": "pisang",
+   "view": "syarat",
+   "w0": 74
+  },
+  {
+   "type": "card",
+   "w0": 96,
+   "tag": "INTINYA",
+   "y": 420,
+   "lines": [
+    "KULIT HITAM",
+    "*BUKAN BUSUK*,",
+    "DAGING AMAN"
+   ]
+  }
+ ]
+}

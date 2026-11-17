@@ -1,1 +1,4 @@
 long/*/build/
+test/**/*.mp4
+test/**/img/
+test/**/index.html
