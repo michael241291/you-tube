@@ -85,7 +85,7 @@ Cadangan berikutnya (cek tabrakan dengan kitabedah dulu): makanan gosong (2,5 jt
 - **Tempo narasi:** ±120–160 kata/menit; kesan santai dari potongan pendek dan jeda, bukan memperlambat suara.
 - **Musik:** orisinal (engine/musicgen.py), 5 suasana: santai, misteri, ceria, penasaran, petualangan; tidak sama dua hari berturut-turut.
 - **Motion engine v2**, tanpa progress bar.
-- **Gaya campuran (disetujui user 18 Nov, contoh test/t01-pisang):** objek nyata (foto Pixabay dipotong rembg) + animasi kanvas penjelas (kaca pembesar, termometer, pil label), `style.still=true` (tanpa drift kamera), caption `capY 1290`, `capScale 0.85`. User membebaskan: boleh foto ATAU klip video Pixabay (`/api/videos/`), asal benar-benar relevan dengan isi narasi. Kredit "Foto/Video: Pixabay" di deskripsi. Suara tetap Gemini 3.1 Puck (jangan 2.5 kalau bisa dihindari).
+- **Gaya campuran (disetujui user 18 Nov, contoh test/t01-pisang):** objek nyata (foto Pixabay dipotong rembg) + animasi kanvas penjelas (kaca pembesar, termometer, pil label), `style.still=true` (tanpa drift kamera), caption `capY 1290`, `capScale 0.85`. User membebaskan: boleh foto ATAU klip video Pixabay (`/api/videos/`), asal benar-benar relevan dengan isi narasi. TANPA kredit Pixabay di deskripsi (user 18 Nov; lisensi Pixabay tidak mewajibkan). Suara tetap Gemini 3.1 Puck (jangan 2.5 kalau bisa dihindari).
 - **Anti-monoton:** `style` {theme, cap (frasa/frasa2), trans} + music + jenis penutup tidak sama dua hari berturut-turut.
 - **Platform:** YouTube Shorts + Facebook Reels lewat Buffer; tidak Instagram. 1 video/hari 17.00 WIB (29 Okt pengecualian 18.00 atas permintaan user), siklus 7 hari. Judul dibuat saat unggah. Angle tidak diulang dalam 14 hari.
 
