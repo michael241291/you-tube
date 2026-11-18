@@ -5,7 +5,7 @@ Kuota gratis: 10 permintaan/hari PER MODEL -> otomatis pindah model kalau kena 4
 import sys,json,base64,subprocess,urllib.request,os
 VOICE="Puck"
 MODELS=[m for m in os.environ.get("GEM_MODELS","gemini-3.1-flash-tts-preview,gemini-2.5-flash-preview-tts,gemini-2.5-pro-preview-tts").split(",")]
-STYLE=("Say in Indonesian like a gripping documentary storyteller: calm, warm and clear, building suspense slowly, with tense pauses at dramatic moments and relief when things turn out okay: ")
+STYLE=("Read aloud in Indonesian as a warm, calm and clear storyteller narrating a true aviation history documentary, with natural pauses: ")
 # Key: (1) network secret di environment (proxy menempelkan header x-goog-api-key, key tidak terlihat di sini),
 # (2) env GEMINI_API_KEY, (3) file /home/claude/.secrets/gemini_key. Kalau tidak ada, request dikirim tanpa key.
 K=os.environ.get('GEMINI_API_KEY') or (open('/home/claude/.secrets/gemini_key').read().strip() if os.path.exists('/home/claude/.secrets/gemini_key') else '')
