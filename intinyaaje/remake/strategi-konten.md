@@ -89,6 +89,12 @@ Cadangan berikutnya (cek tabrakan dengan kitabedah dulu): makanan gosong (2,5 jt
 - **Anti-monoton:** `style` {theme, cap (frasa/frasa2), trans} + music + jenis penutup tidak sama dua hari berturut-turut.
 - **Platform:** YouTube Shorts + Facebook Reels lewat Buffer; tidak Instagram. 1 video/hari 17.00 WIB (29 Okt pengecualian 18.00 atas permintaan user), siklus 7 hari. Judul dibuat saat unggah. Angle tidak diulang dalam 14 hari.
 
+## Video panjang (horizontal) — aturan user 18 Nov
+- Satu cerita utuh 8–12 menit, nyambung dari awal sampai akhir, tidak dipaksakan; selesai nonton penonton tahu intinya (vonis "Jadi …" menjawab pertanyaan pembuka). Bukan kompilasi Shorts.
+- Anti-copyright: musik HANYA musicgen orisinal (jangan musik Pixabay/YouTube Audio Library yang bisa kena Content ID); visual utama animasi buatan sendiri, Pixabay foto/video hanya pelengkap singkat, catat id klip di sources.txt; tanpa footage berita/dokumenter/foto agensi; tanpa logo/livery maskapai atau merek; naskah orisinal (fakta boleh, kutipan maks 1 kalimat).
+- Suara Gemini 3.1 Puck gaya dokumenter, pecah ±200 kata/bagian, dibuat di hari tanpa produksi Shorts.
+- Unggah manual lewat YouTube Studio (Buffer tidak bisa video panjang). Status: DITAHAN sampai user bilang lanjut.
+
 ## Aturan anti-pengulangan
 1. Tiap video dicatat di log.json: topik, angle, hook, penutup, eksperimen, visual, musik, gaya, judul, durasi, hasil voicecheck.
 2. Topik tidak boleh sama dengan yang pernah tayang atau katalog @kitabedah.id.
