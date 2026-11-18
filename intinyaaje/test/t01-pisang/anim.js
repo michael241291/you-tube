@@ -94,7 +94,7 @@ ANIM.pisang = (c, t, lt, s) => {
     P01.spr(c, 'hitam', 540, 880 + bob, 860, { a: swap, s: swap > 0 ? 1 : 0, rot: t > T(7) && t < T(12) ? -0.08 * Math.sin(t * 20) * P(t, T(7), T(8)) : 0 });
     c.setTransform(1, 0, 0, 1, 0, 0);
     if (t > T(9) && t < T(12)) { const a = P01.pop(t, T(10)); c.save(); c.translate(820, 640); c.scale(a, a); AL.text(c, 'BUSUK?', 0, 0, { size: 64, pill: true, color: PAL.red }); c.restore(); }
-    if (t > T(12)) { const a = P01.pop(t, T(12)); c.save(); c.translate(540, 1140); c.scale(a, a); AL.text(c, 'TUNGGU DULU!', 0, 0, { size: 48, pill: true, color: '#ffd23f' }); c.restore(); }
+    if (t > T(12)) { const a = P01.pop(t, T(12)); c.save(); c.translate(540, 1215); c.scale(a, a); AL.text(c, 'TUNGGU DULU!', 0, 0, { size: 48, pill: true, color: '#ffd23f' }); c.restore(); }
     if (t < T(3)) AL.text(c, 'MASUK KULKAS', 540, 560, { size: 40, pill: true });
     else if (t < T(9)) AL.text(c, 'BESOKNYA: HITAM LEGAM', 540, 560, { size: 40, pill: true, color: '#ffd23f' });
     return;
@@ -109,7 +109,7 @@ ANIM.pisang = (c, t, lt, s) => {
     if (temp < 1) for (let i = 0; i < 26; i++) { const y = ((AL.r(i, 3) * 1600 + t * 120) % 1600) + 200; c.fillStyle = `rgba(255,255,255,${(1 - temp) * 0.9})`; c.beginPath(); c.arc(AL.r(i, 4) * 1080, y, 6 + 6 * AL.r(i, 5), 0, 6.283); c.fill(); }
     c.setTransform(1, 0, 0, 1, 0, 0);
     if (t < T(21)) AL.text(c, 'BUAH TROPIS', 540, 560, { size: 42, pill: true }); else AL.text(c, 'DI BAWAH ±13°C', 540, 560, { size: 46, pill: true, color: '#7cc8ff' });
-    if (t > T(27)) { const a = P01.pop(t, T(30)); c.save(); c.translate(540, 1140); c.scale(a, a); AL.text(c, 'SEL KULIT RUSAK', 0, 0, { size: 44, pill: true, color: PAL.red }); c.restore(); }
+    if (t > T(27)) { const a = P01.pop(t, T(30)); c.save(); c.translate(540, 1215); c.scale(a, a); AL.text(c, 'SEL KULIT RUSAK', 0, 0, { size: 44, pill: true, color: PAL.red }); c.restore(); }
     return;
   }
   if (v === 'sel') {
@@ -119,7 +119,7 @@ ANIM.pisang = (c, t, lt, s) => {
     c.strokeStyle = 'rgba(59,51,42,.5)'; c.lineWidth = 6; c.setLineDash([12, 10]); c.beginPath(); c.moveTo(330, 960); c.lineTo(560, 880); c.stroke(); c.setLineDash([]);
     P01.cell(c, 640, 880, 260, t, dmg, mix, dark);
     c.setTransform(1, 0, 0, 1, 0, 0);
-    if (t > T(37) && t < T(46)) { AL.text(c, '● FENOL', 330, 1150, { size: 34, color: PAL.red }); AL.text(c, '● ENZIM PPO', 760, 1150, { size: 34, color: PAL.blue }); }
+    if (t > T(37) && t < T(46)) { AL.text(c, '● FENOL', 330, 1205, { size: 34, color: PAL.red }); AL.text(c, '● ENZIM PPO', 760, 1205, { size: 34, color: PAL.blue }); }
     let lab = 'DINDING SEL BOCOR', col = PAL.red;
     if (t > T(46)) { lab = '+ OKSIGEN → PIGMEN GELAP'; col = '#ffd23f'; }
     if (t > T(33)) AL.text(c, lab, 540, 560, { size: 40, pill: true, color: col });
@@ -141,7 +141,7 @@ ANIM.pisang = (c, t, lt, s) => {
     c.setTransform(1, 0, 0, 1, 0, 0);
     if (t < T(66)) AL.text(c, 'RUSAKNYA CUMA DI KULIT', 540, 560, { size: 40, pill: true, color: '#ffd23f' });
     else { AL.text(c, 'DAGING LEBIH AWET', 540, 560, { size: 42, pill: true, color: '#7ee2a8' }); P01.mark(c, 900, 1060, true, P01.pop(t, T(68))); }
-    if (t > T(70)) { const a = P01.pop(t, T(71)); c.save(); c.translate(540, 1140); c.scale(a, a); AL.text(c, 'DINGIN = PEMATANGAN MELAMBAT', 0, 0, { size: 36, pill: true }); c.restore(); }
+    if (t > T(70)) { const a = P01.pop(t, T(71)); c.save(); c.translate(540, 1215); c.scale(a, a); AL.text(c, 'DINGIN = PEMATANGAN MELAMBAT', 0, 0, { size: 36, pill: true }); c.restore(); }
     return;
   }
   if (v === 'syarat') {
