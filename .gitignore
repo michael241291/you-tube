@@ -2,3 +2,4 @@ intinyaaje/episodes/*/index.html
 __pycache__/
 intinyaaje/episodes/*/build.log
 intinyaaje/test/**/voice.*.mp3
+intinyaaje/long/*/voice/*.wav
