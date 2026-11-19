@@ -26,9 +26,9 @@ def tts(txt,out):
     except urllib.error.HTTPError as e: return f'HTTP{e.code}'
     try: pcm=base64.b64decode(r['candidates'][0]['content']['parts'][0]['inlineData']['data'])
     except (KeyError,IndexError): return r.get('candidates',[{}])[0].get('finishReason','?')
-    subprocess.run(['ffmpeg','-v','error','-y','-f','s16le','-ar','24000','-ac','1','-i','-','-af','silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse','-ar','44100','-ac','1',out],input=pcm,check=True);return 'OK'
+    subprocess.run(['ffmpeg','-v','error','-y','-f','s16le','-ar','24000','-ac','1','-i','-','-af','silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse','-ar','44100','-ac','1',out],input=pcm,check=True);subprocess.run(['ffmpeg','-v','error','-y','-i',out,'-b:a','128k',out[:-4]+'.mp3'],check=True);return 'OK'
 while calls<MAX:
-    todo=[p for p in sorted(glob.glob(f'{V}/seg_*.txt')) if not os.path.exists(p[:-4]+'.wav')]
+    todo=[p for p in sorted(glob.glob(f'{V}/seg_*.txt')) if not (os.path.exists(p[:-4]+'.wav') or os.path.exists(p[:-4]+'.mp3'))]
     if not todo: print('SEMUA SEGMEN SELESAI');break
     p=todo[0];txt=open(p).read().strip();calls+=1
     st=tts(txt,p[:-4]+'.wav');print(os.path.basename(p),len(txt.split()),'kata ->',st,flush=True)
