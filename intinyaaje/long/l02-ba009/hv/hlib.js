@@ -69,12 +69,12 @@ function quote(lines,times,t,x=W/2,y0=330,size=58,dy=96){lines.forEach((s,k)=>{t
 const FACEN=['berpikir','bingung','dapat-ide','kaget','menunjuk','senang','setuju'];const FIMG={};
 const facesReady=Promise.all(FACEN.map(n=>new Promise(r=>{const im=new Image();im.onload=()=>r();im.onerror=()=>r();im.src='../faces/'+n+'.png';FIMG[n]=im})));
 function faceFor(k){const s=PH[k].map(i=>WORDS[i][0].toLowerCase()).join(' ');
- if(/selamat|berhasil|hidup lagi|menyala\.|tenang/.test(s))return 'senang';
+ if(/selamat|berhasil|hidup lagi|kembali menyala|ikut hidup|reuni|tenang/.test(s))return 'senang';
  if(/\?/.test(s))return k%2?'bingung':'berpikir';
- if(/mati|jatuh|gagal|rusak|meninggal|batuk|buram|perpisahan|tidak satu pun/.test(s))return 'kaget';
- if(/^jadi|jawabannya|artinya|itu sebabnya|ternyata/.test(s))return 'dapat-ide';
- if(/\d|kilometer|menit|ratus|belas|puluh/.test(s))return 'menunjuk';
- return ['setuju','berpikir','menunjuk','setuju'][k%4]}
+ if(/mati|jatuh|gagal|rusak|meninggal|batuk|buram|perpisahan|berteriak|tidak percaya|asap|belerang|mayday|darurat|masalah|menukik|tercekik|padam|turun|abu|gawat|silau|tergores|tidak bekerja|meletus/.test(s))return 'kaget';
+ if(/^jadi|jawabannya|artinya|itu sebabnya|ternyata|justru|yang membuat|sayap/.test(s))return 'dapat-ide';
+ if(/\d|kilometer|menit|ratus|belas|puluh|rekor|terpanjang/.test(s))return 'menunjuk';
+ return k%2?'berpikir':'menunjuk'}
 let FCACHE={},CAPX0=300;function faceSticker(t){let k=-1;for(let j=0;j<PH.length;j++){if(t>=WT(PH[j][0])-.12)k=j}if(k<0)return;
  // wajah berganti per kalimat (bukan per frasa) agar tidak terlalu cepat
  let k0=k;while(k0>0&&!/[.?!]$/.test(WORDS[PH[k0-1][PH[k0-1].length-1]][0]))k0--;
