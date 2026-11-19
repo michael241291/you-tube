@@ -72,7 +72,7 @@ function faceFor(k){const s=PH[k].map(i=>WORDS[i][0].toLowerCase()).join(' ');
  if(/subscribe|komentar|suka/.test(s))return 'setuju';
  if(/selamat|berhasil|hidup lagi|kembali menyala|ikut hidup|reuni|tenang/.test(s))return 'senang';
  if(/\?/.test(s))return k%2?'bingung':'berpikir';
- if(/mati|jatuh|gagal|rusak|meninggal|batuk|buram|perpisahan|berteriak|tidak percaya|asap|belerang|mayday|darurat|masalah|menukik|tercekik|padam|turun|abu|gawat|silau|tergores|tidak bekerja|meletus/.test(s))return 'kaget';
+ if(/mati|jatuh|gagal|rusak|meninggal|batuk|buram|perpisahan|berteriak|tidak percaya|asap|belerang|mayday|darurat|masalah|menukik|tercekik|padam|turun|abu|gawat|silau|tergores|tidak bekerja|meletus|tersisa|berhenti/.test(s))return 'kaget';
  if(/^jadi|jawabannya|artinya|itu sebabnya|ternyata|justru|yang membuat|sayap/.test(s))return 'dapat-ide';
  if(/\d|kilometer|menit|ratus|belas|puluh|rekor|terpanjang/.test(s))return 'menunjuk';
  return k%2?'berpikir':'menunjuk'}
