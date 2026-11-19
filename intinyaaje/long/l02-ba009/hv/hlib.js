@@ -69,6 +69,7 @@ function quote(lines,times,t,x=W/2,y0=330,size=58,dy=96){lines.forEach((s,k)=>{t
 const FACEN=['berpikir','bingung','dapat-ide','kaget','menunjuk','senang','setuju'];const FIMG={};
 const facesReady=Promise.all(FACEN.map(n=>new Promise(r=>{const im=new Image();im.onload=()=>r();im.onerror=()=>r();im.src='../faces/'+n+'.png';FIMG[n]=im})));
 function faceFor(k){const s=PH[k].map(i=>WORDS[i][0].toLowerCase()).join(' ');
+ if(/subscribe|komentar|suka/.test(s))return 'setuju';
  if(/selamat|berhasil|hidup lagi|kembali menyala|ikut hidup|reuni|tenang/.test(s))return 'senang';
  if(/\?/.test(s))return k%2?'bingung':'berpikir';
  if(/mati|jatuh|gagal|rusak|meninggal|batuk|buram|perpisahan|berteriak|tidak percaya|asap|belerang|mayday|darurat|masalah|menukik|tercekik|padam|turun|abu|gawat|silau|tergores|tidak bekerja|meletus/.test(s))return 'kaget';
