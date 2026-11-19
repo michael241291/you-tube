@@ -82,3 +82,15 @@ window.render=t=>{X.clearRect(0,0,W,H);
  const fs=window.FADEIN?clamp(1-t/0.6):0;if(fs>0){X.fillStyle=`rgba(0,0,0,${fs})`;X.fillRect(0,0,W,H)}
  const ef=window.FADEOUT===false?0:clamp((t-(END-0.8))/0.8);if(ef>0){X.fillStyle=`rgba(0,0,0,${ef})`;X.fillRect(0,0,W,H)}};
 window.assetsReady=document.fonts.load(`800 40px Poppins`).then(()=>document.fonts.load(`700 40px Poppins`)).then(()=>document.fonts.load(`italic 700 40px Poppins`));
+
+function profile(t,opt){// grafik ketinggian vs jarak
+ const x0=200,x1=1720,y0=180,y1=820,km2y=km=>y1-(y1-y0)*km/11.5,d2x=d=>x0+(x1-x0)*d/180;
+ X.strokeStyle='rgba(255,255,255,.18)';X.lineWidth=2;for(let k=0;k<=11;k++){if(k%2&&k!==11)continue;X.beginPath();X.moveTo(x0,km2y(k));X.lineTo(x1,km2y(k));X.stroke();txt(k+' km',x0-20,km2y(k),24,'rgba(255,255,255,.55)',{al:'right',w:600,sh:false})}
+ X.fillStyle='#0f1a2c';X.fillRect(x0,y1,x1-x0,16);
+ return {km2y,d2x,x0,x1,y0,y1}}
+function windshield(t,amt){const g=X.createLinearGradient(0,0,0,H);g.addColorStop(0,'#050a18');g.addColorStop(1,'#0c1830');X.fillStyle=g;X.fillRect(0,0,W,H);
+ for(let i=0;i<70;i++){const r=Math.sin(i*91.7)*1000,fx=r-Math.floor(r),r2=Math.sin(i*37.1)*1000,fy=r2-Math.floor(r2);X.fillStyle='rgba(255,255,255,.5)';X.fillRect(fx*W,fy*560,2,2)}
+ sparks(t,180,120,1560,520,Math.round(42*amt),1,3);
+ X.save();X.fillStyle='#030407';X.beginPath();X.rect(0,0,W,H);
+ X.moveTo(150,150);X.lineTo(900,110);X.lineTo(920,640);X.lineTo(210,700);X.closePath();X.moveTo(1770,150);X.lineTo(1020,110);X.lineTo(1000,640);X.lineTo(1710,700);X.closePath();X.fill('evenodd');
+ X.fillStyle='#0b0e16';X.fillRect(0,720,W,360);X.restore()}
