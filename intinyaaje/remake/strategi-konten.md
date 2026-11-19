@@ -93,7 +93,10 @@ Cadangan berikutnya (cek tabrakan dengan kitabedah dulu): makanan gosong (2,5 jt
 - Satu cerita utuh 8–12 menit, nyambung dari awal sampai akhir, tidak dipaksakan; selesai nonton penonton tahu intinya (vonis "Jadi …" menjawab pertanyaan pembuka). Bukan kompilasi Shorts.
 - Anti-copyright: musik HANYA musicgen orisinal (jangan musik Pixabay/YouTube Audio Library yang bisa kena Content ID); visual utama animasi buatan sendiri, Pixabay foto/video hanya pelengkap singkat, catat id klip di sources.txt; tanpa footage berita/dokumenter/foto agensi; tanpa logo/livery maskapai atau merek; naskah orisinal (fakta boleh, kutipan maks 1 kalimat).
 - Suara Gemini 3.1 Puck gaya dokumenter, pecah ±200 kata/bagian, dibuat di hari tanpa produksi Shorts.
-- Unggah manual lewat YouTube Studio (Buffer tidak bisa video panjang). Status: DITAHAN sampai user bilang lanjut.
+- Unggah manual lewat YouTube Studio (Buffer tidak bisa video panjang). BA009 (l02) sedang dibuat; pratinjau bab 1–3 disukai user (19 Nov: "Video panjang sudah ok saya suka").
+- (19 Nov, user) JANGAN kirim video yang belum selesai ke user — kirim hanya versi utuh yang sudah lolos QC (tes kecil boleh hanya bila user minta).
+- (19 Nov, user) Stiker wajah user (assets/faces, ekspresi mengikuti isi kalimat) selalu tampil di samping subtitle sebagai ciri khas — berlaku untuk video panjang; di Shorts juga dipakai lewat `faces`.
+- (19 Nov, user) Gambar/klip WAJIB relevan dengan kalimat yang sedang diucapkan; kalau tidak ada klip yang cocok, pakai animasi buatan sendiri, jangan klip asal-asalan.
 
 ## Aturan anti-pengulangan
 1. Tiap video dicatat di log.json: topik, angle, hook, penutup, eksperimen, visual, musik, gaya, judul, durasi, hasil voicecheck.

@@ -64,6 +64,24 @@ function sparks(t,x0,y0,w,h,n,a=1,seed=1){X.save();X.globalAlpha*=a;X.globalComp
  const ph=(t*1.7+fx*10)%1;const x=x0+fx*w+Math.sin(t*3+i)*30,y=y0+fy*h+(ph-.5)*80;const s=2.5+6*Math.sin(ph*Math.PI);const gr=X.createRadialGradient(x,y,0,x,y,s*3);gr.addColorStop(0,'rgba(200,230,255,.95)');gr.addColorStop(.3,'rgba(110,170,255,.6)');gr.addColorStop(1,'rgba(80,120,255,0)');X.fillStyle=gr;X.beginPath();X.arc(x,y,s*3,0,7);X.fill()}X.restore()}
 // teks kutipan bertahap
 function quote(lines,times,t,x=W/2,y0=330,size=58,dy=96){lines.forEach((s,k)=>{txt(s,x,y0+k*dy,size,k===lines.length-1?YEL:'#fff',{al:'center',a:fin(t,times[k]-.1,.4),it:true,w:700})})}
+
+// ---- stiker wajah (ciri khas) di samping subtitle
+const FACEN=['berpikir','bingung','dapat-ide','kaget','menunjuk','senang','setuju'];const FIMG={};
+const facesReady=Promise.all(FACEN.map(n=>new Promise(r=>{const im=new Image();im.onload=()=>r();im.onerror=()=>r();im.src='../faces/'+n+'.png';FIMG[n]=im})));
+function faceFor(k){const s=PH[k].map(i=>WORDS[i][0].toLowerCase()).join(' ');
+ if(/selamat|berhasil|hidup lagi|menyala\.|tenang/.test(s))return 'senang';
+ if(/\?/.test(s))return k%2?'bingung':'berpikir';
+ if(/mati|jatuh|gagal|rusak|meninggal|batuk|buram|perpisahan|tidak satu pun/.test(s))return 'kaget';
+ if(/^jadi|jawabannya|artinya|itu sebabnya|ternyata/.test(s))return 'dapat-ide';
+ if(/\d|kilometer|menit|ratus|belas|puluh/.test(s))return 'menunjuk';
+ return ['setuju','berpikir','menunjuk','setuju'][k%4]}
+let FCACHE={},CAPX0=300;function faceSticker(t){let k=-1;for(let j=0;j<PH.length;j++){if(t>=WT(PH[j][0])-.12)k=j}if(k<0)return;
+ // wajah berganti per kalimat (bukan per frasa) agar tidak terlalu cepat
+ let k0=k;while(k0>0&&!/[.?!]$/.test(WORDS[PH[k0-1][PH[k0-1].length-1]][0]))k0--;
+ const n=FCACHE[k0]||(FCACHE[k0]=faceFor(k0));const im=FIMG[n];if(!im||!im.complete)return;
+ const lt=t-(WT(PH[k0][0])-.12);const sc=back(clamp(lt/.35))*(1+0.015*Math.sin(t*3));const S=190*sc;const x=Math.max(10,CAPX0-200),y=H-8;
+ X.save();X.shadowColor='rgba(0,0,0,.5)';X.shadowBlur=18;X.drawImage(im,x+95-S/2,y-S,S,S);X.restore()}
+
 // ---- adegan
 const S=[];
 function sc(t0,t1,kind,draw,opt={}){S.push({t0,t1:t1==null?END:t1,kind,draw:draw||(()=>{}),...opt})}
@@ -71,17 +89,17 @@ function sc(t0,t1,kind,draw,opt={}){S.push({t0,t1:t1==null?END:t1,kind,draw:draw
 const PH=[];(()=>{let cur=[];WORDS.forEach((w,i)=>{cur.push(i);const end=/[.,?!:]$/.test(w[0]);if(end&&cur.length>=3||cur.length>=9||(end&&/[.?!:]$/.test(w[0]))){PH.push(cur);cur=[]}});if(cur.length)PH.push(cur)})();
 function captions(t){let k=-1;for(let j=0;j<PH.length;j++){if(t>=WT(PH[j][0])-.12)k=j}if(k<0)return;const ph=PH[k];const tEnd=k+1<PH.length?WT(PH[k+1][0])-.12:WE(ph[ph.length-1])+.8;if(t>tEnd)return;
  const size=44;X.save();X.font=`800 ${size}px ${F}`;const ws=ph.map(i=>WORDS[i][0].replace(/[.,?!:]$/,''));const sp=X.measureText(' ').width;const wd=ws.map(s=>X.measureText(s).width);const tw=wd.reduce((a,b)=>a+b,0)+sp*(ws.length-1);
- const x0=W/2-tw/2,y=990;X.fillStyle='rgba(8,10,16,.72)';X.beginPath();X.roundRect(x0-28,y-38,tw+56,76,20);X.fill();let x=x0;X.textBaseline='middle';
+ const x0=W/2-tw/2,y=990;CAPX0=x0-28;X.fillStyle='rgba(8,10,16,.72)';X.beginPath();X.roundRect(x0-28,y-38,tw+56,76,20);X.fill();let x=x0;X.textBaseline='middle';
  ws.forEach((s,j)=>{const i=ph[j];X.fillStyle=t>=WT(i)-.05&&t<WE(i)+.15?YEL:(t>=WT(i)?'#fff':'rgba(255,255,255,.55)');X.fillText(s,x,y+2);x+=wd[j]+sp});X.restore()}
 let OVER=[];// overlay di atas semua adegan: fungsi(t)
 window.SCENES=()=>S.map(s=>({t0:s.t0,t1:s.t1,kind:s.kind,clip:s.clip||null,off:s.off||0,grade:s.grade||'',y:s.y==null?.5:s.y}));
 window.render=t=>{X.clearRect(0,0,W,H);
  for(const s of S){if(t<s.t0-.5||t>s.t1+.5)continue;const lt=t-s.t0;if(s.kind==='anim'){const a=clamp((t-s.t0+.25)/.5)*clamp((s.t1+.25-t)/.5);if(a<=0)continue;X.save();X.globalAlpha=a;s.draw(t,lt,s);X.restore()}else{if(t>=s.t0-.2&&t<s.t1+.2){X.save();s.draw(t,lt,s);X.restore()}}}
  OVER.forEach(f=>{X.save();f(t);X.restore()});
- txt('@intinyaaje',60,60,26,'rgba(255,255,255,.75)',{w:700});captions(t);
+ txt('@intinyaaje',60,60,26,'rgba(255,255,255,.75)',{w:700});captions(t);if(t>0.4)faceSticker(t);
  const fs=window.FADEIN?clamp(1-t/0.6):0;if(fs>0){X.fillStyle=`rgba(0,0,0,${fs})`;X.fillRect(0,0,W,H)}
  const ef=window.FADEOUT===false?0:clamp((t-(END-0.8))/0.8);if(ef>0){X.fillStyle=`rgba(0,0,0,${ef})`;X.fillRect(0,0,W,H)}};
-window.assetsReady=document.fonts.load(`800 40px Poppins`).then(()=>document.fonts.load(`700 40px Poppins`)).then(()=>document.fonts.load(`italic 700 40px Poppins`));
+window.assetsReady=facesReady.then(()=>document.fonts.load(`800 40px Poppins`).then(()=>document.fonts.load(`700 40px Poppins`)).then(()=>document.fonts.load(`italic 700 40px Poppins`)));
 
 function profile(t,opt){// grafik ketinggian vs jarak
  const x0=200,x1=1720,y0=180,y1=820,km2y=km=>y1-(y1-y0)*km/11.5,d2x=d=>x0+(x1-x0)*d/180;
