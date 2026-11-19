@@ -1,7 +1,7 @@
 // BAB 3 — pelayang raksasa
 window.FADEIN=false;window.FADEOUT=false;
 sc(0,WT(19),'anim',(t,lt,s)=>{bgDark();chapterCard(t,0,3,'PELAYANG RAKSASA',3.0);
- if(t>3){txt('PESAWATNYA JATUH?',W/2,420,90,'#fff',{al:'center',a:fin(t,3)});if(t>WT(11)-.1){txt('TERNYATA TIDAK.',W/2,560,110,YEL,{al:'center',a:fin(t,WT(11)-.1)})}
+ if(t>0.2){txt('PESAWATNYA JATUH?',W/2,420,90,'#fff',{al:'center',a:fin(t,.2)});if(t>WT(11)-.1){txt('TERNYATA TIDAK.',W/2,560,110,YEL,{al:'center',a:fin(t,WT(11)-.1)})}
   if(t>WT(16)-.1)pill('SERING SALAH KAPRAH',W/2,720,38,'rgba(255,255,255,.12)','#fff',fin(t,WT(16)-.1))}});
 function airfoil(cx,cy,sc){X.save();X.translate(cx,cy);X.scale(sc,sc);X.fillStyle='#e8eef8';X.beginPath();X.moveTo(-300,10);X.bezierCurveTo(-300,-60,-120,-90,40,-70);X.bezierCurveTo(180,-50,300,-10,330,8);X.bezierCurveTo(200,18,0,40,-200,40);X.bezierCurveTo(-280,40,-300,30,-300,10);X.closePath();X.fill();X.restore()}
 sc(WT(19),WT(57),'anim',(t,lt,s)=>{bgDark();const cx=860,cy=560;

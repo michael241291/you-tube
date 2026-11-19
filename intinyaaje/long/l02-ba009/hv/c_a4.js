@@ -3,7 +3,7 @@ window.FADEIN=false;window.FADEOUT=false;
 const Q=p=>WT(I(p));
 OVER.push(t=>chapterCard(t,0,4,'ABU GALUNGGUNG',3.0));
 const a_lagi=Q('lagi dan lagi'),a_padahal=Q('Padahal secara aturan'),a_tujuh=Q('Tujuh kilometer'),a_enam=Q('Enam'),a_lima=Q('Lima'),a_batas=Q('Batas keputusan');
-sc(0,a_tujuh,'anim',(t,lt,s)=>{bgDark(1);const km=7.25-.2*clamp(lt/(s.t1-s.t0));sideplane(560,520,1.3,1,.1);altimeter(1300,430,km,'KETINGGIAN',fin(t,3));
+sc(0,a_tujuh,'anim',(t,lt,s)=>{bgDark(1);const km=7.25-.2*clamp(lt/(s.t1-s.t0));sideplane(560,520,1.3,1,.1);altimeter(1300,430,km,'KETINGGIAN',fin(t,.3));
  [0,1,2].forEach(k=>pill('COBA LAGI',1300,600+k*80,32,'rgba(255,255,255,.12)','#fff',fin(t,a_lagi-1.2+k*.7)));pill('TIDAK DIRANCANG UNTUK INI',1300,860,34,RED,'#fff',fin(t,a_padahal+.8))});
 sc(a_tujuh,Q('Lalu di ketinggian'),'anim',(t,lt,s)=>{bgDark(1);const P=profile(t);const y37=P.km2y(3.7);X.save();X.strokeStyle=YEL;X.lineWidth=6;X.setLineDash([18,10]);X.beginPath();X.moveTo(P.x0,y37);X.lineTo(P.x1,y37);X.stroke();X.restore();
  pill('BATAS KEPUTUSAN: 3,7 KM',P.x0+40,y37-50,36,YEL,'#111',1,'left');const kp=[[a_tujuh,7],[a_enam,6],[a_lima,5],[s.t1,4.3]];let km=7;for(let i=0;i<3;i++)if(t>=kp[i][0])km=kp[i][1]+(kp[i+1][1]-kp[i][1])*clamp((t-kp[i][0])/(kp[i+1][0]-kp[i][0]));

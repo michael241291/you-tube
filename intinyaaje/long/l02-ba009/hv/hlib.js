@@ -47,7 +47,8 @@ function vign(a=.55){const g=X.createRadialGradient(W/2,H/2,300,W/2,H/2,1150);g.
 function lowerThird(s,sub,t,t0,t1){const a=inout(t,t0,t1,.4);if(a<=0)return;const x=110,y=780;X.save();X.globalAlpha=a;X.fillStyle=YEL;X.fillRect(x,y-44,8,sub?118:70);X.restore();
  txt(s,x+34,y-8,54,'#fff',{a});if(sub)txt(sub,x+36,y+50,28,YEL,{w:700,a,ls:2})}
 // kartu bab
-function chapterCard(t,t0,num,title,dur=3.2){const lt=t-t0;if(lt<0||lt>dur)return;const a=clamp(lt/.35)*clamp((dur-lt)/.45);X.save();X.globalAlpha=a*.86;X.fillStyle='#05070d';X.fillRect(0,0,W,H);X.restore();
+function chapterCard(t,t0,num,title,dur=3.2){return;// bab tidak ditampilkan ke penonton (user 19 Nov)
+const lt=t-t0;if(lt<0||lt>dur)return;const a=clamp(lt/.35)*clamp((dur-lt)/.45);X.save();X.globalAlpha=a*.86;X.fillStyle='#05070d';X.fillRect(0,0,W,H);X.restore();
  txt('BAB '+num,W/2,440,40,YEL,{al:'center',a,w:800,ls:10});txt(title,W/2,540,104,'#fff',{al:'center',a:a*fin(lt,.15,.4)});
  X.save();X.globalAlpha=a;X.fillStyle=YEL;const lw=420*ease(lt/0.8);X.fillRect(W/2-lw/2,630,lw,5);X.restore()}
 // jam

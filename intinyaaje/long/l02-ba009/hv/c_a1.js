@@ -36,10 +36,9 @@ sc(WT(89),WT(101),'anim',(t,lt,s)=>{const z=ease((t-WT(93))/2.5);const cam=[107.
  const jb=P(107.0,-6.75);if(t>WT(99)-.1)txt('JAWA BARAT',jb[0],jb[1],48,'#fff',{al:'center',a:clamp((t-WT(99)+.1)/.4),ls:4});});
 sc(WT(101),WT(108),'video',null,{clip:'92312'});
 // --- bagian baru
-sc(WT(108),WT(112),'anim',(t,lt,s)=>{bgDark();chapterCard(t,s.t0,1,'PENERBANGAN 9',s.t1-s.t0+.3)});
-sc(WT(112),WT(139),'anim',(t,lt,s)=>{bgDark();
+sc(WT(108),WT(139),'anim',(t,lt,s)=>{bgDark();
  const stops=[['LONDON',120],['…',0],['KUALA LUMPUR',133],['PERTH',136],['…',0],['AUCKLAND',122]];const x0=180,x1=1740,y=560;
- txt('PENERBANGAN 9',W/2,250,76,'#fff',{al:'center',a:fin(t,WT(115)-.2)});txt('RUTE LONDON – AUCKLAND',W/2,330,32,YEL,{al:'center',w:700,ls:4,a:fin(t,WT(119)-.1)});
+ txt('PENERBANGAN 9',W/2,250,76,'#fff',{al:'center',a:fin(t,WT(108)+.3)});txt('RUTE LONDON – AUCKLAND',W/2,330,32,YEL,{al:'center',w:700,ls:4,a:fin(t,WT(119)-.1)});
  const prog=ease((t-WT(119))/2.2);X.strokeStyle='rgba(255,255,255,.35)';X.lineWidth=6;X.beginPath();X.moveTo(x0,y);X.lineTo(x0+(x1-x0)*prog,y);X.stroke();
  const hk=fin(t,WT(133)-.1,.6);const xs=stops.map((_,i)=>x0+(x1-x0)*i/(stops.length-1));
  if(hk>0){X.strokeStyle=YEL;X.lineWidth=12;X.beginPath();X.moveTo(xs[2],y);X.lineTo(xs[2]+(xs[3]-xs[2])*hk,y);X.stroke()}

@@ -3,7 +3,7 @@ window.FADEIN=false;window.FADEOUT=true;
 const Q=p=>WT(I(p));
 OVER.push(t=>chapterCard(t,0,6,'INTINYA',3.0));
 const o_tid=Q('tidak satu pun meninggal'),o_gui=Q('Kisah ini lalu dicatat'),o_lun=Q('luncuran terpanjang'),o_kap=Q('Kapten Moody dan para penumpang'),o_club=Q('Galunggung Gliding Club'),o_reu=Q('rutin reuni');
-sc(0,o_gui,'anim',(t,lt,s)=>{bgDark();const n=Math.round(263*ease((t-2.6)/2.2));txt(String(n),W/2,450,220,GRN,{al:'center',a:fin(t,2.6)});txt('DARI 263 ORANG SELAMAT',W/2,620,52,'#fff',{al:'center',a:fin(t,o_tid-.1)})});
+sc(0,o_gui,'anim',(t,lt,s)=>{bgDark();const n=Math.round(263*ease((t-0.3)/2.2));txt(String(n),W/2,450,220,GRN,{al:'center',a:fin(t,0.3)});txt('DARI 263 ORANG SELAMAT',W/2,620,52,'#fff',{al:'center',a:fin(t,o_tid-.1)})});
 sc(o_gui,o_kap,'anim',(t,lt,s)=>{bgDark();txt('CATATAN REKOR DUNIA',W/2,330,40,YEL,{al:'center',w:800,ls:6,a:fin(t,o_gui)});txt('LUNCURAN TERPANJANG',W/2,450,100,'#fff',{al:'center',a:fin(t,o_lun-.1)});
  txt('oleh pesawat yang tidak dirancang untuk melayang',W/2,560,44,'rgba(255,255,255,.8)',{al:'center',it:true,w:700,a:fin(t,o_lun+1)})});
 sc(o_kap,Q('Tapi cerita ini punya buntut'),'anim',(t,lt,s)=>{bgDark();txt('GALUNGGUNG GLIDING CLUB',W/2,330,84,YEL,{al:'center',a:fin(t,o_club-.1)});
