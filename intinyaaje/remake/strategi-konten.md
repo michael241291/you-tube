@@ -96,6 +96,7 @@ Cadangan berikutnya (cek tabrakan dengan kitabedah dulu): makanan gosong (2,5 jt
 - Unggah manual lewat YouTube Studio (Buffer tidak bisa video panjang). BA009 (l02) sedang dibuat; pratinjau bab 1–3 disukai user (19 Nov: "Video panjang sudah ok saya suka").
 - (19 Nov, user) JANGAN kirim video yang belum selesai ke user — kirim hanya versi utuh yang sudah lolos QC (tes kecil boleh hanya bila user minta).
 - (19 Nov, user) Stiker wajah user (assets/faces, ekspresi mengikuti isi kalimat) selalu tampil di samping subtitle sebagai ciri khas — berlaku untuk video panjang; di Shorts juga dipakai lewat `faces`.
+- (21 Nov, user) BA009 disetujui ("sudah bagus"). Stiker wajah di video panjang DIKECILKAN (±130 px, sebelumnya 190) agar tidak menutupi gambar. Saat kirim video jadi, sertakan juga judul, deskripsi siap salin, dan jam/tanggal upload yang disarankan.
 - (19 Nov, user) "Bab" hanya struktur internal — JANGAN tampil di visual (tanpa kartu "BAB n") dan jangan dibuat chapter di deskripsi YouTube; penonton tidak perlu tahu.
 - (19 Nov, user) Gambar/klip WAJIB relevan dengan kalimat yang sedang diucapkan; kalau tidak ada klip yang cocok, pakai animasi buatan sendiri, jangan klip asal-asalan.
 

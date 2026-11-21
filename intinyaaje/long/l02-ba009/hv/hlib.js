@@ -81,8 +81,8 @@ let FCACHE={},CAPX0=300;function faceSticker(t){let k=-1;for(let j=0;j<PH.length
  // wajah berganti per kalimat (bukan per frasa) agar tidak terlalu cepat
  let k0=k;while(k0>0&&!/[.?!]$/.test(WORDS[PH[k0-1][PH[k0-1].length-1]][0]))k0--;
  const n=FCACHE[k0]||(FCACHE[k0]=faceFor(k0));const im=FIMG[n];if(!im||!im.complete)return;
- const lt=t-(WT(PH[k0][0])-.12);const sc=back(clamp(lt/.35))*(1+0.015*Math.sin(t*3));const S=190*sc;const x=Math.max(10,CAPX0-200),y=H-8;
- X.save();X.shadowColor='rgba(0,0,0,.5)';X.shadowBlur=18;X.drawImage(im,x+95-S/2,y-S,S,S);X.restore()}
+ const lt=t-(WT(PH[k0][0])-.12);const sc=back(clamp(lt/.35))*(1+0.015*Math.sin(t*3));const S=130*sc;const x=Math.max(10,CAPX0-150),y=H-14;
+ X.save();X.shadowColor='rgba(0,0,0,.5)';X.shadowBlur=18;X.drawImage(im,x+70-S/2,y-S,S,S);X.restore()}
 
 // ---- adegan
 const S=[];
