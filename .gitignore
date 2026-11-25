@@ -10,3 +10,10 @@ intinyaaje/test/**/jsm
 intinyaaje/test/**/three.module.min.js
 intinyaaje/test/**/studio.hdr
 intinyaaje/test/**/qc/
+intinyaaje/engine3d/jsm
+intinyaaje/engine3d/three.module.min.js
+intinyaaje/engine3d/studio.hdr
+intinyaaje/engine3d/faces/
+intinyaaje/episodes/*/fr/
+intinyaaje/episodes/*/st/
+intinyaaje/long/*/voice/*.wav

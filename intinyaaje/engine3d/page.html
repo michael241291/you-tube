@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>html,body{margin:0;background:transparent;width:1080px;height:1920px;overflow:hidden}canvas{position:absolute;left:0;top:0}</style>
+<script type="importmap">{"imports":{"three":"/engine3d/three.module.min.js","three/addons/":"/engine3d/jsm/"}}</script></head><body>
+<canvas id="o" width="1080" height="1920" style="z-index:2"></canvas>
+<script type="module">
+import {makeKit} from '/engine3d/kit.js';
+const EP=new URLSearchParams(location.search).get('ep');
+const WORDS=await (await fetch(`/${EP}/words.json`)).json();
+const K=await makeKit(EP,WORDS);
+const mod=await import(`/${EP}/scene.js`);const D=await mod.default(K);
+const {X,W,H,R,S,cam,WT,fin,ez,cl}=K;
+const SC=D.scenes.sort((a,b)=>a.t0-b.t0);for(let i=0;i<SC.length;i++)SC[i].t1=SC[i].t1??(i+1<SC.length?SC[i+1].t0:1e9);
+const END=WORDS[WORDS.length-1][2]+1.0;
+const tCard=D.cardAt;
+window.render=(t)=>{const cur=SC.find(s=>t>=s.t0&&t<s.t1)||SC[SC.length-1];const lt=t-cur.t0;
+ if(cur.d3){cur.d3(t,lt,cur);const sh=t>=tCard?Math.round(150*ez((t-tCard)/.6)):0;if(sh&&!cur.noShift)cam.setViewOffset(W,H,0,-sh,W,H);else cam.clearViewOffset();R.render(S,cam)}else R.clear();
+ X.clearRect(0,0,W,H);
+ if(cur.photo)K.photo(cur.photo,t,cur.t0,cur.t1,{dir:cur.dir||1});
+ if(cur.clip&&cur.dark!==false)K.vign();
+ if(cur.ov)cur.ov(t,lt,cur);
+ const dt=t-cur.t0;if(dt<0.18&&cur.t0>0){X.fillStyle=`rgba(255,255,255,${0.35*(1-dt/0.18)})`;X.fillRect(0,0,W,H)}
+ const cardOn=t>=tCard?K.card(D.card,t,tCard):false;
+ if(!cardOn)K.txt('@intinyaaje',84,380,30,'rgba(255,255,255,.85)',{al:'left',w:700});
+ const k=K.captions(t);K.face(t,k);
+ const ef=cl((t-(END-0.5))/0.5);if(ef>0){X.fillStyle=`rgba(0,0,0,${ef})`;X.fillRect(0,0,W,H)}};
+window.END=END;window.CLIPS=(D.clips||[]);
+await document.fonts.load(`800 40px Poppins`);await Promise.all(Object.values(K.IMG).map(im=>im.decode().catch(()=>{})));
+window.ready=true;
+</script></body></html>

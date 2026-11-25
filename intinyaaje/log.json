@@ -705,6 +705,25 @@
    "viral_bukti": "kick starter hilang (2bD3j3hjhfo) 7,5 jt",
    "style": "animasi canvas",
    "voice": "Puck"
+  },
+  {
+   "id": "e38-kursi-plastik",
+   "date": "2026-11-26",
+   "slot": "11:30",
+   "pillar": "benda",
+   "topic": "Kursi Bakso Kok Bolong Tengahnya? 🪑",
+   "angle": "lubang = jalan udara biar tumpukan kursi gampang dipisah; air hujan & hemat plastik cuma bonus",
+   "viral_bukti": "Kenapa Kursi Plastik Selalu Ada Lubang Kecilnya? (Pc1SnV3NHKQ) 1,24 jt",
+   "title": "Kursi Bakso Kok Bolong Tengahnya? 🪑",
+   "music": "penasaran",
+   "style": {
+    "engine": "3D three.js + foto Pixabay",
+    "card": "tengah atas"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "experiment": "gaya 3D pertama (disetujui user 25 Nov)",
+   "version": "v1"
   }
  ],
  "pilots": [
