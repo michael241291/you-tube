@@ -16,7 +16,7 @@ seq([
  {at:'pilot memutuskan',d:(t,lt)=>{const z=ease(lt/5);const P=drawMap(t,[110.7,-7.65,2.2-1.6*z]);const K=P(...KLATEN),J=P(...JOGJA),S=P(...SOLO);
    X.strokeStyle='rgba(108,200,255,.9)';X.lineWidth=6;X.beginPath();const pts=[[110.95,-7.95],[110.85,-7.76],[110.78,-7.67],[110.81,-7.55],[110.86,-7.45]].map(p=>P(...p));pts.forEach((p,i)=>i?X.lineTo(p[0],p[1]):X.moveTo(p[0],p[1]));X.stroke();
    [[J,'YOGYAKARTA'],[S,'SOLO']].forEach(([p,n])=>{X.fillStyle='#fff';X.beginPath();X.arc(p[0],p[1],9,0,7);X.fill();txt(n,p[0]+20,p[1]-26,28,'#fff')});
-   X.fillStyle=RED;X.beginPath();X.arc(K[0],K[1],16,0,7);X.fill();pill('DESA SERENAN, KLATEN',K[0]+30,K[1]+60,32,YEL,'#111',fin(t,T('desa serenan')-.2),'left');txt('BENGAWAN SOLO',pts[3][0]+30,pts[3][1],28,BLU)}},
+   X.fillStyle=RED;X.beginPath();X.arc(K[0],K[1],16,0,7);X.fill();pill('DESA SERENAN, KLATEN',K[0]+30,K[1]+60,32,YEL,'#111',fin(t,T('desa serenan')-.2),'left');txt('BENGAWAN SOLO',pts[4][0]+30,pts[4][1]+20,28,BLU)}},
  {at:'dan karena listrik',d:(t,lt)=>{bgDark();sideplane(960,480,2.4,1,-0.06*ease((t-T('hidung sedikit'))/1));pill('RODA PENDARAT: TIDAK TURUN',600,780,32,RED,'#fff',fin(t,T('roda pendarat')-.2));pill('FLAP: TIDAK TURUN',1320,780,32,RED,'#fff',fin(t,T('dan flap')-.2));
    if(t>T('lebih cepat')-.2)pill('LEBIH CEPAT DARI PENDARATAN BIASA',W/2,180,36,YEL,'#111',fin(t,T('lebih cepat')-.2))}},
  {at:'pesawat menyentuh air',d:(t,lt)=>{riverTop(t,ease(lt/3.5),1);pill('DI ANTARA DUA JEMBATAN BESI',W/2,140,38,'rgba(10,14,22,.85)','#fff',fin(t,T('dua jembatan')-.2))}},
