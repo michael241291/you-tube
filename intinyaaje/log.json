@@ -724,6 +724,24 @@
    "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
    "experiment": "gaya 3D pertama (disetujui user 25 Nov)",
    "version": "v1"
+  },
+  {
+   "id": "e41-bulan-siang",
+   "date": "2026-11-26",
+   "slot": "17:00",
+   "pillar": "alam",
+   "topic": "Bulan Muncul Siang Hari, Pertanda Aneh? 🌙",
+   "angle": "bulan nggak punya jadwal malam; memantulkan sinar matahari, cukup terang menembus langit biru; ±25 hari sebulan terlihat siang",
+   "viral_bukti": "bulan siang hari 706 rb (riset 11 Nov)",
+   "title": "Bulan Muncul Siang Hari, Pertanda Aneh? 🌙",
+   "music": "penasaran",
+   "style": {
+    "engine": "3D engine3d + foto Pixabay",
+    "card": "tengah atas"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "version": "v1"
   }
  ],
  "pilots": [
