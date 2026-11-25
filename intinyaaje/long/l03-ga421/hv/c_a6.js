@@ -1,0 +1,25 @@
+// BAB 6 — warga menolong, korban, pelajaran, jawaban
+window.FADEIN=false;window.FADEOUT=true;
+seq([
+ {at:0,k:'video',clip:'130488',off:3,d:(t,lt,s)=>{if(t>T('dua jam kemudian')-.2)pill('TIM SAR: ± 2 JAM KEMUDIAN',W/2,280,38,'rgba(10,14,22,.85)','#fff',fin(t,T('dua jam kemudian')-.2));if(t>T('warga desa')-.2)pill('YANG PERTAMA DATANG: WARGA DESA',W/2,380,42,YEL,'#111',fin(t,T('warga desa')-.2))}},
+ {at:'mereka turun',d:(t,lt)=>{bgDark();X.fillStyle='rgba(138,106,62,.9)';X.fillRect(0,600,W,200);X.fillStyle='#3f7d3a';X.fillRect(0,800,W,280);sideplane(900,580,2.0,1);
+   [[900-2.0*120,580],[900+2.0*95,580]].forEach(([x,y],i)=>{X.strokeStyle=YEL;X.lineWidth=5;X.beginPath();X.arc(x,y-10,40,0,7);X.stroke()});pill('HANYA 2 PINTU BISA DIBUKA',W/2,180,38,YEL,'#111',fin(t,T('dua pintu')-.2));
+   for(let i=0;i<10;i++){const ph=clamp((lt-0.5-i*0.35)/2.2);if(ph<=0)continue;const sx=i%2?900+190:900-240;person(lerpN(sx,sx+(i%2?200:-200)*0.4,ph),lerpN(600,880,ph),34,i%3?GRN:'#fff')}}},
+ {at:'penumpang yang tidak',k:'video',clip:'142493',off:20,d:(t,lt,s)=>{pill('BERTEDUH DI RUMAH KOSONG',W/2,280,38,'rgba(10,14,22,.85)','#fff',fin(t,T('rumah kosong')-.2));if(t>T('klinik terdekat')-.2)pill('YANG TERLUKA → KLINIK',W/2,380,38,YEL,'#111',fin(t,T('klinik terdekat')-.2))}},
+ {at:'kapten rozaq lalu',d:(t,lt)=>{bgDark();const x=W/2-420,y=520;X.fillStyle='#2a3448';X.beginPath();X.roundRect(x-110,y-200,220,400,30);X.fill();X.fillStyle='#6cc8ff';X.fillRect(x-90,y-160,180,280);for(let i=0;i<3;i++){const ph=(lt*0.8+i*0.33)%1;X.strokeStyle=`rgba(255,255,255,${0.7*(1-ph)})`;X.lineWidth=5;X.beginPath();X.arc(x+120,y-200,30+ph*120,-1.2,0.2);X.stroke()}
+   txt('TELEPON KE KANTOR GARUDA',W/2-180,420,44,'#fff',{a:fin(t,T('menelepon')-.2)});txt('"Pesawat saya di Bengawan Solo"',W/2-180,500,36,YEL,{a:fin(t,T('melaporkan')-.2),it:true,w:700});
+   if(t>T('bingkai kenangan')-.2)pill('PONSEL ITU DISIMPAN DALAM BINGKAI',W/2-180,640,32,'rgba(255,255,255,.14)','#fff',fin(t,T('bingkai kenangan')-.2),'left')}},
+ {at:'tapi hari itu',d:(t,lt)=>{X.fillStyle='#05070d';X.fillRect(0,0,W,H);txt('SEORANG PRAMUGARI MENINGGAL DUNIA',W/2,440,56,'#fff',{al:'center',a:fin(t,T('seorang pramugari')-.2,.8)});txt('bagian ekor paling keras menghantam dasar sungai',W/2,530,32,'rgba(255,255,255,.7)',{al:'center',w:600,a:fin(t,T('karena bagian ekor')-.2,.8)})}},
+ {at:'dari enam puluh orang',d:(t,lt)=>{bgDark();peopleGrid(t,T('dari enam puluh')-.2,W/2,330,59,60,15,52);txt('59 DARI 60 SELAMAT',W/2,860,70,GRN,{al:'center',a:fin(t,T('lima puluh sembilan')-.2)})}},
+ {at:'setelah kejadian',k:'video',clip:'334302',off:12,d:(t,lt,s)=>{txt('TERIMA KASIH GARUDA UNTUK DESA',W/2,200,40,'#fff',{al:'center',a:fin(t,s.t0+.3)});[['JALAN','membangun jalan'],['BALAI PERTEMUAN','balai pertemuan'],['TANDON AIR','tandon air']].forEach(([w,p],i)=>pill(w,W/2+(i-1)*420,300,36,YEL,'#111',fin(t,T(p)-.2)))}},
+ {at:'penyelidik amerika',d:(t,lt)=>{bgDark();throttle(760,520,lerpN(0,0.4,ease((t-T('putaran mesin lebih tinggi')+.2)/1.2)),1);txt('REKOMENDASI NTSB (2005)',1060,330,36,YEL,{ls:3,a:fin(t,T('penyelidik amerika'))});txt('Saat menembus hujan lebat,',1060,440,44,'#fff',{a:fin(t,T('saat menembus')-.2)});txt('jaga putaran mesin lebih tinggi',1060,510,44,'#fff',{a:fin(t,T('putaran mesin lebih tinggi')-.2)})}},
+ {at:'jadi, kembali',d:(t,lt)=>{bgDark();txt('Bisakah mesin jet mati cuma gara-gara hujan?',W/2,330,52,'#fff',{al:'center',it:true,w:700,a:fin(t,T('bisakah mesin'))});txt('BISA.',W/2,520,200,YEL,{al:'center',a:fin(t,T('hujan? bisa')-.1)})}},
+ {at:'kalau hujan dan esnya',d:(t,lt)=>{bgDark();const out=t>T('airnya bisa memadamkan')-.2;engineCut(t,W/2,520,1.4,{flame:out?clamp(1-(t-T('airnya bisa memadamkan'))/0.8)*0.4:0.4,rain:1,ice:1,labels:0,rpm:0.35});
+   pill('HUJAN & ES SANGAT PADAT',600,160,34,BLU,'#06121f',fin(t,T('sangat padat')-.2));pill('MESIN BERPUTAR PELAN',1320,160,34,YEL,'#111',fin(t,T('berputar pelan')-.2))}},
+ {at:'tapi mesin mati bukan',d:(t,lt)=>{bgDark();txt('MESIN MATI ≠ PESAWAT JATUH',W/2,200,60,'#fff',{al:'center',a:fin(t,T('tapi mesin mati'))});
+   [['SAYAP YANG TERUS MELAYANG','sayap yang terus',GRN],['PILOT YANG MEMILIH SUNGAI DENGAN TENANG','pilot yang memilih',YEL],['WARGA DESA YANG DATANG LEBIH DULU','warga desa yang datang',BLU]].forEach(([s,p,c],i)=>pill(s,W/2,400+i*150,44,c,'#111',fin(t,T(p)-.2)))}},
+ {at:'sekarang aku',d:(t,lt)=>{bgDark();txt('KALAU KAMU PILOTNYA, PILIH MANA?',W/2,170,52,'#fff',{al:'center',a:fin(t,T('kalau kamu pilotnya')-.2)});
+   optionCard(380,540,460,460,'SUNGAI',[],null,fin(t,T('kamu pilih sungai')-.1),'#173a5a');optionCard(W/2,540,460,460,'SAWAH',[],null,fin(t,T('sawah, atau')-.1));optionCard(1540,540,460,460,'JALAN RAYA',[],null,fin(t,T('jalan raya?')-.1));
+   if(t>T('tulis di komentar')-.2)pill('TULIS DI KOMENTAR',W/2,860,40,YEL,'#111',fin(t,T('tulis di komentar')-.2))}},
+ {at:'dan kalau kamu suka',d:(t,lt)=>{bgDark();txt('@intinyaaje',W/2,440,110,'#fff',{al:'center',a:fin(t,T('dan kalau kamu suka'))});txt('siapa yang bener? kita cari intinya.',W/2,560,40,YEL,{al:'center',w:700,a:fin(t,T('subscribe')-.3)});pill('SUBSCRIBE',W/2,700,48,RED,'#fff',fin(t,T('subscribe')-.2))}}
+]);

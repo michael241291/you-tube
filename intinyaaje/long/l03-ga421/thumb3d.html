@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:transparent}canvas{position:absolute;left:0;top:0}</style>
+<script type="importmap">{"imports":{"three":"/engine3d/three.module.min.js","three/addons/":"/engine3d/jsm/"}}</script></head><body>
+<script type="module">
+import * as THREE from 'three';import {RGBELoader} from 'three/addons/loaders/RGBELoader.js';
+const W=1920,H=1080;const R=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true});R.setSize(W,H);R.toneMapping=THREE.ACESFilmicToneMapping;R.setClearColor(0,0);document.body.appendChild(R.domElement);
+const S=new THREE.Scene();const env=await new RGBELoader().loadAsync('/engine3d/studio.hdr');env.mapping=THREE.EquirectangularReflectionMapping;S.environment=env;
+const sun=new THREE.DirectionalLight('#fff4e0',2.2);sun.position.set(-3,6,4);S.add(sun);
+const cam=new THREE.PerspectiveCamera(30,W/H,0.05,100);
+ function plane(col){const grp=new THREE.Group();const m=new THREE.MeshPhysicalMaterial({color:col,roughness:.35,clearcoat:.8,clearcoatRoughness:.2});const gray=new THREE.MeshStandardMaterial({color:'#b8bec6',roughness:.4,metalness:.5});const dark=new THREE.MeshStandardMaterial({color:'#15181d',roughness:.3});
+  const prof=[[0,-2.05],[0.12,-2.0],[0.2,-1.85],[0.25,-1.5],[0.27,-1.0],[0.27,1.2],[0.24,1.6],[0.17,1.95],[0.08,2.15],[0,2.22]].map(p=>new THREE.Vector2(p[0],p[1]));
+  const fus=new THREE.Mesh(new THREE.LatheGeometry(prof,64),m);fus.rotation.z=-Math.PI/2;fus.scale.set(1,1,1);fus.castShadow=fus.receiveShadow=true;grp.add(fus);
+  // jendela
+  const win=new THREE.InstancedMesh(new THREE.BoxGeometry(0.045,0.06,0.02),dark,60);const o=new THREE.Object3D();let n=0;for(const s of [1,-1])for(let i=0;i<30;i++){o.position.set(-1.35+i*0.09,0.06,s*0.262);o.updateMatrix();win.setMatrixAt(n++,o.matrix)}grp.add(win);
+  const ck=new THREE.Mesh(new THREE.BoxGeometry(0.16,0.05,0.42),dark);ck.position.set(1.93,0.1,0);ck.rotation.z=-0.35;grp.add(ck);
+  // sayap
+  const ws=new THREE.Shape();ws.moveTo(0.35,0);ws.lineTo(-0.35,0);ws.lineTo(-0.85,2.1);ws.lineTo(-0.55,2.1);ws.closePath();
+  const wg=new THREE.ExtrudeGeometry(ws,{depth:0.04,bevelEnabled:false});
+  for(const s of [1,-1]){const w=new THREE.Mesh(wg,m);w.rotation.x=s*Math.PI/2;w.rotation.y=0;w.position.set(0.1,-0.12,0);if(s<0){w.rotation.x=-Math.PI/2;w.position.y=-0.08}w.rotation.order='XYZ';w.castShadow=true;grp.add(w);
+   const eng=new THREE.Mesh(new THREE.CylinderGeometry(0.13,0.11,0.55,32),m);eng.rotation.z=Math.PI/2;eng.position.set(0.25,-0.28,s*0.75);eng.castShadow=true;grp.add(eng);
+   const intake=new THREE.Mesh(new THREE.CircleGeometry(0.115,32),dark);intake.rotation.y=Math.PI/2;intake.position.set(0.53,-0.28,s*0.75);grp.add(intake);
+   const pyl=new THREE.Mesh(new THREE.BoxGeometry(0.4,0.15,0.03),m);pyl.position.set(0.15,-0.17,s*0.75);grp.add(pyl)}
+  // ekor
+  const fs=new THREE.Shape();fs.moveTo(0,0);fs.lineTo(-0.75,0);fs.lineTo(-1.05,0.95);fs.lineTo(-0.75,0.95);fs.closePath();
+  const finM=new THREE.Mesh(new THREE.ExtrudeGeometry(fs,{depth:0.04,bevelEnabled:false}),m);finM.position.set(-1.25,0.18,-0.02);finM.castShadow=true;grp.add(finM);
+  const logoM=new THREE.MeshStandardMaterial({color:'#1f4e9c',roughness:.4});const logoPl=[];for(const s of [1,-1]){const lp=new THREE.Mesh(new THREE.PlaneGeometry(0.62,0.62),logoM);lp.position.set(-1.62,0.62,s*0.03);if(s<0)lp.rotation.y=Math.PI;grp.add(lp);logoPl.push(lp)}
+  const hs=new THREE.Shape();hs.moveTo(0,0);hs.lineTo(-0.4,0);hs.lineTo(-0.6,0.75);hs.lineTo(-0.45,0.75);hs.closePath();const hg=new THREE.ExtrudeGeometry(hs,{depth:0.03,bevelEnabled:false});
+  for(const s of [1,-1]){const h=new THREE.Mesh(hg,m);h.rotation.x=s*Math.PI/2;h.position.set(-1.55,0.12+(s<0?0.03:0),0);h.castShadow=true;grp.add(h)}
+  // roda
+  for(const [x,z] of [[1.55,0],[-0.05,0.25],[-0.05,-0.25]]){const wh=new THREE.Mesh(new THREE.CylinderGeometry(0.07,0.07,0.06,20),dark);wh.rotation.x=Math.PI/2;wh.position.set(x,-0.36,z);grp.add(wh);const st=new THREE.Mesh(new THREE.CylinderGeometry(0.015,0.015,0.12,8),gray);st.position.set(x,-0.28,z);grp.add(st)}
+  grp.position.y=0.43;grp.userData={m,logoM};return grp}
+
+const p=plane('#f4f6f8');p.position.set(0,0.34,0);p.rotation.set(0.0,-0.5,-0.05);p.children.filter(c=>c.geometry&&c.geometry.type==='CylinderGeometry'&&[0.07,0.015].includes(c.geometry.parameters.radiusTop)).forEach(c=>c.visible=false);S.add(p);
+const water=new THREE.Mesh(new THREE.PlaneGeometry(80,80),new THREE.MeshPhysicalMaterial({color:'#7a5f3a',roughness:.3,metalness:0,transparent:true,opacity:.93}));water.rotation.x=-Math.PI/2;water.position.y=0.27;S.add(water);
+// cipratan
+const sp=new THREE.InstancedMesh(new THREE.SphereGeometry(0.03,8,6),new THREE.MeshStandardMaterial({color:'#eef4ff',transparent:true,opacity:.8}),120);const o=new THREE.Object3D();for(let i=0;i<120;i++){const r=Math.sin(i*12.9)*999,f=r-Math.floor(r),r2=Math.sin(i*7.7)*999,f2=r2-Math.floor(r2);o.position.set(-2.2+f*4.6,0.28+f2*0.25,(f2-.5)*0.9);o.scale.setScalar(0.5+f*1.5);o.updateMatrix();sp.setMatrixAt(i,o.matrix)}S.add(sp);
+cam.position.set(0.8,0.85,9.0);cam.lookAt(0,0.4,0);cam.setViewOffset(W,H,-430,-180,W,H);
+R.render(S,cam);window.ready=true;
+</script></body></html>
