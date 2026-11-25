@@ -108,8 +108,8 @@ window.render=(t)=>{let cur=SC.find(s=>t>=s.t0&&t<s.t1)||SC[SC.length-1];const l
  if(cur.t0===WT(25)){txt('SIAPA YANG BENER?',W/2,560,66,'#fff',{a:fin(t,WT(25))});txt('KITA CARI INTINYA!',W/2,660,74,YEL,{a:fin(t,WT(28)-.1)})}
  if(cur.t0===WT(31))pill('WAKTU DITUMPUK',W/2,520,34,'rgba(10,14,22,.85)','#fff',fin(t,WT(32)));
  if(cur.t0===WT(40)){pill('TANPA LUBANG',W/2,470,34,RED,'#fff',1);if(t>WT(44)-.2)pill('UDARA KEJEBAK',W/2,580,29,BLU,'#06121f',fin(t,WT(44)-.2));
-  if(t>WT(60)-.2){const p=1-0.55*ez((t-WT(60))/2);txt('TEKANAN UDARA',W/2,600,30,'#fff',{a:fin(t,WT(60)-.2)});X.save();X.globalAlpha=fin(t,WT(60)-.2);X.fillStyle='rgba(255,255,255,.25)';X.fillRect(340,630,400,22);X.fillStyle=p<0.7?RED:GRN;X.fillRect(340,630,400*p,22);X.restore()}
-  if(t>WT(65)-.1)pill('KESEDOT!',W/2,720,45,RED,'#fff',fin(t,WT(65)-.1))}
+  if(t>WT(60)-.2){const p=1-0.55*ez((t-WT(60))/2);txt('TEKANAN UDARA',W/2,660,30,'#fff',{a:fin(t,WT(60)-.2)});X.save();X.globalAlpha=fin(t,WT(60)-.2);X.fillStyle='rgba(255,255,255,.25)';X.fillRect(340,690,400,22);X.fillStyle=p<0.7?RED:GRN;X.fillRect(340,690,400*p,22);X.restore()}
+  if(t>WT(65)-.1)pill('KESEDOT!',W/2,790,45,RED,'#fff',fin(t,WT(65)-.1))}
  if(cur.t0===WT(67)){pill('DENGAN LUBANG',W/2,470,34,GRN,'#06210f',1);if(t>WT(71)-.1)pill('JALAN MASUK UDARA',W/2,580,29,BLU,'#06121f',fin(t,WT(71)-.1));if(t>WT(83)-.1)pill('LEPAS!',W/2,700,45,GRN,'#06210f',fin(t,WT(83)-.1))}
  if(cur.t0===WT(93)){pill('PLASTIK SEDIKIT LEBIH HEMAT',W/2,520,31,'rgba(10,14,22,.85)','#fff',fin(t,WT(94)-.1));pill('BONUS',W/2,620,31,'#fff','#111',fin(t,WT(99)-.3))}
  let cardOn=false;if(t>=WT(103)-.2)cardOn=card(t,WT(103)-.2);
