@@ -3,3 +3,9 @@ __pycache__/
 intinyaaje/episodes/*/build.log
 intinyaaje/test/**/voice.*.mp3
 intinyaaje/long/*/voice/*.wav
+intinyaaje/test/**/fr/
+intinyaaje/test/**/st*/
+intinyaaje/test/**/faces/
+intinyaaje/test/**/jsm
+intinyaaje/test/**/three.module.min.js
+intinyaaje/test/**/studio.hdr
