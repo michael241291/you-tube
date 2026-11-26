@@ -1,6 +1,6 @@
 # Upload YouTube Studio — L03 Garuda GA421 Bengawan Solo (video panjang)
 
-File video: ga421-full.mp4 (1920x1080, ±13 menit) — dikirim lewat chat, tidak ada di repo
+File video: ga421-final.mp4 (1920x1080, 11:37, -16 LUFS) — diunggah ke media Zernio, TERJADWAL di Zernio 27 Nov 2026 19.00 WIB (post 6b07f7b865b7196c1a087806)
 Thumbnail: thumbnail.jpg (1280x720)
 
 ## Judul
@@ -15,7 +15,7 @@ Di video ini kita cari jawaban untuk satu pertanyaan: bisakah mesin jet mati cum
 
 Kalau kamu pilotnya, kamu pilih sungai, sawah, atau jalan raya? Tulis di komentar 👇
 
-Sumber: laporan akhir KNKT tentang PK-GWA (16 Januari 2002) dan surat rekomendasi keselamatan NTSB kepada FAA (31 Agustus 2005).
+Sumber: laporan akhir KNKT tentang PK-GWA (16 Januari 2002) dan rekomendasi keselamatan NTSB kepada FAA.
 Musik: orisinal @intinyaaje.
 
 #intinyaaje #garuda #bengawansolo #kisahnyata #sejarahpenerbangan
