@@ -742,6 +742,42 @@
    "closing": "jawab-konflik",
    "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
    "version": "v1"
+  },
+  {
+   "id": "e39-pesawat-putih",
+   "date": "2026-11-27",
+   "slot": "11:30",
+   "pillar": "transportasi",
+   "topic": "Pesawat Dicat Putih Biar Ringan? ✈️",
+   "angle": "bukan biar ringan; biar adem, cat awet, gampang ganti logo (±50% pesawat sewaan), rembesan oli kelihatan",
+   "viral_bukti": "Mengapa Kebanyakan Pesawat Warnanya Putih (zTg0n1Nv5og) 1,96 jt",
+   "title": "Pesawat Dicat Putih Biar Ringan? ✈️",
+   "music": "penasaran",
+   "style": {
+    "engine": "3D engine3d + foto/klip Pixabay",
+    "card": "tengah atas"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "version": "v1"
+  },
+  {
+   "id": "e40-punuk-747",
+   "date": "2026-11-27",
+   "slot": "17:00",
+   "pillar": "transportasi",
+   "topic": "Punuk Boeing 747 Buat Kelas Mewah? ✈️",
+   "angle": "kokpit dinaikkan biar hidung bisa dibuka untuk kargo; punuk membungkus kokpit",
+   "viral_bukti": "punuk 747 2,0 jt (riset 11 Nov)",
+   "title": "Punuk Boeing 747 Buat Kelas Mewah? ✈️",
+   "music": "penasaran",
+   "style": {
+    "engine": "3D engine3d + foto/klip Pixabay",
+    "card": "tengah atas"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "version": "v1"
   }
  ],
  "pilots": [

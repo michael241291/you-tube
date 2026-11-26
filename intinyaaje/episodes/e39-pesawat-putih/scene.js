@@ -74,9 +74,9 @@ export default async function(K){
    ov:(t)=>{pill('±50% PESAWAT = SEWAAN',W/2,500,32,C.YEL,'#111',fin(t,tKetiga));if(t>tGanti-.3)pill('BADAN PUTIH: CUKUP GANTI LOGO',W/2,600,28,C.DARK,'#fff',fin(t,tGanti-.3))}},
   {t0:tBonus,d3:(t,lt)=>{show(pw,streak);pw.position.set(0,0.43,0);pw.rotation.y=0;pw.userData.m.emissiveIntensity=0;const k=ez((lt-0.4)/1.4);streak.position.set(0.0-0.45*k,0.33,0.272);streak.scale.set(Math.max(0.01,0.9*k),1.6,1);look([0.9,0.35,2.2],[-0.3,0.4,0.27],1.0)},
    ov:(t)=>pill('REMBESAN OLI LANGSUNG KELIHATAN',W/2,500,28,C.DARK,'#fff',fin(t,tBonus+.3))},
-  {t0:tJadi,clip:true}
+  {t0:tJadi,d3:(t,lt)=>{show(pw);pw.position.set(0,0.43,0);pw.userData.m.emissiveIntensity=0;pw.rotation.y=0.6+lt*0.12;look([3.2,1.4,3.6],[0,0.6,0],2.0)}}
  ];
  const END=WT(K.WORDS.length-1)+1.2;
  return {scenes,cardAt:tJadi-.2,card:['BUKAN BIAR RINGAN','TAPI BIAR ADEM, AWET','& GAMPANG GANTI PEMILIK'],
-  clips:[{t0:0,t1:tKata,src:'clip/v3586.mp4',ss:2},{t0:tJadi,t1:END,src:'clip/v3586.mp4',ss:30}]};
+  clips:[{t0:0,t1:tKata,src:'clip/v3586.mp4',ss:2}]};
 }
