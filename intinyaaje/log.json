@@ -778,6 +778,63 @@
    "closing": "jawab-konflik",
    "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
    "version": "v1"
+  },
+  {
+   "id": "e42-matic-cvt",
+   "date": "2026-11-28",
+   "slot": "11:30",
+   "pillar": "motor",
+   "topic": "Motor Matic Kok Nggak Ada Gigi? 🛵",
+   "angle": "CVT: 2 puli + sabuk, roller bikin puli membesar/mengecil; kopling sentrifugal bikin motor diam saat idle",
+   "viral_bukti": "Cara kerja CVT motor matic (CnYL72_upmU) 34 jt",
+   "title": "Motor Matic Kok Nggak Ada Gigi? 🛵",
+   "music": "penasaran",
+   "style": {
+    "engine": "3D engine3d + foto Pixabay",
+    "card": "tengah atas"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "version": "v1",
+   "niche": "grass root (permintaan user 27 Nov)"
+  },
+  {
+   "id": "e43-hp-panas-kulkas",
+   "date": "2026-11-28",
+   "slot": "17:00",
+   "pillar": "HP",
+   "topic": "HP Panas Dimasukin Kulkas, Aman? 📱",
+   "angle": "embun (seperti gelas es teh) bisa masuk → korsleting/karat; aman: cabut cas, lepas casing, tutup aplikasi, tempat teduh",
+   "viral_bukti": "cara mengatasi hp cepat panas (yUP3FvYVIi4) 1,4 jt + pemenang channel HP-beras 14,7 rb",
+   "title": "HP Panas Dimasukin Kulkas, Aman? 📱",
+   "music": "penasaran",
+   "style": {
+    "engine": "3D engine3d + foto Pixabay",
+    "card": "tengah atas"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "version": "v1",
+   "niche": "grass root (permintaan user 27 Nov)"
+  },
+  {
+   "id": "e44-jongkok",
+   "date": "2026-11-29",
+   "slot": "11:30",
+   "pillar": "tubuh/kebiasaan",
+   "topic": "Orang Kita Kuat Jongkok, Bule Kok Nggak? 🧎",
+   "angle": "bukan soal ras/kaki panjang; pergelangan kaki (betis + urat tumit) lentur karena kebiasaan jongkok, bisa dilatih",
+   "viral_bukti": "bule nggak bisa jongkok (p9OyHpwzJHE) 721 rb",
+   "title": "Orang Kita Kuat Jongkok, Bule Kok Nggak? 🧎",
+   "music": "penasaran",
+   "style": {
+    "engine": "3D engine3d + foto Pixabay",
+    "card": "tengah atas"
+   },
+   "closing": "jawab-konflik",
+   "voice": "Gemini TTS Puck (gemini-3.1-flash-tts-preview)",
+   "version": "v1",
+   "niche": "grass root (permintaan user 27 Nov)"
   }
  ],
  "pilots": [
